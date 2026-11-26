@@ -2878,8 +2878,8 @@ urans_star/overset_runs/OVS_CEL_000g_90/launch_result.json,T:\NTNU_GODO_CONTROL_
 urans_star/overset_runs/OVS_CEL_000g_90/mpc_bridge.log,T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_90\mpc_bridge.log,3164
 urans_star/overset_runs/OVS_CEL_000g_90/run.properties,T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_90\run.properties,618
 urans_star/overset_runs/OVS_CEL_000g_90/session.log,T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_90\session.log,262
-urans_star/overset_runs/OVS_CEL_000g_T8_90/CP_014250_t14.2500.sim.ctrl,T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_T8_90\CP_014250_t14.2500.sim.ctrl,411
-urans_star/overset_runs/OVS_CEL_000g_T8_90/CP_014500_t14.5000.sim.ctrl,T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_T8_90\CP_014500_t14.5000.sim.ctrl,414
+urans_star/overset_runs/OVS_CEL_000g_T8_90/CP_014750_t14.7500.sim.ctrl,T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_T8_90\CP_014750_t14.7500.sim.ctrl,410
+urans_star/overset_runs/OVS_CEL_000g_T8_90/CP_015000_t15.0000.sim.ctrl,T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_T8_90\CP_015000_t15.0000.sim.ctrl,417
 urans_star/overset_runs/OVS_CEL_000g_T8_90/CTRL_STATE.properties,T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_T8_90\CTRL_STATE.properties,387
 urans_star/overset_runs/OVS_CEL_000g_T8_90/END_t10.2910.sim.ctrl,T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_T8_90\END_t10.2910.sim.ctrl,389
 urans_star/overset_runs/OVS_CEL_000g_T8_90/END_t12.6910.sim.ctrl,T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_T8_90\END_t12.6910.sim.ctrl,385
@@ -2890,9 +2890,9 @@ urans_star/overset_runs/OVS_CEL_000g_T8_90/MPC_REQ.txt,T:\NTNU_GODO_CONTROL_2026
 urans_star/overset_runs/OVS_CEL_000g_T8_90/MPC_RESP.txt,T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_T8_90\MPC_RESP.txt,14
 urans_star/overset_runs/OVS_CEL_000g_T8_90/RUN_RESULT_pauza_20261126_1019.json,T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_T8_90\RUN_RESULT_pauza_20261126_1019.json,103
 urans_star/overset_runs/OVS_CEL_000g_T8_90/RUN_RESULT_pauza_20261126_1052.json,T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_T8_90\RUN_RESULT_pauza_20261126_1052.json,101
-urans_star/overset_runs/OVS_CEL_000g_T8_90/RUN_STATE.json,T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_T8_90\RUN_STATE.json,293
+urans_star/overset_runs/OVS_CEL_000g_T8_90/RUN_STATE.json,T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_T8_90\RUN_STATE.json,297
 urans_star/overset_runs/OVS_CEL_000g_T8_90/launch_result.json,T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_T8_90\launch_result.json,1603
-urans_star/overset_runs/OVS_CEL_000g_T8_90/mpc_bridge.log,T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_T8_90\mpc_bridge.log,5328
+urans_star/overset_runs/OVS_CEL_000g_T8_90/mpc_bridge.log,T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_T8_90\mpc_bridge.log,5505
 urans_star/overset_runs/OVS_CEL_000g_T8_90/run.properties,T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_T8_90\run.properties,654
 urans_star/overset_runs/OVS_CEL_000g_T8_90/session.log,T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_T8_90\session.log,1022
 urans_star/overset_runs/OVS_CEL_005g_S1L_90/CP_002250_t2.2500.sim.ctrl,T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_005g_S1L_90\CP_002250_t2.2500.sim.ctrl,386

@@ -77,3 +77,5 @@
 10:53:34 t 13.680 z -0.132 v +0.279 th +5.37 eta -0.609 | fala A 0.387 b +103.4 | ie +0.001 | cmd -5.58 | 0.07 s
 11:02:38 takt 1400 t 14.000 free 1 cmd +2.518
 11:19:10 fala: w_e 1.578 rad/s (okres spotkania 3.981 s), w0 0.791 rad/s (okres fali 7.94 s), k 0.0638 1/m, wyprzedzenie sondy 0.121 s
+11:23:26 RLS t 14.84: mnoznik sily dynamicznej 0.711, przesuniecie +161 N/m, suma dL/dth 4736 (Faltinsen 6662), blad RMS 579 N/m
+11:27:20 takt 1500 t 15.000 free 1 cmd -0.395
