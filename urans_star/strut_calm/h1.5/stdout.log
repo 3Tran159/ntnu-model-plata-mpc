@@ -1,0 +1,479 @@
+Starting local server: starserver.bat -power -cpubind off -np 1 -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcNzBfZ29kb19jYXNlXG5pZ2h0XE1FRElVTVxHT0RPX1NFVFVQX0IxLjAuc2lt
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 21748
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 21748
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 117 days
+Wed Nov 11 21:49:27 2026
+
+Server::start -host THINKPAD-LUCJAN:47828
+Loading: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\night\MEDIUM\GODO_SETUP_B1.0.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=1 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:246: error: 'catch' without 'try'
+   catch(Throwable e){log.put("strut_shift_warning","translate not applied: "+e+" (strut y "+sy0+".."+sy1+")");}
+   ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:235: error: 'try' without 'catch', 'finally' or resource declarations
+   try{MoveBodyFeature mv=cm.getFeatureManager().createMoveBodyFeature(new ArrayList<>(cm.getBodyManager().getBodies()));
+   ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:250: error: ';' expected
+ Map<String,Object> bounds(CadModel cm){
+                          ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:250: error: ';' expected
+ Map<String,Object> bounds(CadModel cm){
+                                      ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:258: error: illegal start of expression
+ void nameDomainFaces(CadModel cm,Map<String,Object> bb){
+ ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:258: error: ';' expected
+ void nameDomainFaces(CadModel cm,Map<String,Object> bb){
+                     ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:258: error: ';' expected
+ void nameDomainFaces(CadModel cm,Map<String,Object> bb){
+                                     ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:258: error: illegal start of expression
+ void nameDomainFaces(CadModel cm,Map<String,Object> bb){
+                                                     ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:258: error: ';' expected
+ void nameDomainFaces(CadModel cm,Map<String,Object> bb){
+                                                       ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:271: error: illegal start of expression
+ void makeParts(CadModel cm){
+ ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:271: error: ';' expected
+ void makeParts(CadModel cm){
+               ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:271: error: ';' expected
+ void makeParts(CadModel cm){
+                           ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:277: error: illegal start of expression
+ void tess(CadPart cad,double tol){
+ ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:277: error: ';' expected
+ void tess(CadPart cad,double tol){
+          ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:277: error: <identifier> expected
+ void tess(CadPart cad,double tol){
+                       ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:277: error: ';' expected
+ void tess(CadPart cad,double tol){
+                                 ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:286: error: illegal start of expression
+ void rewire(Object prof,List<String> waves,String flat,String where,List<String> rew){
+ ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:286: error: ';' expected
+ void rewire(Object prof,List<String> waves,String flat,String where,List<String> rew){
+            ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:286: error: ';' expected
+ void rewire(Object prof,List<String> waves,String flat,String where,List<String> rew){
+                             ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:286: error: illegal start of expression
+ void rewire(Object prof,List<String> waves,String flat,String where,List<String> rew){
+                                      ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:286: error: ';' expected
+ void rewire(Object prof,List<String> waves,String flat,String where,List<String> rew){
+                                           ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:286: error: ';' expected
+ void rewire(Object prof,List<String> waves,String flat,String where,List<String> rew){
+                                                              ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:286: error: not a statement
+ void rewire(Object prof,List<String> waves,String flat,String where,List<String> rew){
+                                                               ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:286: error: ';' expected
+ void rewire(Object prof,List<String> waves,String flat,String where,List<String> rew){
+                                                                    ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:286: error: ';' expected
+ void rewire(Object prof,List<String> waves,String flat,String where,List<String> rew){
+                                                                                     ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:300: error: illegal start of expression
+ void mon(Report r){ReportMonitor rm=r.createMonitor();rm.setPresentationName(r.getPresentationName()+" Monitor");
+ ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:300: error: ';' expected
+ void mon(Report r){ReportMonitor rm=r.createMonitor();rm.setPresentationName(r.getPresentationName()+" Monitor");
+         ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:300: error: ';' expected
+ void mon(Report r){ReportMonitor rm=r.createMonitor();rm.setPresentationName(r.getPresentationName()+" Monitor");
+                  ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:303: error: illegal start of expression
+ void reports(Region region,Boundary strut,double yfs){
+ ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:303: error: ';' expected
+ void reports(Region region,Boundary strut,double yfs){
+             ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:303: error: ';' expected
+ void reports(Region region,Boundary strut,double yfs){
+                                    ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:303: error: not a statement
+ void reports(Region region,Boundary strut,double yfs){
+                                     ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:303: error: ';' expected
+ void reports(Region region,Boundary strut,double yfs){
+                                          ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:303: error: ';' expected
+ void reports(Region region,Boundary strut,double yfs){
+                                                     ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:328: error: illegal start of expression
+ void scenes(Region region,Map<String,Boundary> bnd,FvRepresentation fv,double yfs)throws Exception{
+ ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:328: error: ';' expected
+ void scenes(Region region,Map<String,Boundary> bnd,FvRepresentation fv,double yfs)throws Exception{
+            ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:328: error: ';' expected
+ void scenes(Region region,Map<String,Boundary> bnd,FvRepresentation fv,double yfs)throws Exception{
+                              ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:328: error: illegal start of expression
+ void scenes(Region region,Map<String,Boundary> bnd,FvRepresentation fv,double yfs)throws Exception{
+                                                ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:328: error: ';' expected
+ void scenes(Region region,Map<String,Boundary> bnd,FvRepresentation fv,double yfs)throws Exception{
+                                                   ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:328: error: <identifier> expected
+ void scenes(Region region,Map<String,Boundary> bnd,FvRepresentation fv,double yfs)throws Exception{
+                                                                        ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:328: error: ';' expected
+ void scenes(Region region,Map<String,Boundary> bnd,FvRepresentation fv,double yfs)throws Exception{
+                                                                                  ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:328: error: not a statement
+ void scenes(Region region,Map<String,Boundary> bnd,FvRepresentation fv,double yfs)throws Exception{
+                                                                                          ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:328: error: ';' expected
+ void scenes(Region region,Map<String,Boundary> bnd,FvRepresentation fv,double yfs)throws Exception{
+                                                                                                   ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:337: error: illegal start of expression
+ void setRel(Object o,double pct){
+ ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:337: error: ';' expected
+ void setRel(Object o,double pct){
+            ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:337: error: <identifier> expected
+ void setRel(Object o,double pct){
+                      ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:337: error: ';' expected
+ void setRel(Object o,double pct){
+                                ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:342: error: illegal start of expression
+ void volume(AutoMeshOperation am,String name,double[] lo,double[] hi,double iso,double[] aniso){
+ ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:342: error: ';' expected
+ void volume(AutoMeshOperation am,String name,double[] lo,double[] hi,double iso,double[] aniso){
+            ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:342: error: ';' expected
+ void volume(AutoMeshOperation am,String name,double[] lo,double[] hi,double iso,double[] aniso){
+                                        ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:342: error: not a statement
+ void volume(AutoMeshOperation am,String name,double[] lo,double[] hi,double iso,double[] aniso){
+                                         ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:342: error: ';' expected
+ void volume(AutoMeshOperation am,String name,double[] lo,double[] hi,double iso,double[] aniso){
+                                             ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:342: error: <identifier> expected
+ void volume(AutoMeshOperation am,String name,double[] lo,double[] hi,double iso,double[] aniso){
+                                                          ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:342: error: <identifier> expected
+ void volume(AutoMeshOperation am,String name,double[] lo,double[] hi,double iso,double[] aniso){
+                                                                      ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:342: error: <identifier> expected
+ void volume(AutoMeshOperation am,String name,double[] lo,double[] hi,double iso,double[] aniso){
+                                                                                 ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:342: error: ';' expected
+ void volume(AutoMeshOperation am,String name,double[] lo,double[] hi,double iso,double[] aniso){
+                                                                                               ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:360: error: ';' expected
+ double metric(String name,NamedObject part,boolean minimum){
+              ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:360: error: ';' expected
+ double metric(String name,NamedObject part,boolean minimum){
+                                      ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:360: error: not a statement
+ double metric(String name,NamedObject part,boolean minimum){
+                                       ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:360: error: ';' expected
+ double metric(String name,NamedObject part,boolean minimum){
+                                           ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:360: error: ';' expected
+ double metric(String name,NamedObject part,boolean minimum){
+                                                           ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:367: error: ';' expected
+ boolean drop(Object mgr,Object obj){
+             ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:367: error: ';' expected
+ boolean drop(Object mgr,Object obj){
+                               ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:367: error: not a statement
+ boolean drop(Object mgr,Object obj){
+                                ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:367: error: ';' expected
+ boolean drop(Object mgr,Object obj){
+                                   ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:380: error: ';' expected
+ String nm(Object o){try{return ((NamedObject)o).getPresentationName();}catch(Throwable e){return "";}}
+          ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:380: error: ';' expected
+ String nm(Object o){try{return ((NamedObject)o).getPresentationName();}catch(Throwable e){return "";}}
+                   ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:381: error: ';' expected
+ int sweep(Object mgr,java.util.function.Predicate<Object> del,int passes){
+          ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:381: error: ';' expected
+ int sweep(Object mgr,java.util.function.Predicate<Object> del,int passes){
+                          ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:381: error: <identifier> expected
+ int sweep(Object mgr,java.util.function.Predicate<Object> del,int passes){
+                                                               ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:381: error: ';' expected
+ int sweep(Object mgr,java.util.function.Predicate<Object> del,int passes){
+                                                                         ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:389: error: illegal start of expression
+ void cleanup(){
+ ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:389: error: ';' expected
+ void cleanup(){
+             ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:402: error: reached end of file while parsing
+}
+ ^
+
+error: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:246: error: 'catch' without 'try'
+   catch(Throwable e){log.put("strut_shift_warning","translate not applied: "+e+" (strut y "+sy0+".."+sy1+")");}
+   ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:235: error: 'try' without 'catch', 'finally' or resource declarations
+   try{MoveBodyFeature mv=cm.getFeatureManager().createMoveBodyFeature(new ArrayList<>(cm.getBodyManager().getBodies()));
+   ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:250: error: ';' expected
+ Map<String,Object> bounds(CadModel cm){
+                          ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:250: error: ';' expected
+ Map<String,Object> bounds(CadModel cm){
+                                      ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:258: error: illegal start of expression
+ void nameDomainFaces(CadModel cm,Map<String,Object> bb){
+ ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:258: error: ';' expected
+ void nameDomainFaces(CadModel cm,Map<String,Object> bb){
+                     ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:258: error: ';' expected
+ void nameDomainFaces(CadModel cm,Map<String,Object> bb){
+                                     ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:258: error: illegal start of expression
+ void nameDomainFaces(CadModel cm,Map<String,Object> bb){
+                                                     ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:258: error: ';' expected
+ void nameDomainFaces(CadModel cm,Map<String,Object> bb){
+                                                       ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:271: error: illegal start of expression
+ void makeParts(CadModel cm){
+ ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:271: error: ';' expected
+ void makeParts(CadModel cm){
+               ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:271: error: ';' expected
+ void makeParts(CadModel cm){
+                           ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:277: error: illegal start of expression
+ void tess(CadPart cad,double tol){
+ ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:277: error: ';' expected
+ void tess(CadPart cad,double tol){
+          ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:277: error: <identifier> expected
+ void tess(CadPart cad,double tol){
+                       ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:277: error: ';' expected
+ void tess(CadPart cad,double tol){
+                                 ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:286: error: illegal start of expression
+ void rewire(Object prof,List<String> waves,String flat,String where,List<String> rew){
+ ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:286: error: ';' expected
+ void rewire(Object prof,List<String> waves,String flat,String where,List<String> rew){
+            ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:286: error: ';' expected
+ void rewire(Object prof,List<String> waves,String flat,String where,List<String> rew){
+                             ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:286: error: illegal start of expression
+ void rewire(Object prof,List<String> waves,String flat,String where,List<String> rew){
+                                      ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:286: error: ';' expected
+ void rewire(Object prof,List<String> waves,String flat,String where,List<String> rew){
+                                           ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:286: error: ';' expected
+ void rewire(Object prof,List<String> waves,String flat,String where,List<String> rew){
+                                                              ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:286: error: not a statement
+ void rewire(Object prof,List<String> waves,String flat,String where,List<String> rew){
+                                                               ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:286: error: ';' expected
+ void rewire(Object prof,List<String> waves,String flat,String where,List<String> rew){
+                                                                    ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:286: error: ';' expected
+ void rewire(Object prof,List<String> waves,String flat,String where,List<String> rew){
+                                                                                     ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:300: error: illegal start of expression
+ void mon(Report r){ReportMonitor rm=r.createMonitor();rm.setPresentationName(r.getPresentationName()+" Monitor");
+ ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:300: error: ';' expected
+ void mon(Report r){ReportMonitor rm=r.createMonitor();rm.setPresentationName(r.getPresentationName()+" Monitor");
+         ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:300: error: ';' expected
+ void mon(Report r){ReportMonitor rm=r.createMonitor();rm.setPresentationName(r.getPresentationName()+" Monitor");
+                  ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:303: error: illegal start of expression
+ void reports(Region region,Boundary strut,double yfs){
+ ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:303: error: ';' expected
+ void reports(Region region,Boundary strut,double yfs){
+             ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:303: error: ';' expected
+ void reports(Region region,Boundary strut,double yfs){
+                                    ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:303: error: not a statement
+ void reports(Region region,Boundary strut,double yfs){
+                                     ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:303: error: ';' expected
+ void reports(Region region,Boundary strut,double yfs){
+                                          ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:303: error: ';' expected
+ void reports(Region region,Boundary strut,double yfs){
+                                                     ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:328: error: illegal start of expression
+ void scenes(Region region,Map<String,Boundary> bnd,FvRepresentation fv,double yfs)throws Exception{
+ ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:328: error: ';' expected
+ void scenes(Region region,Map<String,Boundary> bnd,FvRepresentation fv,double yfs)throws Exception{
+            ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:328: error: ';' expected
+ void scenes(Region region,Map<String,Boundary> bnd,FvRepresentation fv,double yfs)throws Exception{
+                              ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:328: error: illegal start of expression
+ void scenes(Region region,Map<String,Boundary> bnd,FvRepresentation fv,double yfs)throws Exception{
+                                                ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:328: error: ';' expected
+ void scenes(Region region,Map<String,Boundary> bnd,FvRepresentation fv,double yfs)throws Exception{
+                                                   ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:328: error: <identifier> expected
+ void scenes(Region region,Map<String,Boundary> bnd,FvRepresentation fv,double yfs)throws Exception{
+                                                                        ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:328: error: ';' expected
+ void scenes(Region region,Map<String,Boundary> bnd,FvRepresentation fv,double yfs)throws Exception{
+                                                                                  ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:328: error: not a statement
+ void scenes(Region region,Map<String,Boundary> bnd,FvRepresentation fv,double yfs)throws Exception{
+                                                                                          ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:328: error: ';' expected
+ void scenes(Region region,Map<String,Boundary> bnd,FvRepresentation fv,double yfs)throws Exception{
+                                                                                                   ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:337: error: illegal start of expression
+ void setRel(Object o,double pct){
+ ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:337: error: ';' expected
+ void setRel(Object o,double pct){
+            ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:337: error: <identifier> expected
+ void setRel(Object o,double pct){
+                      ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:337: error: ';' expected
+ void setRel(Object o,double pct){
+                                ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:342: error: illegal start of expression
+ void volume(AutoMeshOperation am,String name,double[] lo,double[] hi,double iso,double[] aniso){
+ ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:342: error: ';' expected
+ void volume(AutoMeshOperation am,String name,double[] lo,double[] hi,double iso,double[] aniso){
+            ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:342: error: ';' expected
+ void volume(AutoMeshOperation am,String name,double[] lo,double[] hi,double iso,double[] aniso){
+                                        ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:342: error: not a statement
+ void volume(AutoMeshOperation am,String name,double[] lo,double[] hi,double iso,double[] aniso){
+                                         ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:342: error: ';' expected
+ void volume(AutoMeshOperation am,String name,double[] lo,double[] hi,double iso,double[] aniso){
+                                             ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:342: error: <identifier> expected
+ void volume(AutoMeshOperation am,String name,double[] lo,double[] hi,double iso,double[] aniso){
+                                                          ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:342: error: <identifier> expected
+ void volume(AutoMeshOperation am,String name,double[] lo,double[] hi,double iso,double[] aniso){
+                                                                      ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:342: error: <identifier> expected
+ void volume(AutoMeshOperation am,String name,double[] lo,double[] hi,double iso,double[] aniso){
+                                                                                 ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:342: error: ';' expected
+ void volume(AutoMeshOperation am,String name,double[] lo,double[] hi,double iso,double[] aniso){
+                                                                                               ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:360: error: ';' expected
+ double metric(String name,NamedObject part,boolean minimum){
+              ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:360: error: ';' expected
+ double metric(String name,NamedObject part,boolean minimum){
+                                      ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:360: error: not a statement
+ double metric(String name,NamedObject part,boolean minimum){
+                                       ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:360: error: ';' expected
+ double metric(String name,NamedObject part,boolean minimum){
+                                           ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:360: error: ';' expected
+ double metric(String name,NamedObject part,boolean minimum){
+                                                           ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:367: error: ';' expected
+ boolean drop(Object mgr,Object obj){
+             ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:367: error: ';' expected
+ boolean drop(Object mgr,Object obj){
+                               ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:367: error: not a statement
+ boolean drop(Object mgr,Object obj){
+                                ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:367: error: ';' expected
+ boolean drop(Object mgr,Object obj){
+                                   ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:380: error: ';' expected
+ String nm(Object o){try{return ((NamedObject)o).getPresentationName();}catch(Throwable e){return "";}}
+          ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:380: error: ';' expected
+ String nm(Object o){try{return ((NamedObject)o).getPresentationName();}catch(Throwable e){return "";}}
+                   ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:381: error: ';' expected
+ int sweep(Object mgr,java.util.function.Predicate<Object> del,int passes){
+          ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:381: error: ';' expected
+ int sweep(Object mgr,java.util.function.Predicate<Object> del,int passes){
+                          ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:381: error: <identifier> expected
+ int sweep(Object mgr,java.util.function.Predicate<Object> del,int passes){
+                                                               ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:381: error: ';' expected
+ int sweep(Object mgr,java.util.function.Predicate<Object> del,int passes){
+                                                                         ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:389: error: illegal start of expression
+ void cleanup(){
+ ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:389: error: ';' expected
+ void cleanup(){
+             ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\BuildStrutCalm.java:402: error: reached end of file while parsing
+}
+ ^
+
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 0

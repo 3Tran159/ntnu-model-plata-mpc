@@ -1,0 +1,100 @@
+ARX: suma dL/dth 22815 N/m/rad, suma dL/dv -2071, suma wf 1997, R2 0.9977
+phys_fix (ARX -> fizyka) [suma przed, po]: {'th': (22815, 93325), 'v': (-2071, -7969), 'w': (1997, 8006)}
+model MPC (v2): R2 sila 0.9977, R2 opor 0.9970
+fala1_sztywne_PID_z+0.0                 : plat -15% | z wspornikami -11% | z̈ kadluba 1.48 | zanurz. min 1.59c | skok +0.00..+0.00 | odzysk 0.0 W | upust 0%
+fala1_pasywne_1.5Hz_PID_z+0.0           : plat -19% | z wspornikami -15% | z̈ kadluba 1.24 | zanurz. min 1.44c | skok -0.04..+0.03 | odzysk 0.5 W | upust 0%
+fala1_pasywne_0.7Hz_PID_z+0.0           : plat -13% | z wspornikami -10% | z̈ kadluba 1.36 | zanurz. min 1.46c | skok -0.15..+0.15 | odzysk 2.9 W | upust 0%
+fala1_polaktywne_v2_PID_z+0.0           : plat -16% | z wspornikami -12% | z̈ kadluba 1.35 | zanurz. min 1.40c | skok -0.13..+0.16 | odzysk 2.7 W | upust 23%
+fala1_sztywne_MPC_z+0.0                 : plat -28% | z wspornikami -21% | z̈ kadluba 2.33 | zanurz. min 1.97c | skok +0.00..+0.00 | odzysk 0.0 W | upust 0%
+fala1_pasywne_1.5Hz_MPC_z+0.0           : plat -26% | z wspornikami -19% | z̈ kadluba 1.82 | zanurz. min 1.88c | skok -0.07..+0.06 | odzysk 1.3 W | upust 0%
+fala1_pasywne_0.7Hz_MPC_z+0.0           : plat -15% | z wspornikami -10% | z̈ kadluba 1.23 | zanurz. min 1.95c | skok -0.19..+0.19 | odzysk 2.9 W | upust 0%
+fala1_polaktywne_v2_MPC_z+0.0           : plat -17% | z wspornikami -12% | z̈ kadluba 1.39 | zanurz. min 1.95c | skok -0.25..+0.17 | odzysk 2.6 W | upust 24%
+fala1_sztywne_PID_z-0.4                 : plat -11% | z wspornikami +0% | z̈ kadluba 1.30 | zanurz. min 2.84c | skok +0.00..+0.00 | odzysk 0.0 W | upust 0%
+fala1_pasywne_1.5Hz_PID_z-0.4           : plat -15% | z wspornikami -3% | z̈ kadluba 1.12 | zanurz. min 2.70c | skok -0.03..+0.03 | odzysk 0.3 W | upust 0%
+fala1_pasywne_0.7Hz_PID_z-0.4           : plat -11% | z wspornikami +0% | z̈ kadluba 1.26 | zanurz. min 2.71c | skok -0.13..+0.14 | odzysk 2.4 W | upust 0%
+fala1_polaktywne_v2_PID_z-0.4           : plat -11% | z wspornikami -1% | z̈ kadluba 1.05 | zanurz. min 2.71c | skok -0.07..+0.08 | odzysk 2.1 W | upust 2%
+fala1_sztywne_MPC_z-0.4                 : plat -28% | z wspornikami -13% | z̈ kadluba 2.06 | zanurz. min 2.57c | skok +0.00..+0.00 | odzysk 0.0 W | upust 0%
+fala1_pasywne_1.5Hz_MPC_z-0.4           : plat -26% | z wspornikami -12% | z̈ kadluba 1.35 | zanurz. min 2.44c | skok -0.03..+0.03 | odzysk 0.5 W | upust 0%
+fala1_pasywne_0.7Hz_MPC_z-0.4           : plat -15% | z wspornikami -3% | z̈ kadluba 0.83 | zanurz. min 2.50c | skok -0.08..+0.09 | odzysk 1.1 W | upust 0%
+fala1_polaktywne_v2_MPC_z-0.4           : plat -16% | z wspornikami -4% | z̈ kadluba 0.89 | zanurz. min 2.50c | skok -0.07..+0.07 | odzysk 1.6 W | upust 5%
+fala3_sztywne_PID_z+0.0                 : UPADEK po 28.37 s (zanurzenie < 1c)
+fala3_pasywne_1.5Hz_PID_z+0.0           : UPADEK po 28.34 s (zanurzenie < 1c)
+fala3_pasywne_0.7Hz_PID_z+0.0           : UPADEK po 28.34 s (zanurzenie < 1c)
+fala3_polaktywne_v2_PID_z+0.0           : UPADEK po 28.34 s (zanurzenie < 1c)
+fala3_sztywne_MPC_z+0.0                 : UPADEK po 28.55 s (|z kadluba - z_ref| > 0,75 m)
+fala3_pasywne_1.5Hz_MPC_z+0.0           : UPADEK po 28.68 s (|z kadluba - z_ref| > 0,75 m)
+fala3_pasywne_0.7Hz_MPC_z+0.0           : plat -19% | z wspornikami -13% | z̈ kadluba 1.91 | zanurz. min 1.07c | skok -0.22..+0.25 | odzysk 7.0 W | upust 0%
+fala3_polaktywne_v2_MPC_z+0.0           : UPADEK po 28.45 s (zanurzenie < 1c)
+fala3_sztywne_PID_z-0.4                 : plat -12% | z wspornikami -1% | z̈ kadluba 1.73 | zanurz. min 1.74c | skok +0.00..+0.00 | odzysk 0.0 W | upust 0%
+fala3_pasywne_1.5Hz_PID_z-0.4           : plat -26% | z wspornikami -12% | z̈ kadluba 1.56 | zanurz. min 1.38c | skok -0.04..+0.05 | odzysk 0.6 W | upust 0%
+fala3_pasywne_0.7Hz_PID_z-0.4           : plat -18% | z wspornikami -5% | z̈ kadluba 1.76 | zanurz. min 1.36c | skok -0.16..+0.23 | odzysk 4.5 W | upust 0%
+fala3_polaktywne_v2_PID_z-0.4           : plat -19% | z wspornikami -6% | z̈ kadluba 1.55 | zanurz. min 1.28c | skok -0.18..+0.21 | odzysk 3.8 W | upust 3%
+fala3_sztywne_MPC_z-0.4                 : UPADEK po 28.71 s (|z kadluba - z_ref| > 0,75 m)
+fala3_pasywne_1.5Hz_MPC_z-0.4           : UPADEK po 28.82 s (|z kadluba - z_ref| > 0,75 m)
+fala3_pasywne_0.7Hz_MPC_z-0.4           : plat -21% | z wspornikami -8% | z̈ kadluba 1.55 | zanurz. min 1.77c | skok -0.31..+0.26 | odzysk 4.6 W | upust 0%
+fala3_polaktywne_v2_MPC_z-0.4           : plat -27% | z wspornikami -12% | z̈ kadluba 1.63 | zanurz. min 1.52c | skok -0.36..+0.21 | odzysk 4.1 W | upust 3%
+fala4_sztywne_PID_z+0.0                 : UPADEK po 13.29 s (zanurzenie < 1c)
+fala4_pasywne_1.5Hz_PID_z+0.0           : UPADEK po 13.27 s (zanurzenie < 1c)
+fala4_pasywne_0.7Hz_PID_z+0.0           : UPADEK po 13.26 s (zanurzenie < 1c)
+fala4_polaktywne_v2_PID_z+0.0           : UPADEK po 13.26 s (zanurzenie < 1c)
+fala4_sztywne_MPC_z+0.0                 : UPADEK po 13.43 s (|z kadluba - z_ref| > 0,75 m)
+fala4_pasywne_1.5Hz_MPC_z+0.0           : UPADEK po 13.36 s (zanurzenie < 1c)
+fala4_pasywne_0.7Hz_MPC_z+0.0           : UPADEK po 13.38 s (zanurzenie < 1c)
+fala4_polaktywne_v2_MPC_z+0.0           : UPADEK po 13.3 s (zanurzenie < 1c)
+fala4_sztywne_PID_z-0.4                 : plat -11% | z wspornikami +0% | z̈ kadluba 1.65 | zanurz. min 1.69c | skok +0.00..+0.00 | odzysk 0.0 W | upust 0%
+fala4_pasywne_1.5Hz_PID_z-0.4           : plat -17% | z wspornikami -4% | z̈ kadluba 1.44 | zanurz. min 1.52c | skok -0.05..+0.05 | odzysk 0.5 W | upust 0%
+fala4_pasywne_0.7Hz_PID_z-0.4           : plat -8% | z wspornikami +2% | z̈ kadluba 1.59 | zanurz. min 1.45c | skok -0.20..+0.21 | odzysk 3.5 W | upust 0%
+fala4_polaktywne_v2_PID_z-0.4           : plat -10% | z wspornikami +0% | z̈ kadluba 1.45 | zanurz. min 1.41c | skok -0.13..+0.20 | odzysk 3.2 W | upust 4%
+fala4_sztywne_MPC_z-0.4                 : UPADEK po 13.66 s (|z kadluba - z_ref| > 0,75 m)
+fala4_pasywne_1.5Hz_MPC_z-0.4           : UPADEK po 13.78 s (|z kadluba - z_ref| > 0,75 m)
+fala4_pasywne_0.7Hz_MPC_z-0.4           : plat -18% | z wspornikami -5% | z̈ kadluba 1.47 | zanurz. min 1.77c | skok -0.24..+0.26 | odzysk 4.0 W | upust 0%
+fala4_polaktywne_v2_MPC_z-0.4           : plat -22% | z wspornikami -8% | z̈ kadluba 1.56 | zanurz. min 1.65c | skok -0.28..+0.24 | odzysk 3.5 W | upust 6%
+fala5_sztywne_PID_z+0.0                 : plat -23% | z wspornikami -18% | z̈ kadluba 1.87 | zanurz. min 1.77c | skok +0.00..+0.00 | odzysk 0.0 W | upust 0%
+fala5_pasywne_1.5Hz_PID_z+0.0           : plat -31% | z wspornikami -24% | z̈ kadluba 1.54 | zanurz. min 1.85c | skok -0.05..+0.03 | odzysk 0.8 W | upust 0%
+fala5_pasywne_0.7Hz_PID_z+0.0           : plat -19% | z wspornikami -15% | z̈ kadluba 1.69 | zanurz. min 1.83c | skok -0.22..+0.16 | odzysk 4.5 W | upust 0%
+fala5_polaktywne_v2_PID_z+0.0           : UPADEK po 8.79 s (|z kadluba - z_ref| > 0,75 m)
+fala5_sztywne_MPC_z+0.0                 : plat -43% | z wspornikami -33% | z̈ kadluba 2.71 | zanurz. min 2.00c | skok +0.00..+0.00 | odzysk 0.0 W | upust 0%
+fala5_pasywne_1.5Hz_MPC_z+0.0           : plat -42% | z wspornikami -32% | z̈ kadluba 1.75 | zanurz. min 1.97c | skok -0.05..+0.05 | odzysk 1.0 W | upust 0%
+fala5_pasywne_0.7Hz_MPC_z+0.0           : plat -22% | z wspornikami -16% | z̈ kadluba 1.16 | zanurz. min 2.00c | skok -0.11..+0.15 | odzysk 2.5 W | upust 0%
+fala5_polaktywne_v2_MPC_z+0.0           : plat -25% | z wspornikami -19% | z̈ kadluba 1.25 | zanurz. min 1.99c | skok -0.11..+0.15 | odzysk 2.7 W | upust 33%
+fala5_sztywne_PID_z-0.4                 : plat -17% | z wspornikami -5% | z̈ kadluba 1.63 | zanurz. min 3.01c | skok +0.00..+0.00 | odzysk 0.0 W | upust 0%
+fala5_pasywne_1.5Hz_PID_z-0.4           : plat -24% | z wspornikami -10% | z̈ kadluba 1.37 | zanurz. min 3.08c | skok -0.04..+0.02 | odzysk 0.6 W | upust 0%
+fala5_pasywne_0.7Hz_PID_z-0.4           : plat -16% | z wspornikami -4% | z̈ kadluba 1.54 | zanurz. min 3.06c | skok -0.20..+0.15 | odzysk 3.7 W | upust 0%
+fala5_polaktywne_v2_PID_z-0.4           : plat -17% | z wspornikami -5% | z̈ kadluba 1.27 | zanurz. min 3.07c | skok -0.13..+0.10 | odzysk 3.1 W | upust 4%
+fala5_sztywne_MPC_z-0.4                 : plat -38% | z wspornikami -21% | z̈ kadluba 2.54 | zanurz. min 2.69c | skok +0.00..+0.00 | odzysk 0.0 W | upust 0%
+fala5_pasywne_1.5Hz_MPC_z-0.4           : plat -35% | z wspornikami -19% | z̈ kadluba 1.58 | zanurz. min 2.73c | skok -0.04..+0.04 | odzysk 0.8 W | upust 0%
+fala5_pasywne_0.7Hz_MPC_z-0.4           : plat -17% | z wspornikami -5% | z̈ kadluba 0.97 | zanurz. min 2.70c | skok -0.09..+0.11 | odzysk 1.7 W | upust 0%
+fala5_polaktywne_v2_MPC_z-0.4           : plat -20% | z wspornikami -7% | z̈ kadluba 1.03 | zanurz. min 2.71c | skok -0.07..+0.09 | odzysk 2.2 W | upust 6%
+fala6_sztywne_PID_z+0.0                 : plat -12% | z wspornikami -9% | z̈ kadluba 1.89 | zanurz. min 1.69c | skok +0.00..+0.00 | odzysk 0.0 W | upust 0%
+fala6_pasywne_1.5Hz_PID_z+0.0           : plat -25% | z wspornikami -19% | z̈ kadluba 1.69 | zanurz. min 1.63c | skok -0.05..+0.04 | odzysk 0.7 W | upust 0%
+fala6_pasywne_0.7Hz_PID_z+0.0           : plat -17% | z wspornikami -13% | z̈ kadluba 1.97 | zanurz. min 1.66c | skok -0.22..+0.21 | odzysk 5.3 W | upust 0%
+fala6_polaktywne_v2_PID_z+0.0           : plat -21% | z wspornikami -17% | z̈ kadluba 2.07 | zanurz. min 1.51c | skok -0.27..+0.25 | odzysk 4.8 W | upust 27%
+fala6_sztywne_MPC_z+0.0                 : plat -30% | z wspornikami -22% | z̈ kadluba 2.68 | zanurz. min 1.98c | skok +0.00..+0.00 | odzysk 0.0 W | upust 0%
+fala6_pasywne_1.5Hz_MPC_z+0.0           : plat -32% | z wspornikami -23% | z̈ kadluba 2.18 | zanurz. min 1.95c | skok -0.08..+0.06 | odzysk 1.8 W | upust 0%
+fala6_pasywne_0.7Hz_MPC_z+0.0           : plat -27% | z wspornikami -19% | z̈ kadluba 1.61 | zanurz. min 1.99c | skok -0.23..+0.18 | odzysk 4.5 W | upust 0%
+fala6_polaktywne_v2_MPC_z+0.0           : plat -31% | z wspornikami -23% | z̈ kadluba 1.84 | zanurz. min 1.94c | skok -0.30..+0.25 | odzysk 4.4 W | upust 25%
+fala6_sztywne_PID_z-0.4                 : plat -7% | z wspornikami +3% | z̈ kadluba 1.68 | zanurz. min 2.93c | skok +0.00..+0.00 | odzysk 0.0 W | upust 0%
+fala6_pasywne_1.5Hz_PID_z-0.4           : plat -19% | z wspornikami -7% | z̈ kadluba 1.53 | zanurz. min 2.88c | skok -0.04..+0.04 | odzysk 0.6 W | upust 0%
+fala6_pasywne_0.7Hz_PID_z-0.4           : plat -14% | z wspornikami -2% | z̈ kadluba 1.81 | zanurz. min 2.91c | skok -0.20..+0.19 | odzysk 4.4 W | upust 0%
+fala6_polaktywne_v2_PID_z-0.4           : plat -14% | z wspornikami -2% | z̈ kadluba 1.50 | zanurz. min 2.91c | skok -0.19..+0.13 | odzysk 4.1 W | upust 3%
+fala6_sztywne_MPC_z-0.4                 : plat -39% | z wspornikami -21% | z̈ kadluba 2.43 | zanurz. min 2.34c | skok +0.00..+0.00 | odzysk 0.0 W | upust 0%
+fala6_pasywne_1.5Hz_MPC_z-0.4           : plat -47% | z wspornikami -28% | z̈ kadluba 1.71 | zanurz. min 2.18c | skok -0.07..+0.04 | odzysk 0.8 W | upust 0%
+fala6_pasywne_0.7Hz_MPC_z-0.4           : plat -31% | z wspornikami -15% | z̈ kadluba 1.09 | zanurz. min 2.31c | skok -0.14..+0.12 | odzysk 1.8 W | upust 0%
+fala6_polaktywne_v2_MPC_z-0.4           : plat -32% | z wspornikami -16% | z̈ kadluba 1.17 | zanurz. min 2.21c | skok -0.19..+0.10 | odzysk 2.3 W | upust 6%
+PODSUMOWANIE sztywne_PID_z+0.0               : przezyl 3/5, z wspornikami -12.8 %, plat -16.6 %, z̈ 1.75
+PODSUMOWANIE pasywne_1.5Hz_PID_z+0.0         : przezyl 3/5, z wspornikami -19.4 %, plat -25.1 %, z̈ 1.49
+PODSUMOWANIE pasywne_0.7Hz_PID_z+0.0         : przezyl 3/5, z wspornikami -12.9 %, plat -16.6 %, z̈ 1.67
+PODSUMOWANIE polaktywne_v2_PID_z+0.0         : przezyl 2/5, z wspornikami -14.4 %, plat -18.5 %, z̈ 1.71
+PODSUMOWANIE sztywne_MPC_z+0.0               : przezyl 3/5, z wspornikami -25.1 %, plat -33.6 %, z̈ 2.57
+PODSUMOWANIE pasywne_1.5Hz_MPC_z+0.0         : przezyl 3/5, z wspornikami -24.6 %, plat -33.1 %, z̈ 1.91
+PODSUMOWANIE pasywne_0.7Hz_MPC_z+0.0         : przezyl 4/5, z wspornikami -14.7 %, plat -20.8 %, z̈ 1.48
+PODSUMOWANIE polaktywne_v2_MPC_z+0.0         : przezyl 3/5, z wspornikami -17.9 %, plat -24.3 %, z̈ 1.49
+PODSUMOWANIE sztywne_PID_z-0.4               : przezyl 5/5, z wspornikami -0.5 %, plat -11.4 %, z̈ 1.6
+PODSUMOWANIE pasywne_1.5Hz_PID_z-0.4         : przezyl 5/5, z wspornikami -7.3 %, plat -20.2 %, z̈ 1.4
+PODSUMOWANIE pasywne_0.7Hz_PID_z-0.4         : przezyl 5/5, z wspornikami -1.8 %, plat -13.2 %, z̈ 1.59
+PODSUMOWANIE polaktywne_v2_PID_z-0.4         : przezyl 5/5, z wspornikami -2.7 %, plat -14.3 %, z̈ 1.36
+PODSUMOWANIE sztywne_MPC_z-0.4               : przezyl 3/5, z wspornikami -18.5 %, plat -34.8 %, z̈ 2.35
+PODSUMOWANIE pasywne_1.5Hz_MPC_z-0.4         : przezyl 3/5, z wspornikami -19.5 %, plat -36.0 %, z̈ 1.55
+PODSUMOWANIE pasywne_0.7Hz_MPC_z-0.4         : przezyl 5/5, z wspornikami -7.0 %, plat -20.4 %, z̈ 1.18
+PODSUMOWANIE polaktywne_v2_MPC_z-0.4         : przezyl 5/5, z wspornikami -9.5 %, plat -23.6 %, z̈ 1.25
+gotowe 3173 s

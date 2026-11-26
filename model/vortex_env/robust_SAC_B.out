@@ -1,0 +1,8 @@
+SAC_B nominal           : {'przezyl': '4/4', 'tot_pct': np.float64(-37.7), 'plat_pct': np.float64(-60.9), 'z_min': -0.73, 'sub_min_c': 2.63, 'acc': np.float64(2.63)}
+SAC_B CL x0.85          : {'przezyl': '1/4', 'tot_pct': np.float64(-52.9), 'plat_pct': np.float64(-80.5), 'z_min': -0.74, 'sub_min_c': 2.55, 'acc': np.float64(2.56)}
+SAC_B CL x1.15          : {'przezyl': '4/4', 'tot_pct': np.float64(-27.1), 'plat_pct': np.float64(-47.4), 'z_min': -0.73, 'sub_min_c': 2.69, 'acc': np.float64(2.74)}
+SAC_B opor x0.8         : {'przezyl': '4/4', 'tot_pct': np.float64(-33.4), 'plat_pct': np.float64(-60.9), 'z_min': -0.73, 'sub_min_c': 2.63, 'acc': np.float64(2.63)}
+SAC_B opor x1.2         : {'przezyl': '4/4', 'tot_pct': np.float64(-40.8), 'plat_pct': np.float64(-60.9), 'z_min': -0.73, 'sub_min_c': 2.63, 'acc': np.float64(2.63)}
+SAC_B fala x0.9         : {'przezyl': '4/4', 'tot_pct': np.float64(-29.7), 'plat_pct': np.float64(-50.5), 'z_min': -0.7, 'sub_min_c': 2.85, 'acc': np.float64(2.43)}
+SAC_B fala x1.1         : {'przezyl': '0/4', 'tot_pct': None, 'plat_pct': None, 'z_min': None, 'sub_min_c': None, 'acc': None}
+SAC_B opoznienie 1 takt : {'przezyl': '1/4', 'tot_pct': np.float64(-37.8), 'plat_pct': np.float64(-61.1), 'z_min': -0.73, 'sub_min_c': 2.62, 'acc': np.float64(2.65)}

@@ -1,0 +1,126 @@
+{
+ "case": "T:\\NTNU_GODO_CONTROL_20261109\\70_godo_case\\overset\\OV_SHORT20_20261110_163129",
+ "launch": {
+  "returncode": 0,
+  "seconds": 130.2,
+  "bound": [
+   [
+    "2184",
+    "cmd"
+   ],
+   [
+    "4676",
+    "starccm+"
+   ],
+   [
+    "5752",
+    "python"
+   ],
+   [
+    "7300",
+    "python"
+   ],
+   [
+    "7592",
+    "cmd"
+   ],
+   [
+    "8588",
+    "conhost"
+   ],
+   [
+    "12172",
+    "python"
+   ],
+   [
+    "13216",
+    "conhost"
+   ],
+   [
+    "14288",
+    "conhost"
+   ],
+   [
+    "14340",
+    "smpd"
+   ],
+   [
+    "15684",
+    "cmd"
+   ],
+   [
+    "15892",
+    "star-ccm+"
+   ],
+   [
+    "15940",
+    "cmd"
+   ],
+   [
+    "16676",
+    "python"
+   ],
+   [
+    "17120",
+    "conhost"
+   ],
+   [
+    "18360",
+    "cmd"
+   ],
+   [
+    "19468",
+    "cmd"
+   ],
+   [
+    "20872",
+    "mpiexec"
+   ],
+   [
+    "25688",
+    "star-ccm+"
+   ]
+  ],
+  "cpus": [
+   0,
+   1
+  ],
+  "np": 2,
+  "gpu": false
+ },
+ "GODO_OVERSET.json": {
+  "old_mesh_ops_and_parts_removed": 5,
+  "overset_boundaries": [
+   "foil_main:WallBoundary",
+   "foil_flap:WallBoundary",
+   "ov_span_front:SymmetryBoundary",
+   "ov_span_back:SymmetryBoundary",
+   "overset:OversetMeshBoundary"
+  ],
+  "reports_repointed": [
+   "NN_pbody",
+   "NN_pflap",
+   "AF_Fx",
+   "AF_Fz",
+   "AF_Mh",
+   "AF_Flap_pAbs_Min",
+   "GODO_yplus_min",
+   "GODO_yplus_max",
+   "GODO_yplus_mean",
+   "GODO_yplus_frac_30_70",
+   "GODO_interfaceCFL"
+  ],
+  "mesh_seconds": 4.9480339,
+  "cells_total": 86682,
+  "interface": "IndirectRegionInterface",
+  "motion": {
+   "mass_kg": 31.300080128205128,
+   "sign": "STAR +z rotation = nose-down; GODO_pitch_deg is nose-up +",
+   "pivot": [
+    0.078,
+    0.0
+   ],
+   "type": "RotatingAndTranslatingMotion"
+  }
+ }
+}

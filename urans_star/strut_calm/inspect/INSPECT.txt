@@ -1,0 +1,242 @@
+REGION MINI_water_air continuum=MINI_URANS_VOF_2D parts=[Godø fluid domain - c 0.312 m, 20 mm span]
+  rcond InitialConditionOption = CONTINUUM
+  rcond MomentumUserSourceOption = NONE
+  rcond TwoEquationTurbulenceUserSourceOption = NONE
+  rcond MotionSpecificationOption = MOTIONSPECIFICATION
+  rcond MmpUserSourceOption = ?
+  rcond VofWaveZoneOption = FORCING_DAMPING
+  rcond ForcingLengthSpecificationOption = BOUNDARY
+  rcond DampingLengthSpecificationOption = BOUNDARY
+  rval MotionSpecification = ?
+  rval ReferenceFrame = ?
+  rval ForcingVofWaveSpecification = ?
+  rval LocalOrientationManager = ?
+ BND main type=WallBoundary surf=[Godø fluid domain - c 0.312 m, 20 mm span.Main]
+    cond WallShearStressOption = NO_SLIP
+    cond VofWaveDampingBoundaryOption = NO
+    cond VofWaveForcingBoundaryOption = NO
+    cond WallSlidingOption = FIXED
+    cond WallReferenceFrameOption = REGION_FRAME
+    cond WallSurfaceOption = SMOOTH
+    val BlendedWallFunctionCondition = ?
+ BND flap type=WallBoundary surf=[Godø fluid domain - c 0.312 m, 20 mm span.Flap]
+    cond WallShearStressOption = NO_SLIP
+    cond VofWaveDampingBoundaryOption = NO
+    cond VofWaveForcingBoundaryOption = NO
+    cond WallSlidingOption = FIXED
+    cond WallReferenceFrameOption = REGION_FRAME
+    cond WallSurfaceOption = SMOOTH
+    val BlendedWallFunctionCondition = ?
+ BND inlet type=InletBoundary surf=[Godø fluid domain - c 0.312 m, 20 mm span.Inlet]
+    cond InletVelocityOption = COMPONENTS
+    cond ReferenceFrameOption = LAB_FRAME
+    cond FlowBoundaryDiffusionOption = ON
+    cond VofWaveDampingBoundaryOption = NO
+    cond VofWaveForcingBoundaryOption = YES
+    cond KwTurbSpecOption = INTENSITY_VISCOSITY_RATIO
+    val VolumeFractionProfile = CompositeNMinus1ArrayProfileMethod
+    val VelocityProfile = FunctionVectorProfileMethod ff=Velocity of CB_StokesV 1
+    val VofWaveForcingLength = ConstantScalarProfileMethod q=15.613099917314933
+    val TurbulenceIntensityProfile = ConstantScalarProfileMethod q=0.001
+    val TurbulentViscosityRatioProfile = ConstantScalarProfileMethod q=10.0
+ BND outlet type=PressureBoundary surf=[Godø fluid domain - c 0.312 m, 20 mm span.Outlet]
+    cond BackflowSpecification = 0
+    cond PressureOutletBoundaryOption = NONE
+    cond VofWaveDampingBoundaryOption = YES
+    cond VofWaveForcingBoundaryOption = NO
+    cond FlowBoundaryDiffusionOption = ON
+    cond KwTurbSpecOption = INTENSITY_VISCOSITY_RATIO
+    val VolumeFractionProfile = CompositeNMinus1ArrayProfileMethod
+    val StaticPressureProfile = FunctionScalarProfileMethod ff=Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 25
+    val VofWaveDampingLength = ConstantScalarProfileMethod q=31.226199834629867
+    val TurbulenceIntensityProfile = ConstantScalarProfileMethod q=0.01
+    val TurbulentViscosityRatioProfile = ConstantScalarProfileMethod q=10.0
+ BND top type=PressureBoundary surf=[Godø fluid domain - c 0.312 m, 20 mm span.Top]
+    cond BackflowSpecification = 0
+    cond PressureOutletBoundaryOption = NONE
+    cond VofWaveDampingBoundaryOption = NO
+    cond VofWaveForcingBoundaryOption = NO
+    cond FlowBoundaryDiffusionOption = ON
+    cond KwTurbSpecOption = INTENSITY_VISCOSITY_RATIO
+    val VolumeFractionProfile = CompositeNMinus1ArrayProfileMethod
+    val StaticPressureProfile = FunctionScalarProfileMethod ff=Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 25
+    val TurbulenceIntensityProfile = ConstantScalarProfileMethod q=0.01
+    val TurbulentViscosityRatioProfile = ConstantScalarProfileMethod q=10.0
+ BND bottom type=WallBoundary surf=[Godø fluid domain - c 0.312 m, 20 mm span.Bottom]
+    cond WallShearStressOption = SLIP
+    cond VofWaveDampingBoundaryOption = NO
+    cond VofWaveForcingBoundaryOption = NO
+ BND span_front type=SymmetryBoundary surf=[Godø fluid domain - c 0.312 m, 20 mm span.Span0]
+    cond VofWaveDampingBoundaryOption = NO
+    cond VofWaveForcingBoundaryOption = NO
+ BND span_back type=SymmetryBoundary surf=[Godø fluid domain - c 0.312 m, 20 mm span.Span1]
+    cond VofWaveDampingBoundaryOption = NO
+    cond VofWaveForcingBoundaryOption = NO
+CONT Physics 1
+  nowave Class: class star.vof.VofWaveModel
+   ModelManager: star.common.ModelManager_1172
+   error: Model not found in ModelMap
+
+CONT MINI_URANS_VOF_2D
+  model star.metrics.ThreeDimensionalModel
+  model star.common.ImplicitUnsteadyModel
+  model star.material.EulerianMultiPhaseModel
+  model star.common.MultiPhaseInteractionModel
+  model star.vof.SegregatedVofModel
+  model star.flow.GravityModel
+  model star.turbulence.TurbulentModel
+  model star.mixturemultiphase.SegregatedVolumeFluxBasedFlowModel
+  model star.metrics.GradientsModel
+  model star.turbulence.RansTurbulenceModel
+  model star.kwturb.KOmegaTurbulence
+  model star.kwturb.SstKwTurbModel
+  model star.walldistance.WallDistanceModel
+  model star.kwturb.KwAllYplusWallTreatment
+  model star.vof.VofWaveModel
+  model star.vof.VofWaveZoneDistanceModel
+  model star.mapping.SolutionInterpolationModel
+  init InitialPressureProfile = FunctionScalarProfileMethod ff=Hydrostatic Pressure of Heavy Fluid of CB_StokesV 1
+  init VelocityProfile = FunctionVectorProfileMethod ff=Velocity of CB_StokesV 1
+  init KwTurbSpecOption = INTENSITY_VISCOSITY_RATIO
+  init VolumeFractionProfile = CompositeArrayProfileMethod
+  init TurbulenceIntensityProfile = ConstantScalarProfileMethod q=0.001
+  init TurbulentViscosityRatioProfile = ConstantScalarProfileMethod q=10.0
+  init TurbulentVelocityScaleOption = USE_INITIAL_VELOCITY
+  wave CB Initial Flat 1 FlatVofWave
+  wave NN_OutletFlat 1 FlatVofWave
+  wave NN_OutletFlat 2 FlatVofWave
+  wave NN_OutletFlat 3 FlatVofWave
+  wave NN_OutletFlat 4 FlatVofWave
+  wave NN_OutletFlat 5 FlatVofWave
+  wave NN_OutletFlat 6 FlatVofWave
+  wave NN_OutletFlat 7 FlatVofWave
+  wave NN_OutletFlat 8 FlatVofWave
+  wave NN_OutletFlat 9 FlatVofWave
+  wave NN_OutletFlat 10 FlatVofWave
+  wave NN_OutletFlat 11 FlatVofWave
+  wave NN_OutletFlat 12 FlatVofWave
+  wave NN_OutletFlat 13 FlatVofWave
+  wave NN_OutletFlat 14 FlatVofWave
+  wave NN_OutletFlat 15 FlatVofWave
+  wave NN_OutletFlat 16 FlatVofWave
+  wave NN_OutletFlat 17 FlatVofWave
+  wave NN_OutletFlat 18 FlatVofWave
+  wave CB_StokesV 1 FifthOrderVofWave
+  wave NN_OutletFlat 19 FlatVofWave
+  wave NN_OutletFlat 20 FlatVofWave
+  wave NN_OutletFlat 21 FlatVofWave
+  wave NN_OutletFlat 22 FlatVofWave
+  wave NN_OutletFlat 23 FlatVofWave
+  wave NN_OutletFlat 24 FlatVofWave
+  wave NN_OutletFlat 25 FlatVofWave
+  ref ReferencePressure = 101325.0
+  ref MinimumAllowableAbsolutePressure = 1000.0
+  ref MaximumAllowableAbsolutePressure = 1.0E8
+  ref ReferenceAltitude = [0.0, 2.02128173276777, 0.0]
+  ref Gravity = [0.0, -9.81, 0.0]
+  ref ReferenceDensity = 1.2
+  ref MinimumAllowableWallDistance = 1.0E-6
+FIELDS
+  VolumeFractionwater | Volume Fraction of water
+  VolumeFractionair | Volume Fraction of air
+  VolumeFractionHeavyFluidWave0 | Volume Fraction of Heavy Fluid of CB Initial Flat 1
+  VolumeFractionLightFluidWave0 | Volume Fraction of Light Fluid of CB Initial Flat 1
+  VolumeFractionHeavyFluidWave1 | Volume Fraction of Heavy Fluid of NN_OutletFlat 1
+  VolumeFractionLightFluidWave1 | Volume Fraction of Light Fluid of NN_OutletFlat 1
+  VolumeFractionHeavyFluidWave2 | Volume Fraction of Heavy Fluid of NN_OutletFlat 2
+  VolumeFractionLightFluidWave2 | Volume Fraction of Light Fluid of NN_OutletFlat 2
+  VolumeFractionHeavyFluidWave3 | Volume Fraction of Heavy Fluid of NN_OutletFlat 3
+  VolumeFractionLightFluidWave3 | Volume Fraction of Light Fluid of NN_OutletFlat 3
+  VolumeFractionHeavyFluidWave4 | Volume Fraction of Heavy Fluid of NN_OutletFlat 4
+  VolumeFractionLightFluidWave4 | Volume Fraction of Light Fluid of NN_OutletFlat 4
+  VolumeFractionHeavyFluidWave5 | Volume Fraction of Heavy Fluid of NN_OutletFlat 5
+  VolumeFractionLightFluidWave5 | Volume Fraction of Light Fluid of NN_OutletFlat 5
+  VolumeFractionHeavyFluidWave6 | Volume Fraction of Heavy Fluid of NN_OutletFlat 6
+  VolumeFractionLightFluidWave6 | Volume Fraction of Light Fluid of NN_OutletFlat 6
+  VolumeFractionHeavyFluidWave7 | Volume Fraction of Heavy Fluid of NN_OutletFlat 7
+  VolumeFractionLightFluidWave7 | Volume Fraction of Light Fluid of NN_OutletFlat 7
+  VolumeFractionHeavyFluidWave8 | Volume Fraction of Heavy Fluid of NN_OutletFlat 8
+  VolumeFractionLightFluidWave8 | Volume Fraction of Light Fluid of NN_OutletFlat 8
+  VolumeFractionHeavyFluidWave9 | Volume Fraction of Heavy Fluid of NN_OutletFlat 9
+  VolumeFractionLightFluidWave9 | Volume Fraction of Light Fluid of NN_OutletFlat 9
+  VolumeFractionHeavyFluidWave10 | Volume Fraction of Heavy Fluid of NN_OutletFlat 10
+  VolumeFractionLightFluidWave10 | Volume Fraction of Light Fluid of NN_OutletFlat 10
+  VolumeFractionHeavyFluidWave11 | Volume Fraction of Heavy Fluid of NN_OutletFlat 11
+  VolumeFractionLightFluidWave11 | Volume Fraction of Light Fluid of NN_OutletFlat 11
+  VolumeFractionHeavyFluidWave12 | Volume Fraction of Heavy Fluid of NN_OutletFlat 12
+  VolumeFractionLightFluidWave12 | Volume Fraction of Light Fluid of NN_OutletFlat 12
+  VolumeFractionHeavyFluidWave13 | Volume Fraction of Heavy Fluid of NN_OutletFlat 13
+  VolumeFractionLightFluidWave13 | Volume Fraction of Light Fluid of NN_OutletFlat 13
+  VolumeFractionHeavyFluidWave14 | Volume Fraction of Heavy Fluid of NN_OutletFlat 14
+  VolumeFractionLightFluidWave14 | Volume Fraction of Light Fluid of NN_OutletFlat 14
+  VolumeFractionHeavyFluidWave15 | Volume Fraction of Heavy Fluid of NN_OutletFlat 15
+  VolumeFractionLightFluidWave15 | Volume Fraction of Light Fluid of NN_OutletFlat 15
+  VolumeFractionHeavyFluidWave16 | Volume Fraction of Heavy Fluid of NN_OutletFlat 16
+  VolumeFractionLightFluidWave16 | Volume Fraction of Light Fluid of NN_OutletFlat 16
+  VolumeFractionHeavyFluidWave17 | Volume Fraction of Heavy Fluid of NN_OutletFlat 17
+  VolumeFractionLightFluidWave17 | Volume Fraction of Light Fluid of NN_OutletFlat 17
+  VolumeFractionHeavyFluidWave18 | Volume Fraction of Heavy Fluid of NN_OutletFlat 18
+  VolumeFractionLightFluidWave18 | Volume Fraction of Light Fluid of NN_OutletFlat 18
+  VolumeFractionHeavyFluidWave19 | Volume Fraction of Heavy Fluid of CB_StokesV 1
+  VolumeFractionLightFluidWave19 | Volume Fraction of Light Fluid of CB_StokesV 1
+  VolumeFractionHeavyFluidWave20 | Volume Fraction of Heavy Fluid of NN_OutletFlat 19
+  VolumeFractionLightFluidWave20 | Volume Fraction of Light Fluid of NN_OutletFlat 19
+  VolumeFractionHeavyFluidWave21 | Volume Fraction of Heavy Fluid of NN_OutletFlat 20
+  VolumeFractionLightFluidWave21 | Volume Fraction of Light Fluid of NN_OutletFlat 20
+  VolumeFractionHeavyFluidWave22 | Volume Fraction of Heavy Fluid of NN_OutletFlat 21
+  VolumeFractionLightFluidWave22 | Volume Fraction of Light Fluid of NN_OutletFlat 21
+  VolumeFractionHeavyFluidWave23 | Volume Fraction of Heavy Fluid of NN_OutletFlat 22
+  VolumeFractionLightFluidWave23 | Volume Fraction of Light Fluid of NN_OutletFlat 22
+  VolumeFractionHeavyFluidWave24 | Volume Fraction of Heavy Fluid of NN_OutletFlat 23
+  VolumeFractionLightFluidWave24 | Volume Fraction of Light Fluid of NN_OutletFlat 23
+  VolumeFractionHeavyFluidWave25 | Volume Fraction of Heavy Fluid of NN_OutletFlat 24
+  VolumeFractionLightFluidWave25 | Volume Fraction of Light Fluid of NN_OutletFlat 24
+  VolumeFractionHeavyFluidWave26 | Volume Fraction of Heavy Fluid of NN_OutletFlat 25
+  VolumeFractionLightFluidWave26 | Volume Fraction of Light Fluid of NN_OutletFlat 25
+SOLVERS
+  PartitioningSolver
+  ImplicitUnsteadySolver
+  SegregatedVofSolver
+  SegregatedFlowSolver
+  KwTurbSolver
+  KwTurbViscositySolver
+  WallDistanceSolver
+  VofWaveZoneDistanceSolver
+  dt=0.001 order=SECOND_ORDER
+REPORTS
+  NN_interfaceCFL MaxReport
+  NN_CFL MaxReport
+  NN_pmin MinReport
+  NN_pbody MinReport
+  NN_pflap MinReport
+  AF_Fx ForceReport
+  AF_Fz ForceReport
+  AF_Mh MomentReport
+  AF_FluidVolume VolumeIntegralReport
+  AF_CL ExpressionReport
+  AF_CD ExpressionReport
+  AF_Flap_pAbs_Min MinReport
+  AF_Time ExpressionReport
+  AF_Delta_Command_deg ExpressionReport
+  AF_Delta_Measured_deg ExpressionReport
+  GODO mesh min CellQuality MinReport
+  GODO mesh min Volume MinReport
+  GODO mesh min FaceValidity MinReport
+  GODO_yplus_min MinReport
+  GODO_yplus_max MaxReport
+  GODO_yplus_mean AreaAverageReport
+  GODO_yplus_frac_30_70 AreaAverageReport
+  GODO_interfaceCFL MaxReport
+  GODO_eta_upstream_quarter_lambda_SI SurfaceIntegralReport
+  GODO_eta_upstream_quarter_lambda ExpressionReport
+  GODO_eta_at_LE_SI SurfaceIntegralReport
+  GODO_eta_at_LE ExpressionReport
+  GODO_eta_at_hinge_SI SurfaceIntegralReport
+  GODO_eta_at_hinge ExpressionReport
+MESHOPS
+  GODO Directed mesh - one span layer (all sizes relative to Base Size) DirectedMeshOperation
+PARTS
+  Godø fluid domain - c 0.312 m, 20 mm span MeshPart
+  GODO foil neighbourhood (0.66 % B) SimpleBlockPart
+  GODO free-surface band (7.5 % B = H/20 at B=1 m) SimpleBlockPart
+  GODO free-surface transition (15 % B) SimpleBlockPart

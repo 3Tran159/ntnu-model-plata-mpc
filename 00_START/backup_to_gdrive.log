@@ -1,0 +1,154 @@
+2026-11-13 11:35:50 start
+   Files :      4968      4640       328         0         0         0
+   Bytes :  70.188 g   1.382 g  68.806 g         0         0         0
+   Times :   0:02:59   0:02:40                       0:00:00   0:00:19
+
+
+   Speed :           9,262,784 Bytes/sec.
+   Speed :             530.021 MegaBytes/min.
+   Ended : Friday, November 13, 2026 11:38:50 AM
+
+2026-11-13 11:38:50 koniec, kod robocopy 1 (0-7 = OK)
+2026-11-14 03:00:02 start
+   Files :      6110      1185      4925         0         0         4
+   Bytes :  76.839 g  310.59 m  76.536 g         0         0     1.5 k
+   Times :   0:00:43   0:00:36                       0:00:00   0:00:06
+
+
+   Speed :           8,978,837 Bytes/sec.
+   Speed :             513.773 MegaBytes/min.
+   Ended : Saturday, November 14, 2026 3:00:45 AM
+
+2026-11-14 03:00:45 koniec, kod robocopy 3 (0-7 = OK)
+2026-11-15 03:00:02 start
+   Files :      7122       980      6142         0         0         8
+   Bytes :  86.387 g  213.72 m  86.179 g         0         0     2.7 k
+   Times :   0:00:30   0:00:24                       0:00:00   0:00:06
+
+
+   Speed :           9,073,644 Bytes/sec.
+   Speed :             519.198 MegaBytes/min.
+   Ended : Sunday, November 15, 2026 3:00:33 AM
+
+2026-11-15 03:00:33 koniec, kod robocopy 3 (0-7 = OK)
+2026-11-16 03:00:02 start
+   Files :     10758      3293      7465         0         0        12
+   Bytes : 289.051 g   3.239 g 285.811 g         0         0     4.1 k
+   Times :   0:02:42   0:02:18                       0:00:00   0:00:24
+
+
+   Speed :           25,199,454 Bytes/sec.
+   Speed :            1,441.924 MegaBytes/min.
+   Ended : Monday, November 16, 2026 3:02:45 AM
+
+2026-11-16 03:02:45 koniec, kod robocopy 3 (0-7 = OK)
+2026-11-17 03:00:02 start
+   Files :      8224      3259      4965         0         0        15
+   Bytes : 116.371 g  711.24 m 115.676 g         0         0    19.9 k
+   Times :   0:01:56   0:01:47                       0:00:00   0:00:08
+
+
+   Speed :           6,962,340 Bytes/sec.
+   Speed :             398.388 MegaBytes/min.
+   Ended : Tuesday, November 17, 2026 3:01:58 AM
+
+2026-11-17 03:01:58 koniec, kod robocopy 3 (0-7 = OK)
+2026-11-18 03:00:02 start
+   Files :     12448      4221      8227         0         0        16
+   Bytes : 120.250 g  807.08 m 119.462 g         0         0    20.5 k
+   Times :   0:02:32   0:02:23                       0:00:00   0:00:09
+
+
+   Speed :           5,905,168 Bytes/sec.
+   Speed :             337.896 MegaBytes/min.
+   Ended : Wednesday, November 18, 2026 3:02:35 AM
+
+2026-11-18 03:02:35 koniec, kod robocopy 3 (0-7 = OK)
+2026-11-19 03:00:02 start
+   Files :     15900      3473     12427         0         0        18
+   Bytes : 123.978 g  422.08 m 123.566 g         0         0    21.3 k
+   Times :   0:04:22   0:03:54                       0:00:00   0:00:28
+
+
+   Speed :           1,890,348 Bytes/sec.
+   Speed :             108.167 MegaBytes/min.
+   Ended : Thursday, November 19, 2026 3:04:25 AM
+
+2026-11-19 03:04:25 koniec, kod robocopy 3 (0-7 = OK)
+2026-11-20 03:00:01 start
+   Files :     16588       690     15898         0         0        20
+   Bytes : 126.630 g  193.55 m 126.441 g         0         0    37.3 k
+   Times :   0:00:49   0:00:30                       0:00:00   0:00:19
+
+
+   Speed :           6,715,246 Bytes/sec.
+   Speed :             384.249 MegaBytes/min.
+   Ended : Friday, November 20, 2026 3:00:51 AM
+
+2026-11-20 03:00:52 koniec, kod robocopy 3 (0-7 = OK)
+2026-11-21 03:00:02 start
+   Files :     18626      2049     16577         0         0        22
+   Bytes : 128.437 g  416.38 m 128.031 g         0         0    38.1 k
+   Times :   0:02:43   0:02:15                       0:00:00   0:00:27
+
+
+   Speed :           3,217,023 Bytes/sec.
+   Speed :             184.080 MegaBytes/min.
+   Ended : Saturday, November 21, 2026 3:02:46 AM
+
+2026-11-21 03:02:46 koniec, kod robocopy 3 (0-7 = OK)
+2026-11-22 03:00:02 start
+   Files :     18745       126     18619         0         0        24
+   Bytes : 130.822 g   48.00 m 130.775 g         0         0    38.9 k
+   Times :   0:00:10   0:00:03                       0:00:00   0:00:07
+
+
+   Speed :           13,263,662 Bytes/sec.
+   Speed :              758.953 MegaBytes/min.
+   Ended : Sunday, November 22, 2026 3:00:13 AM
+
+2026-11-22 03:00:13 koniec, kod robocopy 3 (0-7 = OK)
+2026-11-23 03:00:03 start
+   Files :     18918       218     18700         0         0        28
+   Bytes : 125.722 g   32.66 m 125.690 g         0         0    40.1 k
+   Times :   0:00:40   0:00:10                       0:00:00   0:00:30
+
+
+   Speed :           3,260,393 Bytes/sec.
+   Speed :             186.561 MegaBytes/min.
+   Ended : Monday, November 23, 2026 3:00:43 AM
+
+2026-11-23 03:00:44 koniec, kod robocopy 3 (0-7 = OK)
+2026-11-24 03:00:03 start
+   Files :     19071       180     18891         0         0        29
+   Bytes : 127.329 g   41.87 m 127.288 g         0         0    40.9 k
+   Times :   0:01:01   0:00:16                       0:00:00   0:00:44
+
+
+   Speed :           2,680,405 Bytes/sec.
+   Speed :             153.374 MegaBytes/min.
+   Ended : Tuesday, November 24, 2026 3:01:04 AM
+
+2026-11-24 03:01:04 koniec, kod robocopy 3 (0-7 = OK)
+2026-11-25 03:00:02 start
+   Files :     19185       126     19059         0         0        31
+   Bytes : 129.416 g   37.26 m 129.380 g         0         0    41.6 k
+   Times :   0:00:28   0:00:04                       0:00:00   0:00:23
+
+
+   Speed :           8,358,417 Bytes/sec.
+   Speed :             478.272 MegaBytes/min.
+   Ended : Wednesday, November 25, 2026 3:00:31 AM
+
+2026-11-25 03:00:31 koniec, kod robocopy 3 (0-7 = OK)
+2026-11-26 03:00:02 start
+   Files :     19228        58     19170         0         0        33
+   Bytes : 130.650 g   26.87 m 130.624 g         0         0    42.3 k
+   Times :   0:00:06   0:00:01                       0:00:00   0:00:04
+
+
+   Speed :           18,763,908 Bytes/sec.
+   Speed :            1,073.679 MegaBytes/min.
+   Ended : Thursday, November 26, 2026 3:00:08 AM
+
+2026-11-26 03:00:08 koniec, kod robocopy 3 (0-7 = OK)

@@ -1,0 +1,48 @@
+05:41:33 start: W_Z 2.0, W_DU 2000.0, ome 3.2441, amp 0.73
+05:41:41 t 1.000 z +0.000 v +0.000 th +3.22 eta -0.726 | fala A 0.000 beta +0.0 deg | cmd -7.50 deg | 0.05 s
+05:41:41 takt 0 t 1.000 free 1 cmd -7.500
+05:41:42 takt 50 t 1.500 free 1 cmd +7.403
+05:41:43 t 2.000 z -0.318 v +1.264 th +7.50 eta +0.715 | fala A 0.730 beta +0.0 deg | cmd +7.50 deg | 0.05 s
+05:41:43 takt 100 t 2.000 free 1 cmd +7.500
+05:41:44 takt 150 t 2.500 free 1 cmd -1.068
+05:41:45 t 3.000 z -0.530 v -0.899 th +3.68 eta -0.696 | fala A 0.730 beta +0.0 deg | cmd +3.97 deg | 0.05 s
+05:41:45 takt 200 t 3.000 free 1 cmd +3.974
+05:41:46 takt 250 t 3.500 free 1 cmd +7.500
+05:41:46 t 4.000 z +0.204 v +1.189 th +7.50 eta +0.669 | fala A 0.730 beta +0.0 deg | cmd +7.50 deg | 0.05 s
+05:41:46 takt 300 t 4.000 free 1 cmd +7.500
+05:41:47 takt 350 t 4.500 free 1 cmd -1.984
+05:41:48 t 5.000 z -0.603 v -0.343 th +5.32 eta -0.636 | fala A 0.730 beta +0.0 deg | cmd +3.78 deg | 0.05 s
+05:41:48 takt 400 t 5.000 free 1 cmd +3.783
+05:41:49 takt 450 t 5.500 free 1 cmd +7.500
+05:41:50 t 6.000 z +0.249 v +1.029 th +7.50 eta +0.596 | fala A 0.730 beta +0.0 deg | cmd +7.50 deg | 0.05 s
+05:41:50 takt 500 t 6.000 free 1 cmd +7.500
+05:41:51 takt 550 t 6.500 free 1 cmd -1.056
+05:41:52 t 7.000 z -0.619 v -0.034 th +4.47 eta -0.550 | fala A 0.730 beta +0.0 deg | cmd +1.13 deg | 0.05 s
+05:41:52 takt 600 t 7.000 free 1 cmd +1.128
+05:41:52 takt 650 t 7.500 free 1 cmd +7.500
+05:41:53 t 8.000 z +0.326 v +0.839 th +7.03 eta +0.498 | fala A 0.730 beta +0.0 deg | cmd +4.18 deg | 0.05 s
+05:41:53 takt 700 t 8.000 free 1 cmd +4.183
+05:41:54 takt 750 t 8.500 free 1 cmd +0.279
+05:41:55 t 9.000 z -0.613 v +0.148 th +1.61 eta -0.441 | fala A 0.730 beta +0.0 deg | cmd -0.22 deg | 0.05 s
+05:41:55 takt 800 t 9.000 free 1 cmd -0.217
+05:41:56 takt 850 t 9.500 free 1 cmd +7.500
+05:41:57 t 10.000 z +0.361 v +0.565 th +4.81 eta +0.379 | fala A 0.730 beta +0.0 deg | cmd +0.54 deg | 0.05 s
+05:41:57 takt 900 t 10.000 free 1 cmd +0.540
+05:41:58 takt 950 t 10.500 free 1 cmd +1.910
+05:41:59 t 11.000 z -0.603 v +0.133 th +0.12 eta -0.313 | fala A 0.730 beta +0.0 deg | cmd +1.72 deg | 0.05 s
+05:41:59 takt 1000 t 11.000 free 1 cmd +1.718
+05:41:59 takt 1050 t 11.500 free 1 cmd +7.500
+05:42:00 t 12.000 z +0.376 v +0.159 th +1.52 eta +0.244 | fala A 0.730 beta +0.0 deg | cmd -2.48 deg | 0.05 s
+05:42:00 takt 1100 t 12.000 free 1 cmd -2.484
+05:42:01 takt 1150 t 12.500 free 1 cmd +3.583
+05:42:02 t 13.000 z -0.593 v +0.181 th +1.61 eta -0.172 | fala A 0.730 beta +0.0 deg | cmd +5.13 deg | 0.04 s
+05:42:02 takt 1200 t 13.000 free 1 cmd +5.126
+05:42:03 takt 1250 t 13.500 free 1 cmd +7.500
+05:42:04 t 14.000 z +0.375 v -0.430 th -1.97 eta +0.099 | fala A 0.730 beta +0.0 deg | cmd -4.26 deg | 0.05 s
+05:42:04 takt 1300 t 14.000 free 1 cmd -4.255
+05:42:05 takt 1350 t 14.500 free 1 cmd +4.556
+05:42:06 t 15.000 z -0.578 v +0.332 th +4.51 eta -0.024 | fala A 0.730 beta +0.0 deg | cmd +7.50 deg | 0.05 s
+05:42:06 takt 1400 t 15.000 free 1 cmd +7.500
+05:42:06 takt 1450 t 15.500 free 1 cmd +7.500
+05:42:07 t 16.000 z +0.326 v -1.027 th -3.73 eta -0.051 | fala A 0.730 beta +0.0 deg | cmd -4.11 deg | 0.05 s
+05:42:07 takt 1500 t 16.000 free 1 cmd -4.110

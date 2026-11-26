@@ -1,0 +1,76 @@
+t 1.940 z +0.000 v +0.000 th +2.63 eta +0.673 | fala A 0.727 b +22.9 | ie +0.000 | cmd +0.64 | 0.09 s
+RLS: odrzucam krok (mnoznik -2.112)
+RLS: odrzucam krok (mnoznik -8.148)
+RLS: odrzucam krok (mnoznik -4.999)
+RLS: odrzucam krok (mnoznik 2.565)
+RLS: odrzucam krok (mnoznik 2.394)
+RLS t 2.93: mnoznik sily dynamicznej 0.668, przesuniecie -20 N/m, suma dL/dth 6234 (Faltinsen 6662), blad RMS 628 N/m
+RLS t 3.93: mnoznik sily dynamicznej 0.669, przesuniecie +1 N/m, suma dL/dth 6244 (Faltinsen 6662), blad RMS 85 N/m
+t 3.940 z -0.350 v +0.311 th +2.59 eta +0.715 | fala A 0.727 b +22.9 | ie +0.493 | cmd +3.01 | 0.11 s
+RLS t 4.93: mnoznik sily dynamicznej 0.666, przesuniecie +17 N/m, suma dL/dth 6209 (Faltinsen 6662), blad RMS 106 N/m
+RLS t 5.93: mnoznik sily dynamicznej 0.664, przesuniecie +19 N/m, suma dL/dth 6189 (Faltinsen 6662), blad RMS 83 N/m
+t 5.940 z -0.273 v +0.261 th +2.81 eta +0.727 | fala A 0.727 b +22.9 | ie +0.500 | cmd +3.30 | 0.10 s
+RLS t 6.93: mnoznik sily dynamicznej 0.661, przesuniecie +21 N/m, suma dL/dth 6169 (Faltinsen 6662), blad RMS 89 N/m
+RLS t 7.93: mnoznik sily dynamicznej 0.660, przesuniecie +25 N/m, suma dL/dth 6153 (Faltinsen 6662), blad RMS 81 N/m
+t 7.940 z -0.259 v +0.236 th +3.28 eta +0.709 | fala A 0.727 b +22.9 | ie +0.500 | cmd +3.74 | 0.08 s
+RLS t 8.93: mnoznik sily dynamicznej 0.658, przesuniecie +23 N/m, suma dL/dth 6139 (Faltinsen 6662), blad RMS 82 N/m
+RLS t 9.93: mnoznik sily dynamicznej 0.657, przesuniecie +29 N/m, suma dL/dth 6124 (Faltinsen 6662), blad RMS 82 N/m
+t 9.940 z -0.248 v +0.205 th +3.74 eta +0.661 | fala A 0.727 b +22.9 | ie +0.500 | cmd +4.14 | 0.08 s
+RLS t 10.93: mnoznik sily dynamicznej 0.656, przesuniecie +25 N/m, suma dL/dth 6115 (Faltinsen 6662), blad RMS 77 N/m
+RLS t 11.93: mnoznik sily dynamicznej 0.654, przesuniecie +31 N/m, suma dL/dth 6101 (Faltinsen 6662), blad RMS 81 N/m
+t 11.940 z -0.239 v +0.162 th +4.15 eta +0.585 | fala A 0.727 b +22.9 | ie +0.500 | cmd +4.47 | 0.07 s
+RLS t 12.93: mnoznik sily dynamicznej 0.654, przesuniecie +27 N/m, suma dL/dth 6097 (Faltinsen 6662), blad RMS 73 N/m
+RLS t 13.93: mnoznik sily dynamicznej 0.652, przesuniecie +33 N/m, suma dL/dth 6084 (Faltinsen 6662), blad RMS 80 N/m
+t 13.940 z -0.231 v +0.109 th +4.49 eta +0.485 | fala A 0.727 b +22.9 | ie +0.500 | cmd +4.72 | 0.07 s
+RLS t 14.93: mnoznik sily dynamicznej 0.652, przesuniecie +28 N/m, suma dL/dth 6084 (Faltinsen 6662), blad RMS 71 N/m
+RLS t 15.93: mnoznik sily dynamicznej 0.651, przesuniecie +34 N/m, suma dL/dth 6072 (Faltinsen 6662), blad RMS 78 N/m
+t 15.940 z -0.226 v +0.050 th +4.76 eta +0.365 | fala A 0.727 b +22.9 | ie +0.500 | cmd +4.89 | 0.07 s
+RLS t 16.93: mnoznik sily dynamicznej 0.651, przesuniecie +29 N/m, suma dL/dth 6073 (Faltinsen 6662), blad RMS 70 N/m
+RLS t 17.93: mnoznik sily dynamicznej 0.650, przesuniecie +34 N/m, suma dL/dth 6064 (Faltinsen 6662), blad RMS 77 N/m
+t 17.940 z -0.226 v -0.012 th +4.94 eta +0.229 | fala A 0.727 b +22.9 | ie +0.500 | cmd +4.96 | 0.08 s
+RLS t 18.93: mnoznik sily dynamicznej 0.650, przesuniecie +30 N/m, suma dL/dth 6065 (Faltinsen 6662), blad RMS 70 N/m
+RLS t 19.93: mnoznik sily dynamicznej 0.650, przesuniecie +34 N/m, suma dL/dth 6059 (Faltinsen 6662), blad RMS 76 N/m
+t 19.940 z -0.229 v -0.073 th +5.03 eta +0.084 | fala A 0.727 b +22.9 | ie +0.500 | cmd +4.94 | 0.07 s
+RLS t 20.93: mnoznik sily dynamicznej 0.650, przesuniecie +30 N/m, suma dL/dth 6060 (Faltinsen 6662), blad RMS 70 N/m
+RLS t 21.93: mnoznik sily dynamicznej 0.649, przesuniecie +34 N/m, suma dL/dth 6055 (Faltinsen 6662), blad RMS 76 N/m
+t 21.940 z -0.236 v -0.132 th +5.03 eta -0.065 | fala A 0.727 b +22.9 | ie +0.500 | cmd +4.82 | 0.08 s
+RLS t 22.93: mnoznik sily dynamicznej 0.649, przesuniecie +31 N/m, suma dL/dth 6055 (Faltinsen 6662), blad RMS 69 N/m
+RLS t 23.93: mnoznik sily dynamicznej 0.649, przesuniecie +34 N/m, suma dL/dth 6053 (Faltinsen 6662), blad RMS 77 N/m
+t 23.940 z -0.247 v -0.185 th +4.93 eta -0.211 | fala A 0.727 b +22.9 | ie +0.500 | cmd +4.61 | 0.08 s
+RLS t 24.93: mnoznik sily dynamicznej 0.649, przesuniecie +31 N/m, suma dL/dth 6052 (Faltinsen 6662), blad RMS 68 N/m
+RLS t 25.93: mnoznik sily dynamicznej 0.649, przesuniecie +34 N/m, suma dL/dth 6051 (Faltinsen 6662), blad RMS 79 N/m
+t 25.940 z -0.261 v -0.229 th +4.74 eta -0.348 | fala A 0.727 b +22.9 | ie +0.500 | cmd +4.31 | 0.12 s
+RLS t 26.93: mnoznik sily dynamicznej 0.649, przesuniecie +32 N/m, suma dL/dth 6050 (Faltinsen 6662), blad RMS 67 N/m
+RLS t 27.93: mnoznik sily dynamicznej 0.649, przesuniecie +34 N/m, suma dL/dth 6050 (Faltinsen 6662), blad RMS 81 N/m
+t 27.940 z -0.277 v -0.264 th +4.46 eta -0.471 | fala A 0.727 b +22.9 | ie +0.500 | cmd +3.93 | 0.10 s
+RLS t 28.93: mnoznik sily dynamicznej 0.648, przesuniecie +32 N/m, suma dL/dth 6048 (Faltinsen 6662), blad RMS 66 N/m
+RLS t 29.93: mnoznik sily dynamicznej 0.648, przesuniecie +34 N/m, suma dL/dth 6048 (Faltinsen 6662), blad RMS 82 N/m
+t 29.940 z -0.295 v -0.287 th +4.10 eta -0.574 | fala A 0.727 b +22.9 | ie +0.500 | cmd +3.50 | 0.08 s
+RLS t 30.93: mnoznik sily dynamicznej 0.648, przesuniecie +33 N/m, suma dL/dth 6047 (Faltinsen 6662), blad RMS 65 N/m
+RLS t 31.93: mnoznik sily dynamicznej 0.648, przesuniecie +33 N/m, suma dL/dth 6047 (Faltinsen 6662), blad RMS 82 N/m
+t 31.940 z -0.314 v -0.297 th +3.68 eta -0.653 | fala A 0.727 b +22.9 | ie +0.500 | cmd +3.02 | 0.08 s
+RLS t 32.93: mnoznik sily dynamicznej 0.648, przesuniecie +33 N/m, suma dL/dth 6045 (Faltinsen 6662), blad RMS 66 N/m
+RLS t 33.93: mnoznik sily dynamicznej 0.648, przesuniecie +33 N/m, suma dL/dth 6045 (Faltinsen 6662), blad RMS 81 N/m
+t 33.940 z -0.333 v -0.295 th +3.21 eta -0.704 | fala A 0.727 b +22.9 | ie +0.500 | cmd +2.52 | 0.07 s
+RLS t 34.93: mnoznik sily dynamicznej 0.648, przesuniecie +34 N/m, suma dL/dth 6043 (Faltinsen 6662), blad RMS 67 N/m
+RLS t 35.93: mnoznik sily dynamicznej 0.648, przesuniecie +33 N/m, suma dL/dth 6042 (Faltinsen 6662), blad RMS 80 N/m
+t 35.940 z -0.352 v -0.280 th +2.72 eta -0.726 | fala A 0.727 b +22.9 | ie +0.500 | cmd +2.02 | 0.06 s
+RLS t 36.93: mnoznik sily dynamicznej 0.648, przesuniecie +34 N/m, suma dL/dth 6040 (Faltinsen 6662), blad RMS 69 N/m
+RLS t 37.93: mnoznik sily dynamicznej 0.648, przesuniecie +33 N/m, suma dL/dth 6040 (Faltinsen 6662), blad RMS 77 N/m
+t 37.940 z -0.369 v -0.253 th +2.22 eta -0.718 | fala A 0.727 b +22.9 | ie +0.500 | cmd +1.54 | 0.07 s
+RLS t 38.93: mnoznik sily dynamicznej 0.647, przesuniecie +35 N/m, suma dL/dth 6038 (Faltinsen 6662), blad RMS 71 N/m
+RLS t 39.93: mnoznik sily dynamicznej 0.647, przesuniecie +33 N/m, suma dL/dth 6038 (Faltinsen 6662), blad RMS 74 N/m
+t 39.940 z -0.384 v -0.214 th +1.74 eta -0.679 | fala A 0.727 b +22.9 | ie +0.500 | cmd +1.10 | 0.07 s
+RLS t 40.93: mnoznik sily dynamicznej 0.647, przesuniecie +35 N/m, suma dL/dth 6035 (Faltinsen 6662), blad RMS 72 N/m
+RLS t 41.93: mnoznik sily dynamicznej 0.647, przesuniecie +33 N/m, suma dL/dth 6037 (Faltinsen 6662), blad RMS 72 N/m
+t 41.940 z -0.396 v -0.167 th +1.29 eta -0.612 | fala A 0.727 b +22.9 | ie +0.500 | cmd +0.73 | 0.07 s
+RLS t 42.93: mnoznik sily dynamicznej 0.647, przesuniecie +36 N/m, suma dL/dth 6033 (Faltinsen 6662), blad RMS 73 N/m
+RLS t 43.93: mnoznik sily dynamicznej 0.647, przesuniecie +33 N/m, suma dL/dth 6035 (Faltinsen 6662), blad RMS 71 N/m
+t 43.940 z -0.405 v -0.113 th +0.91 eta -0.520 | fala A 0.727 b +22.9 | ie +0.500 | cmd +0.43 | 0.09 s
+RLS t 44.93: mnoznik sily dynamicznej 0.647, przesuniecie +36 N/m, suma dL/dth 6031 (Faltinsen 6662), blad RMS 73 N/m
+RLS t 45.93: mnoznik sily dynamicznej 0.647, przesuniecie +33 N/m, suma dL/dth 6034 (Faltinsen 6662), blad RMS 70 N/m
+t 45.940 z -0.410 v -0.055 th +0.60 eta -0.405 | fala A 0.727 b +22.9 | ie +0.500 | cmd +0.23 | 0.09 s
+RLS t 46.93: mnoznik sily dynamicznej 0.646, przesuniecie +36 N/m, suma dL/dth 6030 (Faltinsen 6662), blad RMS 73 N/m
+RLS t 47.93: mnoznik sily dynamicznej 0.647, przesuniecie +33 N/m, suma dL/dth 6033 (Faltinsen 6662), blad RMS 70 N/m
+t 47.940 z -0.412 v +0.005 th +0.38 eta -0.274 | fala A 0.727 b +22.9 | ie +0.500 | cmd +0.13 | 0.11 s
+{"W_A": 1.5, "KI": 0.2, "BAD": 1.4, "ADAPT": true, "LAM": 0.9995, "pierwsze 4 okresy": {"dP_pct": -38.4, "acc_rms": 0.915, "z": [-0.447, 0.039]}, "ostatnie 4 okresy": {"dP_pct": -18.02, "acc_rms": 0.68, "z": [-0.412, -0.229]}, "mnoznik_koniec": 0.647, "dLdth_koniec": 6037, "dLdth_baza": 6662}

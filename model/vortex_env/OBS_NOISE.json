@@ -1,0 +1,32 @@
+{
+ "czysty (jak w treningu)": {
+  "przezyl": "4/4",
+  "plat": -67.88416962324655,
+  "acc": 3.0384893107068223,
+  "jerk": 0.11162264158979698
+ },
+ "roznica eta, bez szumu": {
+  "przezyl": "4/4",
+  "plat": -67.69032868017328,
+  "acc": 3.03919509375456,
+  "jerk": 0.11343275471316583
+ },
+ "roznica eta + szum 5 mm": {
+  "przezyl": "4/4",
+  "plat": -64.08097192328712,
+  "acc": 2.941990392518205,
+  "jerk": 0.169563117444133
+ },
+ "roznica eta + szum 5 mm + dolina -0,15 m": {
+  "przezyl": "0/4"
+ },
+ "j.w. + filtr 50 ms": {
+  "przezyl": "0/4"
+ },
+ "j.w. + filtr 100 ms": {
+  "przezyl": "4/4",
+  "plat": -53.09973556209171,
+  "acc": 2.859688185340394,
+  "jerk": 0.1508784942467154
+ }
+}

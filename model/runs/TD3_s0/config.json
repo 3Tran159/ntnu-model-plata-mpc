@@ -1,0 +1,23 @@
+{
+ "algo": "TD3 (God\u00f8-modified)",
+ "seed": 0,
+ "total_env_steps": 300000,
+ "hidden": 256,
+ "critic_lr": 2e-05,
+ "actor_lr": 2e-06,
+ "tau": 0.005,
+ "policy_delay": 5,
+ "batch": 256,
+ "gamma": 0.9956043956043956,
+ "grad_clip": 2.0,
+ "target_noise": 0.2,
+ "target_noise_clip": 0.5,
+ "inner_iters": 4,
+ "phase1": 0.1,
+ "phase2": 0.2,
+ "ou_theta_mean": 0.04,
+ "ou_theta_std": 0.01,
+ "ou_sigma_mean": 0.05,
+ "ou_sigma_std": 0.0125,
+ "lr_override": "1"
+}

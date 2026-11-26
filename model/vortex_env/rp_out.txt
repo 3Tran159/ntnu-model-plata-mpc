@@ -1,0 +1,3 @@
+OVS_POL_TD3_GODO: fala dopasowana A 0.739 m | URANS 40.9 W (-33.0 %) | model wirowy na tym ruchu i fali 34.3 W (-43.9 %) | sila nosna RMS-dev URANS 4429.7 model 4033.4 N/m
+OVS_PID1_GODO: fala dopasowana A 0.735 m | URANS 49.6 W (-18.8 %) | model wirowy na tym ruchu i fali 40.6 W (-33.6 %) | sila nosna RMS-dev URANS 3120.4 model 3013.2 N/m
+OVS_PID3_GODO: fala dopasowana A 0.728 m | URANS 90.8 W (+48.7 %) | model wirowy na tym ruchu i fali 94.9 W (+55.4 %) | sila nosna RMS-dev URANS 2804.8 model 2704.8 N/m

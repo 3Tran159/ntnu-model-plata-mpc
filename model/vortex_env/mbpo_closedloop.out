@@ -1,0 +1,10 @@
+OVS_PID_BASE2    bazowy_v2                     : moc oporu URANS  69.5 W, model  69.0 W ( -0.7 %) | z URANS -0.29..+0.35, model -0.30..+0.35 m
+OVS_PID_BASE2    poprawiony_bez_tego_przebiegu : moc oporu URANS  69.5 W, model  68.6 W ( -1.2 %) | z URANS -0.29..+0.35, model -0.28..+0.36 m
+OVS_PID_BASE2    poprawiony_wszystkie          : moc oporu URANS  69.5 W, model  68.8 W ( -1.0 %) | z URANS -0.29..+0.35, model -0.28..+0.36 m
+OVS_PID1_GODO    bazowy_v2                     : moc oporu URANS  52.5 W, model  43.5 W (-17.1 %) | z URANS -0.18..+0.38, model -0.23..+0.36 m
+OVS_PID1_GODO    poprawiony_bez_tego_przebiegu : moc oporu URANS  52.5 W, model  52.3 W ( -0.4 %) | z URANS -0.18..+0.38, model -0.17..+0.44 m
+OVS_PID1_GODO    poprawiony_wszystkie          : moc oporu URANS  52.5 W, model  51.7 W ( -1.4 %) | z URANS -0.18..+0.38, model -0.18..+0.42 m
+OVS_PID3_GODO    bazowy_v2                     : moc oporu URANS  90.1 W, model  95.6 W ( +6.0 %) | z URANS -0.21..+0.25, model -0.22..+0.24 m
+OVS_PID3_GODO    poprawiony_bez_tego_przebiegu : moc oporu URANS  90.1 W, model  89.7 W ( -0.5 %) | z URANS -0.21..+0.25, model -0.20..+0.24 m
+OVS_PID3_GODO    poprawiony_wszystkie          : moc oporu URANS  90.1 W, model  89.9 W ( -0.3 %) | z URANS -0.21..+0.25, model -0.20..+0.25 m
+gotowe 144 s

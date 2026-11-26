@@ -1,0 +1,41 @@
+Starting local server: starserver.bat -power -cpubind off -np 1 -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcNzBfZ29kb19jYXNlXG92ZXJzZXRfcnVuc1xDSEVDS19ERkJJXGRpYWdfaW5wdXQuc2lt
+The efficiency of some CPUs could not be determined. CPU binding will not exclude the slowest CPU kind.
+The efficiency of some CPUs could not be determined. CPU binding will not exclude the slowest CPU kind.
+The efficiency of some CPUs could not be determined. CPU binding will not exclude the slowest CPU kind.
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 18440
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 18440
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 118 days
+Tue Nov 10 20:46:21 2026
+
+Server::start -host THINKPAD-LUCJAN:47829
+Loading: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset_runs\CHECK_DFBI\diag_input.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Loading module: OversetModel
+Loading module: OversetFlowModel
+Loading module: SixDofMotionModel
+Loading module: DfbiFlowForces
+Loading module: DfbiVisModel
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=1 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset_runs\CHECK_DFBI\CheckDfbi.java
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 0

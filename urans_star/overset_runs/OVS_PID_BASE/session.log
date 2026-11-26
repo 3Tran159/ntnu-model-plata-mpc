@@ -1,0 +1,28 @@
+2026-11-10 17:14:39 session 1 from GODO_OVERSET_SETUP_B1.0.sim (cpu (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21))
+2026-11-10 17:46:05 session 1 ended rc=0 after 1885 s
+2026-11-10 17:46:06 result HOLD_STOP_FILE
+2026-11-10 17:46:06 end done=True sessions=1
+2026-11-10 18:10:35 session 1 from END_t0.0510.sim (cpu (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21))
+2026-11-10 18:10:46 session 1 ended rc=4294967295 after 11 s
+2026-11-10 18:10:47 session 2 from END_t0.0510.sim (cpu (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21))
+2026-11-10 18:13:18 session 2 ended rc=4294967295 after 151 s
+2026-11-10 18:13:31 session 3 from END_t0.0510.sim (cpu (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21))
+2026-11-10 18:15:47 session 3 ended rc=0 after 136 s
+2026-11-10 18:15:47 result HOLD_STOP_FILE
+2026-11-10 18:15:47 end done=True sessions=3
+2026-11-10 18:17:10 session 1 from END_t0.0510.sim (cpu (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21))
+2026-11-10 18:21:08 session 1 ended rc=0 after 238 s
+2026-11-10 18:21:08 result HOLD_STOP_FILE
+2026-11-10 18:21:08 end done=True sessions=1
+2026-11-10 18:21:13 session 1 from END_t0.0530.sim (cpu (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17))
+2026-11-10 18:28:57 session 1 ended rc=0 after 464 s
+2026-11-10 18:28:58 result HOLD_STOP_FILE
+2026-11-10 18:28:58 end done=True sessions=1
+2026-11-10 18:50:46 session 1 from END_t0.0670.sim (cpu (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17))
+2026-11-10 19:05:02 session 1 ended rc=0 after 856 s
+2026-11-10 19:05:02 result HOLD_CFL
+2026-11-10 19:05:02 end done=True sessions=1
+2026-11-10 19:49:23 session 1 from END_t0.6660.sim (cpu (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17))
+2026-11-10 20:52:49 session 1 ended rc=0 after 3806 s
+2026-11-10 20:52:49 result HOLD_STOP_FILE
+2026-11-10 20:52:49 end done=True sessions=1

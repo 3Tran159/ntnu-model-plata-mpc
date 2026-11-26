@@ -1,0 +1,6 @@
+identyfikacja: 7200 probek, R2 sila 0.9899, R2 opor 0.9967, 80 s
+faza 0.00: MPC D_rel -1.119 term False z -0.62..0.38 th -4.1..7.5 | PID2 D_rel -0.205
+faza 1.57: MPC D_rel -1.108 term False z -0.62..0.38 th -4.1..7.5 | PID2 D_rel -0.209
+faza 3.14: MPC D_rel -1.100 term False z -0.62..0.38 th -4.1..7.5 | PID2 D_rel -0.210
+faza 4.71: MPC D_rel -1.107 term False z -0.62..0.38 th -4.1..7.5 | PID2 D_rel -0.206
+gotowe 370.81003499031067 s

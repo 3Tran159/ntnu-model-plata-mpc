@@ -1,0 +1,29 @@
+explore\ExploreApi.java:24: error: method createMotion in class MotionManager cannot be applied to given types;
+   Motion hv=null;try{hv=mm.createMotion(OneDofTranslatingMotion.class,"Heave");}catch(Throwable e){w.println("create OneDof: "+e);}
+                           ^
+  required: Class<T>,String
+  found:    Class<OneDofTranslatingMotion>,String
+  reason: inference variable T has incompatible bounds
+    equality constraints: OneDofTranslatingMotion
+    upper bounds: Motion
+  where T is a type-variable:
+    T extends Motion declared in method <T>createMotion(Class<T>,String)
+explore\ExploreApi.java:25: error: method createMotion in class MotionManager cannot be applied to given types;
+   if(hv==null)try{hv=mm.createMotion(TwoDimensionalOneDofTranslatingMotion.class,"Heave2D");}catch(Throwable e){w.println("create 2D OneDof: "+e);}
+                        ^
+  required: Class<T>,String
+  found:    Class<TwoDimensionalOneDofTranslatingMotion>,String
+  reason: inference variable T has incompatible bounds
+    equality constraints: TwoDimensionalOneDofTranslatingMotion
+    upper bounds: Motion
+  where T is a type-variable:
+    T extends Motion declared in method <T>createMotion(Class<T>,String)
+explore\ExploreApi.java:34: error: no suitable method found for createBody(Class<ContinuumBody>)
+   try{body=bm.createBody(ContinuumBody.class);}catch(Throwable e){w.println("createBody(ContinuumBody): "+e);}
+              ^
+    method BodyManager.createBody(boolean) is not applicable
+      (argument mismatch; Class<ContinuumBody> cannot be converted to boolean)
+    method BodyManager.createBody(String) is not applicable
+      (argument mismatch; Class<ContinuumBody> cannot be converted to String)
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+3 errors

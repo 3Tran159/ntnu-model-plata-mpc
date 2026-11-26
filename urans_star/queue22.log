@@ -1,0 +1,9 @@
+2026-11-20 11:27:14 czekam na koniec kolejki 19
+2026-11-20 11:43:35 zmiana: zamiast OVS_LEVEL_T4_90 seria jednego MPC z celem z'' (0 / 0,25 g / maks) na fali Godo
+2026-11-20 11:43:42 czekam na koniec kolejki 19
+2026-11-20 20:03:42 start OVS_CEL_000g_90, jeden MPC, cel z'' RMS 0 m/s2, pid 33064
+2026-11-20 21:46:33 po OVS_CEL_000g_90: 0,25 g i maks pominiete (STOP), dalej kolejka 23
+2026-11-21 06:05:11 end OVS_CEL_000g_90 : {"result":"DONE","time_s":11.999999999998789,"steps_this_session":12000,"wall_s":35969.5736407}
+2026-11-21 06:05:11 OVS_CEL_025g_90 ma STOP - pomijam
+2026-11-21 06:05:11 OVS_CEL_MAX_90 ma STOP - pomijam
+2026-11-21 06:05:11 koniec kolejki 22

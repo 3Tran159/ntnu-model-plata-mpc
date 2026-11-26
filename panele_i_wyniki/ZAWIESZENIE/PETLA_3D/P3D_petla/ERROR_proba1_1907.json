@@ -1,0 +1,6 @@
+{"part_surfaces":"domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;gorny.gorny;dolny.dolny;plytka.plytka","stage":"build","error":"Following Parts need to be assigned to a Region because Volume Mesher is present in the Auto Mesh Operation: 
+P3D fluid
+Command: ExecuteMeshOperation
+   command: CommandComplete
+   error: Server Error
+"}

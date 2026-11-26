@@ -1,0 +1,42 @@
+bank DELTA -1.0 gotowy
+bank DELTA -0.5 gotowy
+bank DELTA +0.0 gotowy
+bank DELTA +0.5 gotowy
+bank DELTA +1.0 gotowy
+fala 1 pid2           : opor -16% | z -0.28..0.29 | zanurz. min 1.55c | zacc RMS 1.56
+fala 1 wyrocznia      : opor -46% | z -0.60..0.28 | zanurz. min 2.01c | zacc RMS 4.35
+fala 1 d3_bez_korekty : UPADEK po 8.08 s
+fala 1 wspolnie       : UPADEK po 8.07 s
+fala 1 kaskada        : UPADEK po 8.04 s | wybrane DELTA [-0.5, 0.0, 1.0] -> 0.0
+fala 1 kaskada+zapas  : UPADEK po 8.18 s | wybrane DELTA [-0.5, 0.0, 1.0] -> 0.0
+fala 3 pid2           : UPADEK po 27.34 s
+fala 3 wyrocznia      : opor -63% | z -0.61..0.33 | zanurz. min 1.84c | zacc RMS 4.50
+fala 3 d3_bez_korekty : UPADEK po 27.57 s
+fala 3 wspolnie       : UPADEK po 27.57 s
+fala 3 kaskada        : UPADEK po 23.89 s | wybrane DELTA [0.0, 0.5, 1.0] -> 0.5
+fala 3 kaskada+zapas  : UPADEK po 27.59 s | wybrane DELTA [-0.5, 0.0, 0.5, 1.0] -> 0.0
+fala 4 pid2           : UPADEK po 12.77 s
+fala 4 wyrocznia      : opor -54% | z -0.62..0.35 | zanurz. min 1.31c | zacc RMS 4.57
+fala 4 d3_bez_korekty : UPADEK po 12.96 s
+fala 4 wspolnie       : UPADEK po 12.97 s
+fala 4 kaskada        : UPADEK po 12.97 s | wybrane DELTA [-0.5, 0.0, 0.5, 1.0] -> 1.0
+fala 4 kaskada+zapas  : opor -47% | z -0.74..0.44 | zanurz. min 1.36c | zacc RMS 4.42 | wybrane DELTA [-1.0, -0.5, 0.0, 0.5, 1.0] -> 1.0
+fala 5 pid2           : opor -30% | z -0.27..0.31 | zanurz. min 1.50c | zacc RMS 1.89
+fala 5 wyrocznia      : opor -73% | z -0.59..0.26 | zanurz. min 1.98c | zacc RMS 4.65
+fala 5 d3_bez_korekty : UPADEK po 8.31 s
+fala 5 wspolnie       : opor -75% | z -0.54..0.26 | zanurz. min 1.97c | zacc RMS 4.49
+fala 5 kaskada        : opor -79% | z -0.58..0.28 | zanurz. min 1.96c | zacc RMS 4.64 | wybrane DELTA [-0.5, 0.0, 0.5, 1.0] -> -0.5
+fala 5 kaskada+zapas  : opor -74% | z -0.49..0.31 | zanurz. min 2.09c | zacc RMS 4.60 | wybrane DELTA [-0.5, 0.0, 0.5, 1.0] -> -0.5
+fala 6 pid2           : opor -23% | z -0.37..0.41 | zanurz. min 1.58c | zacc RMS 1.91
+fala 6 wyrocznia      : opor -63% | z -0.61..0.41 | zanurz. min 2.00c | zacc RMS 4.69
+fala 6 d3_bez_korekty : opor -52% | z -0.70..0.50 | zanurz. min 1.89c | zacc RMS 4.37
+fala 6 wspolnie       : opor -52% | z -0.70..0.50 | zanurz. min 1.90c | zacc RMS 4.38
+fala 6 kaskada        : opor -52% | z -0.69..0.50 | zanurz. min 1.94c | zacc RMS 4.38 | wybrane DELTA [-0.5, 0.0, 0.5, 1.0] -> 0.5
+fala 6 kaskada+zapas  : opor -48% | z -0.65..0.44 | zanurz. min 2.14c | zacc RMS 4.29 | wybrane DELTA [-0.5, 0.0, 0.5, 1.0] -> 0.5
+PODSUMOWANIE pid2           : przezyl 3/5, opor (gdy przezyl) -23.1 %
+PODSUMOWANIE wyrocznia      : przezyl 5/5, opor (gdy przezyl) -60.0 %
+PODSUMOWANIE d3_bez_korekty : przezyl 1/5, opor (gdy przezyl) -52.0 %
+PODSUMOWANIE wspolnie       : przezyl 2/5, opor (gdy przezyl) -63.4 %
+PODSUMOWANIE kaskada        : przezyl 2/5, opor (gdy przezyl) -65.9 %
+PODSUMOWANIE kaskada+zapas  : przezyl 3/5, opor (gdy przezyl) -56.1 %
+gotowe 1343 s

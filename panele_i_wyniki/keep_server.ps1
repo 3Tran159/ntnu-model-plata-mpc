@@ -1,0 +1,1 @@
+while($true){ & 'T:\NTNU_GODO_CONTROL_20261109\.venv\Scripts\python.exe' 'T:\NTNU_GODO_CONTROL_20261109\60_dashboard\live_server.py' 2>> 'T:\NTNU_GODO_CONTROL_20261109\60_dashboard\server.err'; Start-Sleep 5 }

@@ -1,0 +1,24 @@
+{
+ "L": {
+  "max_abs_diff": 0.0,
+  "rel_to_std": 0.0
+ },
+ "Fx": {
+  "max_abs_diff": 0.0,
+  "rel_to_std": 0.0
+ },
+ "Mp": {
+  "max_abs_diff": 0.0,
+  "rel_to_std": 0.0
+ },
+ "CL": {
+  "max_abs_diff": 0.0,
+  "rel_to_std": 0.0
+ },
+ "steps": 3000,
+ "dt": 0.0010000000000000009,
+ "s_batch": 0.46256303787231445,
+ "s_step": 0.5631773471832275,
+ "us_per_step": 187.72578239440918,
+ "PASS": true
+}

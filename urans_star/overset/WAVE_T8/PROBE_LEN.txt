@@ -1,0 +1,62 @@
+MINI_water_air / inlet VofWaveForcingLength
+   getMethod -> Constant
+   getMethods -> [Constant]
+   getChildren -> [Constant]
+   getDimensions -> Length
+   getDisplayName -> VOF Wave Forcing Length
+   getQualifiedName -> VOF Wave Forcing Length
+   getIcon -> org.openide.util.ImageUtilities$IconImageIcon@43e348ac
+   getServer -> Simulation@127.0.0.1:47831
+   getObjectRegistry -> star.base.neo.ObjectRegistry@560fbb53
+   getObjectKey -> star.vof.VofWaveForcingLength_2723189
+   getPropertyChangeObservable -> star.base.neo.NeoSubject@68a23323
+   getLinkedBeanPropertyDescriptors -> [Ljava.beans.PropertyDescriptor;@7086e4ee
+   getJournalKey -> star.base.neo.ObjectRegistry@560fbb53
+   getChangedObservable -> star.base.neo.NeoSubject@513e540e
+   getPresentationName -> VOF Wave Forcing Length
+   getChildrenComparator -> null
+   getMenuPresentationName -> VOF Wave Forcing Length
+   getBeanPropertyDescriptors -> [Ljava.beans.PropertyDescriptor;@2cab592e
+   getAsStringArg -> "VOF Wave Forcing Length"
+   getVisualId -> BoundaryConditionNodeIcon
+   getObjectKeyAsString -> star.vof.VofWaveForcingLength_2723189
+   getTagGroup -> star.common.TagGroup@58d31525
+   getObjectId -> 2723189
+   getAllowShowDependencies -> true
+   getReferences -> []
+   getIconChangedObservable -> star.base.neo.NeoSubject@7d9c9516
+   getJournal -> star.base.neo.NeoJournal@6eb90335
+   getVariableName -> VofWaveForcingLength
+   getJournalClassName -> VofWaveForcingLength
+   STALA = 15.613099917314933 m
+MINI_water_air / outlet VofWaveDampingLength
+   getMethod -> Constant
+   getMethods -> [Constant, Table (r), Table (iteration), Table (time), Table (x,y,z,time), Table (x,y,z), Field Function, User Code, Table (scalar physical quantity)]
+   getChildren -> [Constant]
+   getDimensions -> Length
+   getDisplayName -> VOF Wave Damping Length
+   getQualifiedName -> VOF Wave Damping Length
+   getIcon -> org.openide.util.ImageUtilities$IconImageIcon@43e348ac
+   getServer -> Simulation@127.0.0.1:47831
+   getObjectRegistry -> star.base.neo.ObjectRegistry@560fbb53
+   getObjectKey -> star.vof.VofWaveDampingLength_2723226
+   getPropertyChangeObservable -> star.base.neo.NeoSubject@1cc56dae
+   getLinkedBeanPropertyDescriptors -> [Ljava.beans.PropertyDescriptor;@5924e390
+   getJournalKey -> star.base.neo.ObjectRegistry@560fbb53
+   getChangedObservable -> star.base.neo.NeoSubject@3e93cdfb
+   getPresentationName -> VOF Wave Damping Length
+   getChildrenComparator -> null
+   getMenuPresentationName -> VOF Wave Damping Length
+   getBeanPropertyDescriptors -> [Ljava.beans.PropertyDescriptor;@35a1b082
+   getAsStringArg -> "VOF Wave Damping Length"
+   getVisualId -> BoundaryConditionNodeIcon
+   getObjectKeyAsString -> star.vof.VofWaveDampingLength_2723226
+   getTagGroup -> star.common.TagGroup@2be1385
+   getObjectId -> 2723226
+   getAllowShowDependencies -> true
+   getReferences -> []
+   getIconChangedObservable -> star.base.neo.NeoSubject@7cf84821
+   getJournal -> star.base.neo.NeoJournal@6eb90335
+   getVariableName -> VofWaveDampingLength
+   getJournalClassName -> VofWaveDampingLength
+   STALA = 31.226199834629867 m

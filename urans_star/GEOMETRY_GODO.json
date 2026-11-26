@@ -1,0 +1,46 @@
+{
+ "chord_m": 0.312,
+ "scale_from_mini": 0.26218487394957984,
+ "draft_m": 1.09,
+ "free_surface_y_m": 1.09,
+ "H_m": 1.5,
+ "T_s": 5.0,
+ "lambda_deep_m": 39.03274979328733,
+ "U_m_s": 12.346666666666666,
+ "domain_x_m": [
+  -46.83929975194479,
+  109.29169942120451
+ ],
+ "domain_y_m": [
+  -39.03274979328733,
+  4.09
+ ],
+ "span_m": 0.02,
+ "hinge_x_m": 0.24960000000000002,
+ "foil_points": 590,
+ "foil_x_range": [
+  -9.860773109243697e-05,
+  0.312
+ ],
+ "foil_y_range": [
+  -0.011049833949579833,
+  0.026458124369747902
+ ],
+ "patch_triangles": {
+  "Span0": 2777,
+  "Span1": 2777,
+  "Main": 826,
+  "Flap": 354,
+  "Inlet": 8,
+  "Outlet": 8,
+  "Bottom": 32,
+  "Top": 38
+ },
+ "encounter_omega_rad_s": 3.244106430196229,
+ "encounter_period_s": 1.9367999917313226,
+ "w_at_foil_m_s": 0.7908060381068575,
+ "q_dyn_x_c_x_span_N": 475.6133546666666,
+ "inflow_angle_amp_deg": 3.6647980884617435,
+ "reduced_frequency_k": 0.04098924971198259,
+ "steepness_H_over_lambda": 0.0384292679338201
+}

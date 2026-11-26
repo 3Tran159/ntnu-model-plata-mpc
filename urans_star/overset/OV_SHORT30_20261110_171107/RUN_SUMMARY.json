@@ -1,0 +1,78 @@
+{
+ "case": "T:\\NTNU_GODO_CONTROL_20261109\\70_godo_case\\overset\\OV_SHORT30_20261110_171107",
+ "launch": {
+  "returncode": 0,
+  "seconds": 187.3,
+  "bound": [
+   [
+    "3316",
+    "conhost"
+   ],
+   [
+    "5264",
+    "cmd"
+   ],
+   [
+    "5504",
+    "python"
+   ],
+   [
+    "17716",
+    "starccm+"
+   ],
+   [
+    "29952",
+    "cmd"
+   ],
+   [
+    "30420",
+    "python"
+   ],
+   [
+    "30780",
+    "conhost"
+   ]
+  ],
+  "cpus": [
+   0,
+   1
+  ],
+  "np": 2,
+  "gpu": false
+ },
+ "GODO_OVERSET.json": {
+  "old_mesh_ops_and_parts_removed": 5,
+  "overset_boundaries": [
+   "foil_main:WallBoundary",
+   "foil_flap:WallBoundary",
+   "ov_span_front:SymmetryBoundary",
+   "ov_span_back:SymmetryBoundary",
+   "overset:OversetMeshBoundary"
+  ],
+  "reports_repointed": [
+   "NN_pbody",
+   "NN_pflap",
+   "AF_Fx",
+   "AF_Fz",
+   "AF_Mh",
+   "AF_Flap_pAbs_Min",
+   "GODO_yplus_min",
+   "GODO_yplus_max",
+   "GODO_yplus_mean",
+   "GODO_yplus_frac_30_70",
+   "GODO_interfaceCFL"
+  ],
+  "mesh_seconds": 18.7907589,
+  "cells_total": 79991,
+  "interface": "IndirectRegionInterface",
+  "motion": {
+   "mass_kg": 31.300080128205128,
+   "sign": "STAR +z rotation = nose-down; GODO_pitch_deg is nose-up +",
+   "pivot": [
+    0.078,
+    0.0
+   ],
+   "type": "RotatingAndTranslatingMotion"
+  }
+ }
+}

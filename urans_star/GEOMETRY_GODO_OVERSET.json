@@ -1,0 +1,28 @@
+{
+ "overset_box_m": [
+  -0.2,
+  0.55,
+  -0.15,
+  0.15
+ ],
+ "pivot_m": [
+  0.078,
+  0.0
+ ],
+ "background_patches": {
+  "Span0": 268,
+  "Span1": 268,
+  "Bottom": 32,
+  "Inlet": 10,
+  "Outlet": 10,
+  "Top": 32
+ },
+ "overset_patches": {
+  "Span0": 2448,
+  "Span1": 2448,
+  "Flap": 354,
+  "Main": 826,
+  "Overset": 56
+ },
+ "note": "pivot at quarter chord (God\u00f8 does not state the rotation axis); flap sealed at 0 deg, rotates with the foil"
+}

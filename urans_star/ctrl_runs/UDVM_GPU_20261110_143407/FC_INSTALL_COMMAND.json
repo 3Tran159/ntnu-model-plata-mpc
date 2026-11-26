@@ -1,0 +1,1 @@
+{"ok":true,"definition":"${FC_Delta_Prev_deg}+(${FC_Delta_Next_deg}-${FC_Delta_Prev_deg})*max(0,min(1,($Time/<1 s>-${FC_T0_s})/${FC_Tick_s}))","reference_style":"${Name}"}

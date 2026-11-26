@@ -1,0 +1,37 @@
+11:02:03 start: W_A 2.2, KI 0.2, ome 3.2441, H 194, sonda 3.0 m przed LE (wyprzedzenie 0.149 s)
+11:03:58 takt 0 t 0.000 free 0 cmd +0.000
+11:08:43 seq 0 <= 8: restart makra - zeruje historie MPC
+11:08:43 historia fali z history.csv: 8 probek do t 0.071
+11:08:43 takt 0 t 0.000 free 0 cmd +0.000
+11:44:42 takt 100 t 1.000 free 0 cmd +2.338
+12:17:09 fala: w_e 5.944 rad/s (okres spotkania 1.057 s), w0 1.812 rad/s (okres fali 3.47 s), k 0.3346 1/m, wyprzedzenie sondy 0.169 s
+12:18:36 t 1.940 z -0.000 v -0.016 th +2.34 eta -0.342 | fala A 0.508 b +114.6 | ie +0.000 | cmd +7.50 | 0.14 s
+12:19:00 RLS: odrzucam krok (mnoznik 5.829)
+12:19:23 RLS: odrzucam krok (mnoznik -1.925)
+12:19:44 RLS: odrzucam krok (mnoznik -0.095)
+12:20:47 RLS: odrzucam krok (mnoznik 0.362)
+12:20:47 takt 200 t 2.000 free 1 cmd +7.500
+12:21:02 RLS: odrzucam krok (mnoznik 0.292)
+12:33:39 RLS: odrzucam krok (mnoznik 2.018)
+12:34:03 RLS: odrzucam krok (mnoznik 2.025)
+12:34:26 RLS: odrzucam krok (mnoznik 2.029)
+12:34:47 RLS: odrzucam krok (mnoznik 2.032)
+12:35:10 RLS: odrzucam krok (mnoznik 2.034)
+12:35:33 RLS: odrzucam krok (mnoznik 2.034)
+12:35:53 RLS: odrzucam krok (mnoznik 2.034)
+12:36:17 RLS: odrzucam krok (mnoznik 2.031)
+12:36:40 RLS: odrzucam krok (mnoznik 2.029)
+12:37:01 RLS: odrzucam krok (mnoznik 2.026)
+12:37:25 RLS: odrzucam krok (mnoznik 2.023)
+12:37:48 RLS: odrzucam krok (mnoznik 2.019)
+12:38:09 RLS: odrzucam krok (mnoznik 2.016)
+12:38:32 RLS: odrzucam krok (mnoznik 2.011)
+12:38:54 RLS: odrzucam krok (mnoznik 2.008)
+12:39:19 RLS: odrzucam krok (mnoznik 2.004)
+12:39:41 RLS: odrzucam krok (mnoznik 2.001)
+12:40:27 RLS: odrzucam krok (mnoznik 2.026)
+12:40:50 RLS: odrzucam krok (mnoznik 2.022)
+12:41:11 RLS: odrzucam krok (mnoznik 2.018)
+12:41:33 RLS: odrzucam krok (mnoznik 2.011)
+12:41:47 RLS: odrzucam krok (mnoznik 2.004)
+12:47:57 MPC_STOP - koniec

@@ -1,0 +1,156 @@
+[
+ {
+  "traj": "cal_A0p5_ph0",
+  "role": "sine",
+  "source": "H:\\NTNU_RESEARCH_ARCHIVE\\Active_Flaps\\URANS_XFOIL_CALIBRATION_20261107\\runs\\XFOIL_CAL_A0p5_PHASE0_20261107_193240",
+  "rows": 3645,
+  "t0": 3.9235000000004545,
+  "t1": 5.745499999999512,
+  "delta_min": -0.4999994637145017,
+  "delta_max": 0.4999993992134686,
+  "max_rate_deg_s": 6.896816046446975
+ },
+ {
+  "traj": "cal_A1_ph90",
+  "role": "sine",
+  "source": "H:\\NTNU_RESEARCH_ARCHIVE\\Active_Flaps\\URANS_XFOIL_CALIBRATION_20261107\\runs\\XFOIL_CAL_PHASE90_A1_20261107_095134",
+  "rows": 3645,
+  "t0": 3.9235000000004545,
+  "t1": 5.745499999999512,
+  "delta_min": -0.9999950529809153,
+  "delta_max": 0.999999999084549,
+  "max_rate_deg_s": 13.793615507818402
+ },
+ {
+  "traj": "cal_A1_ph180",
+  "role": "sine",
+  "source": "H:\\NTNU_RESEARCH_ARCHIVE\\Active_Flaps\\URANS_XFOIL_CALIBRATION_20261107\\runs\\XFOIL_CAL_PHASE180_A1_20261107_133449",
+  "rows": 3645,
+  "t0": 3.9235000000004545,
+  "t1": 5.745499999999512,
+  "delta_min": -0.9999987984269356,
+  "delta_max": 0.9999989274290085,
+  "max_rate_deg_s": 13.793632092895084
+ },
+ {
+  "traj": "cal_A1_ph270",
+  "role": "sine",
+  "source": "H:\\NTNU_RESEARCH_ARCHIVE\\Active_Flaps\\URANS_XFOIL_CALIBRATION_20261107\\runs\\XFOIL_CAL_PHASE270_A1_20261107_162450",
+  "rows": 3645,
+  "t0": 3.9235000000004545,
+  "t1": 5.745499999999512,
+  "delta_min": -0.9999999990845473,
+  "delta_max": 0.9999950529809135,
+  "max_rate_deg_s": 13.793615507820146
+ },
+ {
+  "traj": "cal_A2_ph0",
+  "role": "sine",
+  "source": "H:\\NTNU_RESEARCH_ARCHIVE\\Active_Flaps\\URANS_XFOIL_CALIBRATION_20261107\\runs\\XFOIL_CAL_A2p0_PHASE0_20261107_235230",
+  "rows": 3645,
+  "t0": 3.9235000000004545,
+  "t1": 5.745499999999512,
+  "delta_min": -1.9999978548580155,
+  "delta_max": 1.9999975968538657,
+  "max_rate_deg_s": 27.58726418578176
+ },
+ {
+  "traj": "cal_A2_ph90",
+  "role": "sine",
+  "source": "H:\\NTNU_RESEARCH_ARCHIVE\\Active_Flaps\\URANS_XFOIL_CALIBRATION_20261107\\runs\\XFOIL_CAL_A2p0_PHASE90_R1_20261108_195240",
+  "rows": 3645,
+  "t0": 3.9235000000004545,
+  "t1": 5.745499999999512,
+  "delta_min": -1.9999901059618297,
+  "delta_max": 1.9999999981690986,
+  "max_rate_deg_s": 27.587231015642402
+ },
+ {
+  "traj": "INT_SCRIPTED_091159",
+  "role": "steps",
+  "source": "T:\\NTNU_GODO_CONTROL_20261109\\30_runs\\INT_SCRIPTED_20261109_091159",
+  "rows": 400,
+  "t0": 3.9235000000004545,
+  "t1": 4.1230000000004114,
+  "delta_min": -0.9999999478185558,
+  "delta_max": 1.0000000521814463,
+  "max_rate_deg_s": 30.000000000153904
+ },
+ {
+  "traj": "INT_FIXED_091202",
+  "role": "fixed",
+  "source": "T:\\NTNU_GODO_CONTROL_20261109\\30_runs\\INT_FIXED_20261109_091202",
+  "rows": 400,
+  "t0": 3.9235000000004545,
+  "t1": 4.1230000000004114,
+  "delta_min": 5.218144360342288e-08,
+  "delta_max": 5.218144360342288e-08,
+  "max_rate_deg_s": 0.0
+ },
+ {
+  "traj": "FIXED_REF_091938",
+  "role": "fixed",
+  "source": "T:\\NTNU_GODO_CONTROL_20261109\\30_runs\\FIXED_REF_20261109_091938",
+  "rows": 1100,
+  "t0": 3.9235000000004545,
+  "t1": 4.4730000000002175,
+  "delta_min": 5.218144360342288e-08,
+  "delta_max": 5.218144360342288e-08,
+  "max_rate_deg_s": 0.0
+ },
+ {
+  "traj": "PI_KP08_091936",
+  "role": "pi_chatter",
+  "source": "T:\\NTNU_GODO_CONTROL_20261109\\30_runs\\PI_KP08_20261109_091936",
+  "rows": 1100,
+  "t0": 3.9235000000004545,
+  "t1": 4.4730000000002175,
+  "delta_min": -0.06322510488502334,
+  "delta_max": 0.08677489511497294,
+  "max_rate_deg_s": 30.000000000014627
+ },
+ {
+  "traj": "PI_LP_KP05_135212",
+  "role": "pi_lp",
+  "source": "T:\\NTNU_GODO_CONTROL_20261109\\30_runs\\PI_LP_KP05_20261109_135212",
+  "rows": 460,
+  "t0": 3.9235000000004545,
+  "t1": 4.153000000000395,
+  "delta_min": -0.07273557180452782,
+  "delta_max": 5.2181087152689084e-08,
+  "max_rate_deg_s": 0.7492611287451267
+ },
+ {
+  "traj": "FIXED_LONG_135203",
+  "role": "fixed",
+  "source": "T:\\NTNU_GODO_CONTROL_20261109\\30_runs\\FIXED_LONG_20261109_135203",
+  "rows": 620,
+  "t0": 3.9235000000004545,
+  "t1": 4.2330000000003505,
+  "delta_min": 5.218144360342288e-08,
+  "delta_max": 5.218144360342288e-08,
+  "max_rate_deg_s": 0.0
+ },
+ {
+  "traj": "MAP_FF180_135209",
+  "role": "map",
+  "source": "T:\\NTNU_GODO_CONTROL_20261109\\30_runs\\MAP_FF180_20261109_135209",
+  "rows": 720,
+  "t0": 3.9235000000004545,
+  "t1": 4.283000000000323,
+  "delta_min": -0.14857744615952984,
+  "delta_max": 0.029166505799843805,
+  "max_rate_deg_s": 1.592761165600809
+ },
+ {
+  "traj": "MAP_FF_135206",
+  "role": "map",
+  "source": "T:\\NTNU_GODO_CONTROL_20261109\\30_runs\\MAP_FF_20261109_135206",
+  "rows": 620,
+  "t0": 3.9235000000004545,
+  "t1": 4.2330000000003505,
+  "delta_min": -0.02916640143695374,
+  "delta_max": 0.1273529292023996,
+  "max_rate_deg_s": 1.5927611656014473
+ }
+]

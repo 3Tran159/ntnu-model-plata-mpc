@@ -1,0 +1,198 @@
+{
+ "case": "T:\\NTNU_GODO_CONTROL_20261109\\70_godo_case\\runs\\CLEAN_GPU1_B1_dt0.001_np1_gpu_20261109_205505",
+ "props": {
+  "mode": "probe",
+  "base_size_m": 1.0,
+  "dt_s": 0.001,
+  "probe_steps": 40,
+  "inner": 12,
+  "cores": "21",
+  "chord_m": 0.312,
+  "free_surface_y_m": 1.09,
+  "H_m": 1.5,
+  "x0_m": -46.83929975194479,
+  "band_x1_m": 78.06549958657465,
+  "U_m_s": 12.346666666666666,
+  "lambda_m": 39.03274979328733,
+  "bottom_y_m": -39.03274979328733,
+  "forcing_length_m": 15.613099917314933,
+  "damping_length_m": 31.226199834629867,
+  "foil_area_m2": 0.00795948899616472,
+  "encounter_period_s": 1.9367999917313226
+ },
+ "launch": {
+  "returncode": 0,
+  "seconds": 192.2,
+  "bound": [
+   [
+    "29232",
+    "starccm+"
+   ],
+   [
+    "33172",
+    "python"
+   ],
+   [
+    "35136",
+    "cmd"
+   ],
+   [
+    "36240",
+    "cmd"
+   ],
+   [
+    "36904",
+    "python"
+   ],
+   [
+    "37320",
+    "conhost"
+   ],
+   [
+    "40576",
+    "conhost"
+   ],
+   [
+    "41064",
+    "mpiexec"
+   ]
+  ],
+  "cpus": [
+   21
+  ],
+  "np": 1,
+  "gpu": true
+ },
+ "GODO_MESH.json": {
+  "cleanup": {
+   "scenes": 8,
+   "plots": 7,
+   "tables": 55,
+   "monitors": 20,
+   "reports": 1645,
+   "derived_parts": 338,
+   "mesh_operations": 1,
+   "geometry_parts": 3,
+   "user_field_functions": 29,
+   "reports_left": 15,
+   "monitors_left": 18
+  },
+  "base_size_m": 1.0,
+  "cells": 112305,
+  "mesh_seconds": 11.4934082,
+  "min_cell_quality": 0.1865806862952411,
+  "min_volume_m3": 1.807291426519132e-09,
+  "min_face_validity": 1.0,
+  "orientation_repaired": 0,
+  "wake_refinement": true,
+  "active_wave": "CB_StokesV 1",
+  "waves": [
+   "CB Initial Flat 1:FlatVofWave",
+   "NN_OutletFlat 1:FlatVofWave",
+   "NN_OutletFlat 2:FlatVofWave",
+   "NN_OutletFlat 3:FlatVofWave",
+   "NN_OutletFlat 4:FlatVofWave",
+   "NN_OutletFlat 5:FlatVofWave",
+   "NN_OutletFlat 6:FlatVofWave",
+   "NN_OutletFlat 7:FlatVofWave",
+   "NN_OutletFlat 8:FlatVofWave",
+   "NN_OutletFlat 9:FlatVofWave",
+   "NN_OutletFlat 10:FlatVofWave",
+   "NN_OutletFlat 11:FlatVofWave",
+   "NN_OutletFlat 12:FlatVofWave",
+   "NN_OutletFlat 13:FlatVofWave",
+   "NN_OutletFlat 14:FlatVofWave",
+   "NN_OutletFlat 15:FlatVofWave",
+   "NN_OutletFlat 16:FlatVofWave",
+   "NN_OutletFlat 17:FlatVofWave",
+   "NN_OutletFlat 18:FlatVofWave",
+   "CB_StokesV 1:FifthOrderVofWave",
+   "NN_OutletFlat 19:FlatVofWave",
+   "NN_OutletFlat 20:FlatVofWave",
+   "NN_OutletFlat 21:FlatVofWave",
+   "NN_OutletFlat 22:FlatVofWave",
+   "NN_OutletFlat 23:FlatVofWave",
+   "NN_OutletFlat 24:FlatVofWave",
+   "NN_OutletFlat 25:FlatVofWave"
+  ],
+  "coefficient_basis": {
+   "q_N": 475.61335466666657,
+   "buoyancy_N": 1.5616517410475184,
+   "defs": {
+    "AF_CL_old": "(${AF_FzReport}-<9810 N/m^3>*(<11.2 m^3>-${AF_FluidVolumeReport}))/<3855.6 N>",
+    "AF_CL_new": "(${AF_FzReport}-1.5616517410475184)/475.61335466666657",
+    "AF_CD_old": "${AF_FxReport}/<3855.6 N>",
+    "AF_CD_new": "${AF_FxReport}/475.61335466666657"
+   }
+  }
+ },
+ "COST_PROBE.json": {
+  "cleanup": {
+   "scenes": 8,
+   "plots": 7,
+   "tables": 55,
+   "monitors": 20,
+   "reports": 1645,
+   "derived_parts": 338,
+   "mesh_operations": 1,
+   "geometry_parts": 3,
+   "user_field_functions": 29,
+   "reports_left": 15,
+   "monitors_left": 18
+  },
+  "base_size_m": 1.0,
+  "cells": 112305,
+  "mesh_seconds": 11.4934082,
+  "min_cell_quality": 0.1865806862952411,
+  "min_volume_m3": 1.807291426519132e-09,
+  "min_face_validity": 1.0,
+  "orientation_repaired": 0,
+  "wake_refinement": true,
+  "active_wave": "CB_StokesV 1",
+  "waves": [
+   "CB Initial Flat 1:FlatVofWave",
+   "NN_OutletFlat 1:FlatVofWave",
+   "NN_OutletFlat 2:FlatVofWave",
+   "NN_OutletFlat 3:FlatVofWave",
+   "NN_OutletFlat 4:FlatVofWave",
+   "NN_OutletFlat 5:FlatVofWave",
+   "NN_OutletFlat 6:FlatVofWave",
+   "NN_OutletFlat 7:FlatVofWave",
+   "NN_OutletFlat 8:FlatVofWave",
+   "NN_OutletFlat 9:FlatVofWave",
+   "NN_OutletFlat 10:FlatVofWave",
+   "NN_OutletFlat 11:FlatVofWave",
+   "NN_OutletFlat 12:FlatVofWave",
+   "NN_OutletFlat 13:FlatVofWave",
+   "NN_OutletFlat 14:FlatVofWave",
+   "NN_OutletFlat 15:FlatVofWave",
+   "NN_OutletFlat 16:FlatVofWave",
+   "NN_OutletFlat 17:FlatVofWave",
+   "NN_OutletFlat 18:FlatVofWave",
+   "CB_StokesV 1:FifthOrderVofWave",
+   "NN_OutletFlat 19:FlatVofWave",
+   "NN_OutletFlat 20:FlatVofWave",
+   "NN_OutletFlat 21:FlatVofWave",
+   "NN_OutletFlat 22:FlatVofWave",
+   "NN_OutletFlat 23:FlatVofWave",
+   "NN_OutletFlat 24:FlatVofWave",
+   "NN_OutletFlat 25:FlatVofWave"
+  ],
+  "coefficient_basis": {
+   "q_N": 475.61335466666657,
+   "buoyancy_N": 1.5616517410475184,
+   "defs": {
+    "AF_CL_old": "(${AF_FzReport}-<9810 N/m^3>*(<11.2 m^3>-${AF_FluidVolumeReport}))/<3855.6 N>",
+    "AF_CL_new": "(${AF_FzReport}-1.5616517410475184)/475.61335466666657",
+    "AF_CD_old": "${AF_FxReport}/<3855.6 N>",
+    "AF_CD_new": "${AF_FxReport}/475.61335466666657"
+   }
+  },
+  "probe_steps": 40,
+  "solver_s_per_step_after_warmup": 0.5422213100000001,
+  "dt_s": 0.001,
+  "steps_per_encounter_period": 1936.7999917313225,
+  "hours_per_encounter_period": 0.29171506353459636,
+  "cores": "21"
+ }
+}

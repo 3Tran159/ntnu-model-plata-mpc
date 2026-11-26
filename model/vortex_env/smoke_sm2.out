@@ -1,0 +1,4 @@
+ARX: suma dL/dth 17685 N/m/rad, suma dL/dv -1653, suma wf 1527, R2 0.9976
+('pasywne_1.5Hz', 'MPC', 0.0) {'upadek': '|z kadluba - z_ref| > 0,75 m', 't_upadek': 1.71, 'upust': 0.0}
+('pasywne_0.7Hz', 'MPC', 0.0) {'upadek': '|z kadluba - z_ref| > 0,75 m', 't_upadek': 1.03, 'upust': 0.0}
+('polaktywne_v2', 'PID', 0.0) {'upadek': None, 't_upadek': None, 'upust': 0.403, 'plat_pct': np.float64(-26.03423342639526), 'tot_pct': np.float64(-20.255390941391305), 'acc_kadlub': 2.3485079862728733, 'sub_min_c': 1.7004404206393475, 'skok': [-0.2795677668118823, 0.21020856321752995], 'th': [-0.04791030430322597, 6.556885823202362], 'odzysk_W': 3.737263202632751}

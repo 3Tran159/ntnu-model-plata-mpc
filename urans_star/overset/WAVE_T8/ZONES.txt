@@ -1,0 +1,3 @@
+inlet VofWaveForcingLength: 15.613099917314933 -> 25.0 m
+outlet VofWaveDampingLength: 31.226199834629867 -> 60.0 m
+zapisano

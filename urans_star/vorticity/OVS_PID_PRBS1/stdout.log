@@ -1,0 +1,89 @@
+Starting local server: starserver.bat -power -cpubind off -np 8 -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcNzBfZ29kb19jYXNlXHZvcnRpY2l0eVxPVlNfUElEX1BSQlMxXGlucHV0LnNpbQ==
+The efficiency of some CPUs could not be determined. 
+The efficiency of some CPUs could not be determined. 
+The efficiency of some CPUs could not be determined. 
+The efficiency of some CPUs could not be determined. 
+The efficiency of some CPUs could not be determined. 
+The efficiency of some CPUs could not be determined. 
+The efficiency of some CPUs could not be determined. 
+CPU binding will not exclude the slowest CPU kind.
+The efficiency of some CPUs could not be determined. 
+CPU binding will not exclude the slowest CPU kind.
+CPU binding will not exclude the slowest CPU kind.
+CPU binding will not exclude the slowest CPU kind.
+CPU binding will not exclude the slowest CPU kind.
+CPU binding will not exclude the slowest CPU kind.
+CPU binding will not exclude the slowest CPU kind.
+
+
+
+
+
+
+
+CPU binding will not exclude the slowest CPU kind.
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0-7
+Process rank 0 THINKPAD-LUCJAN 28380
+Total number of processes : 8
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 28380
+Host ID 0 Rank 1 on THINKPAD-LUCJAN with process ID 30476
+Host ID 0 Rank 2 on THINKPAD-LUCJAN with process ID 14136
+Host ID 0 Rank 3 on THINKPAD-LUCJAN with process ID 16528
+Host ID 0 Rank 4 on THINKPAD-LUCJAN with process ID 4804
+Host ID 0 Rank 5 on THINKPAD-LUCJAN with process ID 4992
+Host ID 0 Rank 6 on THINKPAD-LUCJAN with process ID 13600
+Host ID 0 Rank 7 on THINKPAD-LUCJAN with process ID 4276
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 117 days
+Wed Nov 11 14:53:05 2026
+
+Server::start -host THINKPAD-LUCJAN:47827
+Loading: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\vorticity\OVS_PID_PRBS1\input.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Loading module: OversetModel
+Loading module: OversetFlowModel
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=16 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\vorticity\OVS_PID_PRBS1\ExportVorticity.java
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\vorticity\OVS_PID_PRBS1\ExportVorticity.java:39: warning: [deprecation] <T>createTable(java.lang.Class<T>) in star.common.TableManager has been deprecated
+      XyzInternalTable t = (XyzInternalTable) s.getTableManager().createTable(XyzInternalTable.class);
+                                                                 ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\vorticity\OVS_PID_PRBS1\ExportVorticity.java:50: warning: [deprecation] initializeAndWait() in star.vis.Scene has been deprecated
+    sc.setPresentationName("GODO vorticity"); sc.initializeAndWait();
+                                                ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\vorticity\OVS_PID_PRBS1\ExportVorticity.java:56: warning: [deprecation] setRange(star.base.neo.DoubleVector) in star.vis.DisplayQuantity has been deprecated
+    sd.getScalarDisplayQuantity().setRange(new DoubleVector(new double[]{-vmax, vmax}));
+                                 ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\vorticity\OVS_PID_PRBS1\ExportVorticity.java:61: warning: [deprecation] setInput(star.base.neo.DoubleVector,star.base.neo.DoubleVector,star.base.neo.DoubleVector,double,int,star.common.CoordinateSystem,boolean) in star.vis.VisView has been deprecated
+      sc.getCurrentView().setInput(new DoubleVector(new double[]{views[i][0], views[i][1], 0}), new DoubleVector(new double[]{views[i][0], views[i][1], 10}),
+                         ^
+Note: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\vorticity\OVS_PID_PRBS1\ExportVorticity.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+Loading/configuring connectivity (old|new partitions: 16|8)
+  MINI_water_air (index 0): 74702 cells, 223508 faces, 298812 verts.
+  GODO overset foil (index 1): 5289 cells, 14624 faces, 19432 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+Configuring finished
+Saving: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\vorticity\OVS_PID_PRBS1\vort_scene.sim... complete (235.03MB in 0.46592s).
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 0

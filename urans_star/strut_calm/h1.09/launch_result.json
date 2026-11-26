@@ -1,0 +1,15 @@
+{
+ "returncode": 0,
+ "seconds": 11477.8,
+ "bound": [
+  [
+   "4576",
+   "conhost"
+  ]
+ ],
+ "cpus": [
+  23
+ ],
+ "np": 1,
+ "gpu": true
+}

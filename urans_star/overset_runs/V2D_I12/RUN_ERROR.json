@@ -1,0 +1,1 @@
+{"error":"Continuum or phase 'MINI_URANS_VOF_2D 2D' has incompatible models: [{star.vof.VofWaveModel and star.metrics.TwoDimensionalModel},].  Model rules may have changed for newer version. Please remove models as needed. Command: InitializeSolution    command: CommandComplete    error: Server Error "}

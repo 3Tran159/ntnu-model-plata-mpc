@@ -1,0 +1,17 @@
+{
+ "time_s": "11.620999999998999",
+ "ff_VolumeFractionwater": "Volume Fraction of water",
+ "ff_OversetCellStatus": "Overset Cell Status",
+ "ff_OversetCellType": "Overset Cell Type",
+ "ff_OversetTestData": "Overset Test Data",
+ "ff_Overset Grid Volume": "Overset Grid Volume",
+ "ff_Overset Grid Area": "Overset Grid Area",
+ "ff_OversetErrorStatus": "Overset Error Status",
+ "ff_OversetInterpolationType": "Overset Interpolation Type",
+ "ff_Overset Interpolation Cell Size Ratio": "Overset Interpolation Cell Size Ratio",
+ "ff_OversetInterface0::OversetGapDistance": "Overset Gap Distance of GODO overset interface",
+ "table_vort_background.csv": "ok",
+ "table_vort_overset.csv": "ok",
+ "saved": "vort_scene.sim",
+ "done": "1"
+}

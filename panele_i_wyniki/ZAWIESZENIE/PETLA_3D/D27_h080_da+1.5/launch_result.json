@@ -1,0 +1,27 @@
+{
+ "returncode": 0,
+ "seconds": 230.0,
+ "bound": [
+  [
+   "3660",
+   "conhost"
+  ],
+  [
+   "8792",
+   "cmd"
+  ],
+  [
+   "18800",
+   "python"
+  ],
+  [
+   "33760",
+   "starccm+"
+  ]
+ ],
+ "cpus": [
+  23
+ ],
+ "np": 1,
+ "gpu": true
+}

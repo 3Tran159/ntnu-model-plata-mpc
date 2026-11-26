@@ -1,0 +1,286 @@
+Position | Position
+RegionIndex | Region Index
+ConnectedCells | Connected Cells
+UnmatchedEdgeCount | Unmatched Edge Count
+ElemType | Element Type
+FaceType | Face Type
+LocalCellIndex | Cell Index
+LocalFaceIndex | Face Index
+InterfaceParent | Interface Parent Face Index
+BoundaryIndex | Boundary Index
+InterfaceParentBoundaryIndex | Interface Parent Boundary Index
+PartSurfaceContactIndex | Part Surface Contact Index
+PrismLayerCells | Prism Layer Cells
+PrismLayerNumber | Prism Layer Number
+ProstarCellIndex | pro-STAR Cell Id
+NonConformalInterfaceFace | Non-Conformal Interface Faces
+CellGeometryPartIndex | Cell Part Index
+FacePartSurfaceIndex | Face Part Surface Index
+PartitionId | Partition
+BCB_Xi | Boundary Circumferential Bin Coordinate
+BCB_BinIndex | Boundary Circumferential Bin Index
+MappedFacetCount | Mapped Facet Count
+MappedFacetAreaMatch | Mapped Facet Area Match
+DeviationDistance.Root | DeviationDistance.Root
+Area | Area
+Centroid | Centroid
+EdgeLength | EdgeLength
+FaceQuality | FaceQuality
+FreeEdges | FreeEdges
+NonmanifoldEdges | NonmanifoldEdges
+SurfacePatch | SurfacePatch
+FreeSurfaceQualityIndicator | Free Surface Quality Indicator
+Volume | Volume
+Normal | Normal
+RadialCoordinate | Radial Coordinate
+PeriodicIndex | Periodic Index
+FaceValidity | Face Validity
+SkewnessAngle | Skewness Angle
+LeastSquaresQuality | Least Squares Quality
+ZeroFaceAreaIndicator | Zero Face Area Indicator
+BoundarySliverCellIndicator | Boundary Sliver Cell Indicator
+ChevronQuality | Chevron Quality
+CellAspectRatio | Cell Aspect Ratio
+VolumeChange | Volume Change
+PrismCellThickness | Prism Cell Thickness
+FirstPrismLayerHeight | First Prism Layer Height
+CellQuality | Cell Quality
+CellWarpageQuality | Cell Warpage Quality
+Iteration | Iteration
+InnerIteration | Inner Iteration
+Time | Time
+TimeStep | Time Step
+TimeLevel | Time Level
+VolumeFractionwater | Volume Fraction of water
+EffectiveVolumewater | Effective Volume of water
+VolumeFractionair | Volume Fraction of air
+EffectiveVolumeair | Effective Volume of air
+DynamicViscosity | Dynamic Viscosity
+EffectiveViscosity | Effective Viscosity
+Density | Density
+Pressure | Pressure
+AbsolutePressure | Absolute Pressure
+StaticPressure | Static Pressure
+Velocity | Velocity
+RelativeVelocity | Relative Velocity
+CellRelativeVelocity | Cell Relative Velocity
+AxialVelocity | Axial Velocity
+RadialVelocity | Radial Velocity
+TangentialVelocity | Tangential Velocity
+RelativeTangentialVelocity | Relative Tangential Velocity
+MassImbalance | Mass Imbalance
+FaceFlux | Mass Flow Rate
+MassFlux | Mass Flux
+PressureCoefficient | Pressure Coefficient
+FlowAngle | Flow Direction
+WallShearStress | Wall Shear Stress
+SkinFrictionCoefficient | Skin Friction Coefficient
+CourantNumber | Convective Courant Number
+VorticityVector | Vorticity
+Qcriterion | Q-Criterion
+Lambda2 | Lambda 2 criterion
+Helicity | Helicity
+LambVector | Lamb Vector
+TurbulentCharge | Turbulent Charge
+EffectiveVolume | Effective Volume
+Densitywater | Density of water
+MassFlowRatewater | Mass Flow Rate of water
+MassFluxwater | Mass Flux of water
+MassImbalancewater | Mass Imbalance of water
+TotalPressurewater | Total Pressure of water
+AbsoluteTotalPressurewater | Absolute Total Pressure of water
+Densityair | Density of air
+MassFlowRateair | Mass Flow Rate of air
+MassFluxair | Mass Flux of air
+MassImbalanceair | Mass Imbalance of air
+TotalPressureair | Total Pressure of air
+AbsoluteTotalPressureair | Absolute Total Pressure of air
+GaussLSQ::Beta | LSQ gradient scaling factor
+MaximumReconstructionCoefficient | Maximum Reconstruction Coefficient
+TurbulentViscosityRatio | Turbulent Viscosity Ratio
+TurbulentViscosity | Turbulent Viscosity
+TurbulentKineticEnergy | Turbulent Kinetic Energy
+SpecificDissipationRate | Specific Dissipation Rate
+TurbulentDissipationRate | Turbulent Dissipation Rate
+WallDistance | Wall Distance
+Ustar | Ustar
+WallYplus | Wall Y+
+VirtualLocalHeatTransferCoefficient | Virtual Local Heat Transfer Coefficient
+ForcingSourceTerm | Forcing Source Term
+DampingSourceTerm | Damping Source Term
+DampingBoundaryDistance | Damping Boundary Distance
+ForcingBoundaryDistance | Forcing Boundary Distance
+DampingStrengthIndicator | Damping Strength Indicator
+ForcingStrengthIndicator | Forcing Strength Indicator
+RelativeZoneDistance | Relative Zone Distance
+VofWaveDampingFactor | VOF Wave Damping Factor
+DynamicViscositywater | Dynamic Viscosity of water
+DynamicViscosityair | Dynamic Viscosity of air
+VolumeFractionHeavyFluidWave0 | Volume Fraction of Heavy Fluid of CB Initial Flat 1
+VolumeFractionLightFluidWave0 | Volume Fraction of Light Fluid of CB Initial Flat 1
+HydrostaticPressureWave0 | Hydrostatic Pressure of Heavy Fluid of CB Initial Flat 1
+VelocityWave0 | Velocity of CB Initial Flat 1
+VolumeFractionHeavyFluidWave1 | Volume Fraction of Heavy Fluid of NN_OutletFlat 1
+VolumeFractionLightFluidWave1 | Volume Fraction of Light Fluid of NN_OutletFlat 1
+HydrostaticPressureWave1 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 1
+VelocityWave1 | Velocity of NN_OutletFlat 1
+NN_interfaceCFLReport | Report: NN_interfaceCFL
+NN_CFLReport | Report: NN_CFL
+NN_pminReport | Report: NN_pmin
+NN_pbodyReport | Report: NN_pbody
+NN_pflapReport | Report: NN_pflap
+VolumeFractionHeavyFluidWave2 | Volume Fraction of Heavy Fluid of NN_OutletFlat 2
+VolumeFractionLightFluidWave2 | Volume Fraction of Light Fluid of NN_OutletFlat 2
+HydrostaticPressureWave2 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 2
+VelocityWave2 | Velocity of NN_OutletFlat 2
+VolumeFractionHeavyFluidWave3 | Volume Fraction of Heavy Fluid of NN_OutletFlat 3
+VolumeFractionLightFluidWave3 | Volume Fraction of Light Fluid of NN_OutletFlat 3
+HydrostaticPressureWave3 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 3
+VelocityWave3 | Velocity of NN_OutletFlat 3
+VolumeFractionHeavyFluidWave4 | Volume Fraction of Heavy Fluid of NN_OutletFlat 4
+VolumeFractionLightFluidWave4 | Volume Fraction of Light Fluid of NN_OutletFlat 4
+HydrostaticPressureWave4 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 4
+VelocityWave4 | Velocity of NN_OutletFlat 4
+AF_FxReport | Report: AF_Fx
+AF_FzReport | Report: AF_Fz
+AF_MhReport | Report: AF_Mh
+AF_UnitVolume | User Field Function 6
+AF_FluidVolumeReport | Report: AF_FluidVolume
+AF_CLReport | Report: AF_CL
+AF_CDReport | Report: AF_CD
+AF_Flap_pAbs_MinReport | Report: AF_Flap_pAbs_Min
+AF_TimeReport | Report: AF_Time
+AF_Delta_Command_degReport | Report: AF_Delta_Command_deg
+AF_Delta_Measured_degReport | Report: AF_Delta_Measured_deg
+VolumeFractionHeavyFluidWave5 | Volume Fraction of Heavy Fluid of NN_OutletFlat 5
+VolumeFractionLightFluidWave5 | Volume Fraction of Light Fluid of NN_OutletFlat 5
+HydrostaticPressureWave5 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 5
+VelocityWave5 | Velocity of NN_OutletFlat 5
+MeshingPatchIndex | Meshing Patch Index
+LocalMeshReplacer::SubMeshId | LocalMeshReplacer::SubMeshId
+VolumeFractionHeavyFluidWave6 | Volume Fraction of Heavy Fluid of NN_OutletFlat 6
+VolumeFractionLightFluidWave6 | Volume Fraction of Light Fluid of NN_OutletFlat 6
+HydrostaticPressureWave6 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 6
+VelocityWave6 | Velocity of NN_OutletFlat 6
+VolumeFractionHeavyFluidWave7 | Volume Fraction of Heavy Fluid of NN_OutletFlat 7
+VolumeFractionLightFluidWave7 | Volume Fraction of Light Fluid of NN_OutletFlat 7
+HydrostaticPressureWave7 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 7
+VelocityWave7 | Velocity of NN_OutletFlat 7
+VolumeFractionHeavyFluidWave8 | Volume Fraction of Heavy Fluid of NN_OutletFlat 8
+VolumeFractionLightFluidWave8 | Volume Fraction of Light Fluid of NN_OutletFlat 8
+HydrostaticPressureWave8 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 8
+VelocityWave8 | Velocity of NN_OutletFlat 8
+VolumeFractionHeavyFluidWave9 | Volume Fraction of Heavy Fluid of NN_OutletFlat 9
+VolumeFractionLightFluidWave9 | Volume Fraction of Light Fluid of NN_OutletFlat 9
+HydrostaticPressureWave9 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 9
+VelocityWave9 | Velocity of NN_OutletFlat 9
+VolumeFractionHeavyFluidWave10 | Volume Fraction of Heavy Fluid of NN_OutletFlat 10
+VolumeFractionLightFluidWave10 | Volume Fraction of Light Fluid of NN_OutletFlat 10
+HydrostaticPressureWave10 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 10
+VelocityWave10 | Velocity of NN_OutletFlat 10
+VolumeFractionHeavyFluidWave11 | Volume Fraction of Heavy Fluid of NN_OutletFlat 11
+VolumeFractionLightFluidWave11 | Volume Fraction of Light Fluid of NN_OutletFlat 11
+HydrostaticPressureWave11 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 11
+VelocityWave11 | Velocity of NN_OutletFlat 11
+VolumeFractionHeavyFluidWave12 | Volume Fraction of Heavy Fluid of NN_OutletFlat 12
+VolumeFractionLightFluidWave12 | Volume Fraction of Light Fluid of NN_OutletFlat 12
+HydrostaticPressureWave12 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 12
+VelocityWave12 | Velocity of NN_OutletFlat 12
+VolumeFractionHeavyFluidWave13 | Volume Fraction of Heavy Fluid of NN_OutletFlat 13
+VolumeFractionLightFluidWave13 | Volume Fraction of Light Fluid of NN_OutletFlat 13
+HydrostaticPressureWave13 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 13
+VelocityWave13 | Velocity of NN_OutletFlat 13
+VolumeFractionHeavyFluidWave14 | Volume Fraction of Heavy Fluid of NN_OutletFlat 14
+VolumeFractionLightFluidWave14 | Volume Fraction of Light Fluid of NN_OutletFlat 14
+HydrostaticPressureWave14 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 14
+VelocityWave14 | Velocity of NN_OutletFlat 14
+VolumeFractionHeavyFluidWave15 | Volume Fraction of Heavy Fluid of NN_OutletFlat 15
+VolumeFractionLightFluidWave15 | Volume Fraction of Light Fluid of NN_OutletFlat 15
+HydrostaticPressureWave15 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 15
+VelocityWave15 | Velocity of NN_OutletFlat 15
+VolumeFractionHeavyFluidWave16 | Volume Fraction of Heavy Fluid of NN_OutletFlat 16
+VolumeFractionLightFluidWave16 | Volume Fraction of Light Fluid of NN_OutletFlat 16
+HydrostaticPressureWave16 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 16
+VelocityWave16 | Velocity of NN_OutletFlat 16
+VolumeFractionHeavyFluidWave17 | Volume Fraction of Heavy Fluid of NN_OutletFlat 17
+VolumeFractionLightFluidWave17 | Volume Fraction of Light Fluid of NN_OutletFlat 17
+HydrostaticPressureWave17 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 17
+VelocityWave17 | Velocity of NN_OutletFlat 17
+VolumeFractionHeavyFluidWave18 | Volume Fraction of Heavy Fluid of NN_OutletFlat 18
+VolumeFractionLightFluidWave18 | Volume Fraction of Light Fluid of NN_OutletFlat 18
+HydrostaticPressureWave18 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 18
+VelocityWave18 | Velocity of NN_OutletFlat 18
+VolumeFractionHeavyFluidWave19 | Volume Fraction of Heavy Fluid of CB_StokesV 1
+VolumeFractionLightFluidWave19 | Volume Fraction of Light Fluid of CB_StokesV 1
+HydrostaticPressureWave19 | Hydrostatic Pressure of Heavy Fluid of CB_StokesV 1
+VelocityWave19 | Velocity of CB_StokesV 1
+VolumeFractionHeavyFluidWave20 | Volume Fraction of Heavy Fluid of NN_OutletFlat 19
+VolumeFractionLightFluidWave20 | Volume Fraction of Light Fluid of NN_OutletFlat 19
+HydrostaticPressureWave20 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 19
+VelocityWave20 | Velocity of NN_OutletFlat 19
+VolumeFractionHeavyFluidWave21 | Volume Fraction of Heavy Fluid of NN_OutletFlat 20
+VolumeFractionLightFluidWave21 | Volume Fraction of Light Fluid of NN_OutletFlat 20
+HydrostaticPressureWave21 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 20
+VelocityWave21 | Velocity of NN_OutletFlat 20
+VolumeFractionHeavyFluidWave22 | Volume Fraction of Heavy Fluid of NN_OutletFlat 21
+VolumeFractionLightFluidWave22 | Volume Fraction of Light Fluid of NN_OutletFlat 21
+HydrostaticPressureWave22 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 21
+VelocityWave22 | Velocity of NN_OutletFlat 21
+VolumeFractionHeavyFluidWave23 | Volume Fraction of Heavy Fluid of NN_OutletFlat 22
+VolumeFractionLightFluidWave23 | Volume Fraction of Light Fluid of NN_OutletFlat 22
+HydrostaticPressureWave23 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 22
+VelocityWave23 | Velocity of NN_OutletFlat 22
+VolumeFractionHeavyFluidWave24 | Volume Fraction of Heavy Fluid of NN_OutletFlat 23
+VolumeFractionLightFluidWave24 | Volume Fraction of Light Fluid of NN_OutletFlat 23
+HydrostaticPressureWave24 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 23
+VelocityWave24 | Velocity of NN_OutletFlat 23
+VolumeFractionHeavyFluidWave25 | Volume Fraction of Heavy Fluid of NN_OutletFlat 24
+VolumeFractionLightFluidWave25 | Volume Fraction of Light Fluid of NN_OutletFlat 24
+HydrostaticPressureWave25 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 24
+VelocityWave25 | Velocity of NN_OutletFlat 24
+VolumeFractionHeavyFluidWave26 | Volume Fraction of Heavy Fluid of NN_OutletFlat 25
+VolumeFractionLightFluidWave26 | Volume Fraction of Light Fluid of NN_OutletFlat 25
+HydrostaticPressureWave26 | Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 25
+VelocityWave26 | Velocity of NN_OutletFlat 25
+GODOmeshminCellQualityReport | Report: GODO mesh min CellQuality
+GODOmeshminVolumeReport | Report: GODO mesh min Volume
+GODOmeshminFaceValidityReport | Report: GODO mesh min FaceValidity
+GODO_yplus_minReport | Report: GODO_yplus_min
+GODO_yplus_maxReport | Report: GODO_yplus_max
+GODO_yplus_meanReport | Report: GODO_yplus_mean
+GODO_yplus_in_30_70 | GODO_yplus_in_30_70
+GODO_yplus_frac_30_70Report | Report: GODO_yplus_frac_30_70
+GODO_interface_Courant | GODO_interface_Courant
+GODO_interfaceCFLReport | Report: GODO_interfaceCFL
+GODO_eta_upstream_quarter_lambda_SIReport | Report: GODO_eta_upstream_quarter_lambda_SI
+GODO_eta_upstream_quarter_lambdaReport | Report: GODO_eta_upstream_quarter_lambda
+GODO_eta_at_LE_SIReport | Report: GODO_eta_at_LE_SI
+GODO_eta_at_LEReport | Report: GODO_eta_at_LE
+GODO_eta_at_hinge_SIReport | Report: GODO_eta_at_hinge_SI
+GODO_eta_at_hingeReport | Report: GODO_eta_at_hinge
+OversetCellStatus | Overset Cell Status
+OversetCellType | Overset Cell Type
+OversetTestData | Overset Test Data
+Overset Grid Volume | Overset Grid Volume
+Overset Grid Area | Overset Grid Area
+VisCellStatus | Visualization Cell Status
+OversetErrorStatus | Overset Error Status
+OversetInterpolationType | Overset Interpolation Type
+Overset Interpolation Cell Size Ratio | Overset Interpolation Cell Size Ratio
+OversetInterface0::OversetGapDistance | Overset Gap Distance of GODO overset interface
+GridFlux | Grid Flux
+GridVelocity | GridVelocity
+AF_Cycle_Command | AF_Cycle_Command
+GODO_Pitch_deg | GODO_Pitch_deg
+RotationRate | Rotation Rate
+TranslationVelocity | Translation Velocity
+GridVelocityVar | Grid Velocity
+SavedCoord | SavedCoord
+InitialCoord | InitialCoord
+GODO_heave_mReport | Report: GODO_heave_m
+GODO_heave_velocityReport | Report: GODO_heave_velocity
+GODO_pitch_degReport | Report: GODO_pitch_deg
+GODO_foil_y_centroid_mReport | Report: GODO_foil_y_centroid_m
+GODO_M_pivotReport | Report: GODO_M_pivot
+GODO_Fy_fluidReport | Report: GODO_Fy_fluid
+GODO_lift_over_weightReport | Report: GODO_lift_over_weight

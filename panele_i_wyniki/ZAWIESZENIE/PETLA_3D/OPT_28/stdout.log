@@ -1,0 +1,624 @@
+Starting local server: starserver.bat -new -power -cpubind off -np 1 -printpids 
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 42876
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 42876
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 112 days
+Mon Nov 16 02:10:37 2026
+
+Server::start -host THINKPAD-LUCJAN:47829
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_28\BuildPetla3D.java
+T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_28\BuildPetla3D.java:132: warning: [deprecation] initializeAndWait() in star.vis.Scene has been deprecated
+  Scene g=s.getSceneManager().createScene("P3D geometria");g.setPresentationName("P3D geometria");g.initializeAndWait();
+                                                                                                   ^
+T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_28\BuildPetla3D.java:140: warning: [deprecation] initializeAndWait() in star.vis.Scene has been deprecated
+   Scene sc=s.getSceneManager().createScene(c[0]);sc.setPresentationName(c[0]);sc.initializeAndWait();
+                                                                                 ^
+T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_28\BuildPetla3D.java:148: warning: [deprecation] setInput(star.base.neo.DoubleVector,star.base.neo.DoubleVector,star.base.neo.DoubleVector,double,int,star.common.CoordinateSystem,boolean) in star.vis.VisView has been deprecated
+  sc.getCurrentView().setInput(new DoubleVector(f),new DoubleVector(p),new DoubleVector(new double[]{0,0,1}),scale,1,s.getCoordinateSystemManager().getLabCoordinateSystem(),false);
+                     ^
+
+Loading module: StarMeshing
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Reading surface from .stl file: domena.stl
+Scaling from model units: meter
+Done importing surface: CPU Time: 0.02, Wall Time: 0.00, Memory: 156.21 MB
+Imported surface statistics:
+  # Faces:         12
+  # Vertices:      8
+  # Special Edges: 0
+
+Reading surface from .stl file: bryla.stl
+Scaling from model units: meter
+Done importing surface: CPU Time: 1.05, Wall Time: 1.04, Memory: 159.80 MB
+Imported surface statistics:
+  # Faces:         73036
+  # Vertices:      36520
+  # Special Edges: 0
+
+Mesh Operation P3D Subtract - domena minus platy complete. CPU Time: 0.31, Wall Time: 0.31, Memory: 166.01 MB
+Loading module: StarResurfacer
+Loading module: StarTrimmer
+Started Parasolid modeler version 38.1.151
+ Only 1 part was assigned to a region
+9 part surfaces were assigned to 9 boundaries
+No Interfaces were created
+Loading module: MotionModel
+Loading module: MaterialModel
+Reading material property database "E:\Program Files\Siemens\21.04.009-R8\STAR-CCM+21.04.009-R8\star\data\props.mdb"...
+Loading module: SegregatedFlowModel
+Loading module: KwTurbModel
+----------------------------------------
+Executing Mesh Operation P3D Automated mesh (rozmiary wzgledem cieciwy, edytowalne)
+----------------------------------------
+----------------------------------------
+Preparing surface for surface meshing in Parts: 
+----------------------------------------
+
+----------------------------------------
+finished preparing surface for surface meshing CPU Time: 0.05, Wall Time: 0.05, Memory: 235.45 MB
+----------------------------------------
+----------------------------------------
+Executing Surface Remesher
+----------------------------------------
+ Running in serial
+ Growth rate for Triangle meshing with Default growth is 1.3
+ Project to discrete geometry
+
+ Tri Quality     Faces    Percent
+   < 0.001        4426       5.9
+   < 0.01         9449      12.6
+   < 0.05        41784      55.8
+   < 0.1         74801     100.0
+   < 0.2         74802     100.0
+   < 0.3         74802     100.0
+   < 0.4         74802     100.0
+   < 0.5         74804     100.0
+   < 0.6         74808     100.0
+   < 0.7         74808     100.0
+   < 0.8         74815     100.0
+   < 0.9         74816     100.0
+   < 1.0         74816     100.0
+ Worst Tri quality is 3.928e-09
+
+ initial number of faces: 74816
+
+ Phase 1: Apply Global Limits
+      current number of faces: 140000
+
+   Tri Quality     Faces    Percent
+     < 0.001           0       0.0
+     < 0.01          150       0.1
+     < 0.05         2024       1.2
+     < 0.1         34650      21.3
+     < 0.2        103718      63.6
+     < 0.3        121583      74.6
+     < 0.4        136678      83.8
+     < 0.5        145790      89.4
+     < 0.6        150954      92.6
+     < 0.7        154852      95.0
+     < 0.8        157920      96.9
+     < 0.9        160550      98.5
+     < 1.0        163014     100.0
+   Worst Tri quality is 0.00151
+
+
+ Phase 2: Improve Grading
+      current number of faces: 200000
+      current number of faces: 300000
+      current number of faces: 400000
+      current number of faces: 500000
+
+   Tri Quality     Faces    Percent
+     < 0.001           0       0.0
+     < 0.01            0       0.0
+     < 0.05            2       0.0
+     < 0.1             4       0.0
+     < 0.2             6       0.0
+     < 0.3            21       0.0
+     < 0.4           109       0.0
+     < 0.5           854       0.2
+     < 0.6          6622       1.3
+     < 0.7         24778       4.8
+     < 0.8         74643      14.4
+     < 0.9        208157      40.2
+     < 1.0        517514     100.0
+   Worst Tri quality is 0.01588
+
+
+ Phase 3: Start Improve Quality
+
+   Phase 4: Improve Quality
+
+   Phase 5: Specialized Meshing
+
+   Phase 6: Final Improve Quality
+   Phase 7: Post-processing
+         No intersections found
+      0 faces with quality below 0.05
+
+ Tri Quality     Faces    Percent
+   < 0.001           0       0.0
+   < 0.01            0       0.0
+   < 0.05            0       0.0
+   < 0.1             0       0.0
+   < 0.2             0       0.0
+   < 0.3             0       0.0
+   < 0.4             0       0.0
+   < 0.5             1       0.0
+   < 0.6            15       0.0
+   < 0.7           661       0.1
+   < 0.8         19839       3.8
+   < 0.9        111994      21.7
+   < 1.0        515326     100.0
+ Worst Tri quality is 0.4991
+
+ final number of faces: 515326
+                   |   Default Mesher | 
+           Patches |                9 | 
+         Triangles |           515326 | 
+ Aligned mesh created for 5 patches
+    1% of tris created by aligned mesher
+
+ Elapsed time: 27.30 secs total, 8.10 secs potentially parallelizable (29.66% of total)
+----------------------------------------
+Surface Remesher Completed: CPU Time: 27.17, Wall Time: 27.30, Memory: 306.45 MB
+----------------------------------------
+----------------------------------------
+Executing Automatic Surface Repair
+----------------------------------------
+Fixing surface
+   Removed 0 duplicate faces.
+ 
+   Surface Fixing Iteration 1:  
+ 
+   Surface Fixing Iteration 2:  
+0 close proximity(<0.01) faces
+   done SurfaceFixer CPU Time: 0.16, Wall Time: 0.17, Memory: 331.86 MB
+----------------------------------------
+Automatic Surface Repair Completed: CPU Time: 1.66, Wall Time: 1.69, Memory: 291.88 MB
+----------------------------------------
+Surface Diagnostics: 
+Found 1 isolated surfaces from 1 parts.
+ Isolated surface index: 1, face count: 515326, area: 2266.68, reference location: (-8 0 -8)
+Total => Surfaces: 1, Faces: 515326, Area: 2266.68
+
+Dihedral diagnostics is executed for edges of prism growing surfaces only. Special edges are not reported.
+ Dihedral Diagnostics:
+ |Angle Range|Prism Growing Edges|High Dihedral Edges|
+ |   0 -  18 |             701203|                  0|
+ |  18 -  36 |              18780|                  0|
+ |  36 -  54 |                541|                  3|
+ |  54 -  72 |                  0|                  0|
+ |  72 -  90 |                  0|                  0|
+ |  90 - 108 |                  0|                  0|
+ | 108 - 126 |                  0|                  0|
+ | 126 - 144 |                 15|                 15|
+ | 144 - 162 |               1518|               1518|
+ | 162 - 180 |                669|                669|
+Total => prism growing edges: 722726, high dihedral edges: 2205
+
+Worst 5 prism growing facetype edges with dihedral angles greater than 46 degrees:
+ dihedral angle: 166.484568, located at: (0.1793265944799063 3.0634798979474400 1.0806304820616388)
+ dihedral angle: 166.308941, located at: (0.1712503222938069 2.7279006481078727 1.1093945294673546)
+ dihedral angle: 165.705008, located at: (0.1700761425522943 0.6120473679694917 1.1109633105833634)
+ dihedral angle: 165.501393, located at: (0.3282750770130592 0.8626216921008475 -0.0062368416415823)
+ dihedral angle: 165.427867, located at: (0.1696110815538619 1.2316686385811688 1.1107083820852672)
+done Surface diagnostics.CPU Time: 0.16, Wall Time: 0.15, Memory: 302.23 MB
+
+Surface is valid for volume meshing.CPU Time: 2.34, Wall Time: 2.34, Memory: 280.15 MB
+User set distribution function to be  GEOMETRIC PROGRESSION
+----------------------------------------
+Executing Prism Layer Subsurface
+----------------------------------------
+Global Input surface contains 515326 faces, and 257663 vertices 
+Local Property is activated
+   done, CPU Time: 0.19, Wall Time: 0.18, Memory: 420.96 MB
+ Building preprocessor done 
+Computing vertex normals
+ Exchanged the remote active status done
+Computing the normals done
+   done, CPU Time: 2.14, Wall Time: 8.26, Memory: 480.72 MB
+Computing Vertex normals done
+Computing surface proximity
+   done, CPU Time: 0.86, Wall Time: 0.91, Memory: 448.46 MB
+Constraining boundary vertices
+   done, CPU Time: 0.00, Wall Time: 0.00, Memory: 429.79 MB
+
+Iteration 1:
+-------------
+Initializing final vertex normals
+Creating subsurface (updating 241090 of 241090 active vertices)
+Checking 481998 face-based validity metrics
+   found 0 invalid faces
+Checking vertex intersections for all vertices
+
+Using edge recovery to fix prism layer boundaries...
+Recovering edges... Edges recover info:  0   0
+ Grow affected faces......
+Remeshing surface near recovered edges...
+Surface remeshed.  82 faces added to surface.
+CPU Time: 0.05, Wall Time: 0.06, Memory: 436.56 MB
+ Finished two levels of remeshing 
+Edge recovery was successful.
+CPU Time: 0.19, Wall Time: 0.19, Memory: 436.62 MB
+
+Checking true subsurface intersections for all vertices
+ no intersections 
+   found 0 intersecting vertices
+Checking subsurface orientation!!
+
+Iterations successful
+
+Marking zero layer regions
+   found 0 collapsed faces
+   found 0 edges bounding collapsed regions
+   found 10 vertices bounding collapsed regions
+Global Subsurface contains 515408 faces, and 257704 vertices 
+----------------------------------------
+Prism Layer Subsurface Completed: CPU Time: 6.48, Wall Time: 15.44, Memory: 419.08 MB
+----------------------------------------
+----------------------------------------
+Executing Trimmer
+----------------------------------------
+Assuming valid input surface
+Generating custom mesh
+   computing sizes at surface faces
+   incorporating sizes
+   creating initial volume mesh to cut
+   done creating custom template mesh, CPU Time: 22.55, Wall Time: 23.27, Memory: 1513.15 MB
+Custom mesh contains
+   cell count   = 7178851
+   face count   = 21960111
+   edge count   = 22388117
+   vertex count = 7606858
+   done, CPU Time: 4.86, Wall Time: 4.90, Memory: 1835.48 MB
+Marking surface features
+   done, CPU Time: 0.16, Wall Time: 0.14, Memory: 1835.75 MB
+Interacting Vertices
+   done, CPU Time: 2.17, Wall Time: 2.18, Memory: 2016.42 MB
+Determining sidedness
+   done, CPU Time: 12.97, Wall Time: 12.99, Memory: 2094.21 MB
+   deleting outside cells, faces, edges, and vertices and compressing
+      new cell count   = 6780073
+      new face count   = 20878887
+      new edge count   = 21419895
+      new vertex count = 7320995
+Interacting edges
+   done, CPU Time: 1.55, Wall Time: 1.55, Memory: 1807.25 MB
+Interacting faces
+   done, CPU Time: 9.62, Wall Time: 9.67, Memory: 1827.22 MB
+Interacting cells
+   deleting outside cells, faces, edges, and vertices and compressing
+      new cell count   = 6655080
+      new face count   = 20544666
+      new edge count   = 22487597
+      new vertex count = 8598008
+   done, CPU Time: 11.27, Wall Time: 11.31, Memory: 1730.97 MB
+Marking special edges/vertices in volume mesh
+   done, CPU Time: 0.20, Wall Time: 0.22, Memory: 1738.40 MB
+Improving mesh quality
+   preprocessing
+   collapsing interior sliver faces
+   fixing cells with holes
+   merging small boundary cells
+   merging boundary faces
+   merging interior faces
+   merging surface edges
+   splitting multiply-shared faces
+   fixing degenerate cells
+   merging boundary faces
+   merging surface edges
+Splitting concave boundary faces
+ Collapsing Small Edges/Faces: ratio < 0.075
+   158949 edges were collapsed in total
+   3 cells were removed
+Marking concave cells
+Executing Splitter..., Memory: 1651.04 MB
+done, (Executing Splitter...), CPU Time: 1.61, Wall Time: 1.63, Memory: 1734.32 MB
+Collapsing Small Internal Edges/Faces: ratio < 0.100000
+   3987 edges were collapsed in total
+   78 cells were removed
+Splitting concave boundary faces
+ Collapsing Small Edges/Faces: ratio < 0.100000
+   1706 edges were collapsed in total
+   42 cells were removed
+   splitting multiply-shared faces
+Marking concave cells
+Executing Splitter..., Memory: 1660.46 MB
+done, (Executing Splitter...), CPU Time: 0.98, Wall Time: 0.99, Memory: 1735.12 MB
+Collapsing Small Internal Edges/Faces: ratio < 0.100000
+   23 edges were collapsed in total
+   2 cells were removed
+ Collapsing Small Edges/Faces: ratio < 0.100000
+   11 edges were collapsed in total
+   1 cells were removed
+   fixing degenerate cells
+   fixing poor volume ratios
+   merging boundary faces
+   merging interior faces
+   merging surface edges
+   modifying faces to improve extrusion cell quality
+Splitting concave boundary faces
+Compressing mesh
+Trimmed mesh contains
+   cell count   = 6653553
+   face count   = 20467526
+   edge count   = 20965562
+   vertex count = 7151589
+----------------------------------------
+Trimmer Completed: CPU Time: 140.91, Wall Time: 142.42, Memory: 1576.37 MB
+----------------------------------------
+There are 506747 faces have subsurface thickness. 
+ The default subsurface thickness is 0.000640
+Set default subsurface thickness 0.000640
+----------------------------------------
+Executing Prism Layer Extrusion
+----------------------------------------
+Marking vertices, edges and faces to extrude
+Subsurface thickness is set by subsurface.
+ find projections with VertMapper (trimmer route)!
+   found (trimmer) 10 zero layer subsurface vertices
+Marking zero extrusion entities (vertices/edges/faces)
+   done, CPU Time: 0.16, Wall Time: 0.16, Memory: 1339.41 MB
+Modifying number of layers for cells adjacent to retracted regions
+   modified number of layers for 55 faces
+Creating extrusion layer mesh
+   default number of layers = 3
+   default stretching = 1.180000
+   done, CPU Time: 0.00, Wall Time: 0.00, Memory: 1339.52 MB
+ Layer Reduction Percentage set to 50.000000
+Default chopping percentage 50.000000
+There is no Local Layer Reduction 
+Correct number of layer for:  Global Layer Reduction, setting(s).
+   stitching vertical edges at variable layer interface
+   stitching vertical faces at variable layer interface
+Extrusion mesh contains:
+   998619 cells
+   3305310 faces
+   3605709 edges
+   1299018 vertices
+----------------------------------------
+Prism Layer Extrusion Completed: CPU Time: 5.62, Wall Time: 5.68, Memory: 1619.95 MB
+----------------------------------------
+Assembling core mesh and prismatic mesh.
+Running Optimizer in serial: 
+ParallelOptimizer<Quality>::execute, Memory: 1654.26 MB
+ executing mesh optimizer in serial ...
+skipped 0 anisotropic cells.
+ Mesh Optimization, Memory: 1654.26 MB
+  Tabu Search Optimizing, Memory: 1738.04 MB
+   Computing cell volumes and centroids, Memory: 1760.17 MB
+   done, (Computing cell volumes and centroids), CPU Time: 9.88, Wall Time: 9.88, Memory: 2057.88 MB
+   Quality thresholds:
+    minFaceValidity   minCellQuality   minFacePlanarity   minVolumeChange   minSkewness
+          1.000000         0.000010           0.700000          0.011000      0.087156
+   Starting optimization on 7652172 candidate cells
+   Skipped 0 anisotropic cells.
+   InterfaceMap not set.
+   Start outer iteration #1
+   Minimum quality metrics before outer iteration #1:
+    minFaceValidity   minCellQuality   minFacePlanarity   minVolumeChange   minSkewness
+          0.944156         0.000033           0.781016          0.000100      0.009968
+   Found 1067 cells that are below quality threshold
+   Found 14823 cells that need optimization
+   Found 5578 vertices that need optimization
+   Start outer iteration #2
+   Minimum quality metrics before outer iteration #2:
+    minFaceValidity   minCellQuality   minFacePlanarity   minVolumeChange   minSkewness
+          1.000000         0.004180           0.703697          0.002424      0.031316
+   Found 40 cells that are below quality threshold
+   Found 620 cells that need optimization
+   Found 214 vertices that need optimization
+   Start outer iteration #3
+   Minimum quality metrics before outer iteration #3:
+    minFaceValidity   minCellQuality   minFacePlanarity   minVolumeChange   minSkewness
+          1.000000         0.020490           0.921657          0.023077      0.035541
+   Found 1 cells that are below quality threshold
+   Found 26 cells that need optimization
+   Found 5 vertices that need optimization
+   After optimization, there are 1 cells that are below quality threshold
+   Final minimum quality metrics after optimization:
+    minFaceValidity   minCellQuality   minFacePlanarity   minVolumeChange   minSkewness
+          1.000000         0.009492           0.972999          0.035440      0.037447
+  done, (Tabu Search Optimizing), CPU Time: 72.14, Wall Time: 72.45, Memory: 2059.13 MB
+ done, (Mesh Optimization), CPU Time: 73.41, Wall Time: 73.70, Memory: 1721.59 MB
+done, (ParallelOptimizer<Quality>::execute), CPU Time: 73.41, Wall Time: 73.70, Memory: 1721.59 MB
+Converting mesh into finite volume representation in Region P3D woda
+   Converted mesh for P3D woda CPU Time: 441.39, Wall Time: 11.96, Memory: 2702.25 MB
+Mesh conversion completed, CPU Time: 448.57, Wall Time: 19.19, Memory: 1291.49 MB
+Converting mesh into finite volume representation completed: CPU Time: 448.57, Wall Time: 19.20, Memory: 1291.53 MB
+	Cells: 7652172	Faces: 23079372	Vertices: 8124273
+----------------------------------------
+Mesh Operation P3D Automated mesh (rozmiary wzgledem cieciwy, edytowalne) complete. CPU Time: 283.12, Wall Time: 294.24, Memory: 1241.96 MB
+----------------------------------------
+Note: Legacy plots are present in the simulation that might not be compatible with current or future versions.
+  Please consult the documentation for more details and consider converting your plots to the current standard.
+Saving: T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_28\PETLA_SETUP.sim... complete (897.09MB in 1.1767s).
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 0
+Starting local server: starserver.bat -power -cpubind off -np 1 -gpgpu auto:1 -mpi intel -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcNjBfUEFORUxFX0lfV1lOSUtJXFpBV0lFU1pFTklFXFBFVExBXzNEXE9QVF8yOFxQRVRMQV9TRVRVUC5zaW0=
+2026-11-16 07:52:30,296 - star.application.gpgpu_arg_parser - WARNING - GPGPUs on THINKPAD-LUCJAN are already utilized by other processes: 0: 12%
+Warning: -gpgpu has been activated, -power option is ignored.
+MPI Distribution : Intel MPI-2021.16.1
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 25216
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 25216
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+
+Error: Cannot open file: T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_28\PETLA_SETUP.sim (specify -new to create the file)
+Server working directory: 'T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_28'
+
+
+Exit error: {'Neo.Error':'Error','Path':'T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\\PETLA_SETUP.sim','Recoverability':'Non-recoverable','ServerStack':['SymInit: Symbol-SearchPath: \'.\', symOptions: 530, UserName: \'ThinkPad\'\n','OS-Version: 6.2.9200 () 0x100-0x1\n','00007FFFDF2975A9 (StarPlatform): (filename not available): StarCommandTokenizer::concatenate\n'],'message':'Cannot open file: T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\\PETLA_SETUP.sim (specify -new to create the file)\nServer working directory: \'T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\'\n','severity':'ERROR'}
+Abort(36) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 36) - process 0
+error: Design Simcenter STAR-CCM+ simulation completed
+Server process ended unexpectedly (return code 36)
+
+Starting local server: starserver.bat -power -cpubind off -np 1 -gpgpu auto:1 -mpi intel -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcNjBfUEFORUxFX0lfV1lOSUtJXFpBV0lFU1pFTklFXFBFVExBXzNEXE9QVF8yOFxQRVRMQV9TRVRVUC5zaW0=
+2026-11-16 07:53:25,797 - star.application.gpgpu_arg_parser - WARNING - GPGPUs on THINKPAD-LUCJAN are already utilized by other processes: 0: 11%
+Warning: -gpgpu has been activated, -power option is ignored.
+MPI Distribution : Intel MPI-2021.16.1
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 8084
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 8084
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+
+Error: Cannot open file: T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_28\PETLA_SETUP.sim (specify -new to create the file)
+Server working directory: 'T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_28'
+
+
+Exit error: {'Neo.Error':'Error','Path':'T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\\PETLA_SETUP.sim','Recoverability':'Non-recoverable','ServerStack':['SymInit: Symbol-SearchPath: \'.\', symOptions: 530, UserName: \'ThinkPad\'\n','OS-Version: 6.2.9200 () 0x100-0x1\n','00007FFFDF2975A9 (StarPlatform): (filename not available): StarCommandTokenizer::concatenate\n'],'message':'Cannot open file: T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\\PETLA_SETUP.sim (specify -new to create the file)\nServer working directory: \'T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\'\n','severity':'ERROR'}
+Abort(36) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 36) - process 0
+error: Design Simcenter STAR-CCM+ simulation completed
+Server process ended unexpectedly (return code 36)
+
+Starting local server: starserver.bat -power -cpubind off -np 1 -gpgpu auto:1 -mpi intel -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcNjBfUEFORUxFX0lfV1lOSUtJXFpBV0lFU1pFTklFXFBFVExBXzNEXE9QVF8yOFxQRVRMQV9TRVRVUC5zaW0=
+2026-11-16 07:54:19,648 - star.application.gpgpu_arg_parser - WARNING - GPGPUs on THINKPAD-LUCJAN are already utilized by other processes: 0: 3%
+Warning: -gpgpu has been activated, -power option is ignored.
+MPI Distribution : Intel MPI-2021.16.1
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 32604
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 32604
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+
+Error: Cannot open file: T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_28\PETLA_SETUP.sim (specify -new to create the file)
+Server working directory: 'T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_28'
+
+
+Exit error: {'Neo.Error':'Error','Path':'T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\\PETLA_SETUP.sim','Recoverability':'Non-recoverable','ServerStack':['SymInit: Symbol-SearchPath: \'.\', symOptions: 530, UserName: \'ThinkPad\'\n','OS-Version: 6.2.9200 () 0x100-0x1\n','00007FFFDF2975A9 (StarPlatform): (filename not available): StarCommandTokenizer::concatenate\n'],'message':'Cannot open file: T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\\PETLA_SETUP.sim (specify -new to create the file)\nServer working directory: \'T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\'\n','severity':'ERROR'}
+Abort(36) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 36) - process 0
+error: Design Simcenter STAR-CCM+ simulation completed
+Server process ended unexpectedly (return code 36)
+
+Starting local server: starserver.bat -power -cpubind off -np 1 -gpgpu auto:1 -mpi intel -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcNjBfUEFORUxFX0lfV1lOSUtJXFpBV0lFU1pFTklFXFBFVExBXzNEXE9QVF8yOFxQRVRMQV9TRVRVUC5zaW0=
+Warning: -gpgpu has been activated, -power option is ignored.
+MPI Distribution : Intel MPI-2021.16.1
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 41400
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 41400
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+
+Error: Cannot open file: T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_28\PETLA_SETUP.sim (specify -new to create the file)
+Server working directory: 'T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_28'
+
+
+Exit error: {'Neo.Error':'Error','Path':'T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\\PETLA_SETUP.sim','Recoverability':'Non-recoverable','ServerStack':['SymInit: Symbol-SearchPath: \'.\', symOptions: 530, UserName: \'ThinkPad\'\n','OS-Version: 6.2.9200 () 0x100-0x1\n','00007FFFDF2975A9 (StarPlatform): (filename not available): StarCommandTokenizer::concatenate\n'],'message':'Cannot open file: T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\\PETLA_SETUP.sim (specify -new to create the file)\nServer working directory: \'T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\'\n','severity':'ERROR'}
+Abort(36) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 36) - process 0
+error: Design Simcenter STAR-CCM+ simulation completed
+Server process ended unexpectedly (return code 36)
+
+Starting local server: starserver.bat -power -cpubind off -np 1 -gpgpu auto:1 -mpi intel -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcNjBfUEFORUxFX0lfV1lOSUtJXFpBV0lFU1pFTklFXFBFVExBXzNEXE9QVF8yOFxQRVRMQV9TRVRVUC5zaW0=
+2026-11-16 07:56:15,236 - star.application.gpgpu_arg_parser - WARNING - GPGPUs on THINKPAD-LUCJAN are already utilized by other processes: 0: 21%
+Warning: -gpgpu has been activated, -power option is ignored.
+MPI Distribution : Intel MPI-2021.16.1
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 37980
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 37980
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+
+Error: Cannot open file: T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_28\PETLA_SETUP.sim (specify -new to create the file)
+Server working directory: 'T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_28'
+
+
+Exit error: {'Neo.Error':'Error','Path':'T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\\PETLA_SETUP.sim','Recoverability':'Non-recoverable','ServerStack':['SymInit: Symbol-SearchPath: \'.\', symOptions: 530, UserName: \'ThinkPad\'\n','OS-Version: 6.2.9200 () 0x100-0x1\n','00007FFFDF2975A9 (StarPlatform): (filename not available): StarCommandTokenizer::concatenate\n'],'message':'Cannot open file: T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\\PETLA_SETUP.sim (specify -new to create the file)\nServer working directory: \'T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\'\n','severity':'ERROR'}
+Abort(36) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 36) - process 0
+error: Design Simcenter STAR-CCM+ simulation completed
+Server process ended unexpectedly (return code 36)
+
+Starting local server: starserver.bat -power -cpubind off -np 1 -gpgpu auto:1 -mpi intel -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcNjBfUEFORUxFX0lfV1lOSUtJXFpBV0lFU1pFTklFXFBFVExBXzNEXE9QVF8yOFxQRVRMQV9TRVRVUC5zaW0=
+2026-11-16 07:57:09,305 - star.application.gpgpu_arg_parser - WARNING - GPGPUs on THINKPAD-LUCJAN are already utilized by other processes: 0: 8%
+Warning: -gpgpu has been activated, -power option is ignored.
+MPI Distribution : Intel MPI-2021.16.1
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 32940
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 32940
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+
+Error: Cannot open file: T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_28\PETLA_SETUP.sim (specify -new to create the file)
+Server working directory: 'T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_28'
+
+
+Exit error: {'Neo.Error':'Error','Path':'T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\\PETLA_SETUP.sim','Recoverability':'Non-recoverable','ServerStack':['SymInit: Symbol-SearchPath: \'.\', symOptions: 530, UserName: \'ThinkPad\'\n','OS-Version: 6.2.9200 () 0x100-0x1\n','00007FFFDF2975A9 (StarPlatform): (filename not available): StarCommandTokenizer::concatenate\n'],'message':'Cannot open file: T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\\PETLA_SETUP.sim (specify -new to create the file)\nServer working directory: \'T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\'\n','severity':'ERROR'}
+Abort(36) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 36) - process 0
+error: Design Simcenter STAR-CCM+ simulation completed
+Server process ended unexpectedly (return code 36)
+
+Starting local server: starserver.bat -power -cpubind off -np 1 -gpgpu auto:1 -mpi intel -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcNjBfUEFORUxFX0lfV1lOSUtJXFpBV0lFU1pFTklFXFBFVExBXzNEXE9QVF8yOFxQRVRMQV9TRVRVUC5zaW0=
+2026-11-16 07:58:04,756 - star.application.gpgpu_arg_parser - WARNING - GPGPUs on THINKPAD-LUCJAN are already utilized by other processes: 0: 7%
+Warning: -gpgpu has been activated, -power option is ignored.
+MPI Distribution : Intel MPI-2021.16.1
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 18720
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 18720
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+
+Error: Cannot open file: T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_28\PETLA_SETUP.sim (specify -new to create the file)
+Server working directory: 'T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_28'
+
+
+Exit error: {'Neo.Error':'Error','Path':'T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\\PETLA_SETUP.sim','Recoverability':'Non-recoverable','ServerStack':['SymInit: Symbol-SearchPath: \'.\', symOptions: 530, UserName: \'ThinkPad\'\n','OS-Version: 6.2.9200 () 0x100-0x1\n','00007FFFDF2975A9 (StarPlatform): (filename not available): StarCommandTokenizer::concatenate\n'],'message':'Cannot open file: T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\\PETLA_SETUP.sim (specify -new to create the file)\nServer working directory: \'T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\'\n','severity':'ERROR'}
+Abort(36) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 36) - process 0
+error: Design Simcenter STAR-CCM+ simulation completed
+Server process ended unexpectedly (return code 36)
+
+Starting local server: starserver.bat -power -cpubind off -np 1 -gpgpu auto:1 -mpi intel -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcNjBfUEFORUxFX0lfV1lOSUtJXFpBV0lFU1pFTklFXFBFVExBXzNEXE9QVF8yOFxQRVRMQV9TRVRVUC5zaW0=
+2026-11-16 07:58:59,808 - star.application.gpgpu_arg_parser - WARNING - GPGPUs on THINKPAD-LUCJAN are already utilized by other processes: 0: 7%
+Warning: -gpgpu has been activated, -power option is ignored.
+MPI Distribution : Intel MPI-2021.16.1
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 42172
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 42172
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+
+Error: Cannot open file: T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_28\PETLA_SETUP.sim (specify -new to create the file)
+Server working directory: 'T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_28'
+
+
+Exit error: {'Neo.Error':'Error','Path':'T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\\PETLA_SETUP.sim','Recoverability':'Non-recoverable','ServerStack':['SymInit: Symbol-SearchPath: \'.\', symOptions: 530, UserName: \'ThinkPad\'\n','OS-Version: 6.2.9200 () 0x100-0x1\n','00007FFFDF2975A9 (StarPlatform): (filename not available): StarCommandTokenizer::concatenate\n'],'message':'Cannot open file: T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\\PETLA_SETUP.sim (specify -new to create the file)\nServer working directory: \'T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\PETLA_3D\\OPT_28\'\n','severity':'ERROR'}
+Abort(36) on node 0 (rank 0 in comm 0): application called MPI_Abort(MPI_COMM_WORLD, 36) - process 0
+error: Design Simcenter STAR-CCM+ simulation completed
+Server process ended unexpectedly (return code 36)
+

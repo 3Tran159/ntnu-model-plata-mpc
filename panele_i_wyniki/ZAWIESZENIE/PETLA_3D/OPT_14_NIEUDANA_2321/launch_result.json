@@ -1,0 +1,10 @@
+{
+ "returncode": 15,
+ "seconds": 6.0,
+ "bound": [],
+ "cpus": [
+  22
+ ],
+ "np": 1,
+ "gpu": false
+}

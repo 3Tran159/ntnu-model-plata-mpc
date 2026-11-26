@@ -1,0 +1,163 @@
+continuum MINI_URANS_VOF_2D
+ wave star.vof.FlatVofWave CB Initial Flat 1
+ wave star.vof.FlatVofWave NN_OutletFlat 1
+ wave star.vof.FlatVofWave NN_OutletFlat 2
+ wave star.vof.FlatVofWave NN_OutletFlat 3
+ wave star.vof.FlatVofWave NN_OutletFlat 4
+ wave star.vof.FlatVofWave NN_OutletFlat 5
+ wave star.vof.FlatVofWave NN_OutletFlat 6
+ wave star.vof.FlatVofWave NN_OutletFlat 7
+ wave star.vof.FlatVofWave NN_OutletFlat 8
+ wave star.vof.FlatVofWave NN_OutletFlat 9
+ wave star.vof.FlatVofWave NN_OutletFlat 10
+ wave star.vof.FlatVofWave NN_OutletFlat 11
+ wave star.vof.FlatVofWave NN_OutletFlat 12
+ wave star.vof.FlatVofWave NN_OutletFlat 13
+ wave star.vof.FlatVofWave NN_OutletFlat 14
+ wave star.vof.FlatVofWave NN_OutletFlat 15
+ wave star.vof.FlatVofWave NN_OutletFlat 16
+ wave star.vof.FlatVofWave NN_OutletFlat 17
+ wave star.vof.FlatVofWave NN_OutletFlat 18
+ wave star.vof.FifthOrderVofWave CB_StokesV 1
+ wave star.vof.FlatVofWave NN_OutletFlat 19
+ wave star.vof.FlatVofWave NN_OutletFlat 20
+ wave star.vof.FlatVofWave NN_OutletFlat 21
+ wave star.vof.FlatVofWave NN_OutletFlat 22
+ wave star.vof.FlatVofWave NN_OutletFlat 23
+ wave star.vof.FlatVofWave NN_OutletFlat 24
+ wave star.vof.FlatVofWave NN_OutletFlat 25
+== star.vof.VofWaveManager
+  createVofWave[java.lang.Class, java.lang.String] -> ManagedVofWave
+  createVofWave[java.lang.Class] -> ManagedVofWave
+  getManagedType[] -> Class
+  getVofWave[java.lang.String] -> ManagedVofWave
+== star.vof.SuperpositionVofWave
+  compareTo[java.lang.Object] -> int
+  getChildren[] -> Collection
+  getCurrentInput[] -> VectorPhysicalQuantityInput
+  getCurrentVector[] -> DoubleVector
+  getCurrent[] -> VectorPhysicalQuantity
+  getDeepWaterApproximation[] -> boolean
+  getFirstWaveFront[] -> boolean
+  getHeavyFluidDensityInput[] -> ScalarPhysicalQuantityInput
+  getHeavyFluidDensity[] -> ScalarPhysicalQuantity
+  getLightFluidDensityInput[] -> ScalarPhysicalQuantityInput
+  getLightFluidDensity[] -> ScalarPhysicalQuantity
+  getPointOnLevelInput[] -> VectorPhysicalQuantityInput
+  getPointOnLevelVector[] -> DoubleVector
+  getPointOnLevel[] -> VectorPhysicalQuantity
+  getSuperposingVofWaveManager[] -> SuperposingVofWaveManager
+  getVerticalDirectionInput[] -> VectorPhysicalQuantityInput
+  getVerticalDirectionVector[] -> DoubleVector
+  getVerticalDirection[] -> VectorPhysicalQuantity
+  getVofWaveDepthSpecification[] -> VofWaveDepthSpecification
+  getVofWaveManager[] -> VofWaveManager
+  getWindInput[] -> VectorPhysicalQuantityInput
+  getWindVector[] -> DoubleVector
+  getWind[] -> VectorPhysicalQuantity
+  isEmpty[] -> boolean
+  journalChild[star.base.neo.ClientServerObject] -> String
+  setCurrentInput[star.common.VectorPhysicalQuantityInput] -> void
+  setDeepWaterApproximation[boolean] -> void
+  setFirstWaveFront[boolean] -> void
+  setHeavyFluidDensityInput[star.common.ScalarPhysicalQuantityInput] -> void
+  setHeavyFluidDensity[double] -> void
+  setLightFluidDensityInput[star.common.ScalarPhysicalQuantityInput] -> void
+  setLightFluidDensity[double] -> void
+  setPointOnLevelInput[star.common.VectorPhysicalQuantityInput] -> void
+  setVerticalDirectionInput[star.common.VectorPhysicalQuantityInput] -> void
+  setWindInput[star.common.VectorPhysicalQuantityInput] -> void
+manager via getSuperposingVofWaveManager: star.vof.SuperposingVofWaveManager
+== star.vof.SuperposingVofWaveManager
+  createSuperposingVofWave[java.lang.Class, java.lang.String] -> SuperposingVofWave
+  getManagedType[] -> Class
+  getSuperposingVofWave[java.lang.String] -> SuperposingVofWave
+manager via getVofWaveManager: star.vof.VofWaveManager
+== star.vof.VofWaveManager
+  createVofWave[java.lang.Class, java.lang.String] -> ManagedVofWave
+  createVofWave[java.lang.Class] -> ManagedVofWave
+  getManagedType[] -> Class
+  getVofWave[java.lang.String] -> ManagedVofWave
+== star.vof.FirstOrderSuperposingVofWave
+  compareTo[java.lang.Object] -> int
+  getAdvancingDirectionInput[] -> VectorPhysicalQuantityInput
+  getAdvancingDirectionVector[] -> DoubleVector
+  getAdvancingDirection[] -> VectorPhysicalQuantity
+  getAmplitudeInput[] -> ScalarPhysicalQuantityInput
+  getAmplitude[] -> ScalarPhysicalQuantity
+  getChildren[] -> Collection
+  getEnabled[] -> boolean
+  getPhaseInput[] -> ScalarPhysicalQuantityInput
+  getPhase[] -> ScalarPhysicalQuantity
+  getSelectedSpecificationOption[] -> EnumeratedOptionInput
+  getSpecificationOption[] -> VofWaveSpecificationOption
+  getSuperposingVofWaveManager[] -> SuperposingVofWaveManager
+  getVofWaveSpecification[] -> VofWaveSpecificationBase
+  isEmpty[] -> boolean
+  journalChild[star.base.neo.ClientServerObject] -> String
+  setAdvancingDirectionInput[star.common.VectorPhysicalQuantityInput] -> void
+  setAmplitudeInput[star.common.ScalarPhysicalQuantityInput] -> void
+  setAmplitude[double] -> void
+  setEnabled[boolean] -> void
+  setPhaseInput[star.common.ScalarPhysicalQuantityInput] -> void
+  setPhase[double] -> void
+  setSelectedSpecificationOption[star.common.EnumeratedOptionInput] -> void
+== star.vof.FifthOrderVofWave
+  compareTo[java.lang.Object] -> int
+  getAdditionalVelocityInput[] -> VectorPhysicalQuantityInput
+  getAdditionalVelocity[] -> VectorPhysicalQuantity
+  getAdvancingDirectionInput[] -> VectorPhysicalQuantityInput
+  getAdvancingDirectionVector[] -> DoubleVector
+  getAdvancingDirection[] -> VectorPhysicalQuantity
+  getChildren[] -> Collection
+  getCurrentInput[] -> VectorPhysicalQuantityInput
+  getCurrentVector[] -> DoubleVector
+  getCurrent[] -> VectorPhysicalQuantity
+  getFirstWaveFront[] -> boolean
+  getHeavyFluidDensityInput[] -> ScalarPhysicalQuantityInput
+  getHeavyFluidDensity[] -> ScalarPhysicalQuantity
+  getLightFluidDensityInput[] -> ScalarPhysicalQuantityInput
+  getLightFluidDensity[] -> ScalarPhysicalQuantity
+  getPointOnLevelInput[] -> VectorPhysicalQuantityInput
+  getPointOnLevelVector[] -> DoubleVector
+  getPointOnLevel[] -> VectorPhysicalQuantity
+  getSelectedSpecificationOption[] -> EnumeratedOptionInput
+  getSpecificationOption[] -> VofWaveSpecificationOption
+  getVerticalDirectionInput[] -> VectorPhysicalQuantityInput
+  getVerticalDirectionVector[] -> DoubleVector
+  getVerticalDirection[] -> VectorPhysicalQuantity
+  getVofWaveManager[] -> VofWaveManager
+  getVofWaveSpecification[] -> VofWaveSpecificationBase
+  getWaterDepthInput[] -> ScalarPhysicalQuantityInput
+  getWaterDepth[] -> ScalarPhysicalQuantity
+  getWaveHeightInput[] -> ScalarPhysicalQuantityInput
+  getWaveHeight[] -> ScalarPhysicalQuantity
+  getWavePeriod[] -> ScalarPhysicalQuantity
+  getWindInput[] -> VectorPhysicalQuantityInput
+  getWindVector[] -> DoubleVector
+  getWind[] -> VectorPhysicalQuantity
+  isEmpty[] -> boolean
+  journalChild[star.base.neo.ClientServerObject] -> String
+  setAdditionalVelocityInput[star.common.VectorPhysicalQuantityInput] -> void
+  setAdvancingDirectionInput[star.common.VectorPhysicalQuantityInput] -> void
+  setCurrentInput[star.common.VectorPhysicalQuantityInput] -> void
+  setFirstWaveFront[boolean] -> void
+  setHeavyFluidDensityInput[star.common.ScalarPhysicalQuantityInput] -> void
+  setHeavyFluidDensity[double] -> void
+  setLightFluidDensityInput[star.common.ScalarPhysicalQuantityInput] -> void
+  setLightFluidDensity[double] -> void
+  setPointOnLevelInput[star.common.VectorPhysicalQuantityInput] -> void
+  setSelectedSpecificationOption[star.common.EnumeratedOptionInput] -> void
+  setVerticalDirectionInput[star.common.VectorPhysicalQuantityInput] -> void
+  setWaterDepthInput[star.common.ScalarPhysicalQuantityInput] -> void
+  setWaterDepth[double] -> void
+  setWaveHeightInput[star.common.ScalarPhysicalQuantityInput] -> void
+  setWaveHeight[double] -> void
+  setWavePeriod[double] -> void
+  setWindInput[star.common.VectorPhysicalQuantityInput] -> void
+== field functions z 'Wave' w nazwie
+  VOF Wave Damping Factor | VofWaveDampingFactor
+  Volume Fraction of Heavy Fluid of SuperpositionVofWave 1 | VolumeFractionHeavyFluidWave27
+  Volume Fraction of Light Fluid of SuperpositionVofWave 1 | VolumeFractionLightFluidWave27
+  Hydrostatic Pressure of Heavy Fluid of SuperpositionVofWave 1 | HydrostaticPressureWave27
+  Velocity of SuperpositionVofWave 1 | VelocityWave27

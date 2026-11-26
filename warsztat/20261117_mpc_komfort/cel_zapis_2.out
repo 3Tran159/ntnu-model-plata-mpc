@@ -1,0 +1,692 @@
+t 1.940 z +0.000 v +0.000 th +2.63 eta +0.537 | fala A 0.364 b -32.4 | ie +0.000 | cmd +2.24 | 0.85 s
+RLS: odrzucam krok (mnoznik 3.092)
+fala: w_e 1.500 rad/s (okres spotkania 4.189 s), w0 0.764 rad/s (okres fali 8.22 s), k 0.0596 1/m, wyprzedzenie sondy 0.000 s
+RLS: odrzucam krok (mnoznik 0.487)
+RLS: odrzucam krok (mnoznik 0.499)
+RLS: odrzucam krok (mnoznik 0.499)
+RLS: odrzucam krok (mnoznik 0.495)
+RLS: odrzucam krok (mnoznik 0.496)
+RLS: odrzucam krok (mnoznik 0.497)
+RLS: odrzucam krok (mnoznik 0.498)
+RLS: odrzucam krok (mnoznik 0.499)
+RLS: odrzucam krok (mnoznik 0.500)
+RLS: odrzucam krok (mnoznik 0.500)
+RLS: odrzucam krok (mnoznik 0.499)
+RLS: odrzucam krok (mnoznik 0.499)
+RLS: odrzucam krok (mnoznik 0.499)
+RLS: odrzucam krok (mnoznik 0.500)
+RLS: odrzucam krok (mnoznik 0.499)
+RLS: odrzucam krok (mnoznik 0.499)
+RLS: odrzucam krok (mnoznik 0.500)
+RLS t 2.93: mnoznik sily dynamicznej 0.540, przesuniecie +115 N/m, suma dL/dth 3601 (Faltinsen 6662), blad RMS 903 N/m
+fala: w_e 3.600 rad/s (okres spotkania 1.745 s), w0 1.340 rad/s (okres fali 4.69 s), k 0.1830 1/m, wyprzedzenie sondy 0.000 s
+RLS t 3.93: mnoznik sily dynamicznej 0.843, przesuniecie -85 N/m, suma dL/dth 5614 (Faltinsen 6662), blad RMS 1068 N/m
+t 3.940 z -0.011 v -0.257 th +0.71 eta -0.398 | fala A 0.317 b -15.5 | ie -0.122 | cmd +0.54 | 1.82 s
+fala: w_e 4.017 rad/s (okres spotkania 1.564 s), w0 1.433 rad/s (okres fali 4.39 s), k 0.2093 1/m, wyprzedzenie sondy 0.000 s
+RLS t 4.93: mnoznik sily dynamicznej 0.909, przesuniecie -118 N/m, suma dL/dth 6056 (Faltinsen 6662), blad RMS 698 N/m
+fala: w_e 4.312 rad/s (okres spotkania 1.457 s), w0 1.496 rad/s (okres fali 4.20 s), k 0.2281 1/m, wyprzedzenie sondy 0.000 s
+RLS t 5.93: mnoznik sily dynamicznej 0.970, przesuniecie -86 N/m, suma dL/dth 6462 (Faltinsen 6662), blad RMS 750 N/m
+t 5.940 z -0.213 v -0.310 th +2.41 eta -0.164 | fala A 0.058 b +26.1 | ie +0.088 | cmd +2.56 | 0.86 s
+fala: w_e 3.507 rad/s (okres spotkania 1.791 s), w0 1.319 rad/s (okres fali 4.76 s), k 0.1773 1/m, wyprzedzenie sondy 0.000 s
+RLS t 6.93: mnoznik sily dynamicznej 0.982, przesuniecie -73 N/m, suma dL/dth 6539 (Faltinsen 6662), blad RMS 237 N/m
+fala: w_e 3.443 rad/s (okres spotkania 1.825 s), w0 1.304 rad/s (okres fali 4.82 s), k 0.1732 1/m, wyprzedzenie sondy 0.000 s
+RLS t 7.93: mnoznik sily dynamicznej 1.049, przesuniecie -36 N/m, suma dL/dth 6988 (Faltinsen 6662), blad RMS 571 N/m
+t 7.940 z -0.123 v +0.829 th +3.69 eta +0.383 | fala A 0.048 b -110.1 | ie +0.500 | cmd +5.55 | 1.71 s
+fala: w_e 5.060 rad/s (okres spotkania 1.242 s), w0 1.647 rad/s (okres fali 3.82 s), k 0.2765 1/m, wyprzedzenie sondy 0.000 s
+RLS t 8.93: mnoznik sily dynamicznej 1.038, przesuniecie -59 N/m, suma dL/dth 6916 (Faltinsen 6662), blad RMS 487 N/m
+fala: w_e 4.958 rad/s (okres spotkania 1.267 s), w0 1.627 rad/s (okres fali 3.86 s), k 0.2698 1/m, wyprzedzenie sondy 0.000 s
+RLS t 9.93: mnoznik sily dynamicznej 1.012, przesuniecie -29 N/m, suma dL/dth 6743 (Faltinsen 6662), blad RMS 636 N/m
+t 9.940 z -0.050 v -0.258 th +0.08 eta -0.302 | fala A 0.264 b +148.4 | ie +0.500 | cmd +0.76 | 0.46 s
+fala: w_e 5.072 rad/s (okres spotkania 1.239 s), w0 1.649 rad/s (okres fali 3.81 s), k 0.2773 1/m, wyprzedzenie sondy 0.000 s
+RLS t 10.93: mnoznik sily dynamicznej 1.018, przesuniecie -9 N/m, suma dL/dth 6783 (Faltinsen 6662), blad RMS 404 N/m
+fala: w_e 2.337 rad/s (okres spotkania 2.688 s), w0 1.022 rad/s (okres fali 6.15 s), k 0.1065 1/m, wyprzedzenie sondy 0.000 s
+RLS t 11.93: mnoznik sily dynamicznej 1.022, przesuniecie -7 N/m, suma dL/dth 6811 (Faltinsen 6662), blad RMS 521 N/m
+t 11.940 z -0.315 v -0.311 th +1.98 eta -0.455 | fala A 0.508 b +7.9 | ie +0.352 | cmd +1.98 | 0.20 s
+fala: w_e 2.550 rad/s (okres spotkania 2.464 s), w0 1.080 rad/s (okres fali 5.82 s), k 0.1190 1/m, wyprzedzenie sondy 0.000 s
+RLS t 12.93: mnoznik sily dynamicznej 1.021, przesuniecie -21 N/m, suma dL/dth 6803 (Faltinsen 6662), blad RMS 293 N/m
+RLS t 13.93: mnoznik sily dynamicznej 1.023, przesuniecie +3 N/m, suma dL/dth 6814 (Faltinsen 6662), blad RMS 777 N/m
+t 13.940 z +0.091 v +0.101 th +0.45 eta -0.128 | fala A 0.447 b +111.7 | ie +0.484 | cmd -1.30 | 0.31 s
+fala: w_e 2.735 rad/s (okres spotkania 2.298 s), w0 1.129 rad/s (okres fali 5.56 s), k 0.1300 1/m, wyprzedzenie sondy 0.000 s
+RLS t 14.93: mnoznik sily dynamicznej 1.018, przesuniecie -29 N/m, suma dL/dth 6784 (Faltinsen 6662), blad RMS 540 N/m
+fala: w_e 2.839 rad/s (okres spotkania 2.213 s), w0 1.156 rad/s (okres fali 5.43 s), k 0.1363 1/m, wyprzedzenie sondy 0.000 s
+RLS t 15.93: mnoznik sily dynamicznej 1.020, przesuniecie -16 N/m, suma dL/dth 6797 (Faltinsen 6662), blad RMS 264 N/m
+t 15.940 z -0.361 v -0.368 th +0.95 eta -0.417 | fala A 0.286 b -119.1 | ie +0.500 | cmd +1.18 | 0.40 s
+fala: w_e 2.931 rad/s (okres spotkania 2.143 s), w0 1.180 rad/s (okres fali 5.33 s), k 0.1419 1/m, wyprzedzenie sondy 0.000 s
+RLS t 16.93: mnoznik sily dynamicznej 1.026, przesuniecie -23 N/m, suma dL/dth 6834 (Faltinsen 6662), blad RMS 301 N/m
+fala: w_e 3.195 rad/s (okres spotkania 1.967 s), w0 1.245 rad/s (okres fali 5.05 s), k 0.1579 1/m, wyprzedzenie sondy 0.000 s
+RLS t 17.93: mnoznik sily dynamicznej 1.026, przesuniecie -17 N/m, suma dL/dth 6839 (Faltinsen 6662), blad RMS 676 N/m
+t 17.940 z -0.382 v -0.936 th +0.06 eta -0.435 | fala A 0.298 b +178.8 | ie +0.485 | cmd +0.88 | 4.28 s
+RLS t 18.93: mnoznik sily dynamicznej 1.029, przesuniecie +1 N/m, suma dL/dth 6855 (Faltinsen 6662), blad RMS 552 N/m
+RLS t 19.93: mnoznik sily dynamicznej 1.044, przesuniecie -12 N/m, suma dL/dth 6956 (Faltinsen 6662), blad RMS 551 N/m
+t 19.940 z -0.399 v -0.301 th +1.32 eta -0.249 | fala A 0.360 b -155.8 | ie +0.454 | cmd +1.50 | 0.87 s
+fala: w_e 3.180 rad/s (okres spotkania 1.976 s), w0 1.241 rad/s (okres fali 5.06 s), k 0.1570 1/m, wyprzedzenie sondy 0.000 s
+RLS t 20.93: mnoznik sily dynamicznej 1.042, przesuniecie -9 N/m, suma dL/dth 6942 (Faltinsen 6662), blad RMS 216 N/m
+fala: w_e 3.127 rad/s (okres spotkania 2.010 s), w0 1.228 rad/s (okres fali 5.12 s), k 0.1538 1/m, wyprzedzenie sondy 0.000 s
+RLS t 21.93: mnoznik sily dynamicznej 1.036, przesuniecie -24 N/m, suma dL/dth 6905 (Faltinsen 6662), blad RMS 543 N/m
+t 21.940 z -0.508 v -0.261 th +4.93 eta -0.967 | fala A 0.691 b +113.9 | ie +0.344 | cmd +3.25 | 2.52 s
+RLS t 22.93: mnoznik sily dynamicznej 1.038, przesuniecie -14 N/m, suma dL/dth 6919 (Faltinsen 6662), blad RMS 449 N/m
+RLS t 23.93: mnoznik sily dynamicznej 1.032, przesuniecie -6 N/m, suma dL/dth 6876 (Faltinsen 6662), blad RMS 514 N/m
+t 23.940 z -0.478 v -0.565 th +1.99 eta -0.159 | fala A 0.596 b +115.3 | ie +0.330 | cmd +3.49 | 0.24 s
+RLS t 24.93: mnoznik sily dynamicznej 1.029, przesuniecie -15 N/m, suma dL/dth 6856 (Faltinsen 6662), blad RMS 579 N/m
+fala: w_e 3.154 rad/s (okres spotkania 1.992 s), w0 1.235 rad/s (okres fali 5.09 s), k 0.1555 1/m, wyprzedzenie sondy 0.000 s
+RLS t 25.93: mnoznik sily dynamicznej 1.026, przesuniecie +12 N/m, suma dL/dth 6836 (Faltinsen 6662), blad RMS 548 N/m
+t 25.940 z +0.156 v +0.160 th +1.99 eta +0.846 | fala A 0.059 b +152.8 | ie +0.327 | cmd +2.74 | 1.00 s
+fala: w_e 3.311 rad/s (okres spotkania 1.898 s), w0 1.273 rad/s (okres fali 4.94 s), k 0.1651 1/m, wyprzedzenie sondy 0.000 s
+RLS t 26.93: mnoznik sily dynamicznej 1.029, przesuniecie -12 N/m, suma dL/dth 6855 (Faltinsen 6662), blad RMS 899 N/m
+fala: w_e 2.666 rad/s (okres spotkania 2.356 s), w0 1.111 rad/s (okres fali 5.65 s), k 0.1259 1/m, wyprzedzenie sondy 0.000 s
+RLS t 27.93: mnoznik sily dynamicznej 1.032, przesuniecie -11 N/m, suma dL/dth 6872 (Faltinsen 6662), blad RMS 596 N/m
+t 27.940 z +0.102 v +1.061 th +6.21 eta +0.659 | fala A 0.357 b -39.8 | ie +0.495 | cmd +5.17 | 2.11 s
+fala: w_e 2.544 rad/s (okres spotkania 2.470 s), w0 1.079 rad/s (okres fali 5.82 s), k 0.1187 1/m, wyprzedzenie sondy 0.000 s
+RLS t 28.93: mnoznik sily dynamicznej 1.038, przesuniecie -3 N/m, suma dL/dth 6918 (Faltinsen 6662), blad RMS 673 N/m
+fala: w_e 3.721 rad/s (okres spotkania 1.689 s), w0 1.367 rad/s (okres fali 4.60 s), k 0.1906 1/m, wyprzedzenie sondy 0.000 s
+RLS t 29.93: mnoznik sily dynamicznej 1.026, przesuniecie +12 N/m, suma dL/dth 6836 (Faltinsen 6662), blad RMS 941 N/m
+t 29.940 z +0.327 v -1.001 th -7.12 eta -0.066 | fala A 0.428 b +149.0 | ie +0.294 | cmd -7.50 | 0.45 s
+fala: w_e 3.815 rad/s (okres spotkania 1.647 s), w0 1.389 rad/s (okres fali 4.52 s), k 0.1966 1/m, wyprzedzenie sondy 0.000 s
+RLS t 30.93: mnoznik sily dynamicznej 1.022, przesuniecie -3 N/m, suma dL/dth 6807 (Faltinsen 6662), blad RMS 632 N/m
+fala: w_e 3.731 rad/s (okres spotkania 1.684 s), w0 1.370 rad/s (okres fali 4.59 s), k 0.1912 1/m, wyprzedzenie sondy 0.000 s
+RLS t 31.93: mnoznik sily dynamicznej 1.029, przesuniecie -16 N/m, suma dL/dth 6859 (Faltinsen 6662), blad RMS 697 N/m
+t 31.940 z -0.096 v -1.767 th -0.61 eta -0.715 | fala A 0.261 b -168.4 | ie +0.321 | cmd +0.71 | 0.79 s
+fala: w_e 3.500 rad/s (okres spotkania 1.795 s), w0 1.317 rad/s (okres fali 4.77 s), k 0.1768 1/m, wyprzedzenie sondy 0.000 s
+RLS t 32.93: mnoznik sily dynamicznej 1.034, przesuniecie -5 N/m, suma dL/dth 6887 (Faltinsen 6662), blad RMS 397 N/m
+RLS t 33.93: mnoznik sily dynamicznej 1.025, przesuniecie +0 N/m, suma dL/dth 6827 (Faltinsen 6662), blad RMS 697 N/m
+t 33.940 z -0.483 v -0.692 th +4.14 eta -0.504 | fala A 0.766 b -143.1 | ie +0.324 | cmd +5.23 | 0.32 s
+RLS t 34.93: mnoznik sily dynamicznej 1.021, przesuniecie -14 N/m, suma dL/dth 6803 (Faltinsen 6662), blad RMS 554 N/m
+fala: w_e 3.632 rad/s (okres spotkania 1.730 s), w0 1.347 rad/s (okres fali 4.66 s), k 0.1850 1/m, wyprzedzenie sondy 0.000 s
+RLS t 35.93: mnoznik sily dynamicznej 1.010, przesuniecie -4 N/m, suma dL/dth 6728 (Faltinsen 6662), blad RMS 731 N/m
+t 35.940 z -0.468 v +0.576 th +4.95 eta +0.295 | fala A 0.525 b +6.1 | ie +0.500 | cmd +5.68 | 0.20 s
+fala: w_e 3.684 rad/s (okres spotkania 1.706 s), w0 1.359 rad/s (okres fali 4.62 s), k 0.1883 1/m, wyprzedzenie sondy 0.000 s
+RLS t 36.93: mnoznik sily dynamicznej 1.007, przesuniecie +18 N/m, suma dL/dth 6706 (Faltinsen 6662), blad RMS 682 N/m
+RLS t 37.93: mnoznik sily dynamicznej 1.010, przesuniecie -8 N/m, suma dL/dth 6732 (Faltinsen 6662), blad RMS 729 N/m
+t 37.940 z -0.442 v -0.397 th +2.59 eta -0.590 | fala A 0.163 b -67.3 | ie +0.500 | cmd +2.38 | 0.58 s
+fala: w_e 4.287 rad/s (okres spotkania 1.466 s), w0 1.491 rad/s (okres fali 4.22 s), k 0.2265 1/m, wyprzedzenie sondy 0.000 s
+RLS t 38.93: mnoznik sily dynamicznej 1.010, przesuniecie +13 N/m, suma dL/dth 6728 (Faltinsen 6662), blad RMS 466 N/m
+RLS t 39.93: mnoznik sily dynamicznej 1.007, przesuniecie -20 N/m, suma dL/dth 6706 (Faltinsen 6662), blad RMS 695 N/m
+t 39.940 z -0.451 v +0.567 th +6.59 eta -0.743 | fala A 0.458 b -89.0 | ie +0.500 | cmd +6.71 | 0.40 s
+fala: w_e 4.281 rad/s (okres spotkania 1.468 s), w0 1.489 rad/s (okres fali 4.22 s), k 0.2261 1/m, wyprzedzenie sondy 0.000 s
+RLS t 40.93: mnoznik sily dynamicznej 1.009, przesuniecie +8 N/m, suma dL/dth 6723 (Faltinsen 6662), blad RMS 737 N/m
+fala: w_e 3.131 rad/s (okres spotkania 2.007 s), w0 1.229 rad/s (okres fali 5.11 s), k 0.1540 1/m, wyprzedzenie sondy 0.000 s
+RLS t 41.93: mnoznik sily dynamicznej 1.010, przesuniecie +11 N/m, suma dL/dth 6729 (Faltinsen 6662), blad RMS 434 N/m
+t 41.940 z -0.337 v -0.764 th -1.00 eta -0.149 | fala A 0.527 b +126.9 | ie +0.445 | cmd -0.57 | 0.75 s
+fala: w_e 3.031 rad/s (okres spotkania 2.073 s), w0 1.205 rad/s (okres fali 5.22 s), k 0.1479 1/m, wyprzedzenie sondy 0.000 s
+RLS t 42.93: mnoznik sily dynamicznej 1.008, przesuniecie -1 N/m, suma dL/dth 6719 (Faltinsen 6662), blad RMS 369 N/m
+fala: w_e 2.970 rad/s (okres spotkania 2.115 s), w0 1.190 rad/s (okres fali 5.28 s), k 0.1442 1/m, wyprzedzenie sondy 0.000 s
+RLS t 43.93: mnoznik sily dynamicznej 1.009, przesuniecie +11 N/m, suma dL/dth 6722 (Faltinsen 6662), blad RMS 590 N/m
+t 43.940 z +0.099 v -0.487 th +0.61 eta -0.010 | fala A 0.157 b +153.6 | ie +0.392 | cmd +0.44 | 2.82 s
+fala: w_e 3.061 rad/s (okres spotkania 2.052 s), w0 1.212 rad/s (okres fali 5.18 s), k 0.1498 1/m, wyprzedzenie sondy 0.000 s
+RLS t 44.93: mnoznik sily dynamicznej 1.012, przesuniecie -8 N/m, suma dL/dth 6739 (Faltinsen 6662), blad RMS 628 N/m
+fala: w_e 3.337 rad/s (okres spotkania 1.883 s), w0 1.279 rad/s (okres fali 4.91 s), k 0.1667 1/m, wyprzedzenie sondy 0.000 s
+RLS t 45.93: mnoznik sily dynamicznej 1.017, przesuniecie +6 N/m, suma dL/dth 6776 (Faltinsen 6662), blad RMS 718 N/m
+t 45.940 z +0.150 v +0.529 th +3.76 eta +0.351 | fala A 0.239 b +146.7 | ie +0.484 | cmd +3.34 | 1.37 s
+fala: w_e 3.573 rad/s (okres spotkania 1.759 s), w0 1.334 rad/s (okres fali 4.71 s), k 0.1814 1/m, wyprzedzenie sondy 0.000 s
+RLS t 46.93: mnoznik sily dynamicznej 1.016, przesuniecie -3 N/m, suma dL/dth 6772 (Faltinsen 6662), blad RMS 422 N/m
+RLS t 47.93: mnoznik sily dynamicznej 1.016, przesuniecie +10 N/m, suma dL/dth 6768 (Faltinsen 6662), blad RMS 541 N/m
+t 47.940 z +0.394 v +1.049 th +3.04 eta +0.570 | fala A 0.511 b +161.3 | ie +0.443 | cmd +0.78 | 3.26 s
+RLS t 48.93: mnoznik sily dynamicznej 1.015, przesuniecie +3 N/m, suma dL/dth 6763 (Faltinsen 6662), blad RMS 437 N/m
+fala: w_e 2.775 rad/s (okres spotkania 2.265 s), w0 1.140 rad/s (okres fali 5.51 s), k 0.1324 1/m, wyprzedzenie sondy 0.000 s
+RLS t 49.93: mnoznik sily dynamicznej 1.019, przesuniecie -2 N/m, suma dL/dth 6789 (Faltinsen 6662), blad RMS 846 N/m
+t 49.940 z -0.471 v +0.413 th +4.42 eta +0.120 | fala A 0.542 b +79.3 | ie +0.500 | cmd +5.21 | 1.06 s
+fala: w_e 2.915 rad/s (okres spotkania 2.155 s), w0 1.176 rad/s (okres fali 5.34 s), k 0.1409 1/m, wyprzedzenie sondy 0.000 s
+RLS t 50.93: mnoznik sily dynamicznej 1.019, przesuniecie +6 N/m, suma dL/dth 6790 (Faltinsen 6662), blad RMS 255 N/m
+fala: w_e 3.006 rad/s (okres spotkania 2.090 s), w0 1.198 rad/s (okres fali 5.24 s), k 0.1464 1/m, wyprzedzenie sondy 0.000 s
+RLS t 51.93: mnoznik sily dynamicznej 1.018, przesuniecie +1 N/m, suma dL/dth 6782 (Faltinsen 6662), blad RMS 364 N/m
+t 51.940 z -0.255 v +0.124 th +3.68 eta +0.138 | fala A 0.237 b -7.7 | ie +0.500 | cmd +3.75 | 0.61 s
+fala: w_e 3.106 rad/s (okres spotkania 2.023 s), w0 1.223 rad/s (okres fali 5.14 s), k 0.1525 1/m, wyprzedzenie sondy 0.000 s
+RLS t 52.93: mnoznik sily dynamicznej 1.018, przesuniecie +12 N/m, suma dL/dth 6782 (Faltinsen 6662), blad RMS 430 N/m
+fala: w_e 3.037 rad/s (okres spotkania 2.069 s), w0 1.206 rad/s (okres fali 5.21 s), k 0.1483 1/m, wyprzedzenie sondy 0.000 s
+RLS t 53.93: mnoznik sily dynamicznej 1.022, przesuniecie +7 N/m, suma dL/dth 6807 (Faltinsen 6662), blad RMS 585 N/m
+t 53.940 z -0.347 v +0.597 th +4.74 eta +0.339 | fala A 0.119 b +102.1 | ie +0.500 | cmd +5.04 | 0.19 s
+RLS t 54.93: mnoznik sily dynamicznej 1.022, przesuniecie +9 N/m, suma dL/dth 6812 (Faltinsen 6662), blad RMS 527 N/m
+fala: w_e 2.972 rad/s (okres spotkania 2.114 s), w0 1.190 rad/s (okres fali 5.28 s), k 0.1443 1/m, wyprzedzenie sondy 0.000 s
+RLS t 55.93: mnoznik sily dynamicznej 1.023, przesuniecie +1 N/m, suma dL/dth 6819 (Faltinsen 6662), blad RMS 547 N/m
+t 55.940 z -0.324 v -0.523 th +0.85 eta -0.485 | fala A 0.172 b -36.6 | ie +0.500 | cmd +1.23 | 1.28 s
+fala: w_e 2.792 rad/s (okres spotkania 2.251 s), w0 1.144 rad/s (okres fali 5.49 s), k 0.1334 1/m, wyprzedzenie sondy 0.000 s
+RLS t 56.93: mnoznik sily dynamicznej 1.028, przesuniecie -7 N/m, suma dL/dth 6851 (Faltinsen 6662), blad RMS 598 N/m
+fala: w_e 5.183 rad/s (okres spotkania 1.212 s), w0 1.671 rad/s (okres fali 3.76 s), k 0.2845 1/m, wyprzedzenie sondy 0.000 s
+RLS t 57.93: mnoznik sily dynamicznej 1.026, przesuniecie +0 N/m, suma dL/dth 6837 (Faltinsen 6662), blad RMS 368 N/m
+t 57.940 z +0.089 v +0.306 th +1.75 eta -0.196 | fala A 0.291 b -155.4 | ie +0.492 | cmd +0.70 | 2.33 s
+RLS t 58.93: mnoznik sily dynamicznej 1.024, przesuniecie +1 N/m, suma dL/dth 6820 (Faltinsen 6662), blad RMS 556 N/m
+fala: w_e 5.328 rad/s (okres spotkania 1.179 s), w0 1.698 rad/s (okres fali 3.70 s), k 0.2940 1/m, wyprzedzenie sondy 0.000 s
+RLS t 59.93: mnoznik sily dynamicznej 1.025, przesuniecie -7 N/m, suma dL/dth 6827 (Faltinsen 6662), blad RMS 567 N/m
+t 59.940 z -0.455 v +0.685 th +5.97 eta -0.500 | fala A 0.118 b -4.6 | ie +0.500 | cmd +6.43 | 0.83 s
+fala: w_e 3.138 rad/s (okres spotkania 2.002 s), w0 1.231 rad/s (okres fali 5.10 s), k 0.1545 1/m, wyprzedzenie sondy 0.000 s
+RLS t 60.93: mnoznik sily dynamicznej 1.028, przesuniecie -4 N/m, suma dL/dth 6847 (Faltinsen 6662), blad RMS 520 N/m
+RLS t 61.93: mnoznik sily dynamicznej 1.028, przesuniecie -6 N/m, suma dL/dth 6849 (Faltinsen 6662), blad RMS 665 N/m
+t 61.940 z -0.425 v -0.138 th +1.31 eta +0.245 | fala A 0.584 b +95.9 | ie +0.327 | cmd +2.22 | 0.90 s
+fala: w_e 3.239 rad/s (okres spotkania 1.940 s), w0 1.255 rad/s (okres fali 5.00 s), k 0.1607 1/m, wyprzedzenie sondy 0.000 s
+RLS t 62.93: mnoznik sily dynamicznej 1.025, przesuniecie +3 N/m, suma dL/dth 6828 (Faltinsen 6662), blad RMS 693 N/m
+fala: w_e 3.294 rad/s (okres spotkania 1.907 s), w0 1.269 rad/s (okres fali 4.95 s), k 0.1641 1/m, wyprzedzenie sondy 0.000 s
+RLS t 63.93: mnoznik sily dynamicznej 1.024, przesuniecie -6 N/m, suma dL/dth 6821 (Faltinsen 6662), blad RMS 515 N/m
+t 63.940 z -0.492 v +0.317 th +5.36 eta -0.135 | fala A 0.178 b -157.2 | ie +0.500 | cmd +5.84 | 0.23 s
+fala: w_e 3.182 rad/s (okres spotkania 1.974 s), w0 1.242 rad/s (okres fali 5.06 s), k 0.1572 1/m, wyprzedzenie sondy 0.000 s
+RLS t 64.93: mnoznik sily dynamicznej 1.025, przesuniecie +3 N/m, suma dL/dth 6828 (Faltinsen 6662), blad RMS 334 N/m
+fala: w_e 3.251 rad/s (okres spotkania 1.933 s), w0 1.258 rad/s (okres fali 4.99 s), k 0.1614 1/m, wyprzedzenie sondy 0.000 s
+RLS t 65.93: mnoznik sily dynamicznej 1.026, przesuniecie -15 N/m, suma dL/dth 6837 (Faltinsen 6662), blad RMS 638 N/m
+t 65.940 z -0.470 v -0.390 th +3.49 eta -0.751 | fala A 0.204 b -164.6 | ie +0.500 | cmd +3.38 | 0.43 s
+fala: w_e 4.056 rad/s (okres spotkania 1.549 s), w0 1.441 rad/s (okres fali 4.36 s), k 0.2118 1/m, wyprzedzenie sondy 0.000 s
+RLS t 66.93: mnoznik sily dynamicznej 1.030, przesuniecie +6 N/m, suma dL/dth 6865 (Faltinsen 6662), blad RMS 568 N/m
+RLS t 67.93: mnoznik sily dynamicznej 1.025, przesuniecie -20 N/m, suma dL/dth 6827 (Faltinsen 6662), blad RMS 624 N/m
+t 67.940 z -0.501 v +0.380 th +6.09 eta -0.622 | fala A 0.524 b -47.0 | ie +0.458 | cmd +5.95 | 1.75 s
+fala: w_e 2.914 rad/s (okres spotkania 2.156 s), w0 1.175 rad/s (okres fali 5.35 s), k 0.1408 1/m, wyprzedzenie sondy 0.000 s
+RLS t 68.93: mnoznik sily dynamicznej 1.024, przesuniecie -32 N/m, suma dL/dth 6819 (Faltinsen 6662), blad RMS 919 N/m
+fala: w_e 2.795 rad/s (okres spotkania 2.248 s), w0 1.145 rad/s (okres fali 5.49 s), k 0.1336 1/m, wyprzedzenie sondy 0.000 s
+RLS t 69.93: mnoznik sily dynamicznej 1.023, przesuniecie -2 N/m, suma dL/dth 6817 (Faltinsen 6662), blad RMS 766 N/m
+t 69.940 z +0.076 v -0.321 th +0.12 eta +0.197 | fala A 0.328 b -115.1 | ie +0.446 | cmd +0.35 | 0.14 s
+fala: w_e 3.668 rad/s (okres spotkania 1.713 s), w0 1.356 rad/s (okres fali 4.64 s), k 0.1873 1/m, wyprzedzenie sondy 0.000 s
+RLS t 70.93: mnoznik sily dynamicznej 1.023, przesuniecie -7 N/m, suma dL/dth 6817 (Faltinsen 6662), blad RMS 771 N/m
+fala: w_e 3.445 rad/s (okres spotkania 1.824 s), w0 1.304 rad/s (okres fali 4.82 s), k 0.1734 1/m, wyprzedzenie sondy 0.000 s
+RLS t 71.93: mnoznik sily dynamicznej 1.023, przesuniecie -13 N/m, suma dL/dth 6816 (Faltinsen 6662), blad RMS 302 N/m
+t 71.940 z -0.310 v +1.014 th +6.92 eta +0.184 | fala A 0.411 b -153.3 | ie +0.500 | cmd +7.36 | 0.49 s
+fala: w_e 3.496 rad/s (okres spotkania 1.797 s), w0 1.316 rad/s (okres fali 4.77 s), k 0.1765 1/m, wyprzedzenie sondy 0.000 s
+RLS t 72.93: mnoznik sily dynamicznej 1.020, przesuniecie +3 N/m, suma dL/dth 6793 (Faltinsen 6662), blad RMS 835 N/m
+RLS t 73.93: mnoznik sily dynamicznej 1.022, przesuniecie -12 N/m, suma dL/dth 6807 (Faltinsen 6662), blad RMS 610 N/m
+t 73.940 z -0.322 v +0.742 th +5.51 eta +0.040 | fala A 0.196 b -15.8 | ie +0.500 | cmd +5.24 | 1.69 s
+fala: w_e 3.417 rad/s (okres spotkania 1.839 s), w0 1.298 rad/s (okres fali 4.84 s), k 0.1716 1/m, wyprzedzenie sondy 0.000 s
+RLS t 74.93: mnoznik sily dynamicznej 1.027, przesuniecie -16 N/m, suma dL/dth 6844 (Faltinsen 6662), blad RMS 691 N/m
+fala: w_e 3.293 rad/s (okres spotkania 1.908 s), w0 1.268 rad/s (okres fali 4.95 s), k 0.1640 1/m, wyprzedzenie sondy 0.000 s
+RLS t 75.93: mnoznik sily dynamicznej 1.026, przesuniecie -9 N/m, suma dL/dth 6837 (Faltinsen 6662), blad RMS 512 N/m
+t 75.940 z -0.220 v +0.546 th +4.19 eta +0.255 | fala A 0.358 b +8.6 | ie +0.500 | cmd +4.31 | 1.32 s
+RLS t 76.93: mnoznik sily dynamicznej 1.025, przesuniecie +2 N/m, suma dL/dth 6827 (Faltinsen 6662), blad RMS 440 N/m
+fala: w_e 3.172 rad/s (okres spotkania 1.981 s), w0 1.239 rad/s (okres fali 5.07 s), k 0.1565 1/m, wyprzedzenie sondy 0.000 s
+RLS t 77.93: mnoznik sily dynamicznej 1.027, przesuniecie -11 N/m, suma dL/dth 6843 (Faltinsen 6662), blad RMS 450 N/m
+t 77.940 z -0.483 v +0.437 th +5.25 eta -0.098 | fala A 0.288 b -178.3 | ie +0.500 | cmd +6.25 | 0.53 s
+RLS t 78.93: mnoznik sily dynamicznej 1.032, przesuniecie -9 N/m, suma dL/dth 6874 (Faltinsen 6662), blad RMS 480 N/m
+fala: w_e 3.076 rad/s (okres spotkania 2.043 s), w0 1.216 rad/s (okres fali 5.17 s), k 0.1506 1/m, wyprzedzenie sondy 0.000 s
+RLS t 79.93: mnoznik sily dynamicznej 1.032, przesuniecie -11 N/m, suma dL/dth 6876 (Faltinsen 6662), blad RMS 334 N/m
+t 79.940 z -0.475 v +0.097 th +2.36 eta -0.043 | fala A 0.476 b +152.6 | ie +0.500 | cmd +3.12 | 0.13 s
+fala: w_e 3.196 rad/s (okres spotkania 1.966 s), w0 1.245 rad/s (okres fali 5.05 s), k 0.1580 1/m, wyprzedzenie sondy 0.000 s
+RLS t 80.93: mnoznik sily dynamicznej 1.030, przesuniecie -2 N/m, suma dL/dth 6862 (Faltinsen 6662), blad RMS 358 N/m
+RLS t 81.93: mnoznik sily dynamicznej 1.027, przesuniecie -7 N/m, suma dL/dth 6845 (Faltinsen 6662), blad RMS 332 N/m
+t 81.940 z -0.397 v +0.549 th +5.35 eta +0.558 | fala A 0.446 b -63.6 | ie +0.500 | cmd +6.06 | 0.75 s
+RLS t 82.93: mnoznik sily dynamicznej 1.028, przesuniecie +1 N/m, suma dL/dth 6846 (Faltinsen 6662), blad RMS 766 N/m
+fala: w_e 3.286 rad/s (okres spotkania 1.912 s), w0 1.267 rad/s (okres fali 4.96 s), k 0.1636 1/m, wyprzedzenie sondy 0.000 s
+RLS t 83.93: mnoznik sily dynamicznej 1.031, przesuniecie +0 N/m, suma dL/dth 6866 (Faltinsen 6662), blad RMS 804 N/m
+t 83.940 z -0.017 v -0.144 th +3.02 eta +0.160 | fala A 0.308 b -103.9 | ie +0.434 | cmd +3.42 | 1.83 s
+fala: w_e 3.798 rad/s (okres spotkania 1.654 s), w0 1.385 rad/s (okres fali 4.54 s), k 0.1955 1/m, wyprzedzenie sondy 0.000 s
+RLS t 84.93: mnoznik sily dynamicznej 1.037, przesuniecie -12 N/m, suma dL/dth 6912 (Faltinsen 6662), blad RMS 591 N/m
+fala: w_e 3.755 rad/s (okres spotkania 1.673 s), w0 1.375 rad/s (okres fali 4.57 s), k 0.1928 1/m, wyprzedzenie sondy 0.000 s
+RLS t 85.93: mnoznik sily dynamicznej 1.040, przesuniecie -9 N/m, suma dL/dth 6930 (Faltinsen 6662), blad RMS 618 N/m
+t 85.940 z -0.088 v -1.724 th -1.71 eta -0.389 | fala A 0.487 b -18.3 | ie +0.275 | cmd -1.20 | 0.36 s
+RLS t 86.93: mnoznik sily dynamicznej 1.037, przesuniecie -17 N/m, suma dL/dth 6908 (Faltinsen 6662), blad RMS 413 N/m
+RLS t 87.93: mnoznik sily dynamicznej 1.024, przesuniecie +0 N/m, suma dL/dth 6824 (Faltinsen 6662), blad RMS 812 N/m
+t 87.940 z -0.389 v -1.211 th +1.35 eta +0.207 | fala A 0.514 b +100.9 | ie +0.298 | cmd +3.84 | 0.58 s
+fala: w_e 3.574 rad/s (okres spotkania 1.758 s), w0 1.334 rad/s (okres fali 4.71 s), k 0.1814 1/m, wyprzedzenie sondy 0.000 s
+RLS t 88.93: mnoznik sily dynamicznej 1.020, przesuniecie -14 N/m, suma dL/dth 6798 (Faltinsen 6662), blad RMS 611 N/m
+fala: w_e 3.307 rad/s (okres spotkania 1.900 s), w0 1.272 rad/s (okres fali 4.94 s), k 0.1649 1/m, wyprzedzenie sondy 0.000 s
+RLS t 89.93: mnoznik sily dynamicznej 1.020, przesuniecie +2 N/m, suma dL/dth 6793 (Faltinsen 6662), blad RMS 748 N/m
+t 89.940 z +0.309 v -0.949 th -4.65 eta -0.010 | fala A 0.419 b +15.1 | ie +0.231 | cmd -2.98 | 0.14 s
+fala: w_e 3.200 rad/s (okres spotkania 1.963 s), w0 1.246 rad/s (okres fali 5.04 s), k 0.1583 1/m, wyprzedzenie sondy 0.000 s
+RLS t 90.93: mnoznik sily dynamicznej 1.024, przesuniecie -14 N/m, suma dL/dth 6820 (Faltinsen 6662), blad RMS 933 N/m
+fala: w_e 2.890 rad/s (okres spotkania 2.174 s), w0 1.169 rad/s (okres fali 5.37 s), k 0.1394 1/m, wyprzedzenie sondy 0.000 s
+RLS t 91.93: mnoznik sily dynamicznej 1.025, przesuniecie -9 N/m, suma dL/dth 6828 (Faltinsen 6662), blad RMS 351 N/m
+t 91.940 z -0.337 v +0.546 th +4.31 eta +0.068 | fala A 0.191 b -177.8 | ie +0.500 | cmd +4.94 | 1.50 s
+fala: w_e 2.653 rad/s (okres spotkania 2.368 s), w0 1.108 rad/s (okres fali 5.67 s), k 0.1251 1/m, wyprzedzenie sondy 0.000 s
+RLS t 92.93: mnoznik sily dynamicznej 1.026, przesuniecie -9 N/m, suma dL/dth 6836 (Faltinsen 6662), blad RMS 362 N/m
+fala: w_e 2.570 rad/s (okres spotkania 2.445 s), w0 1.086 rad/s (okres fali 5.79 s), k 0.1202 1/m, wyprzedzenie sondy 0.000 s
+RLS t 93.93: mnoznik sily dynamicznej 1.029, przesuniecie -7 N/m, suma dL/dth 6853 (Faltinsen 6662), blad RMS 752 N/m
+t 93.940 z -0.362 v -0.661 th -0.25 eta -0.393 | fala A 0.368 b -70.1 | ie +0.400 | cmd +0.85 | 0.16 s
+fala: w_e 2.473 rad/s (okres spotkania 2.540 s), w0 1.060 rad/s (okres fali 5.93 s), k 0.1145 1/m, wyprzedzenie sondy 0.000 s
+RLS t 94.93: mnoznik sily dynamicznej 1.029, przesuniecie -16 N/m, suma dL/dth 6857 (Faltinsen 6662), blad RMS 419 N/m
+fala: w_e 2.556 rad/s (okres spotkania 2.458 s), w0 1.082 rad/s (okres fali 5.81 s), k 0.1194 1/m, wyprzedzenie sondy 0.000 s
+RLS t 95.93: mnoznik sily dynamicznej 1.031, przesuniecie +5 N/m, suma dL/dth 6872 (Faltinsen 6662), blad RMS 572 N/m
+t 95.940 z -0.087 v +0.897 th +4.02 eta +0.627 | fala A 0.293 b +159.7 | ie +0.500 | cmd +4.15 | 0.72 s
+fala: w_e 2.705 rad/s (okres spotkania 2.323 s), w0 1.122 rad/s (okres fali 5.60 s), k 0.1282 1/m, wyprzedzenie sondy 0.000 s
+RLS t 96.93: mnoznik sily dynamicznej 1.034, przesuniecie -19 N/m, suma dL/dth 6892 (Faltinsen 6662), blad RMS 672 N/m
+fala: w_e 3.241 rad/s (okres spotkania 1.939 s), w0 1.256 rad/s (okres fali 5.00 s), k 0.1608 1/m, wyprzedzenie sondy 0.000 s
+RLS t 97.93: mnoznik sily dynamicznej 1.035, przesuniecie -12 N/m, suma dL/dth 6898 (Faltinsen 6662), blad RMS 325 N/m
+t 97.940 z -0.027 v +1.572 th +7.45 eta +0.830 | fala A 0.589 b -141.5 | ie +0.500 | cmd +7.50 | 0.16 s
+RLS t 98.93: mnoznik sily dynamicznej 1.032, przesuniecie -5 N/m, suma dL/dth 6879 (Faltinsen 6662), blad RMS 685 N/m
+fala: w_e 3.386 rad/s (okres spotkania 1.856 s), w0 1.290 rad/s (okres fali 4.87 s), k 0.1697 1/m, wyprzedzenie sondy 0.000 s
+RLS t 99.93: mnoznik sily dynamicznej 1.027, przesuniecie -17 N/m, suma dL/dth 6845 (Faltinsen 6662), blad RMS 680 N/m
+t 99.940 z -0.052 v +1.284 th +7.50 eta +0.104 | fala A 0.621 b -62.4 | ie +0.500 | cmd +7.50 | 1.14 s
+fala: w_e 3.422 rad/s (okres spotkania 1.836 s), w0 1.299 rad/s (okres fali 4.84 s), k 0.1720 1/m, wyprzedzenie sondy 0.000 s
+RLS t 100.93: mnoznik sily dynamicznej 1.023, przesuniecie -8 N/m, suma dL/dth 6815 (Faltinsen 6662), blad RMS 687 N/m
+RLS t 101.93: mnoznik sily dynamicznej 1.021, przesuniecie -6 N/m, suma dL/dth 6800 (Faltinsen 6662), blad RMS 534 N/m
+t 101.940 z -0.099 v +1.507 th +7.43 eta +0.365 | fala A 0.389 b -86.8 | ie +0.500 | cmd +7.35 | 0.46 s
+fala: w_e 3.163 rad/s (okres spotkania 1.986 s), w0 1.237 rad/s (okres fali 5.08 s), k 0.1560 1/m, wyprzedzenie sondy 0.000 s
+RLS t 102.93: mnoznik sily dynamicznej 1.023, przesuniecie -11 N/m, suma dL/dth 6814 (Faltinsen 6662), blad RMS 485 N/m
+fala: w_e 3.101 rad/s (okres spotkania 2.026 s), w0 1.222 rad/s (okres fali 5.14 s), k 0.1522 1/m, wyprzedzenie sondy 0.000 s
+RLS t 103.93: mnoznik sily dynamicznej 1.024, przesuniecie -17 N/m, suma dL/dth 6820 (Faltinsen 6662), blad RMS 785 N/m
+t 103.940 z -0.340 v -0.178 th +3.21 eta -0.114 | fala A 0.443 b +155.8 | ie +0.383 | cmd +4.56 | 0.94 s
+RLS t 104.93: mnoznik sily dynamicznej 1.024, przesuniecie -4 N/m, suma dL/dth 6821 (Faltinsen 6662), blad RMS 427 N/m
+fala: w_e 3.049 rad/s (okres spotkania 2.061 s), w0 1.209 rad/s (okres fali 5.20 s), k 0.1490 1/m, wyprzedzenie sondy 0.000 s
+RLS t 105.93: mnoznik sily dynamicznej 1.025, przesuniecie -9 N/m, suma dL/dth 6832 (Faltinsen 6662), blad RMS 286 N/m
+t 105.940 z -0.370 v +0.859 th +5.96 eta +0.238 | fala A 0.214 b -160.1 | ie +0.500 | cmd +6.23 | 0.13 s
+RLS t 106.93: mnoznik sily dynamicznej 1.026, przesuniecie -8 N/m, suma dL/dth 6834 (Faltinsen 6662), blad RMS 253 N/m
+fala: w_e 3.232 rad/s (okres spotkania 1.944 s), w0 1.254 rad/s (okres fali 5.01 s), k 0.1602 1/m, wyprzedzenie sondy 0.000 s
+RLS t 107.93: mnoznik sily dynamicznej 1.029, przesuniecie -4 N/m, suma dL/dth 6853 (Faltinsen 6662), blad RMS 596 N/m
+t 107.940 z -0.143 v +1.120 th +6.88 eta +0.749 | fala A 0.267 b -146.6 | ie +0.500 | cmd +7.35 | 1.55 s
+RLS t 108.93: mnoznik sily dynamicznej 1.027, przesuniecie -9 N/m, suma dL/dth 6845 (Faltinsen 6662), blad RMS 630 N/m
+RLS t 109.93: mnoznik sily dynamicznej 1.028, przesuniecie -8 N/m, suma dL/dth 6846 (Faltinsen 6662), blad RMS 313 N/m
+t 109.940 z -0.130 v +1.151 th +7.02 eta +0.300 | fala A 0.239 b +51.7 | ie +0.500 | cmd +6.78 | 0.14 s
+fala: w_e 3.195 rad/s (okres spotkania 1.966 s), w0 1.245 rad/s (okres fali 5.05 s), k 0.1580 1/m, wyprzedzenie sondy 0.000 s
+RLS t 110.93: mnoznik sily dynamicznej 1.026, przesuniecie +1 N/m, suma dL/dth 6836 (Faltinsen 6662), blad RMS 545 N/m
+RLS t 111.93: mnoznik sily dynamicznej 1.027, przesuniecie -15 N/m, suma dL/dth 6843 (Faltinsen 6662), blad RMS 581 N/m
+t 111.940 z -0.496 v -0.100 th +3.53 eta -0.566 | fala A 0.100 b +22.4 | ie +0.500 | cmd +3.64 | 0.68 s
+fala: w_e 3.757 rad/s (okres spotkania 1.672 s), w0 1.376 rad/s (okres fali 4.57 s), k 0.1929 1/m, wyprzedzenie sondy 0.000 s
+RLS t 112.93: mnoznik sily dynamicznej 1.028, przesuniecie -0 N/m, suma dL/dth 6848 (Faltinsen 6662), blad RMS 566 N/m
+fala: w_e 3.842 rad/s (okres spotkania 1.635 s), w0 1.394 rad/s (okres fali 4.51 s), k 0.1982 1/m, wyprzedzenie sondy 0.000 s
+RLS t 113.93: mnoznik sily dynamicznej 1.027, przesuniecie -14 N/m, suma dL/dth 6840 (Faltinsen 6662), blad RMS 477 N/m
+t 113.940 z -0.516 v -0.146 th +5.93 eta -0.361 | fala A 0.323 b -17.6 | ie +0.460 | cmd +6.00 | 0.17 s
+fala: w_e 2.608 rad/s (okres spotkania 2.409 s), w0 1.096 rad/s (okres fali 5.73 s), k 0.1224 1/m, wyprzedzenie sondy 0.000 s
+RLS t 114.93: mnoznik sily dynamicznej 1.034, przesuniecie -28 N/m, suma dL/dth 6892 (Faltinsen 6662), blad RMS 1025 N/m
+fala: w_e 3.935 rad/s (okres spotkania 1.597 s), w0 1.415 rad/s (okres fali 4.44 s), k 0.2041 1/m, wyprzedzenie sondy 0.000 s
+RLS t 115.93: mnoznik sily dynamicznej 1.038, przesuniecie -24 N/m, suma dL/dth 6916 (Faltinsen 6662), blad RMS 768 N/m
+t 115.940 z +0.045 v +1.384 th +7.50 eta +0.551 | fala A 0.515 b -121.7 | ie +0.499 | cmd +7.50 | 0.73 s
+fala: w_e 3.987 rad/s (okres spotkania 1.576 s), w0 1.426 rad/s (okres fali 4.41 s), k 0.2074 1/m, wyprzedzenie sondy 0.000 s
+RLS t 116.93: mnoznik sily dynamicznej 1.028, przesuniecie -21 N/m, suma dL/dth 6848 (Faltinsen 6662), blad RMS 817 N/m
+RLS t 117.93: mnoznik sily dynamicznej 1.025, przesuniecie -5 N/m, suma dL/dth 6829 (Faltinsen 6662), blad RMS 494 N/m
+t 117.940 z +0.406 v -0.184 th -2.80 eta +0.434 | fala A 0.440 b -45.0 | ie +0.393 | cmd -3.02 | 0.16 s
+fala: w_e 3.815 rad/s (okres spotkania 1.647 s), w0 1.389 rad/s (okres fali 4.53 s), k 0.1965 1/m, wyprzedzenie sondy 0.000 s
+RLS t 118.93: mnoznik sily dynamicznej 1.024, przesuniecie -18 N/m, suma dL/dth 6825 (Faltinsen 6662), blad RMS 570 N/m
+fala: w_e 3.685 rad/s (okres spotkania 1.705 s), w0 1.359 rad/s (okres fali 4.62 s), k 0.1884 1/m, wyprzedzenie sondy 0.000 s
+RLS t 119.93: mnoznik sily dynamicznej 1.023, przesuniecie -11 N/m, suma dL/dth 6817 (Faltinsen 6662), blad RMS 317 N/m
+t 119.940 z +0.370 v +0.336 th +1.84 eta -0.022 | fala A 0.419 b +57.4 | ie +0.420 | cmd -0.79 | 1.55 s
+fala: w_e 3.675 rad/s (okres spotkania 1.710 s), w0 1.357 rad/s (okres fali 4.63 s), k 0.1877 1/m, wyprzedzenie sondy 0.000 s
+RLS t 120.93: mnoznik sily dynamicznej 1.024, przesuniecie -20 N/m, suma dL/dth 6823 (Faltinsen 6662), blad RMS 1213 N/m
+fala: w_e 3.893 rad/s (okres spotkania 1.614 s), w0 1.406 rad/s (okres fali 4.47 s), k 0.2015 1/m, wyprzedzenie sondy 0.000 s
+RLS t 121.93: mnoznik sily dynamicznej 1.025, przesuniecie -21 N/m, suma dL/dth 6826 (Faltinsen 6662), blad RMS 307 N/m
+t 121.940 z -0.493 v +0.056 th +3.89 eta -0.440 | fala A 0.233 b -85.0 | ie +0.500 | cmd +4.29 | 0.97 s
+fala: w_e 3.963 rad/s (okres spotkania 1.585 s), w0 1.421 rad/s (okres fali 4.42 s), k 0.2059 1/m, wyprzedzenie sondy 0.000 s
+RLS t 122.93: mnoznik sily dynamicznej 1.030, przesuniecie -1 N/m, suma dL/dth 6865 (Faltinsen 6662), blad RMS 785 N/m
+fala: w_e 2.736 rad/s (okres spotkania 2.296 s), w0 1.130 rad/s (okres fali 5.56 s), k 0.1301 1/m, wyprzedzenie sondy 0.000 s
+RLS t 123.93: mnoznik sily dynamicznej 1.032, przesuniecie +2 N/m, suma dL/dth 6875 (Faltinsen 6662), blad RMS 435 N/m
+t 123.940 z -0.376 v -0.345 th +0.10 eta -0.538 | fala A 0.613 b +170.0 | ie +0.500 | cmd -0.42 | 1.11 s
+fala: w_e 2.622 rad/s (okres spotkania 2.396 s), w0 1.100 rad/s (okres fali 5.71 s), k 0.1233 1/m, wyprzedzenie sondy 0.000 s
+RLS t 124.93: mnoznik sily dynamicznej 1.031, przesuniecie -14 N/m, suma dL/dth 6870 (Faltinsen 6662), blad RMS 482 N/m
+fala: w_e 2.611 rad/s (okres spotkania 2.407 s), w0 1.097 rad/s (okres fali 5.73 s), k 0.1226 1/m, wyprzedzenie sondy 0.000 s
+RLS t 125.93: mnoznik sily dynamicznej 1.031, przesuniecie +2 N/m, suma dL/dth 6869 (Faltinsen 6662), blad RMS 393 N/m
+t 125.940 z +0.072 v -0.099 th +1.16 eta -0.243 | fala A 0.350 b -30.5 | ie +0.483 | cmd +0.40 | 2.88 s
+RLS t 126.93: mnoznik sily dynamicznej 1.030, przesuniecie -8 N/m, suma dL/dth 6866 (Faltinsen 6662), blad RMS 710 N/m
+fala: w_e 2.983 rad/s (okres spotkania 2.107 s), w0 1.193 rad/s (okres fali 5.27 s), k 0.1450 1/m, wyprzedzenie sondy 0.000 s
+RLS t 127.93: mnoznik sily dynamicznej 1.031, przesuniecie -1 N/m, suma dL/dth 6868 (Faltinsen 6662), blad RMS 421 N/m
+t 127.940 z -0.177 v +0.302 th +2.99 eta +0.201 | fala A 0.110 b +25.7 | ie +0.500 | cmd +2.70 | 0.62 s
+fala: w_e 3.209 rad/s (okres spotkania 1.958 s), w0 1.248 rad/s (okres fali 5.03 s), k 0.1588 1/m, wyprzedzenie sondy 0.000 s
+RLS t 128.93: mnoznik sily dynamicznej 1.032, przesuniecie -4 N/m, suma dL/dth 6873 (Faltinsen 6662), blad RMS 334 N/m
+fala: w_e 3.360 rad/s (okres spotkania 1.870 s), w0 1.284 rad/s (okres fali 4.89 s), k 0.1681 1/m, wyprzedzenie sondy 0.000 s
+RLS t 129.93: mnoznik sily dynamicznej 1.032, przesuniecie -9 N/m, suma dL/dth 6876 (Faltinsen 6662), blad RMS 467 N/m
+t 129.940 z -0.041 v +0.051 th +3.44 eta +0.082 | fala A 0.219 b +179.4 | ie +0.500 | cmd +2.77 | 0.79 s
+fala: w_e 3.547 rad/s (okres spotkania 1.771 s), w0 1.328 rad/s (okres fali 4.73 s), k 0.1797 1/m, wyprzedzenie sondy 0.000 s
+RLS t 130.93: mnoznik sily dynamicznej 1.031, przesuniecie -6 N/m, suma dL/dth 6872 (Faltinsen 6662), blad RMS 384 N/m
+fala: w_e 3.719 rad/s (okres spotkania 1.690 s), w0 1.367 rad/s (okres fali 4.60 s), k 0.1905 1/m, wyprzedzenie sondy 0.000 s
+RLS t 131.93: mnoznik sily dynamicznej 1.033, przesuniecie +11 N/m, suma dL/dth 6879 (Faltinsen 6662), blad RMS 502 N/m
+t 131.940 z +0.348 v +0.116 th -0.70 eta +0.856 | fala A 0.239 b -53.9 | ie +0.423 | cmd -0.78 | 1.48 s
+fala: w_e 3.619 rad/s (okres spotkania 1.736 s), w0 1.344 rad/s (okres fali 4.67 s), k 0.1842 1/m, wyprzedzenie sondy 0.000 s
+RLS t 132.93: mnoznik sily dynamicznej 1.035, przesuniecie -13 N/m, suma dL/dth 6896 (Faltinsen 6662), blad RMS 615 N/m
+fala: w_e 3.537 rad/s (okres spotkania 1.776 s), w0 1.326 rad/s (okres fali 4.74 s), k 0.1791 1/m, wyprzedzenie sondy 0.000 s
+RLS t 133.93: mnoznik sily dynamicznej 1.037, przesuniecie -3 N/m, suma dL/dth 6906 (Faltinsen 6662), blad RMS 290 N/m
+t 133.940 z +0.501 v -0.323 th +0.54 eta +0.430 | fala A 0.625 b +89.1 | ie +0.334 | cmd -0.90 | 0.91 s
+fala: w_e 3.418 rad/s (okres spotkania 1.838 s), w0 1.298 rad/s (okres fali 4.84 s), k 0.1717 1/m, wyprzedzenie sondy 0.000 s
+RLS t 134.93: mnoznik sily dynamicznej 1.028, przesuniecie -3 N/m, suma dL/dth 6849 (Faltinsen 6662), blad RMS 733 N/m
+fala: w_e 3.302 rad/s (okres spotkania 1.903 s), w0 1.271 rad/s (okres fali 4.95 s), k 0.1645 1/m, wyprzedzenie sondy 0.000 s
+RLS t 135.93: mnoznik sily dynamicznej 1.028, przesuniecie +8 N/m, suma dL/dth 6848 (Faltinsen 6662), blad RMS 736 N/m
+t 135.940 z +0.229 v +1.282 th +3.96 eta +0.540 | fala A 0.368 b +106.6 | ie +0.479 | cmd +0.89 | 1.16 s
+fala: w_e 3.148 rad/s (okres spotkania 1.996 s), w0 1.233 rad/s (okres fali 5.09 s), k 0.1551 1/m, wyprzedzenie sondy 0.000 s
+RLS t 136.93: mnoznik sily dynamicznej 1.038, przesuniecie -4 N/m, suma dL/dth 6913 (Faltinsen 6662), blad RMS 717 N/m
+fala: w_e 3.068 rad/s (okres spotkania 2.048 s), w0 1.214 rad/s (okres fali 5.18 s), k 0.1502 1/m, wyprzedzenie sondy 0.000 s
+RLS t 137.93: mnoznik sily dynamicznej 1.038, przesuniecie -8 N/m, suma dL/dth 6916 (Faltinsen 6662), blad RMS 558 N/m
+t 137.940 z +0.334 v +0.447 th +5.30 eta +0.243 | fala A 0.528 b +105.3 | ie +0.427 | cmd +5.21 | 0.19 s
+RLS t 138.93: mnoznik sily dynamicznej 1.041, przesuniecie -0 N/m, suma dL/dth 6938 (Faltinsen 6662), blad RMS 608 N/m
+fala: w_e 3.182 rad/s (okres spotkania 1.975 s), w0 1.242 rad/s (okres fali 5.06 s), k 0.1572 1/m, wyprzedzenie sondy 0.000 s
+RLS t 139.93: mnoznik sily dynamicznej 1.037, przesuniecie -13 N/m, suma dL/dth 6912 (Faltinsen 6662), blad RMS 608 N/m
+t 139.940 z +0.085 v +0.586 th +7.30 eta -0.213 | fala A 0.620 b -105.8 | ie +0.494 | cmd +6.04 | 2.45 s
+fala: w_e 3.232 rad/s (okres spotkania 1.944 s), w0 1.254 rad/s (okres fali 5.01 s), k 0.1602 1/m, wyprzedzenie sondy 0.000 s
+RLS t 140.93: mnoznik sily dynamicznej 1.028, przesuniecie -8 N/m, suma dL/dth 6852 (Faltinsen 6662), blad RMS 761 N/m
+fala: w_e 3.315 rad/s (okres spotkania 1.895 s), w0 1.274 rad/s (okres fali 4.93 s), k 0.1653 1/m, wyprzedzenie sondy 0.000 s
+RLS t 141.93: mnoznik sily dynamicznej 1.029, przesuniecie +3 N/m, suma dL/dth 6854 (Faltinsen 6662), blad RMS 597 N/m
+t 141.940 z +0.107 v +0.940 th +4.31 eta +0.369 | fala A 0.133 b -178.2 | ie +0.494 | cmd +3.32 | 0.08 s
+fala: w_e 3.406 rad/s (okres spotkania 1.845 s), w0 1.295 rad/s (okres fali 4.85 s), k 0.1710 1/m, wyprzedzenie sondy 0.000 s
+RLS t 142.93: mnoznik sily dynamicznej 1.032, przesuniecie -4 N/m, suma dL/dth 6875 (Faltinsen 6662), blad RMS 422 N/m
+fala: w_e 3.325 rad/s (okres spotkania 1.890 s), w0 1.276 rad/s (okres fali 4.92 s), k 0.1659 1/m, wyprzedzenie sondy 0.000 s
+RLS t 143.93: mnoznik sily dynamicznej 1.036, przesuniecie -12 N/m, suma dL/dth 6903 (Faltinsen 6662), blad RMS 671 N/m
+t 143.940 z +0.196 v -0.032 th +2.59 eta +0.085 | fala A 0.249 b +37.1 | ie +0.464 | cmd +1.44 | 0.39 s
+fala: w_e 3.175 rad/s (okres spotkania 1.979 s), w0 1.240 rad/s (okres fali 5.07 s), k 0.1567 1/m, wyprzedzenie sondy 0.000 s
+RLS t 144.93: mnoznik sily dynamicznej 1.035, przesuniecie -4 N/m, suma dL/dth 6897 (Faltinsen 6662), blad RMS 310 N/m
+fala: w_e 4.305 rad/s (okres spotkania 1.460 s), w0 1.494 rad/s (okres fali 4.20 s), k 0.2276 1/m, wyprzedzenie sondy 0.000 s
+RLS t 145.93: mnoznik sily dynamicznej 1.034, przesuniecie +6 N/m, suma dL/dth 6887 (Faltinsen 6662), blad RMS 537 N/m
+t 145.940 z -0.282 v -0.726 th -0.76 eta +0.048 | fala A 0.385 b +155.9 | ie +0.500 | cmd +0.54 | 0.71 s
+fala: w_e 4.424 rad/s (okres spotkania 1.420 s), w0 1.519 rad/s (okres fali 4.14 s), k 0.2352 1/m, wyprzedzenie sondy 0.000 s
+RLS t 146.93: mnoznik sily dynamicznej 1.028, przesuniecie +8 N/m, suma dL/dth 6851 (Faltinsen 6662), blad RMS 513 N/m
+RLS t 147.93: mnoznik sily dynamicznej 1.032, przesuniecie -2 N/m, suma dL/dth 6875 (Faltinsen 6662), blad RMS 492 N/m
+t 147.940 z -0.365 v +1.148 th +7.46 eta +0.022 | fala A 0.203 b -110.8 | ie +0.500 | cmd +7.50 | 0.98 s
+fala: w_e 4.183 rad/s (okres spotkania 1.502 s), w0 1.469 rad/s (okres fali 4.28 s), k 0.2199 1/m, wyprzedzenie sondy 0.000 s
+RLS t 148.93: mnoznik sily dynamicznej 1.036, przesuniecie -2 N/m, suma dL/dth 6904 (Faltinsen 6662), blad RMS 536 N/m
+fala: w_e 3.999 rad/s (okres spotkania 1.571 s), w0 1.429 rad/s (okres fali 4.40 s), k 0.2082 1/m, wyprzedzenie sondy 0.000 s
+RLS t 149.93: mnoznik sily dynamicznej 1.034, przesuniecie -3 N/m, suma dL/dth 6889 (Faltinsen 6662), blad RMS 453 N/m
+t 149.940 z +0.024 v +1.636 th +7.50 eta +0.351 | fala A 0.480 b +167.5 | ie +0.500 | cmd +7.19 | 0.46 s
+fala: w_e 3.886 rad/s (okres spotkania 1.617 s), w0 1.404 rad/s (okres fali 4.47 s), k 0.2010 1/m, wyprzedzenie sondy 0.000 s
+RLS t 150.93: mnoznik sily dynamicznej 1.028, przesuniecie -0 N/m, suma dL/dth 6852 (Faltinsen 6662), blad RMS 646 N/m
+RLS t 151.93: mnoznik sily dynamicznej 1.025, przesuniecie +7 N/m, suma dL/dth 6827 (Faltinsen 6662), blad RMS 850 N/m
+t 151.940 z +0.381 v +1.412 th +3.31 eta +0.714 | fala A 0.482 b +117.4 | ie +0.454 | cmd +0.20 | 0.66 s
+fala: w_e 3.608 rad/s (okres spotkania 1.741 s), w0 1.342 rad/s (okres fali 4.68 s), k 0.1835 1/m, wyprzedzenie sondy 0.000 s
+RLS t 152.93: mnoznik sily dynamicznej 1.028, przesuniecie +2 N/m, suma dL/dth 6850 (Faltinsen 6662), blad RMS 469 N/m
+fala: w_e 3.499 rad/s (okres spotkania 1.796 s), w0 1.317 rad/s (okres fali 4.77 s), k 0.1767 1/m, wyprzedzenie sondy 0.000 s
+RLS t 153.93: mnoznik sily dynamicznej 1.026, przesuniecie -0 N/m, suma dL/dth 6836 (Faltinsen 6662), blad RMS 629 N/m
+t 153.940 z +0.150 v +1.459 th +6.58 eta +0.565 | fala A 0.622 b -122.3 | ie +0.492 | cmd +4.68 | 0.64 s
+RLS t 154.93: mnoznik sily dynamicznej 1.024, przesuniecie -1 N/m, suma dL/dth 6820 (Faltinsen 6662), blad RMS 456 N/m
+fala: w_e 3.438 rad/s (okres spotkania 1.828 s), w0 1.302 rad/s (okres fali 4.82 s), k 0.1729 1/m, wyprzedzenie sondy 0.000 s
+RLS t 155.93: mnoznik sily dynamicznej 1.026, przesuniecie -11 N/m, suma dL/dth 6836 (Faltinsen 6662), blad RMS 671 N/m
+t 155.940 z +0.239 v +0.749 th +6.03 eta +0.236 | fala A 0.418 b +92.1 | ie +0.473 | cmd +4.43 | 0.66 s
+RLS t 156.93: mnoznik sily dynamicznej 1.026, przesuniecie +2 N/m, suma dL/dth 6834 (Faltinsen 6662), blad RMS 770 N/m
+fala: w_e 3.538 rad/s (okres spotkania 1.776 s), w0 1.326 rad/s (okres fali 4.74 s), k 0.1792 1/m, wyprzedzenie sondy 0.000 s
+RLS t 157.93: mnoznik sily dynamicznej 1.024, przesuniecie +11 N/m, suma dL/dth 6821 (Faltinsen 6662), blad RMS 646 N/m
+t 157.940 z +0.178 v -0.345 th -0.88 eta +0.307 | fala A 0.368 b -147.8 | ie +0.308 | cmd -1.04 | 0.79 s
+RLS t 158.93: mnoznik sily dynamicznej 1.024, przesuniecie -11 N/m, suma dL/dth 6825 (Faltinsen 6662), blad RMS 775 N/m
+fala: w_e 3.397 rad/s (okres spotkania 1.849 s), w0 1.293 rad/s (okres fali 4.86 s), k 0.1704 1/m, wyprzedzenie sondy 0.000 s
+RLS t 159.93: mnoznik sily dynamicznej 1.023, przesuniecie +8 N/m, suma dL/dth 6814 (Faltinsen 6662), blad RMS 479 N/m
+t 159.940 z +0.493 v -0.365 th -0.68 eta +0.599 | fala A 0.317 b +109.8 | ie +0.268 | cmd -0.72 | 0.34 s
+fala: w_e 3.272 rad/s (okres spotkania 1.920 s), w0 1.263 rad/s (okres fali 4.97 s), k 0.1627 1/m, wyprzedzenie sondy 0.000 s
+RLS t 160.93: mnoznik sily dynamicznej 1.022, przesuniecie -2 N/m, suma dL/dth 6812 (Faltinsen 6662), blad RMS 434 N/m
+fala: w_e 3.170 rad/s (okres spotkania 1.982 s), w0 1.239 rad/s (okres fali 5.07 s), k 0.1564 1/m, wyprzedzenie sondy 0.000 s
+RLS t 161.93: mnoznik sily dynamicznej 1.021, przesuniecie -2 N/m, suma dL/dth 6804 (Faltinsen 6662), blad RMS 547 N/m
+t 161.940 z -0.032 v +1.462 th +7.49 eta +0.262 | fala A 0.369 b -94.6 | ie +0.500 | cmd +7.29 | 0.52 s
+fala: w_e 2.964 rad/s (okres spotkania 2.120 s), w0 1.188 rad/s (okres fali 5.29 s), k 0.1439 1/m, wyprzedzenie sondy 0.000 s
+RLS t 162.93: mnoznik sily dynamicznej 1.023, przesuniecie -4 N/m, suma dL/dth 6815 (Faltinsen 6662), blad RMS 447 N/m
+fala: w_e 2.730 rad/s (okres spotkania 2.302 s), w0 1.128 rad/s (okres fali 5.57 s), k 0.1297 1/m, wyprzedzenie sondy 0.000 s
+RLS t 163.93: mnoznik sily dynamicznej 1.025, przesuniecie -4 N/m, suma dL/dth 6829 (Faltinsen 6662), blad RMS 598 N/m
+t 163.940 z -0.299 v -0.207 th +1.55 eta +0.097 | fala A 0.388 b +161.7 | ie +0.384 | cmd +2.08 | 0.99 s
+RLS t 164.93: mnoznik sily dynamicznej 1.024, przesuniecie -1 N/m, suma dL/dth 6825 (Faltinsen 6662), blad RMS 365 N/m
+fala: w_e 2.872 rad/s (okres spotkania 2.188 s), w0 1.165 rad/s (okres fali 5.39 s), k 0.1383 1/m, wyprzedzenie sondy 0.000 s
+RLS t 165.93: mnoznik sily dynamicznej 1.029, przesuniecie -10 N/m, suma dL/dth 6857 (Faltinsen 6662), blad RMS 836 N/m
+t 165.940 z -0.389 v -0.600 th +2.09 eta -0.417 | fala A 0.144 b -6.7 | ie +0.500 | cmd +3.14 | 0.77 s
+RLS t 166.93: mnoznik sily dynamicznej 1.031, przesuniecie -2 N/m, suma dL/dth 6871 (Faltinsen 6662), blad RMS 465 N/m
+fala: w_e 2.730 rad/s (okres spotkania 2.301 s), w0 1.128 rad/s (okres fali 5.57 s), k 0.1298 1/m, wyprzedzenie sondy 0.000 s
+RLS t 167.93: mnoznik sily dynamicznej 1.033, przesuniecie -7 N/m, suma dL/dth 6881 (Faltinsen 6662), blad RMS 572 N/m
+t 167.940 z -0.282 v -1.045 th +0.46 eta -0.648 | fala A 0.378 b -159.0 | ie +0.307 | cmd +0.96 | 3.47 s
+RLS t 168.93: mnoznik sily dynamicznej 1.034, przesuniecie -12 N/m, suma dL/dth 6887 (Faltinsen 6662), blad RMS 459 N/m
+fala: w_e 3.872 rad/s (okres spotkania 1.623 s), w0 1.401 rad/s (okres fali 4.48 s), k 0.2001 1/m, wyprzedzenie sondy 0.000 s
+RLS t 169.93: mnoznik sily dynamicznej 1.030, przesuniecie -10 N/m, suma dL/dth 6861 (Faltinsen 6662), blad RMS 743 N/m
+t 169.940 z -0.514 v +0.010 th +4.93 eta +0.188 | fala A 0.368 b +0.8 | ie +0.500 | cmd +5.36 | 1.55 s
+fala: w_e 3.904 rad/s (okres spotkania 1.610 s), w0 1.408 rad/s (okres fali 4.46 s), k 0.2021 1/m, wyprzedzenie sondy 0.000 s
+RLS t 170.93: mnoznik sily dynamicznej 1.027, przesuniecie -3 N/m, suma dL/dth 6844 (Faltinsen 6662), blad RMS 517 N/m
+fala: w_e 2.484 rad/s (okres spotkania 2.530 s), w0 1.063 rad/s (okres fali 5.91 s), k 0.1151 1/m, wyprzedzenie sondy 0.000 s
+RLS t 171.93: mnoznik sily dynamicznej 1.028, przesuniecie -7 N/m, suma dL/dth 6849 (Faltinsen 6662), blad RMS 484 N/m
+t 171.940 z -0.057 v -0.414 th +1.90 eta -0.257 | fala A 0.113 b -70.6 | ie +0.436 | cmd +2.28 | 1.04 s
+fala: w_e 2.847 rad/s (okres spotkania 2.207 s), w0 1.158 rad/s (okres fali 5.42 s), k 0.1368 1/m, wyprzedzenie sondy 0.000 s
+RLS t 172.93: mnoznik sily dynamicznej 1.030, przesuniecie -6 N/m, suma dL/dth 6865 (Faltinsen 6662), blad RMS 647 N/m
+RLS t 173.93: mnoznik sily dynamicznej 1.034, przesuniecie -15 N/m, suma dL/dth 6891 (Faltinsen 6662), blad RMS 670 N/m
+t 173.940 z +0.124 v -0.743 th +1.19 eta -0.218 | fala A 0.276 b -89.3 | ie +0.422 | cmd +0.58 | 1.38 s
+RLS t 174.93: mnoznik sily dynamicznej 1.038, przesuniecie -12 N/m, suma dL/dth 6915 (Faltinsen 6662), blad RMS 649 N/m
+fala: w_e 3.000 rad/s (okres spotkania 2.094 s), w0 1.197 rad/s (okres fali 5.25 s), k 0.1460 1/m, wyprzedzenie sondy 0.000 s
+RLS t 175.93: mnoznik sily dynamicznej 1.041, przesuniecie -14 N/m, suma dL/dth 6933 (Faltinsen 6662), blad RMS 623 N/m
+t 175.940 z +0.195 v -0.901 th +0.81 eta -0.769 | fala A 0.497 b -109.0 | ie +0.383 | cmd -0.20 | 0.44 s
+fala: w_e 3.075 rad/s (okres spotkania 2.043 s), w0 1.216 rad/s (okres fali 5.17 s), k 0.1506 1/m, wyprzedzenie sondy 0.000 s
+RLS t 176.93: mnoznik sily dynamicznej 1.033, przesuniecie -19 N/m, suma dL/dth 6880 (Faltinsen 6662), blad RMS 942 N/m
+fala: w_e 3.336 rad/s (okres spotkania 1.883 s), w0 1.279 rad/s (okres fali 4.91 s), k 0.1666 1/m, wyprzedzenie sondy 0.000 s
+RLS t 177.93: mnoznik sily dynamicznej 1.036, przesuniecie -0 N/m, suma dL/dth 6899 (Faltinsen 6662), blad RMS 719 N/m
+t 177.940 z +0.130 v -1.202 th -2.13 eta +0.152 | fala A 0.307 b +48.8 | ie +0.359 | cmd -2.47 | 0.82 s
+fala: w_e 3.167 rad/s (okres spotkania 1.984 s), w0 1.238 rad/s (okres fali 5.08 s), k 0.1562 1/m, wyprzedzenie sondy 0.000 s
+RLS t 178.93: mnoznik sily dynamicznej 1.035, przesuniecie -8 N/m, suma dL/dth 6893 (Faltinsen 6662), blad RMS 384 N/m
+fala: w_e 3.030 rad/s (okres spotkania 2.073 s), w0 1.204 rad/s (okres fali 5.22 s), k 0.1479 1/m, wyprzedzenie sondy 0.000 s
+RLS t 179.93: mnoznik sily dynamicznej 1.034, przesuniecie -5 N/m, suma dL/dth 6891 (Faltinsen 6662), blad RMS 383 N/m
+t 179.940 z +0.260 v +0.311 th +4.47 eta -0.020 | fala A 0.400 b -143.5 | ie +0.413 | cmd +3.48 | 1.15 s
+fala: w_e 3.114 rad/s (okres spotkania 2.018 s), w0 1.225 rad/s (okres fali 5.13 s), k 0.1530 1/m, wyprzedzenie sondy 0.000 s
+RLS t 180.93: mnoznik sily dynamicznej 1.032, przesuniecie -6 N/m, suma dL/dth 6875 (Faltinsen 6662), blad RMS 405 N/m
+fala: w_e 3.021 rad/s (okres spotkania 2.080 s), w0 1.202 rad/s (okres fali 5.23 s), k 0.1473 1/m, wyprzedzenie sondy 0.000 s
+RLS t 181.93: mnoznik sily dynamicznej 1.034, przesuniecie -0 N/m, suma dL/dth 6890 (Faltinsen 6662), blad RMS 769 N/m
+t 181.940 z -0.092 v +1.301 th +6.42 eta +0.368 | fala A 0.057 b +51.9 | ie +0.500 | cmd +6.20 | 0.81 s
+fala: w_e 2.720 rad/s (okres spotkania 2.310 s), w0 1.126 rad/s (okres fali 5.58 s), k 0.1291 1/m, wyprzedzenie sondy 0.000 s
+RLS t 182.93: mnoznik sily dynamicznej 1.039, przesuniecie -9 N/m, suma dL/dth 6919 (Faltinsen 6662), blad RMS 551 N/m
+RLS t 183.93: mnoznik sily dynamicznej 1.039, przesuniecie -11 N/m, suma dL/dth 6922 (Faltinsen 6662), blad RMS 293 N/m
+t 183.940 z -0.380 v +0.272 th +3.56 eta +0.286 | fala A 0.285 b -82.6 | ie +0.500 | cmd +4.07 | 0.21 s
+RLS t 184.93: mnoznik sily dynamicznej 1.039, przesuniecie -6 N/m, suma dL/dth 6926 (Faltinsen 6662), blad RMS 460 N/m
+fala: w_e 4.128 rad/s (okres spotkania 1.522 s), w0 1.457 rad/s (okres fali 4.31 s), k 0.2164 1/m, wyprzedzenie sondy 0.000 s
+RLS t 185.93: mnoznik sily dynamicznej 1.043, przesuniecie -6 N/m, suma dL/dth 6952 (Faltinsen 6662), blad RMS 808 N/m
+t 185.940 z +0.364 v -0.258 th -0.12 eta +0.219 | fala A 0.151 b -7.4 | ie +0.221 | cmd -1.85 | 0.54 s
+fala: w_e 3.996 rad/s (okres spotkania 1.572 s), w0 1.428 rad/s (okres fali 4.40 s), k 0.2080 1/m, wyprzedzenie sondy 0.000 s
+RLS t 186.93: mnoznik sily dynamicznej 1.044, przesuniecie -14 N/m, suma dL/dth 6955 (Faltinsen 6662), blad RMS 307 N/m
+fala: w_e 3.685 rad/s (okres spotkania 1.705 s), w0 1.359 rad/s (okres fali 4.62 s), k 0.1884 1/m, wyprzedzenie sondy 0.000 s
+RLS t 187.93: mnoznik sily dynamicznej 1.040, przesuniecie +3 N/m, suma dL/dth 6930 (Faltinsen 6662), blad RMS 430 N/m
+t 187.940 z +0.422 v -1.060 th -3.95 eta +0.645 | fala A 0.495 b -3.0 | ie +0.222 | cmd -3.33 | 0.55 s
+fala: w_e 3.506 rad/s (okres spotkania 1.792 s), w0 1.318 rad/s (okres fali 4.77 s), k 0.1772 1/m, wyprzedzenie sondy 0.000 s
+RLS t 188.93: mnoznik sily dynamicznej 1.032, przesuniecie -24 N/m, suma dL/dth 6873 (Faltinsen 6662), blad RMS 826 N/m
+fala: w_e 3.400 rad/s (okres spotkania 1.848 s), w0 1.294 rad/s (okres fali 4.86 s), k 0.1706 1/m, wyprzedzenie sondy 0.000 s
+RLS t 189.93: mnoznik sily dynamicznej 1.037, przesuniecie -9 N/m, suma dL/dth 6908 (Faltinsen 6662), blad RMS 613 N/m
+t 189.940 z +0.475 v -0.660 th +0.34 eta +0.499 | fala A 0.807 b -133.9 | ie +0.288 | cmd -0.72 | 1.95 s
+fala: w_e 3.300 rad/s (okres spotkania 1.904 s), w0 1.270 rad/s (okres fali 4.95 s), k 0.1644 1/m, wyprzedzenie sondy 0.000 s
+RLS t 190.93: mnoznik sily dynamicznej 1.033, przesuniecie -8 N/m, suma dL/dth 6880 (Faltinsen 6662), blad RMS 533 N/m
+RLS t 191.93: mnoznik sily dynamicznej 1.030, przesuniecie -7 N/m, suma dL/dth 6865 (Faltinsen 6662), blad RMS 634 N/m
+t 191.940 z +0.144 v +0.598 th +4.23 eta +0.093 | fala A 0.625 b -103.3 | ie +0.486 | cmd +2.25 | 0.22 s
+RLS t 192.93: mnoznik sily dynamicznej 1.028, przesuniecie -1 N/m, suma dL/dth 6852 (Faltinsen 6662), blad RMS 521 N/m
+fala: w_e 3.291 rad/s (okres spotkania 1.909 s), w0 1.268 rad/s (okres fali 4.96 s), k 0.1639 1/m, wyprzedzenie sondy 0.000 s
+RLS t 193.93: mnoznik sily dynamicznej 1.028, przesuniecie -5 N/m, suma dL/dth 6847 (Faltinsen 6662), blad RMS 398 N/m
+t 193.940 z +0.193 v -0.765 th -0.56 eta -0.279 | fala A 0.362 b +90.0 | ie +0.390 | cmd -1.68 | 1.48 s
+fala: w_e 3.347 rad/s (okres spotkania 1.877 s), w0 1.281 rad/s (okres fali 4.90 s), k 0.1673 1/m, wyprzedzenie sondy 0.000 s
+RLS t 194.93: mnoznik sily dynamicznej 1.026, przesuniecie -8 N/m, suma dL/dth 6834 (Faltinsen 6662), blad RMS 385 N/m
+fala: w_e 3.433 rad/s (okres spotkania 1.830 s), w0 1.301 rad/s (okres fali 4.83 s), k 0.1727 1/m, wyprzedzenie sondy 0.000 s
+RLS t 195.93: mnoznik sily dynamicznej 1.025, przesuniecie +0 N/m, suma dL/dth 6828 (Faltinsen 6662), blad RMS 728 N/m
+t 195.940 z -0.006 v -1.172 th -2.59 eta +0.023 | fala A 0.347 b -146.4 | ie +0.379 | cmd -2.80 | 0.29 s
+fala: w_e 3.488 rad/s (okres spotkania 1.802 s), w0 1.314 rad/s (okres fali 4.78 s), k 0.1760 1/m, wyprzedzenie sondy 0.000 s
+RLS t 196.93: mnoznik sily dynamicznej 1.026, przesuniecie -6 N/m, suma dL/dth 6836 (Faltinsen 6662), blad RMS 406 N/m
+RLS t 197.93: mnoznik sily dynamicznej 1.026, przesuniecie -3 N/m, suma dL/dth 6835 (Faltinsen 6662), blad RMS 531 N/m
+t 197.940 z +0.056 v -1.070 th -1.95 eta -0.122 | fala A 0.189 b +125.3 | ie +0.333 | cmd -2.12 | 0.35 s
+fala: w_e 3.358 rad/s (okres spotkania 1.871 s), w0 1.284 rad/s (okres fali 4.89 s), k 0.1680 1/m, wyprzedzenie sondy 0.000 s
+RLS t 198.93: mnoznik sily dynamicznej 1.025, przesuniecie -13 N/m, suma dL/dth 6831 (Faltinsen 6662), blad RMS 408 N/m
+fala: w_e 3.150 rad/s (okres spotkania 1.995 s), w0 1.234 rad/s (okres fali 5.09 s), k 0.1552 1/m, wyprzedzenie sondy 0.000 s
+RLS t 199.93: mnoznik sily dynamicznej 1.030, przesuniecie -3 N/m, suma dL/dth 6862 (Faltinsen 6662), blad RMS 661 N/m
+t 199.940 z +0.430 v -0.538 th +0.43 eta +0.134 | fala A 0.323 b +12.9 | ie +0.319 | cmd -0.44 | 1.16 s
+fala: w_e 2.960 rad/s (okres spotkania 2.123 s), w0 1.187 rad/s (okres fali 5.29 s), k 0.1436 1/m, wyprzedzenie sondy 0.000 s
+RLS t 200.93: mnoznik sily dynamicznej 1.031, przesuniecie +1 N/m, suma dL/dth 6866 (Faltinsen 6662), blad RMS 219 N/m
+RLS t 201.93: mnoznik sily dynamicznej 1.030, przesuniecie -12 N/m, suma dL/dth 6859 (Faltinsen 6662), blad RMS 474 N/m
+t 201.940 z -0.117 v +0.210 th +5.05 eta -0.358 | fala A 0.342 b +176.0 | ie +0.500 | cmd +4.27 | 0.12 s
+RLS t 202.93: mnoznik sily dynamicznej 1.039, przesuniecie -18 N/m, suma dL/dth 6925 (Faltinsen 6662), blad RMS 1274 N/m
+fala: w_e 4.233 rad/s (okres spotkania 1.484 s), w0 1.479 rad/s (okres fali 4.25 s), k 0.2230 1/m, wyprzedzenie sondy 0.000 s
+RLS t 203.93: mnoznik sily dynamicznej 1.040, przesuniecie -8 N/m, suma dL/dth 6927 (Faltinsen 6662), blad RMS 796 N/m
+t 203.940 z -0.121 v +1.597 th +7.49 eta +0.685 | fala A 0.618 b +173.3 | ie +0.500 | cmd +7.50 | 0.97 s
+fala: w_e 4.351 rad/s (okres spotkania 1.444 s), w0 1.504 rad/s (okres fali 4.18 s), k 0.2306 1/m, wyprzedzenie sondy 0.000 s
+RLS t 204.93: mnoznik sily dynamicznej 1.022, przesuniecie -6 N/m, suma dL/dth 6809 (Faltinsen 6662), blad RMS 937 N/m
+fala: w_e 4.203 rad/s (okres spotkania 1.495 s), w0 1.473 rad/s (okres fali 4.27 s), k 0.2211 1/m, wyprzedzenie sondy 0.000 s
+RLS t 205.93: mnoznik sily dynamicznej 1.020, przesuniecie +4 N/m, suma dL/dth 6795 (Faltinsen 6662), blad RMS 918 N/m
+t 205.940 z +0.276 v +0.732 th -0.25 eta +0.380 | fala A 0.365 b -158.6 | ie +0.467 | cmd -2.44 | 2.05 s
+fala: w_e 3.980 rad/s (okres spotkania 1.579 s), w0 1.425 rad/s (okres fali 4.41 s), k 0.2069 1/m, wyprzedzenie sondy 0.000 s
+RLS t 206.93: mnoznik sily dynamicznej 1.020, przesuniecie -0 N/m, suma dL/dth 6794 (Faltinsen 6662), blad RMS 451 N/m
+RLS t 207.93: mnoznik sily dynamicznej 1.019, przesuniecie +8 N/m, suma dL/dth 6788 (Faltinsen 6662), blad RMS 651 N/m
+t 207.940 z +0.084 v +1.324 th +5.68 eta +0.433 | fala A 0.317 b -56.9 | ie +0.497 | cmd +3.57 | 1.15 s
+fala: w_e 3.809 rad/s (okres spotkania 1.649 s), w0 1.387 rad/s (okres fali 4.53 s), k 0.1962 1/m, wyprzedzenie sondy 0.000 s
+RLS t 208.93: mnoznik sily dynamicznej 1.021, przesuniecie -6 N/m, suma dL/dth 6802 (Faltinsen 6662), blad RMS 541 N/m
+fala: w_e 3.491 rad/s (okres spotkania 1.800 s), w0 1.315 rad/s (okres fali 4.78 s), k 0.1762 1/m, wyprzedzenie sondy 0.000 s
+RLS t 209.93: mnoznik sily dynamicznej 1.021, przesuniecie -3 N/m, suma dL/dth 6802 (Faltinsen 6662), blad RMS 264 N/m
+t 209.940 z +0.159 v +1.022 th +6.32 eta +0.219 | fala A 0.370 b -138.8 | ie +0.488 | cmd +5.66 | 0.92 s
+fala: w_e 3.395 rad/s (okres spotkania 1.851 s), w0 1.293 rad/s (okres fali 4.86 s), k 0.1703 1/m, wyprzedzenie sondy 0.000 s
+RLS t 210.93: mnoznik sily dynamicznej 1.018, przesuniecie +5 N/m, suma dL/dth 6782 (Faltinsen 6662), blad RMS 406 N/m
+fala: w_e 3.201 rad/s (okres spotkania 1.963 s), w0 1.246 rad/s (okres fali 5.04 s), k 0.1583 1/m, wyprzedzenie sondy 0.000 s
+RLS t 211.93: mnoznik sily dynamicznej 1.016, przesuniecie -10 N/m, suma dL/dth 6771 (Faltinsen 6662), blad RMS 579 N/m
+t 211.940 z -0.481 v +0.117 th +4.09 eta -0.556 | fala A 0.053 b +37.3 | ie +0.500 | cmd +3.83 | 0.69 s
+fala: w_e 3.033 rad/s (okres spotkania 2.072 s), w0 1.205 rad/s (okres fali 5.21 s), k 0.1480 1/m, wyprzedzenie sondy 0.000 s
+RLS t 212.93: mnoznik sily dynamicznej 1.018, przesuniecie +8 N/m, suma dL/dth 6780 (Faltinsen 6662), blad RMS 424 N/m
+fala: w_e 3.717 rad/s (okres spotkania 1.690 s), w0 1.367 rad/s (okres fali 4.60 s), k 0.1904 1/m, wyprzedzenie sondy 0.000 s
+RLS t 213.93: mnoznik sily dynamicznej 1.021, przesuniecie -6 N/m, suma dL/dth 6803 (Faltinsen 6662), blad RMS 569 N/m
+t 213.940 z -0.428 v -0.995 th +2.37 eta -0.415 | fala A 0.466 b +4.9 | ie +0.379 | cmd +4.70 | 0.81 s
+RLS t 214.93: mnoznik sily dynamicznej 1.021, przesuniecie +4 N/m, suma dL/dth 6803 (Faltinsen 6662), blad RMS 792 N/m
+fala: w_e 2.518 rad/s (okres spotkania 2.495 s), w0 1.072 rad/s (okres fali 5.86 s), k 0.1171 1/m, wyprzedzenie sondy 0.000 s
+RLS t 215.93: mnoznik sily dynamicznej 1.033, przesuniecie -9 N/m, suma dL/dth 6880 (Faltinsen 6662), blad RMS 1239 N/m
+t 215.940 z +0.035 v +0.378 th +4.64 eta -0.064 | fala A 0.459 b +108.7 | ie +0.282 | cmd +4.40 | 0.47 s
+fala: w_e 3.674 rad/s (okres spotkania 1.710 s), w0 1.357 rad/s (okres fali 4.63 s), k 0.1876 1/m, wyprzedzenie sondy 0.000 s
+RLS t 216.93: mnoznik sily dynamicznej 1.033, przesuniecie -14 N/m, suma dL/dth 6883 (Faltinsen 6662), blad RMS 983 N/m
+fala: w_e 3.597 rad/s (okres spotkania 1.747 s), w0 1.339 rad/s (okres fali 4.69 s), k 0.1829 1/m, wyprzedzenie sondy 0.000 s
+RLS t 217.93: mnoznik sily dynamicznej 1.032, przesuniecie -23 N/m, suma dL/dth 6876 (Faltinsen 6662), blad RMS 684 N/m
+t 217.940 z -0.405 v -1.117 th +2.69 eta -0.607 | fala A 0.152 b +78.4 | ie +0.012 | cmd +4.73 | 0.18 s
+fala: w_e 3.036 rad/s (okres spotkania 2.070 s), w0 1.206 rad/s (okres fali 5.21 s), k 0.1482 1/m, wyprzedzenie sondy 0.000 s
+RLS t 218.93: mnoznik sily dynamicznej 1.037, przesuniecie -13 N/m, suma dL/dth 6911 (Faltinsen 6662), blad RMS 742 N/m
+RLS t 219.93: mnoznik sily dynamicznej 1.038, przesuniecie -17 N/m, suma dL/dth 6917 (Faltinsen 6662), blad RMS 590 N/m
+t 219.940 z +0.276 v -1.234 th -1.19 eta -0.271 | fala A 0.376 b +152.9 | ie +0.200 | cmd -1.74 | 0.48 s
+fala: w_e 3.034 rad/s (okres spotkania 2.071 s), w0 1.205 rad/s (okres fali 5.21 s), k 0.1481 1/m, wyprzedzenie sondy 0.000 s
+RLS t 220.93: mnoznik sily dynamicznej 1.037, przesuniecie -19 N/m, suma dL/dth 6908 (Faltinsen 6662), blad RMS 331 N/m
+RLS t 221.93: mnoznik sily dynamicznej 1.033, przesuniecie -8 N/m, suma dL/dth 6881 (Faltinsen 6662), blad RMS 518 N/m
+t 221.940 z +0.326 v -1.231 th -5.87 eta -0.167 | fala A 0.494 b -169.1 | ie +0.283 | cmd -4.90 | 0.47 s
+RLS t 222.93: mnoznik sily dynamicznej 1.029, przesuniecie -19 N/m, suma dL/dth 6859 (Faltinsen 6662), blad RMS 708 N/m
+fala: w_e 2.860 rad/s (okres spotkania 2.197 s), w0 1.162 rad/s (okres fali 5.41 s), k 0.1376 1/m, wyprzedzenie sondy 0.000 s
+RLS t 223.93: mnoznik sily dynamicznej 1.031, przesuniecie -15 N/m, suma dL/dth 6866 (Faltinsen 6662), blad RMS 534 N/m
+t 223.940 z +0.076 v -0.323 th +1.80 eta -0.155 | fala A 0.214 b -89.2 | ie +0.460 | cmd +2.01 | 1.50 s
+fala: w_e 3.003 rad/s (okres spotkania 2.092 s), w0 1.198 rad/s (okres fali 5.25 s), k 0.1462 1/m, wyprzedzenie sondy 0.000 s
+RLS t 224.93: mnoznik sily dynamicznej 1.031, przesuniecie -10 N/m, suma dL/dth 6869 (Faltinsen 6662), blad RMS 440 N/m
+fala: w_e 3.118 rad/s (okres spotkania 2.015 s), w0 1.226 rad/s (okres fali 5.12 s), k 0.1533 1/m, wyprzedzenie sondy 0.000 s
+RLS t 225.93: mnoznik sily dynamicznej 1.031, przesuniecie -13 N/m, suma dL/dth 6872 (Faltinsen 6662), blad RMS 499 N/m
+t 225.940 z -0.062 v -0.281 th +1.57 eta -0.134 | fala A 0.230 b -84.0 | ie +0.500 | cmd +0.46 | 0.65 s
+fala: w_e 3.198 rad/s (okres spotkania 1.965 s), w0 1.245 rad/s (okres fali 5.04 s), k 0.1581 1/m, wyprzedzenie sondy 0.000 s
+RLS t 226.93: mnoznik sily dynamicznej 1.037, przesuniecie -8 N/m, suma dL/dth 6911 (Faltinsen 6662), blad RMS 525 N/m
+RLS t 227.93: mnoznik sily dynamicznej 1.037, przesuniecie -12 N/m, suma dL/dth 6906 (Faltinsen 6662), blad RMS 596 N/m
+t 227.940 z +0.059 v -1.609 th -2.30 eta -0.358 | fala A 0.463 b +0.5 | ie +0.224 | cmd -1.65 | 0.42 s
+RLS t 228.93: mnoznik sily dynamicznej 1.036, przesuniecie -20 N/m, suma dL/dth 6900 (Faltinsen 6662), blad RMS 424 N/m
+fala: w_e 3.292 rad/s (okres spotkania 1.909 s), w0 1.268 rad/s (okres fali 4.96 s), k 0.1639 1/m, wyprzedzenie sondy 0.000 s
+RLS t 229.93: mnoznik sily dynamicznej 1.032, przesuniecie -7 N/m, suma dL/dth 6878 (Faltinsen 6662), blad RMS 719 N/m
+t 229.940 z -0.204 v -1.469 th -2.72 eta -0.224 | fala A 0.506 b -9.2 | ie +0.380 | cmd -1.66 | 0.50 s
+fala: w_e 3.440 rad/s (okres spotkania 1.826 s), w0 1.303 rad/s (okres fali 4.82 s), k 0.1731 1/m, wyprzedzenie sondy 0.000 s
+RLS t 230.93: mnoznik sily dynamicznej 1.029, przesuniecie -10 N/m, suma dL/dth 6858 (Faltinsen 6662), blad RMS 471 N/m
+fala: w_e 3.286 rad/s (okres spotkania 1.912 s), w0 1.267 rad/s (okres fali 4.96 s), k 0.1636 1/m, wyprzedzenie sondy 0.000 s
+RLS t 231.93: mnoznik sily dynamicznej 1.029, przesuniecie -8 N/m, suma dL/dth 6854 (Faltinsen 6662), blad RMS 417 N/m
+t 231.940 z -0.109 v -1.151 th -1.59 eta -0.114 | fala A 0.195 b -55.6 | ie +0.254 | cmd -1.33 | 1.53 s
+fala: w_e 3.193 rad/s (okres spotkania 1.968 s), w0 1.244 rad/s (okres fali 5.05 s), k 0.1579 1/m, wyprzedzenie sondy 0.000 s
+RLS t 232.93: mnoznik sily dynamicznej 1.028, przesuniecie -14 N/m, suma dL/dth 6846 (Faltinsen 6662), blad RMS 287 N/m
+fala: w_e 3.139 rad/s (okres spotkania 2.002 s), w0 1.231 rad/s (okres fali 5.10 s), k 0.1545 1/m, wyprzedzenie sondy 0.000 s
+RLS t 233.93: mnoznik sily dynamicznej 1.027, przesuniecie -2 N/m, suma dL/dth 6845 (Faltinsen 6662), blad RMS 409 N/m
+t 233.940 z +0.183 v +0.501 th +3.36 eta +0.364 | fala A 0.113 b -138.9 | ie +0.469 | cmd +2.78 | 0.74 s
+fala: w_e 3.061 rad/s (okres spotkania 2.053 s), w0 1.212 rad/s (okres fali 5.18 s), k 0.1498 1/m, wyprzedzenie sondy 0.000 s
+RLS t 234.93: mnoznik sily dynamicznej 1.031, przesuniecie -2 N/m, suma dL/dth 6872 (Faltinsen 6662), blad RMS 635 N/m
+fala: w_e 2.757 rad/s (okres spotkania 2.279 s), w0 1.135 rad/s (okres fali 5.54 s), k 0.1314 1/m, wyprzedzenie sondy 0.000 s
+RLS t 235.93: mnoznik sily dynamicznej 1.035, przesuniecie -16 N/m, suma dL/dth 6893 (Faltinsen 6662), blad RMS 619 N/m
+t 235.940 z -0.459 v -0.339 th +2.75 eta -0.396 | fala A 0.059 b -96.4 | ie +0.500 | cmd +3.39 | 1.08 s
+fala: w_e 4.905 rad/s (okres spotkania 1.281 s), w0 1.616 rad/s (okres fali 3.89 s), k 0.2663 1/m, wyprzedzenie sondy 0.000 s
+RLS t 236.93: mnoznik sily dynamicznej 1.034, przesuniecie -8 N/m, suma dL/dth 6887 (Faltinsen 6662), blad RMS 724 N/m
+fala: w_e 4.360 rad/s (okres spotkania 1.441 s), w0 1.506 rad/s (okres fali 4.17 s), k 0.2312 1/m, wyprzedzenie sondy 0.000 s
+RLS t 237.93: mnoznik sily dynamicznej 1.027, przesuniecie -17 N/m, suma dL/dth 6840 (Faltinsen 6662), blad RMS 569 N/m
+t 237.940 z -0.371 v +0.936 th +7.48 eta -0.097 | fala A 0.347 b +91.2 | ie +0.500 | cmd +7.50 | 0.12 s
+fala: w_e 4.432 rad/s (okres spotkania 1.418 s), w0 1.521 rad/s (okres fali 4.13 s), k 0.2358 1/m, wyprzedzenie sondy 0.000 s
+RLS t 238.93: mnoznik sily dynamicznej 1.025, przesuniecie -5 N/m, suma dL/dth 6832 (Faltinsen 6662), blad RMS 583 N/m
+fala: w_e 4.887 rad/s (okres spotkania 1.286 s), w0 1.613 rad/s (okres fali 3.90 s), k 0.2652 1/m, wyprzedzenie sondy 0.000 s
+RLS t 239.93: mnoznik sily dynamicznej 1.027, przesuniecie -6 N/m, suma dL/dth 6845 (Faltinsen 6662), blad RMS 532 N/m
+t 239.940 z +0.014 v +0.297 th +3.18 eta +0.198 | fala A 0.171 b -157.1 | ie +0.488 | cmd +1.98 | 0.41 s
+fala: w_e 5.455 rad/s (okres spotkania 1.152 s), w0 1.722 rad/s (okres fali 3.65 s), k 0.3023 1/m, wyprzedzenie sondy 0.000 s
+RLS t 240.93: mnoznik sily dynamicznej 1.030, przesuniecie -12 N/m, suma dL/dth 6864 (Faltinsen 6662), blad RMS 363 N/m
+fala: w_e 4.205 rad/s (okres spotkania 1.494 s), w0 1.473 rad/s (okres fali 4.26 s), k 0.2212 1/m, wyprzedzenie sondy 0.000 s
+RLS t 241.93: mnoznik sily dynamicznej 1.029, przesuniecie +2 N/m, suma dL/dth 6855 (Faltinsen 6662), blad RMS 672 N/m
+t 241.940 z +0.158 v -1.499 th -4.88 eta +0.103 | fala A 0.401 b -173.8 | ie +0.253 | cmd -4.12 | 0.51 s
+RLS t 242.93: mnoznik sily dynamicznej 1.024, przesuniecie -19 N/m, suma dL/dth 6819 (Faltinsen 6662), blad RMS 690 N/m
+fala: w_e 2.713 rad/s (okres spotkania 2.316 s), w0 1.124 rad/s (okres fali 5.59 s), k 0.1287 1/m, wyprzedzenie sondy 0.000 s
+RLS t 243.93: mnoznik sily dynamicznej 1.025, przesuniecie -16 N/m, suma dL/dth 6828 (Faltinsen 6662), blad RMS 555 N/m
+t 243.940 z +0.438 v +0.133 th +3.58 eta +0.516 | fala A 0.498 b +98.3 | ie +0.352 | cmd +3.03 | 0.47 s
+RLS t 244.93: mnoznik sily dynamicznej 1.026, przesuniecie -14 N/m, suma dL/dth 6839 (Faltinsen 6662), blad RMS 421 N/m
+fala: w_e 2.776 rad/s (okres spotkania 2.263 s), w0 1.140 rad/s (okres fali 5.51 s), k 0.1325 1/m, wyprzedzenie sondy 0.000 s
+RLS t 245.93: mnoznik sily dynamicznej 1.034, przesuniecie -35 N/m, suma dL/dth 6887 (Faltinsen 6662), blad RMS 1043 N/m
+t 245.940 z -0.049 v -0.629 th +3.86 eta -0.261 | fala A 0.722 b -128.6 | ie +0.393 | cmd +4.49 | 0.17 s
+fala: w_e 3.113 rad/s (okres spotkania 2.018 s), w0 1.225 rad/s (okres fali 5.13 s), k 0.1529 1/m, wyprzedzenie sondy 0.000 s
+RLS t 246.93: mnoznik sily dynamicznej 1.027, przesuniecie -13 N/m, suma dL/dth 6844 (Faltinsen 6662), blad RMS 1077 N/m
+fala: w_e 3.263 rad/s (okres spotkania 1.925 s), w0 1.261 rad/s (okres fali 4.98 s), k 0.1621 1/m, wyprzedzenie sondy 0.000 s
+RLS t 247.93: mnoznik sily dynamicznej 1.025, przesuniecie -18 N/m, suma dL/dth 6831 (Faltinsen 6662), blad RMS 359 N/m
+t 247.940 z -0.001 v -0.340 th +3.27 eta -0.896 | fala A 0.654 b +155.2 | ie +0.496 | cmd -0.45 | 1.48 s
+fala: w_e 3.362 rad/s (okres spotkania 1.869 s), w0 1.285 rad/s (okres fali 4.89 s), k 0.1682 1/m, wyprzedzenie sondy 0.000 s
+RLS t 248.93: mnoznik sily dynamicznej 1.018, przesuniecie -24 N/m, suma dL/dth 6783 (Faltinsen 6662), blad RMS 691 N/m
+fala: w_e 3.585 rad/s (okres spotkania 1.752 s), w0 1.337 rad/s (okres fali 4.70 s), k 0.1821 1/m, wyprzedzenie sondy 0.000 s
+RLS t 249.93: mnoznik sily dynamicznej 1.014, przesuniecie -7 N/m, suma dL/dth 6755 (Faltinsen 6662), blad RMS 745 N/m
+t 249.940 z -0.423 v -0.882 th +0.38 eta -0.007 | fala A 0.461 b +10.4 | ie +0.500 | cmd +2.07 | 0.97 s
+fala: w_e 3.691 rad/s (okres spotkania 1.702 s), w0 1.361 rad/s (okres fali 4.62 s), k 0.1887 1/m, wyprzedzenie sondy 0.000 s
+RLS t 250.93: mnoznik sily dynamicznej 1.014, przesuniecie -11 N/m, suma dL/dth 6757 (Faltinsen 6662), blad RMS 652 N/m
+RLS t 251.93: mnoznik sily dynamicznej 1.014, przesuniecie -10 N/m, suma dL/dth 6757 (Faltinsen 6662), blad RMS 403 N/m
+t 251.940 z -0.376 v +0.366 th +4.29 eta -0.271 | fala A 0.172 b +74.3 | ie +0.500 | cmd +4.92 | 0.26 s
+RLS t 252.93: mnoznik sily dynamicznej 1.020, przesuniecie -6 N/m, suma dL/dth 6796 (Faltinsen 6662), blad RMS 651 N/m
+fala: w_e 3.626 rad/s (okres spotkania 1.733 s), w0 1.346 rad/s (okres fali 4.67 s), k 0.1847 1/m, wyprzedzenie sondy 0.000 s
+RLS t 253.93: mnoznik sily dynamicznej 1.017, przesuniecie -17 N/m, suma dL/dth 6773 (Faltinsen 6662), blad RMS 543 N/m
+t 253.940 z -0.434 v +0.614 th +5.97 eta -0.427 | fala A 0.435 b -107.2 | ie +0.500 | cmd +6.75 | 1.96 s
+fala: w_e 3.498 rad/s (okres spotkania 1.796 s), w0 1.317 rad/s (okres fali 4.77 s), k 0.1767 1/m, wyprzedzenie sondy 0.000 s
+RLS t 254.93: mnoznik sily dynamicznej 1.016, przesuniecie +1 N/m, suma dL/dth 6767 (Faltinsen 6662), blad RMS 652 N/m
+fala: w_e 3.379 rad/s (okres spotkania 1.860 s), w0 1.289 rad/s (okres fali 4.88 s), k 0.1693 1/m, wyprzedzenie sondy 0.000 s
+RLS t 255.93: mnoznik sily dynamicznej 1.015, przesuniecie -14 N/m, suma dL/dth 6762 (Faltinsen 6662), blad RMS 598 N/m
+t 255.940 z -0.414 v +0.475 th +3.25 eta -0.472 | fala A 0.604 b -28.4 | ie +0.500 | cmd +3.55 | 0.44 s
+fala: w_e 3.228 rad/s (okres spotkania 1.946 s), w0 1.253 rad/s (okres fali 5.02 s), k 0.1600 1/m, wyprzedzenie sondy 0.000 s
+RLS t 256.93: mnoznik sily dynamicznej 1.016, przesuniecie -6 N/m, suma dL/dth 6770 (Faltinsen 6662), blad RMS 506 N/m
+fala: w_e 3.011 rad/s (okres spotkania 2.086 s), w0 1.200 rad/s (okres fali 5.24 s), k 0.1467 1/m, wyprzedzenie sondy 0.000 s
+RLS t 257.93: mnoznik sily dynamicznej 1.014, przesuniecie -9 N/m, suma dL/dth 6759 (Faltinsen 6662), blad RMS 636 N/m
+t 257.940 z -0.481 v -0.479 th +4.33 eta -0.703 | fala A 0.623 b +21.9 | ie +0.334 | cmd +4.25 | 0.28 s
+RLS t 258.93: mnoznik sily dynamicznej 1.014, przesuniecie -11 N/m, suma dL/dth 6756 (Faltinsen 6662), blad RMS 174 N/m
+RLS t 259.93: mnoznik sily dynamicznej 1.013, przesuniecie +2 N/m, suma dL/dth 6747 (Faltinsen 6662), blad RMS 867 N/m
+t 259.940 z -0.074 v -0.750 th -0.73 eta +0.170 | fala A 0.343 b -154.4 | ie +0.316 | cmd -0.45 | 0.11 s
+fala: w_e 2.934 rad/s (okres spotkania 2.142 s), w0 1.180 rad/s (okres fali 5.32 s), k 0.1420 1/m, wyprzedzenie sondy 0.000 s
+RLS t 260.93: mnoznik sily dynamicznej 1.012, przesuniecie -6 N/m, suma dL/dth 6745 (Faltinsen 6662), blad RMS 438 N/m
+RLS t 261.93: mnoznik sily dynamicznej 1.012, przesuniecie -5 N/m, suma dL/dth 6743 (Faltinsen 6662), blad RMS 203 N/m
+t 261.940 z -0.127 v -0.102 th +2.12 eta +0.120 | fala A 0.039 b -71.6 | ie +0.500 | cmd +1.95 | 1.41 s
+RLS t 262.93: mnoznik sily dynamicznej 1.013, przesuniecie -7 N/m, suma dL/dth 6749 (Faltinsen 6662), blad RMS 377 N/m
+RLS t 263.93: mnoznik sily dynamicznej 1.013, przesuniecie -4 N/m, suma dL/dth 6749 (Faltinsen 6662), blad RMS 155 N/m
+t 263.940 z -0.115 v -0.044 th +2.46 eta -0.125 | fala A 0.065 b -12.8 | ie +0.500 | cmd +2.40 | 0.15 s
+RLS t 264.93: mnoznik sily dynamicznej 1.014, przesuniecie -5 N/m, suma dL/dth 6755 (Faltinsen 6662), blad RMS 421 N/m
+fala: w_e 4.400 rad/s (okres spotkania 1.428 s), w0 1.514 rad/s (okres fali 4.15 s), k 0.2337 1/m, wyprzedzenie sondy 0.000 s
+RLS t 265.93: mnoznik sily dynamicznej 1.014, przesuniecie -5 N/m, suma dL/dth 6755 (Faltinsen 6662), blad RMS 244 N/m
+t 265.940 z -0.240 v +0.175 th +3.47 eta -0.174 | fala A 0.045 b +84.0 | ie +0.500 | cmd +3.44 | 1.51 s
+fala: w_e 4.466 rad/s (okres spotkania 1.407 s), w0 1.528 rad/s (okres fali 4.11 s), k 0.2380 1/m, wyprzedzenie sondy 0.000 s
+RLS t 266.93: mnoznik sily dynamicznej 1.017, przesuniecie +5 N/m, suma dL/dth 6777 (Faltinsen 6662), blad RMS 673 N/m
+fala: w_e 7.129 rad/s (okres spotkania 0.881 s), w0 2.016 rad/s (okres fali 3.12 s), k 0.4142 1/m, wyprzedzenie sondy 0.000 s
+RLS t 267.93: mnoznik sily dynamicznej 1.018, przesuniecie -11 N/m, suma dL/dth 6782 (Faltinsen 6662), blad RMS 535 N/m
+t 267.940 z -0.383 v -0.086 th +3.66 eta -0.156 | fala A 0.186 b +9.2 | ie +0.500 | cmd +3.32 | 0.70 s
+fala: w_e 7.184 rad/s (okres spotkania 0.875 s), w0 2.025 rad/s (okres fali 3.10 s), k 0.4179 1/m, wyprzedzenie sondy 0.000 s
+RLS t 268.93: mnoznik sily dynamicznej 1.020, przesuniecie +11 N/m, suma dL/dth 6795 (Faltinsen 6662), blad RMS 654 N/m
+fala: w_e 7.129 rad/s (okres spotkania 0.881 s), w0 2.016 rad/s (okres fali 3.12 s), k 0.4142 1/m, wyprzedzenie sondy 0.000 s
+RLS t 269.93: mnoznik sily dynamicznej 1.032, przesuniecie -14 N/m, suma dL/dth 6875 (Faltinsen 6662), blad RMS 831 N/m
+t 269.940 z -0.481 v +0.248 th +4.28 eta -0.065 | fala A 0.192 b +93.6 | ie +0.500 | cmd +3.75 | 0.71 s
+fala: w_e 3.053 rad/s (okres spotkania 2.058 s), w0 1.210 rad/s (okres fali 5.19 s), k 0.1493 1/m, wyprzedzenie sondy 0.000 s
+RLS t 270.93: mnoznik sily dynamicznej 1.031, przesuniecie -29 N/m, suma dL/dth 6868 (Faltinsen 6662), blad RMS 414 N/m
+fala: w_e 2.863 rad/s (okres spotkania 2.195 s), w0 1.162 rad/s (okres fali 5.41 s), k 0.1377 1/m, wyprzedzenie sondy 0.000 s
+RLS t 271.93: mnoznik sily dynamicznej 1.037, przesuniecie -21 N/m, suma dL/dth 6906 (Faltinsen 6662), blad RMS 621 N/m
+t 271.940 z +0.327 v -0.780 th -0.31 eta -0.204 | fala A 0.341 b -139.4 | ie +0.350 | cmd -1.37 | 0.13 s
+fala: w_e 2.745 rad/s (okres spotkania 2.289 s), w0 1.132 rad/s (okres fali 5.55 s), k 0.1307 1/m, wyprzedzenie sondy 0.000 s
+RLS t 272.93: mnoznik sily dynamicznej 1.038, przesuniecie -16 N/m, suma dL/dth 6915 (Faltinsen 6662), blad RMS 580 N/m
+fala: w_e 3.039 rad/s (okres spotkania 2.068 s), w0 1.207 rad/s (okres fali 5.21 s), k 0.1484 1/m, wyprzedzenie sondy 0.000 s
+RLS t 273.93: mnoznik sily dynamicznej 1.042, przesuniecie -23 N/m, suma dL/dth 6945 (Faltinsen 6662), blad RMS 667 N/m
+t 273.940 z -0.291 v +0.493 th +4.17 eta -0.120 | fala A 0.124 b +6.0 | ie +0.500 | cmd +2.51 | 1.45 s
+fala: w_e 3.292 rad/s (okres spotkania 1.909 s), w0 1.268 rad/s (okres fali 4.95 s), k 0.1639 1/m, wyprzedzenie sondy 0.000 s
+RLS t 274.93: mnoznik sily dynamicznej 1.044, przesuniecie -13 N/m, suma dL/dth 6958 (Faltinsen 6662), blad RMS 522 N/m
+fala: w_e 3.259 rad/s (okres spotkania 1.928 s), w0 1.260 rad/s (okres fali 4.99 s), k 0.1619 1/m, wyprzedzenie sondy 0.000 s
+RLS t 275.93: mnoznik sily dynamicznej 1.040, przesuniecie -18 N/m, suma dL/dth 6931 (Faltinsen 6662), blad RMS 569 N/m
+t 275.940 z -0.485 v -0.649 th +3.88 eta -0.288 | fala A 0.369 b -172.6 | ie +0.385 | cmd +5.83 | 0.94 s
+RLS t 276.93: mnoznik sily dynamicznej 1.038, przesuniecie -16 N/m, suma dL/dth 6913 (Faltinsen 6662), blad RMS 582 N/m
+fala: w_e 3.246 rad/s (okres spotkania 1.936 s), w0 1.257 rad/s (okres fali 5.00 s), k 0.1611 1/m, wyprzedzenie sondy 0.000 s
+RLS t 277.93: mnoznik sily dynamicznej 1.036, przesuniecie -5 N/m, suma dL/dth 6904 (Faltinsen 6662), blad RMS 531 N/m
+t 277.940 z -0.308 v -0.758 th -0.36 eta +0.315 | fala A 0.238 b +23.1 | ie +0.278 | cmd +0.64 | 0.66 s
+fala: w_e 3.404 rad/s (okres spotkania 1.846 s), w0 1.295 rad/s (okres fali 4.85 s), k 0.1708 1/m, wyprzedzenie sondy 0.000 s
+RLS t 278.93: mnoznik sily dynamicznej 1.034, przesuniecie -15 N/m, suma dL/dth 6889 (Faltinsen 6662), blad RMS 520 N/m
+fala: w_e 3.582 rad/s (okres spotkania 1.754 s), w0 1.336 rad/s (okres fali 4.70 s), k 0.1819 1/m, wyprzedzenie sondy 0.000 s
+RLS t 279.93: mnoznik sily dynamicznej 1.034, przesuniecie -14 N/m, suma dL/dth 6892 (Faltinsen 6662), blad RMS 310 N/m
+t 279.940 z +0.128 v -0.035 th +2.16 eta +0.118 | fala A 0.118 b +175.4 | ie +0.472 | cmd +1.14 | 0.69 s
+fala: w_e 2.725 rad/s (okres spotkania 2.305 s), w0 1.127 rad/s (okres fali 5.58 s), k 0.1295 1/m, wyprzedzenie sondy 0.000 s
+RLS t 280.93: mnoznik sily dynamicznej 1.042, przesuniecie +3 N/m, suma dL/dth 6942 (Faltinsen 6662), blad RMS 637 N/m
+fala: w_e 2.826 rad/s (okres spotkania 2.223 s), w0 1.153 rad/s (okres fali 5.45 s), k 0.1355 1/m, wyprzedzenie sondy 0.000 s
+RLS t 281.93: mnoznik sily dynamicznej 1.049, przesuniecie -25 N/m, suma dL/dth 6990 (Faltinsen 6662), blad RMS 695 N/m
+t 281.940 z -0.388 v -1.023 th +4.31 eta -1.074 | fala A 0.371 b +170.2 | ie +0.376 | cmd +4.98 | 1.08 s
+fala: w_e 4.058 rad/s (okres spotkania 1.549 s), w0 1.442 rad/s (okres fali 4.36 s), k 0.2119 1/m, wyprzedzenie sondy 0.000 s
+RLS t 282.93: mnoznik sily dynamicznej 1.047, przesuniecie -16 N/m, suma dL/dth 6978 (Faltinsen 6662), blad RMS 659 N/m
+fala: w_e 4.123 rad/s (okres spotkania 1.524 s), w0 1.456 rad/s (okres fali 4.32 s), k 0.2160 1/m, wyprzedzenie sondy 0.000 s
+RLS t 283.93: mnoznik sily dynamicznej 1.032, przesuniecie -30 N/m, suma dL/dth 6878 (Faltinsen 6662), blad RMS 907 N/m
+t 283.940 z -0.459 v +0.334 th +5.23 eta -0.083 | fala A 0.720 b -166.0 | ie +0.500 | cmd +6.31 | 1.64 s
+RLS t 284.93: mnoznik sily dynamicznej 1.031, przesuniecie -5 N/m, suma dL/dth 6866 (Faltinsen 6662), blad RMS 818 N/m
+fala: w_e 3.612 rad/s (okres spotkania 1.740 s), w0 1.343 rad/s (okres fali 4.68 s), k 0.1838 1/m, wyprzedzenie sondy 0.000 s
+RLS t 285.93: mnoznik sily dynamicznej 1.030, przesuniecie -13 N/m, suma dL/dth 6863 (Faltinsen 6662), blad RMS 222 N/m
+t 285.940 z -0.497 v +0.230 th +3.69 eta -0.145 | fala A 0.329 b -111.2 | ie +0.500 | cmd +4.13 | 0.51 s
+RLS t 286.93: mnoznik sily dynamicznej 1.029, przesuniecie -2 N/m, suma dL/dth 6854 (Faltinsen 6662), blad RMS 347 N/m
+fala: w_e 3.577 rad/s (okres spotkania 1.757 s), w0 1.335 rad/s (okres fali 4.71 s), k 0.1816 1/m, wyprzedzenie sondy 0.000 s
+RLS t 287.93: mnoznik sily dynamicznej 1.029, przesuniecie -9 N/m, suma dL/dth 6855 (Faltinsen 6662), blad RMS 460 N/m
+t 287.940 z -0.452 v -0.148 th +3.25 eta +0.064 | fala A 0.196 b +55.5 | ie +0.480 | cmd +4.38 | 0.22 s
+fala: w_e 3.442 rad/s (okres spotkania 1.825 s), w0 1.304 rad/s (okres fali 4.82 s), k 0.1732 1/m, wyprzedzenie sondy 0.000 s
+RLS t 288.93: mnoznik sily dynamicznej 1.028, przesuniecie -13 N/m, suma dL/dth 6850 (Faltinsen 6662), blad RMS 211 N/m
+RLS t 289.93: mnoznik sily dynamicznej 1.030, przesuniecie +3 N/m, suma dL/dth 6860 (Faltinsen 6662), blad RMS 599 N/m
+t 289.940 z +0.126 v +1.202 th +5.83 eta +0.791 | fala A 0.148 b +56.5 | ie +0.492 | cmd +5.51 | 1.38 s
+fala: w_e 3.572 rad/s (okres spotkania 1.759 s), w0 1.334 rad/s (okres fali 4.71 s), k 0.1813 1/m, wyprzedzenie sondy 0.000 s
+RLS t 290.93: mnoznik sily dynamicznej 1.034, przesuniecie -11 N/m, suma dL/dth 6886 (Faltinsen 6662), blad RMS 419 N/m
+fala: w_e 3.636 rad/s (okres spotkania 1.728 s), w0 1.348 rad/s (okres fali 4.66 s), k 0.1853 1/m, wyprzedzenie sondy 0.000 s
+RLS t 291.93: mnoznik sily dynamicznej 1.031, przesuniecie -8 N/m, suma dL/dth 6868 (Faltinsen 6662), blad RMS 556 N/m
+t 291.940 z +0.284 v +0.828 th +5.44 eta -0.208 | fala A 0.455 b -78.1 | ie +0.456 | cmd +1.22 | 2.09 s
+RLS t 292.93: mnoznik sily dynamicznej 1.024, przesuniecie -14 N/m, suma dL/dth 6821 (Faltinsen 6662), blad RMS 992 N/m
+fala: w_e 3.498 rad/s (okres spotkania 1.796 s), w0 1.317 rad/s (okres fali 4.77 s), k 0.1767 1/m, wyprzedzenie sondy 0.000 s
+RLS t 293.93: mnoznik sily dynamicznej 1.024, przesuniecie -8 N/m, suma dL/dth 6823 (Faltinsen 6662), blad RMS 333 N/m
+t 293.940 z +0.019 v +1.200 th +6.68 eta +0.137 | fala A 0.262 b -109.7 | ie +0.500 | cmd +6.36 | 1.61 s
+fala: w_e 3.029 rad/s (okres spotkania 2.074 s), w0 1.204 rad/s (okres fali 5.22 s), k 0.1478 1/m, wyprzedzenie sondy 0.000 s
+RLS t 294.93: mnoznik sily dynamicznej 1.026, przesuniecie -7 N/m, suma dL/dth 6832 (Faltinsen 6662), blad RMS 456 N/m
+fala: w_e 2.957 rad/s (okres spotkania 2.125 s), w0 1.186 rad/s (okres fali 5.30 s), k 0.1434 1/m, wyprzedzenie sondy 0.000 s
+RLS t 295.93: mnoznik sily dynamicznej 1.026, przesuniecie -8 N/m, suma dL/dth 6837 (Faltinsen 6662), blad RMS 428 N/m
+t 295.940 z -0.401 v +0.924 th +5.72 eta +0.099 | fala A 0.412 b +168.8 | ie +0.450 | cmd +6.73 | 1.92 s
+RLS t 296.93: mnoznik sily dynamicznej 1.028, przesuniecie -4 N/m, suma dL/dth 6847 (Faltinsen 6662), blad RMS 635 N/m
+fala: w_e 2.982 rad/s (okres spotkania 2.107 s), w0 1.192 rad/s (okres fali 5.27 s), k 0.1449 1/m, wyprzedzenie sondy 0.000 s
+RLS t 297.93: mnoznik sily dynamicznej 1.025, przesuniecie -19 N/m, suma dL/dth 6827 (Faltinsen 6662), blad RMS 635 N/m
+t 297.940 z -0.490 v +0.029 th +3.25 eta -0.286 | fala A 0.444 b -150.6 | ie +0.500 | cmd +3.47 | 1.51 s
+RLS t 298.93: mnoznik sily dynamicznej 1.025, przesuniecie -3 N/m, suma dL/dth 6826 (Faltinsen 6662), blad RMS 559 N/m
+fala: w_e 3.039 rad/s (okres spotkania 2.067 s), w0 1.207 rad/s (okres fali 5.21 s), k 0.1484 1/m, wyprzedzenie sondy 0.000 s
+RLS t 299.93: mnoznik sily dynamicznej 1.024, przesuniecie -11 N/m, suma dL/dth 6825 (Faltinsen 6662), blad RMS 468 N/m
+t 299.940 z -0.358 v -0.746 th +0.94 eta -0.483 | fala A 0.088 b +150.0 | ie +0.471 | cmd +1.52 | 0.14 s
+fala: w_e 2.951 rad/s (okres spotkania 2.129 s), w0 1.185 rad/s (okres fali 5.30 s), k 0.1431 1/m, wyprzedzenie sondy 0.000 s
+{"cel": -1.0, "cel_g": -0.102, "T_fali": "S1s0", "W_A_koniec": 0.0, "acc_rms": 3.1959309355391503, "zysk_W": 15.405304292719123, "zysk_pct": 27.00032300322337, "ciag_W": 19.348982254738747, "sufit_W": 36.22167232200945, "kor": 0.5341824663071033, "ax_rms": 0.47862728280113503, "z_sr": -0.11161162864490601, "we": 2.951, "z_start_max": 0.14794696539733204, "z_start_min": -0.27772665402081526, "wyp_rms": 3.2315721592713578, "kryterium": "wypadkowa", "ax_est_rms": null, "dbg_w_rms": 0.40233068167079233, "dbg_n": 27001, "dbg_wa": [], "czlon2_dokl_W": 3.520791612267567, "czlon2_przybl_W": 3.622650962663584, "u_rms": 0.4030014440998381, "zd_rms": 0.8466161298479673, "kor_u_zd": 0.47437971501361503, "kor_u_w": -0.002952986882010276, "sea": "S1", "seed": 0}

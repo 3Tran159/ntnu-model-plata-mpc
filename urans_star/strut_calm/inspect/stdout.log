@@ -1,0 +1,88 @@
+Starting local server: starserver.bat -power -cpubind off -np 1 -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcNzBfZ29kb19jYXNlXG5pZ2h0XE1FRElVTVxHT0RPX1NFVFVQX0IxLjAuc2lt
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 6268
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 6268
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 117 days
+Wed Nov 11 21:30:41 2026
+
+Server::start -host THINKPAD-LUCJAN:47828
+Loading: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\night\MEDIUM\GODO_SETUP_B1.0.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=1 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\InspectSource.java
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\InspectSource.java:31: error: cannot find symbol
+   p("GRAVITY "+s.getContinuumManager().getObjectsOf(PhysicsContinuum.class).iterator().next().getReferenceValues().get(Gravity.class).getValue());
+                                                                                                                                      ^
+  symbol:   method getValue()
+  location: class star.flow.Gravity
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\InspectSource.java:33: warning: [deprecation] getValue() in star.common.ScalarPhysicalQuantity has been deprecated
+   try{ImplicitUnsteadySolver us=s.getSolverManager().getSolver(ImplicitUnsteadySolver.class);p("  dt="+us.getTimeStep().getValue()+" order="+us.getTimeDiscretizationOption().getSelectedElement());}catch(Throwable e){p("  "+e);}
+                                                                                                                        ^
+
+error: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\InspectSource.java:31: error: cannot find symbol
+   p("GRAVITY "+s.getContinuumManager().getObjectsOf(PhysicsContinuum.class).iterator().next().getReferenceValues().get(Gravity.class).getValue());
+                                                                                                                                      ^
+  symbol:   method getValue()
+  location: class star.flow.Gravity
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\InspectSource.java:33: warning: [deprecation] getValue() in star.common.ScalarPhysicalQuantity has been deprecated
+   try{ImplicitUnsteadySolver us=s.getSolverManager().getSolver(ImplicitUnsteadySolver.class);p("  dt="+us.getTimeStep().getValue()+" order="+us.getTimeDiscretizationOption().getSelectedElement());}catch(Throwable e){p("  "+e);}
+                                                                                                                        ^
+
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 0
+Starting local server: starserver.bat -power -cpubind off -np 1 -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcNzBfZ29kb19jYXNlXG5pZ2h0XE1FRElVTVxHT0RPX1NFVFVQX0IxLjAuc2lt
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 30200
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 30200
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 117 days
+Wed Nov 11 21:34:26 2026
+
+Server::start -host THINKPAD-LUCJAN:47828
+Loading: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\night\MEDIUM\GODO_SETUP_B1.0.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=1 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\InspectSource.java
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\strut_calm\InspectSource.java:34: warning: [deprecation] getValue() in star.common.ScalarPhysicalQuantity has been deprecated
+   try{ImplicitUnsteadySolver us=s.getSolverManager().getSolver(ImplicitUnsteadySolver.class);p("  dt="+us.getTimeStep().getValue()+" order="+us.getTimeDiscretizationOption().getSelectedElement());}catch(Throwable e){p("  "+e);}
+                                                                                                                        ^
+
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 0

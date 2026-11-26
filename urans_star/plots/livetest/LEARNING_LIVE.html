@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><title>Uczenie na żywo</title>
+<style>
+body{font-family:Segoe UI,Arial,sans-serif;background:#f4f5f7;margin:14px;color:#222}
+h1{font-size:18px;margin:0 0 2px}.sub{font-size:12px;color:#666;margin-bottom:10px}
+.wrap{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.card{background:#fff;border:1px solid #d5d8de;border-radius:6px;padding:10px}
+.card h2{font-size:15px;margin:0 0 4px}.info{font-family:Consolas,monospace;font-size:12px;color:#333;min-height:34px}
+canvas{width:100%;display:block;margin-top:6px}.lab{font-size:11px;color:#666;margin-top:4px}
+.badge{display:inline-block;padding:1px 6px;border-radius:3px;font-size:11px;color:#fff}
+@media(max-width:1100px){.wrap{grid-template-columns:1fr}}
+</style></head><body>
+<h1>Jak uczą się agenty – na żywo (W MODELU WIROWYM)</h1>
+<div class="sub">Cel obu agentów: <b>niski opór</b> (nagroda Godø R1: opór względem wody spokojnej + przeżycie + kary za granice z, zanurzenie &lt; 2c i szybkie machanie). Komfortu nie ma w nagrodzie – przyspieszenia są tylko mierzone.
+Odświeżanie co 3 s. Epizod treningowy jest <b>z szumem eksploracji</b> – agent celowo próbuje rzeczy obok swojej najlepszej odpowiedzi.</div>
+<div class="wrap" id="wrap"></div>
+<script>
+const RUNS=[["TD3_GODO","#1f77b4"],["SAC_B","#d62728"]];
+const W=$=>document.getElementById($);
+function card(r,c){return `<div class="card"><h2 style="color:${c}">${r}</h2><div class="info" id="i_${r}">…</div>
+<canvas id="v_${r}" width="900" height="450" style="background:#fafcff"></canvas><div class="lab" id="vl_${r}">Animacja epizodu treningowego w czasie rzeczywistym (1:1), układ związany z płatem: woda płynie od lewej 12,3 m/s, fala przesuwa się w prawo. Płat obraca się wokół c/4 (rysowany 3× większy, kąt prawdziwy); kreska w górę = kolumna do kadłuba.</div>
+<canvas id="w_${r}" width="900" height="230"></canvas><div class="lab">Bieżący epizod: <span style="color:#3a7bd5">powierzchnia wody nad nosem</span>, <b>płat</b> (wysokość), czerwone kropki = granice |z| 0,75 m, przerywana = 2c pod wodą. Oś x: czas [s], 15,5 s = cały epizod.</div>
+<canvas id="a_${r}" width="900" height="130"></canvas><div class="lab">Kąt płata [°]: <span style="color:#999">komenda z szumem</span> i <b>kąt rzeczywisty</b> (po serwie); szare tło = zakres ±7,5°.</div>
+<canvas id="r_${r}" width="900" height="90"></canvas><div class="lab">Nagroda w każdym kroku (zielona = dobrze, czerwona = kara); wysoko = mały opór.</div>
+<canvas id="p_${r}" width="900" height="330"></canvas><div class="lab" id="pl_${r}">Mapa polityki: jaki kąt agent ustawi (kolor) w zależności od fazy fali (oś x: 0° = grzbiet nad nosem, 180° = dolina) i wysokości płata z (oś y). Zmienia się w miarę nauki.</div></div>`}
+W("wrap").innerHTML=RUNS.map(([r,c])=>card(r,c)).join("");
+function axes(g,cv,x0,x1,y0,y1){const P={l:40,r:8,t:8,b:18},w=cv.width-P.l-P.r,h=cv.height-P.t-P.b;
+ return {X:x=>P.l+(x-x0)/(x1-x0)*w,Y:y=>P.t+(1-(y-y0)/(y1-y0))*h,P,w,h,
+ grid(xs,ys,fy=v=>v){g.strokeStyle="#eee";g.fillStyle="#888";g.font="11px Segoe UI";g.lineWidth=1;
+  for(const x of xs){g.beginPath();g.moveTo(this.X(x),P.t);g.lineTo(this.X(x),P.t+h);g.stroke();g.fillText(x,this.X(x)-4,cv.height-4)}
+  for(const y of ys){g.beginPath();g.moveTo(P.l,this.Y(y));g.lineTo(P.l+w,this.Y(y));g.stroke();g.fillText(fy(y),2,this.Y(y)+4)}}}}
+function line(g,A,xs,ys,col,lw,dash){g.strokeStyle=col;g.lineWidth=lw;g.setLineDash(dash||[]);g.beginPath();xs.forEach((x,i)=>{const X=A.X(x),Y=A.Y(ys[i]);i?g.lineTo(X,Y):g.moveTo(X,Y)});g.stroke();g.setLineDash([])}
+function drawEp(r,c,j){const t=j.z.map((_,i)=>(i+1)*j.dt);
+ let cv=W("w_"+r),g=cv.getContext("2d");g.clearRect(0,0,cv.width,cv.height);let A=axes(g,cv,0,15.5,-2.0,0.9);A.grid([0,2,4,6,8,10,12,14],[-1.8,-1.09,-0.4,0,0.8],v=>v.toFixed(1));
+ g.fillStyle="#d8ebff";g.beginPath();g.moveTo(A.X(t[0]),A.Y(-2));t.forEach((x,i)=>g.lineTo(A.X(x),A.Y(j.eta[i])));g.lineTo(A.X(t[t.length-1]),A.Y(-2));g.fill();
+ line(g,A,t,j.eta,"#3a7bd5",1.5);line(g,A,t,j.eta.map(e=>e-0.624),"#3a7bd5",1,[5,4]);
+ g.strokeStyle="#d33";g.setLineDash([2,4]);for(const y of[-1.84,-0.34]){g.beginPath();g.moveTo(A.X(0),A.Y(y));g.lineTo(A.X(15.5),A.Y(y));g.stroke()}g.setLineDash([]);
+ line(g,A,t,j.z.map(z=>z-1.09),c,2.2);
+ if(j.done&&j.term){const x=A.X(t[t.length-1]),y=A.Y(j.z[j.z.length-1]-1.09);g.fillStyle="#d00";g.font="bold 13px Segoe UI";g.fillText("✖ upadek",x+4,y)}
+ cv=W("a_"+r);g=cv.getContext("2d");g.clearRect(0,0,cv.width,cv.height);A=axes(g,cv,0,15.5,-8,8);g.fillStyle="#f3f3f3";g.fillRect(A.X(0),A.Y(7.5),A.w,A.Y(-7.5)-A.Y(7.5));A.grid([0,2,4,6,8,10,12,14],[-7.5,0,3.2,7.5]);
+ line(g,A,t,j.cmd,"#aaa",1);line(g,A,t,j.th,c,1.8);
+ cv=W("r_"+r);g=cv.getContext("2d");g.clearRect(0,0,cv.width,cv.height);A=axes(g,cv,0,15.5,-1,2);A.grid([0,4,8,12],[-1,0,1,2]);
+ j.r.forEach((v,i)=>{g.fillStyle=v>=0.5?"#3a3":v>=0?"#bc5":"#d44";g.fillRect(A.X(t[i]),A.Y(Math.max(v,0)),Math.max(1,A.w/1549),Math.abs(A.Y(v)-A.Y(0))||1)});
+ const n=j.z.length,last=j.D.slice(Math.max(0,n-194)),Dm=last.reduce((a,b)=>a+b,0)/last.length;
+ const mode=j.mode=="noise"?'<span class="badge" style="background:#999">sam szum (agent jeszcze nie steruje)</span>':j.mode=="rand"?'<span class="badge" style="background:#999">losowo</span>':'<span class="badge" style="background:#3a3">steruje sieć'+(j.alg=="td3"?" + szum σ="+j.sigma:"")+'</span>';
+ W("i_"+r).innerHTML=`epizod ${j.episode} · krok ${j.step.toLocaleString("pl")} · t = ${(n*j.dt).toFixed(1)} s ${j.done?(j.term?"<b style='color:#d00'>UPADEK</b>":"<b style='color:#3a3'>przeżył</b>"):"(w toku)"} · ${mode}<br>suma nagrody ${j.R} · opór ost. okresu ${(100*(Dm/j.D_cw-1)).toFixed(0)} % vs woda spokojna · strata krytyka ${j.loss_c??"–"}${j.alpha!=null?" · α "+j.alpha.toFixed(3):""} · ${j.time}`}
+function col(v){const s=Math.max(-1,Math.min(1,v/7.5));const a=s<0?[59,76,192]:[180,4,38],b=[240,240,240],k=Math.abs(s);return `rgb(${b.map((x,i)=>Math.round(x+(a[i]-x)*k)).join(",")})`}
+function drawPol(r,p){const cv=W("p_"+r),g=cv.getContext("2d");g.clearRect(0,0,cv.width,cv.height);const A=axes(g,cv,0,360,-0.75,0.75);
+ const nx=p.phase_deg.length,ny=p.z.length,dx=A.w/(nx-1),dy=A.h/(ny-1);
+ for(let iy=0;iy<ny;iy++)for(let ix=0;ix<nx;ix++){g.fillStyle=col(p.theta_deg[iy][ix]);g.fillRect(A.X(p.phase_deg[ix])-dx/2,A.Y(p.z[iy])-dy/2,dx+1,dy+1)}
+ A.grid([0,90,180,270,360],[-0.75,-0.4,0,0.4,0.75],v=>v.toFixed(2));
+ g.font="12px Segoe UI";for(let iy=2;iy<ny;iy+=7)for(let ix=2;ix<nx;ix+=8){g.fillStyle="#222";g.fillText(p.theta_deg[iy][ix].toFixed(1)+"°",A.X(p.phase_deg[ix])-12,A.Y(p.z[iy])+4)}
+ W("pl_"+r).innerHTML=`Mapa polityki (epizod ${p.episode}, ${p.time}): kąt, jaki agent ustawi (niebieski = nos w dół, czerwony = nos w górę, biały = 0°), w funkcji fazy fali (oś x: 0° = grzbiet nad nosem, 180° = dolina) i wysokości płata z [m] (oś y). Zmienia się w miarę nauki.`}
+// ---- animacja plynna ----
+const KW=0.16098,OME=3.2442,LAG=KW/OME,C=0.312,DEPTH=1.09,S2C=0.624;
+const AN={};RUNS.forEach(([r])=>AN[r]={j:null,next:null,t:0,pause:0});
+function foilPts(){const p=[];for(let i=0;i<=24;i++){const x=i/24,yt=0.6*0.12*(0.2969*Math.sqrt(x)-0.126*x-0.3516*x*x+0.2843*x**3-0.1015*x**4);p.push([x,yt])}
+ return p.concat(p.slice().reverse().map(([x,y])=>[x,-y]))}
+const FP=foilPts();
+function interp(arr,ti,dt){const f=ti/dt-1;if(f<=0)return arr[0];const i=Math.floor(f);if(i>=arr.length-1)return arr[arr.length-1];const a=f-i;return arr[i]*(1-a)+arr[i+1]*a}
+function drawAnim(r,c){const s=AN[r],j=s.j,cv=W("v_"+r),g=cv.getContext("2d");g.clearRect(0,0,cv.width,cv.height);if(!j)return;
+ const x0=-3,x1=3,y0=-2.05,y1=0.95,FS=3,sx=cv.width/(x1-x0),sy=cv.height/(y1-y0),X=x=>(x-x0)*sx,Y=y=>(y1-y)*sy,t=s.t;
+ const xs=[];for(let i=0;i<=120;i++)xs.push(x0+(x1-x0)*i/120);
+ const eta=xs.map(x=>interp(j.eta,t-x*LAG,j.dt));
+ g.fillStyle="#cfe6ff";g.beginPath();g.moveTo(X(x0),Y(y0));xs.forEach((x,i)=>g.lineTo(X(x),Y(eta[i])));g.lineTo(X(x1),Y(y0));g.fill();
+ g.strokeStyle="#3a7bd5";g.lineWidth=2;g.beginPath();xs.forEach((x,i)=>i?g.lineTo(X(x),Y(eta[i])):g.moveTo(X(x),Y(eta[i])));g.stroke();
+ g.setLineDash([6,5]);g.lineWidth=1;g.beginPath();xs.forEach((x,i)=>i?g.lineTo(X(x),Y(eta[i]-S2C)):g.moveTo(X(x),Y(eta[i]-S2C)));g.stroke();g.setLineDash([]);
+ g.strokeStyle="#d33";g.setLineDash([2,5]);for(const y of[-DEPTH-0.75,-DEPTH+0.75]){g.beginPath();g.moveTo(0,Y(y));g.lineTo(cv.width,Y(y));g.stroke()}g.setLineDash([]);
+ // strumienie (kreski plynace w lewo->prawo)
+ g.strokeStyle="rgba(58,123,213,0.25)";g.lineWidth=1;for(let k=0;k<14;k++){const yy=-1.9+k*0.13,xx=((k*0.47+t*12.35)%6.6)-3.3;if(yy<interp(j.eta,t-xx*LAG,j.dt)-0.05){g.beginPath();g.moveTo(X(xx),Y(yy));g.lineTo(X(xx+0.25),Y(yy));g.stroke()}}
+ const z=interp(j.z,t,j.dt),th=interp(j.th,t,j.dt)*Math.PI/180,cm=interp(j.cmd,t,j.dt),yc=z-DEPTH;
+ // kolumna
+ g.strokeStyle="#666";g.lineWidth=3;g.beginPath();g.moveTo(X(0),Y(yc));g.lineTo(X(0),Y(0.95));g.stroke();
+ // plat: nos w lewo, obrot wokol c/4 (nos w gore przy theta > 0)
+ g.fillStyle=c;g.strokeStyle="#222";g.lineWidth=1;g.beginPath();
+ FP.forEach(([u,v],i)=>{const xl=(u-0.25)*C*FS,yl=v*C*FS,xr=xl*Math.cos(th)+yl*Math.sin(th),yr=-xl*Math.sin(th)+yl*Math.cos(th),px=X(xr),py=Y(yc+yr);i?g.lineTo(px,py):g.moveTo(px,py)});g.closePath();g.fill();g.stroke();
+ // wektor sily nosnej (umownie) i napis
+ const n=j.z.length,tend=n*j.dt,i=Math.min(n-1,Math.max(0,Math.round(t/j.dt)-1)),sub=j.sub[i],D=j.D[i];
+ g.fillStyle="#222";g.font="13px Segoe UI";
+ g.fillText(`t = ${t.toFixed(2)} s   kąt ${(th*180/Math.PI).toFixed(1)}° (komenda ${cm.toFixed(1)}°)   z ${z>=0?"+":""}${z.toFixed(2)} m   zanurzenie ${(sub/C).toFixed(1)}c   opór chwilowy ${(100*(D/j.D_cw-1)).toFixed(0)} %`,8,18);
+ if(s.t>=tend-1e-9){g.font="bold 15px Segoe UI";g.fillStyle=j.done?(j.term?"#d00":"#2a2"):"#888";g.fillText(j.done?(j.term?"✖ UPADEK – nowy epizod za chwilę":"✔ przeżył cały epizod"):"… agent jeszcze liczy dalszą część epizodu",8,40)}
+ W("vl_"+r).innerHTML=`Animacja epizodu ${j.episode} w czasie rzeczywistym (1:1), płat rysowany 3× większy (kąt prawdziwy), skala pionowa = pozioma; fala ma 39 m, więc w kadrze 6 m wygląda prawie płasko. Układ związany z płatem: woda płynie od lewej 12,3 m/s, fala przesuwa się w prawo; przerywana niebieska = 2c pod powierzchnią, czerwone = granice |z| 0,75 m. Trening liczy ok. 4× wolniej niż czas rzeczywisty, więc animacja dogania i czeka na kolejne kroki.`}
+let lastF=performance.now();
+function frame(now){const dtr=Math.min(0.1,(now-lastF)/1000);lastF=now;
+ for(const [r,c] of RUNS){const s=AN[r];if(!s.j&&s.next){s.j=s.next;s.next=null;s.t=0}
+  if(s.j){const tend=s.j.z.length*s.j.dt;
+   if(s.next&&s.next.episode===s.j.episode&&s.next.z.length>s.j.z.length){s.j=s.next;s.next=null}
+   const tend2=s.j.z.length*s.j.dt,sp=(!s.j.done&&tend2-s.t<0.8)?0.25:1;
+   if(s.t<tend2)s.t=Math.min(tend2,s.t+dtr*sp);
+   else if(s.next&&!s.j.done&&s.next.episode!==s.j.episode){s.j=s.next;s.next=null;s.t=0}
+   else if(s.j.done){s.pause+=dtr;if(s.pause>1.5&&s.next){s.j=s.next;s.next=null;s.t=0;s.pause=0}}}
+  drawAnim(r,c)}
+ requestAnimationFrame(frame)}
+requestAnimationFrame(frame);
+async function tick(){for(const [r,c] of RUNS){try{const j=await (await fetch(`runs/${r}/live_ep.json?${Date.now()}`)).json();AN[r].next=j;drawEp(r,c,j)}catch(e){}
+ try{drawPol(r,await (await fetch(`runs/${r}/live_policy.json?${Date.now()}`)).json())}catch(e){}}}
+tick();setInterval(tick,3000);
+</script></body></html>

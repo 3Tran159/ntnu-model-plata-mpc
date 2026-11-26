@@ -1,0 +1,3 @@
+keys: ['D', 'r_e', 'z', 'theta_deg', 'rate', 'acc', 'eta', 'P_drag_W', 'CL', 'sub', 'P_shaft', 'P_act', 'D_strut', 'D_tot', 'P_tot_W']
+keys: ['D', 'r_e', 'z', 'theta_deg', 'rate', 'acc', 'eta', 'P_drag_W', 'CL', 'sub', 'P_shaft', 'P_act', 'D_strut', 'D_tot', 'P_tot_W']
+ok, weights: 67585 PID1 term False TD3 term False

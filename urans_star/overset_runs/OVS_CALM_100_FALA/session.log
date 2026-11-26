@@ -1,0 +1,8 @@
+2026-11-14 23:58:44 session 1 from GODO_OVERSET_SETUP_CALM.sim (cpu (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17))
+2026-11-15 07:06:44 session 1 ended rc=0 after 25679 s
+2026-11-15 07:06:44 result DONE
+2026-11-15 07:06:44 end done=True sessions=1
+2026-11-15 18:47:46 session 1 from END_t20.0000.sim (cpu (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17))
+2026-11-16 04:08:56 session 1 ended rc=0 after 33670 s
+2026-11-16 04:08:56 result DONE
+2026-11-16 04:08:56 end done=True sessions=1

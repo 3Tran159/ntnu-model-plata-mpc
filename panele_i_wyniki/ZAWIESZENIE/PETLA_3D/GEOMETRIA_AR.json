@@ -1,0 +1,50 @@
+{
+ "P3D_AR8_jeden": {
+  "AR": 8,
+  "rozpietosc_m": 4.468556814006061,
+  "pol_rozp_m": 2.2342784070030306,
+  "cieciwa_m": 0.5585696017507576,
+  "faces": 2320,
+  "watertight": true,
+  "patches": {
+   "plat": 2320
+  }
+ },
+ "P3D_AR8_petla": {
+  "AR": 8,
+  "rozpietosc_m": 4.468556814006061,
+  "pol_rozp_m": 2.2342784070030306,
+  "cieciwa_m": 0.2792848008753788,
+  "faces": 6352,
+  "watertight": true,
+  "patches": {
+   "gorny": 2528,
+   "dolny": 2510,
+   "plytka": 1314
+  }
+ },
+ "P3D_AR4_jeden": {
+  "AR": 4,
+  "rozpietosc_m": 3.1597468253010397,
+  "pol_rozp_m": 1.5798734126505198,
+  "cieciwa_m": 0.78993670632526,
+  "faces": 2320,
+  "watertight": true,
+  "patches": {
+   "plat": 2320
+  }
+ },
+ "P3D_AR4_petla": {
+  "AR": 4,
+  "rozpietosc_m": 3.1597468253010397,
+  "pol_rozp_m": 1.5798734126505198,
+  "cieciwa_m": 0.39496835316263,
+  "faces": 6286,
+  "watertight": true,
+  "patches": {
+   "gorny": 2515,
+   "dolny": 2489,
+   "plytka": 1282
+  }
+ }
+}

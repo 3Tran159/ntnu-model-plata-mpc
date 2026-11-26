@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl"><head><meta charset="utf-8"><title>Model wirowy płata na fali: sprawdzenie względem URANS</title>
+<style>
+@page{size:A4;margin:13mm 14mm 13mm 14mm}
+body{font-family:Carlito,"DejaVu Sans",sans-serif;font-size:10.2pt;line-height:1.32;color:#111;margin:0}
+h1{font-size:17pt;margin:0 0 2pt}
+.by{color:#555;font-size:9.5pt;margin:0 0 7pt;border-bottom:1.2pt solid #1f6f8b;padding-bottom:4pt}
+h2{font-size:12pt;margin:9pt 0 3pt;color:#1f6f8b}
+h3{font-size:10.4pt;margin:6pt 0 2pt}
+p{margin:0 0 4pt}
+ul{margin:0 0 4pt;padding-left:14pt} li{margin:0 0 1.5pt}
+table{border-collapse:collapse;width:100%;margin:3pt 0 5pt;font-size:9.2pt}
+th,td{border-bottom:0.5pt solid #bbb;padding:2pt 4pt;text-align:left;vertical-align:top}
+th{background:#eef3f5;font-weight:700}
+tr{break-inside:avoid}
+td.n,th.n{text-align:right;white-space:nowrap}
+.box{background:#f4f6f7;border-left:3pt solid #1f6f8b;padding:5pt 8pt;margin:4pt 0 6pt}
+.warn{border-left-color:#c0392b}
+figure{margin:4pt 0 6pt;break-inside:avoid} figure img{width:100%} figcaption{font-size:8.8pt;color:#444;margin-top:1pt;text-align:left}
+.small{font-size:8.8pt;color:#444}
+.pb{break-before:page}
+</style></head><body>
+<h1>Model wirowy płata na fali: jak go sprawdziłem względem URANS i gdzie przestaje działać</h1>
+<p class="by">Julian Serkieza • 11 listopada 2026 • przypadek Godø: cięciwa 0,312 m, 12,35 m/s (24 w), zanurzenie 1,09 m, fala z dziobu H = 1,5 m, T = 5 s</p>
+
+<div class="box"><b>W skrócie.</b> Trening sterowania potrzebuje ponad miliona kroków symulacji. W URANS jeden krok trwa ok. 1,1 s, w modelu wirowym ok. 0,7 ms. Model wirowy sprawdziłem w trzech stopniach: na teorii, na siłach z URANS przy tym samym ruchu płata i w pętli z regulatorem. Siłę wzdłużną (opór i ciąg z fali) odtwarza dobrze. Siłę nośną trzeba było skalibrować. Momentu nie odtwarza. Nie ma w nim lepkości ani oderwania, więc ograniczenie siły nośnej jest wpisane ręcznie i każdy wynik sterowania musi być powtórzony w URANS.</div>
+
+<h2>1. Jak działa model (obraz)</h2>
+<p>Płat jest zastąpiony rzędem 20 małych wirów ułożonych wzdłuż cięciwy. Każdy wir to kawałek siły nośnej. Ich siłę dobieram w każdym kroku tak, żeby w 20 punktach kontrolnych woda nie przechodziła przez płat. Gdy siła nośna się zmienia, z krawędzi spływu schodzi nowy wir i płynie z wodą do tyłu. Te wiry w śladzie są pamięcią opływu: przez nie siła nośna reaguje na zmianę z opóźnieniem. Powierzchnię wody udaje lustrzane odbicie wszystkich wirów nad nią. Fala wchodzi jako prędkość wody w górę i w dół w miejscu płata.</p>
+<p>Ciąg z fali bierze się stąd, że siła nośna jest prostopadła do kierunku, z którego woda trafia w płat. Kiedy woda idzie do góry, siła nośna pochyla się do przodu.</p>
+<figure style="text-align:center"><img src="fig1.png" style="width:88%"><figcaption>Rys. 1. Schemat modelu. Wersja pełna liczy też siły przy obrocie płata i przy jego ruchu w pionie.</figcaption></figure>
+
+<h2>2. Trzy stopnie sprawdzenia</h2>
+<h3>Stopień 1: teoria (płat w nieograniczonej wodzie, bez fali)</h3>
+<table><tr><th>Test</th><th>Co sprawdza</th><th class="n">Różnica względem teorii</th></tr>
+<tr><td>Theodorsen, obrót i ruch pionowy</td><td>wielkość i opóźnienie siły nośnej przy drganiach płata</td><td class="n">siła do 1%, faza do 0,6°, moment do 2%</td></tr>
+<tr><td>Sears</td><td>siła nośna od podmuchu pionowego</td><td class="n">do 2%</td></tr>
+<tr><td>Garrick</td><td>średni ciąg drgającego płata</td><td class="n">do 1%</td></tr></table>
+<p class="small">Pierwsza wersja liczyła ciąg błędnie (brakowało prędkości własnej płata). Wyłapał to test Garricka.</p>
+
+<h3>Stopień 2: URANS przy tym samym ruchu</h3>
+<p>Z przebiegu URANS biorę zapisany kąt płata, prędkość nurzania i falę. Wkładam je do modelu wirowego i porównuję siły. Model nie steruje tu niczym, tylko odtwarza.</p>
+<table><tr><th>Przebieg URANS</th><th class="n">Siła nośna C<sub>L</sub>:<br>zgodność kształtu / amplituda</th><th class="n">Siła wzdłużna F<sub>x</sub>:<br>zgodność kształtu / amplituda</th><th class="n">Opór lepki z różnicy<br>średnich (C<sub>D</sub>)</th></tr>
+<tr><td>Płat nieruchomy (studium siatki, 4 okresy)</td><td class="n">faza 6° / 0,97</td><td class="n">faza 3° / 1,12</td><td class="n">–</td></tr>
+<tr><td>PID, swobodne nurzanie (BASE2, 5 okresów)</td><td class="n">0,993 / 1,27</td><td class="n">0,961 / 0,88</td><td class="n">0,0121</td></tr>
+<tr><td>PID + losowe ruchy ±2° (PRBS1, 5 okresów)</td><td class="n">0,990 / 1,23</td><td class="n">0,979 / 0,94</td><td class="n">0,0124</td></tr>
+<tr><td>PID + sinus ±2° (SINE_A2, 2,5 okresu)</td><td class="n">0,964 / 1,57</td><td class="n">0,996 / 1,06</td><td class="n">0,0118</td></tr></table>
+<p class="small">Zgodność kształtu to współczynnik korelacji (1 = idealnie). Amplituda to stosunek model/URANS. Opór lepki w wodzie spokojnej z osobnego URANS: C<sub>D</sub> = 0,0134. Dla płata nieruchomego średni ciąg z fali w modelu to 248 N/m wobec ok. 300–310 N/m w URANS.</p>
+<p><b>Co widać:</b> siła wzdłużna zgadza się w kształcie i w amplitudzie do ok. 12%. Siła nośna ma dobry kształt, ale przy swobodnym nurzaniu model daje za dużą amplitudę (o 23–57%). Przy płacie nieruchomym tego błędu nie ma (−3%).</p>
+<p><b>Kalibracja siły nośnej.</b> Siłę nośną rozkładam na trzy części: od fali, od obrotu i od nurzania. Każdą mnożę przez stały współczynnik (0,66 / 0,63 / 0,66), a części od fali i od nurzania opóźniam o 0,08 s. Współczynniki dopasowałem na dwóch przebiegach (BASE2 i PRBS1), a sprawdziłem na trzecim, którego nie użyłem do dopasowania (SINE_A2):</p>
+<table><tr><th>Po kalibracji</th><th class="n">BASE2 (dopasowanie)</th><th class="n">PRBS1 (dopasowanie)</th><th class="n">SINE_A2 (sprawdzenie)</th></tr>
+<tr><td>C<sub>L</sub>: zgodność kształtu / amplituda</td><td class="n">0,994 / 1,00</td><td class="n">0,992 / 0,99</td><td class="n">0,984 / 1,04</td></tr></table>
+
+<h3>Stopień 3: pętla zamknięta (to jest test, który decyduje)</h3>
+<p>W modelu wirowym uruchamiam ten sam regulator PID co w URANS, z tym samym serwem i swobodnym nurzaniem. Teraz model sam wyznacza ruch płata. Jeśli jest dobry, płat ma się poruszać tak samo jak w URANS.</p>
+<table><tr><th>Wielkość (ostatnie okresy)</th><th class="n">BASE2: URANS / model</th><th class="n">PRBS1: URANS / model</th><th class="n">SINE_A2: URANS / model</th></tr>
+<tr><td>Amplituda nurzania [m]</td><td class="n">0,305 / 0,307 (+0,7%)</td><td class="n">0,315 / 0,314 (−0,5%)</td><td class="n">0,146 / 0,143 (−1,8%)</td></tr>
+<tr><td>Zakres kąta płata [°]</td><td class="n">0,07…6,22 / 0,13…6,27</td><td class="n">−1,95…7,49 / −2,04…7,49</td><td class="n">0,94…5,38 / 1,00…5,60</td></tr>
+<tr><td>Średnia moc oporu [W na pasek 0,02 m]</td><td class="n">69,5 / 69,4 (−0,1%)</td><td class="n">67,2 / 65,1 (−3,0%)</td><td class="n">63,3 / 67,5 (+6,6%)</td></tr>
+<tr><td>Zakres siła nośna / ciężar</td><td class="n">0,63…1,30 / 0,66…1,32</td><td class="n">0,41…1,54 / 0,48…1,52</td><td class="n">0,82…1,17 / 0,83…1,16</td></tr></table>
+<p class="small">Próg, który przyjąłem przed testem: różnica nurzania i mocy oporu poniżej 15%. Wszystkie trzy przebiegi go spełniają. SINE_A2 nie był użyty do kalibracji.</p>
+
+<figure style="text-align:center"><img src="fig2.png" style="width:80%"><figcaption>Rys. 2. Stopień 2 na przebiegu BASE2. Góra: z czego składa się kąt, pod jakim woda trafia w płat. Płat z regulatorem PID jedzie razem z falą, więc część od nurzania znosi część od fali. Środek: siła nośna, przed kalibracją i po niej. Dół: siła wzdłużna; model nielepki plus stały opór lepki.</figcaption></figure>
+<figure style="text-align:center"><img src="fig3.png" style="width:68%"><figcaption>Rys. 3. Stopień 3 na przebiegu BASE2: ten sam PID w modelu wirowym (czerwona) i w URANS (czarna). Nurzanie i kąt się pokrywają. Średnia siła wzdłużna się zgadza, jej przebieg w czasie słabiej.</figcaption></figure>
+
+<h2>3. Ograniczenia modelu i ręczne poprawki</h2>
+<table><tr><th style="width:21%">Czego model nie ma</th><th style="width:43%">Co jest wpisane ręcznie zamiast tego</th><th>Na ile to sprawdzone</th></tr>
+<tr><td><b>Oderwanie</b> (model jest liniowy, siła nośna rośnie bez końca)</td><td>Blokada siły nośnej: do C<sub>L</sub> = 0,9 bez zmian, potem krzywa łagodnie dochodzi do 1,0 i dalej nie rośnie. Za nadwyżkę ponad blokadę dopisany jest opór karny: ΔC<sub>D</sub> = 0,5 · (nadwyżka C<sub>L</sub>)². Blokada działa tylko od góry; dla małych i ujemnych C<sub>L</sub> żadnej nie ma.</td><td><b>Założenie.</b> W URANS C<sub>L</sub> doszło do 1,07 bez załamania, więc 1,0 jest ostrożne, ale prawdziwej granicy oderwania nie znam. Liczba 0,5 w oporze karnym nie pochodzi z danych.</td></tr>
+<tr><td><b>Lepkość</b></td><td>Stały opór lepki C<sub>D</sub> = 0,0121 dodany do siły wzdłużnej.</td><td>Z trzech przebiegów wychodzi 0,0118–0,0124. W wodzie spokojnej jest 0,0134, czyli stała „z fali" jest o ok. 10% mniejsza. Zależności od kąta nie ma.</td></tr>
+<tr><td><b>Poprawna amplituda siły nośnej przy nurzaniu</b></td><td>Trzy współczynniki (0,63–0,66) i opóźnienie 0,08 s, opisane w punkcie 2.</td><td>Dopasowanie, nie fizyka. Wszystkie trzy części drgają z tą samą częstością, więc pojedynczych współczynników nie da się wyznaczyć pewnie, pewna jest tylko ich suma. Sprawdzone dla jednej fali (T = 5 s). Przyczyny zawyżenia nie ustaliłem.</td></tr>
+<tr><td><b>Moment względem osi obrotu</b></td><td>Nic. Model go liczy, ale wynik nie zgadza się z URANS (zgodność kształtu 0,1–0,3, amplituda ok. 10%).</td><td>Niezwalidowany. Mocy siłownika nie biorę z modelu; w nagrodzie jest kara za prędkość kąta.</td></tr>
+<tr><td><b>Prawdziwa powierzchnia swobodna</b></td><td>Lustrzane odbicie wirów (dobre przy dużej prędkości; tu liczba Froude'a od zanurzenia 3,8) i poprawka na chwilowe zanurzenie płata pod falą.</td><td>Fal wytwarzanych przez płat i zasysania powietrza nie ma. Amplituda fali (0,73 m) to 67% zanurzenia, więc model liniowy jest tu naciągnięty. Poprawka na chwilowe zanurzenie to założenie.</td></tr>
+<tr><td><b>Grubość, wysklepienie, trzeci wymiar</b></td><td>Płaska płytka 2D; wysklepienie wchodzi tylko przez średnie C<sub>L</sub> wzięte z URANS (0,642 przy 3,22°).</td><td>Brak rozkładu ciśnień, więc brak oceny kawitacji. Efekty końców płata pominięte, tak jak w pasku quasi-2D w URANS.</td></tr>
+<tr><td><b>Fala nieliniowa</b></td><td>Fala liniowa (Airy'ego) o amplitudzie dopasowanej do tej zmierzonej w URANS.</td><td>Przy H/λ = 0,038 różnica jest mała. Fala nieregularna jest w modelu, ale bez porównania z URANS.</td></tr></table>
+
+<div class="box warn"><b>Zakres, w którym model jest sprawdzony:</b> jedna fala regularna (H = 1,5 m, T = 5 s), kąt płata od −2° do 7,5°, C<sub>L</sub> od 0,4 do 1,07, ruch płata taki jak przy PID z małymi dodatkami (±2°). Poza tym zakresem model liczy, ale nie mam dowodu, że liczy dobrze. Sterowanie uczone na modelu będzie szukało właśnie takich miejsc.</div>
+
+<h2>4. Co z tego wynika</h2>
+<ul>
+<li>Model nadaje się na środowisko do treningu, jeśli nagrodą jest opór i ruch płata. Jest ok. 1500 razy szybszy od URANS.</li>
+<li>Wynik sterowania z modelu wirowego nie jest dowodem. Każdą wytrenowaną politykę trzeba ocenić w URANS i dopiero ten wynik raportować.</li>
+<li>Regulator, który zyskuje tylko dzięki przekraczaniu C<sub>L</sub> ≈ 1 albo dzięki ruchom dużo większym niż ±2° wokół PID, wykorzystuje słabe miejsca modelu.</li>
+</ul>
+<h2>5. Co jeszcze trzeba sprawdzić w URANS</h2>
+<ul>
+<li>Zadany sinus kąta płata o rosnącej amplitudzie (±1,8°, ±3,7°, ±7,5°) w fazie z falą: pokaże, przy jakim C<sub>L</sub> zaczyna się oderwanie, i zastąpi ręczną blokadę liczbą z danych. Przypadki są przygotowane, nie były liczone.</li>
+<li>Druga fala o innym okresie: sprawdzi, czy kalibracja siły nośnej nie jest dopasowana tylko do T = 5 s.</li>
+<li>Jedna polityka z treningu oceniona w URANS i porównana z przewidywaniem modelu.</li>
+</ul>
+<p class="small"><b>Słowa kluczowe po angielsku:</b> model wirowy = unsteady lumped-vortex (discrete vortex) model with shed wake; warunek nieprzenikania = flow-tangency condition; ślad = wake; lustrzane odbicie = free-surface image (high-Froude limit); odtworzenie ruchu = prescribed-motion replay; pętla zamknięta = closed-loop test; oderwanie = flow separation / stall; blokada C<sub>L</sub> = lift saturation (clamp). Dane: przebiegi overset OVS_PID_BASE2, OVS_PID_PRBS1, OVS_PID_SINE_A2 (STAR-CCM+ 2606, dt = 1 ms, 16 rdzeni); skrypty w 70_godo_case\vortex_validation i 50_learning\vortex_env.</p>
+</body></html>

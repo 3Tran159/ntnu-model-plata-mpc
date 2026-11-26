@@ -1,0 +1,6 @@
+body: GODO foil body class=ContinuumBody
+motion: Stationary StationaryMotion
+motion: GODO foil heave + pitch (from controller) RotatingAndTranslatingMotion
+motion: DFBI Rotation and Translation SixDofMotion
+region MINI_water_air motion=Stationary
+region GODO overset foil motion=DFBI Rotation and Translation

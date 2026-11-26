@@ -1,0 +1,38 @@
+phys_fix (ARX -> fizyka) [suma przed, po]: {'th': (22815, 93325), 'v': (-2071, -7969), 'w': (1997, 8006)}
+fala1_polaktywne+sprezyna_3Hz_MPC_z-0.4         : plat -10% | z wspornikami +1% | z̈ kadluba 0.97 | zanurz. min 2.52c | skok sprezyny plata -0.079..+0.080 | odzysk 1.7 W
+fala1_polaktywne+sprezyna_6Hz_MPC_z-0.4         : plat -15% | z wspornikami -3% | z̈ kadluba 0.92 | zanurz. min 2.50c | skok sprezyny plata -0.019..+0.019 | odzysk 1.6 W
+fala1_pasywne0.7+sprezyna_3Hz_MPC_z-0.4         : plat -11% | z wspornikami +0% | z̈ kadluba 0.84 | zanurz. min 2.52c | skok sprezyny plata -0.062..+0.070 | odzysk 1.0 W
+fala1_polaktywne+sprezyna_3Hz_PID_z-0.4         : plat -7% | z wspornikami +3% | z̈ kadluba 1.39 | zanurz. min 2.72c | skok sprezyny plata -0.103..+0.114 | odzysk 3.3 W
+fala1_polaktywne+sprezyna_6Hz_PID_z-0.4         : plat -11% | z wspornikami +0% | z̈ kadluba 1.13 | zanurz. min 2.71c | skok sprezyny plata -0.024..+0.025 | odzysk 2.3 W
+fala1_pasywne0.7+sprezyna_3Hz_PID_z-0.4         : plat -5% | z wspornikami +4% | z̈ kadluba 1.77 | zanurz. min 2.76c | skok sprezyny plata -0.136..+0.150 | odzysk 3.8 W
+fala3_polaktywne+sprezyna_3Hz_MPC_z-0.4         : plat -14% | z wspornikami -2% | z̈ kadluba 1.67 | zanurz. min 1.71c | skok sprezyny plata -0.151..+0.151 | odzysk 4.6 W
+fala3_polaktywne+sprezyna_6Hz_MPC_z-0.4         : plat -24% | z wspornikami -10% | z̈ kadluba 1.64 | zanurz. min 1.59c | skok sprezyny plata -0.063..+0.061 | odzysk 4.3 W
+fala3_pasywne0.7+sprezyna_3Hz_MPC_z-0.4         : plat -12% | z wspornikami -0% | z̈ kadluba 1.58 | zanurz. min 1.97c | skok sprezyny plata -0.151..+0.151 | odzysk 4.4 W
+fala3_polaktywne+sprezyna_3Hz_PID_z-0.4         : plat -13% | z wspornikami -2% | z̈ kadluba 1.92 | zanurz. min 1.35c | skok sprezyny plata -0.150..+0.152 | odzysk 5.8 W
+fala3_polaktywne+sprezyna_6Hz_PID_z-0.4         : plat -18% | z wspornikami -6% | z̈ kadluba 1.65 | zanurz. min 1.30c | skok sprezyny plata -0.034..+0.051 | odzysk 4.3 W
+fala3_pasywne0.7+sprezyna_3Hz_PID_z-0.4         : plat -10% | z wspornikami +0% | z̈ kadluba 2.24 | zanurz. min 1.31c | skok sprezyny plata -0.150..+0.151 | odzysk 6.4 W
+fala4_polaktywne+sprezyna_3Hz_MPC_z-0.4         : plat -14% | z wspornikami -2% | z̈ kadluba 1.63 | zanurz. min 1.85c | skok sprezyny plata -0.151..+0.152 | odzysk 4.0 W
+fala4_polaktywne+sprezyna_6Hz_MPC_z-0.4         : plat -20% | z wspornikami -6% | z̈ kadluba 1.59 | zanurz. min 1.74c | skok sprezyny plata -0.049..+0.067 | odzysk 3.7 W
+fala4_pasywne0.7+sprezyna_3Hz_MPC_z-0.4         : plat -14% | z wspornikami -2% | z̈ kadluba 1.59 | zanurz. min 1.94c | skok sprezyny plata -0.151..+0.151 | odzysk 4.1 W
+fala4_polaktywne+sprezyna_3Hz_PID_z-0.4         : plat -4% | z wspornikami +5% | z̈ kadluba 1.83 | zanurz. min 1.39c | skok sprezyny plata -0.151..+0.151 | odzysk 4.7 W
+fala4_polaktywne+sprezyna_6Hz_PID_z-0.4         : plat -9% | z wspornikami +1% | z̈ kadluba 1.56 | zanurz. min 1.40c | skok sprezyny plata -0.038..+0.046 | odzysk 3.6 W
+fala4_pasywne0.7+sprezyna_3Hz_PID_z-0.4         : UPADEK po 16.1 s (|z kadluba - z_ref| > 0,75 m)
+fala5_polaktywne+sprezyna_3Hz_MPC_z-0.4         : plat -14% | z wspornikami -2% | z̈ kadluba 1.11 | zanurz. min 2.63c | skok sprezyny plata -0.087..+0.101 | odzysk 2.3 W
+fala5_polaktywne+sprezyna_6Hz_MPC_z-0.4         : plat -19% | z wspornikami -6% | z̈ kadluba 1.07 | zanurz. min 2.70c | skok sprezyny plata -0.023..+0.023 | odzysk 2.3 W
+fala5_pasywne0.7+sprezyna_3Hz_MPC_z-0.4         : plat -13% | z wspornikami -1% | z̈ kadluba 0.97 | zanurz. min 2.56c | skok sprezyny plata -0.082..+0.089 | odzysk 1.4 W
+fala5_polaktywne+sprezyna_3Hz_PID_z-0.4         : UPADEK po 8.81 s (|z kadluba - z_ref| > 0,75 m)
+fala5_polaktywne+sprezyna_6Hz_PID_z-0.4         : plat -16% | z wspornikami -4% | z̈ kadluba 1.39 | zanurz. min 3.07c | skok sprezyny plata -0.033..+0.027 | odzysk 3.6 W
+fala5_pasywne0.7+sprezyna_3Hz_PID_z-0.4         : UPADEK po 7.66 s (|z kadluba - z_ref| > 0,75 m)
+fala6_polaktywne+sprezyna_3Hz_MPC_z-0.4         : plat -26% | z wspornikami -12% | z̈ kadluba 1.25 | zanurz. min 2.32c | skok sprezyny plata -0.150..+0.110 | odzysk 2.7 W
+fala6_polaktywne+sprezyna_6Hz_MPC_z-0.4         : plat -31% | z wspornikami -16% | z̈ kadluba 1.20 | zanurz. min 2.20c | skok sprezyny plata -0.037..+0.025 | odzysk 2.4 W
+fala6_pasywne0.7+sprezyna_3Hz_MPC_z-0.4         : plat -26% | z wspornikami -11% | z̈ kadluba 1.10 | zanurz. min 2.32c | skok sprezyny plata -0.111..+0.096 | odzysk 1.7 W
+fala6_polaktywne+sprezyna_3Hz_PID_z-0.4         : plat -8% | z wspornikami +2% | z̈ kadluba 2.02 | zanurz. min 2.91c | skok sprezyny plata -0.151..+0.150 | odzysk 6.8 W
+fala6_polaktywne+sprezyna_6Hz_PID_z-0.4         : plat -13% | z wspornikami -1% | z̈ kadluba 1.63 | zanurz. min 2.91c | skok sprezyny plata -0.036..+0.033 | odzysk 4.7 W
+fala6_pasywne0.7+sprezyna_3Hz_PID_z-0.4         : plat -6% | z wspornikami +4% | z̈ kadluba 2.48 | zanurz. min 2.84c | skok sprezyny plata -0.151..+0.150 | odzysk 7.2 W
+PODSUMOWANIE polaktywne+sprezyna_3Hz_MPC         : przezyl 5/5, z wspornikami -3.6 %, plat -15.8 %, z̈ 1.33
+PODSUMOWANIE polaktywne+sprezyna_6Hz_MPC         : przezyl 5/5, z wspornikami -8.2 %, plat -21.8 %, z̈ 1.28
+PODSUMOWANIE pasywne0.7+sprezyna_3Hz_MPC         : przezyl 5/5, z wspornikami -2.8 %, plat -15.0 %, z̈ 1.22
+PODSUMOWANIE polaktywne+sprezyna_3Hz_PID         : przezyl 4/5, z wspornikami 2.1 %, plat -8.1 %, z̈ 1.79
+PODSUMOWANIE polaktywne+sprezyna_6Hz_PID         : przezyl 5/5, z wspornikami -2.0 %, plat -13.4 %, z̈ 1.47
+PODSUMOWANIE pasywne0.7+sprezyna_3Hz_PID         : przezyl 3/5, z wspornikami 2.9 %, plat -7.2 %, z̈ 2.17
+gotowe 2439 s

@@ -1,0 +1,12 @@
+2026-11-11 21:42:41 h=1.09 setup start
+2026-11-11 21:44:58 h=1.09 setup koniec rc=1, plik=BRAK
+2026-11-11 21:44:58 h=0.7 setup start
+2026-11-11 21:47:13 h=0.7 setup koniec rc=1, plik=BRAK
+2026-11-11 21:47:13 h=1.5 setup start
+2026-11-11 21:49:42 h=1.5 setup koniec rc=1, plik=BRAK
+2026-11-11 21:49:42 kolejka koniec
+2026-11-12 11:15:07 h=1.09 setup start
+2026-11-12 11:17:46 h=1.09 setup koniec rc=0, plik=STRUT_SETUP_h1.09.sim
+2026-11-12 11:17:46 h=1.09 run start z STRUT_SETUP_h1.09.sim (GPU)
+2026-11-12 14:29:04 h=1.09 run koniec rc=0 status=DONE
+2026-11-12 14:29:04 kolejka koniec

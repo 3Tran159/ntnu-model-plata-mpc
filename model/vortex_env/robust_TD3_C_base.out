@@ -1,0 +1,8 @@
+TD3_C nominal           : {'przezyl': '4/4', 'tot_pct': np.float64(-43.4), 'plat_pct': np.float64(-64.6), 'z_min': -0.61, 'sub_min_c': 2.3, 'acc': np.float64(2.4)}
+TD3_C CL x0.85          : {'przezyl': '4/4', 'tot_pct': np.float64(-58.4), 'plat_pct': np.float64(-83.8), 'z_min': -0.61, 'sub_min_c': 2.18, 'acc': np.float64(2.45)}
+TD3_C CL x1.15          : {'przezyl': '4/4', 'tot_pct': np.float64(-32.2), 'plat_pct': np.float64(-50.3), 'z_min': -0.62, 'sub_min_c': 2.41, 'acc': np.float64(2.38)}
+TD3_C opor x0.8         : {'przezyl': '4/4', 'tot_pct': np.float64(-39.5), 'plat_pct': np.float64(-64.6), 'z_min': -0.61, 'sub_min_c': 2.3, 'acc': np.float64(2.4)}
+TD3_C opor x1.2         : {'przezyl': '4/4', 'tot_pct': np.float64(-46.2), 'plat_pct': np.float64(-64.6), 'z_min': -0.61, 'sub_min_c': 2.3, 'acc': np.float64(2.4)}
+TD3_C fala x0.9         : {'przezyl': '4/4', 'tot_pct': np.float64(-33.2), 'plat_pct': np.float64(-51.8), 'z_min': -0.6, 'sub_min_c': 2.6, 'acc': np.float64(2.2)}
+TD3_C fala x1.1         : {'przezyl': '3/4', 'tot_pct': np.float64(-53.4), 'plat_pct': np.float64(-77.2), 'z_min': -0.62, 'sub_min_c': 2.06, 'acc': np.float64(2.58)}
+TD3_C opoznienie 1 takt : {'przezyl': '4/4', 'tot_pct': np.float64(-43.7), 'plat_pct': np.float64(-64.9), 'z_min': -0.61, 'sub_min_c': 2.29, 'acc': np.float64(2.41)}

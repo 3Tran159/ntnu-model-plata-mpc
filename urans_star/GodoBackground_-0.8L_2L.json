@@ -1,0 +1,33 @@
+{
+ "background_stl": "GodoBackground_-0.8L_2L.stl",
+ "domain_x_m": [
+  -31.226199834629867,
+  78.06549958657466
+ ],
+ "overset_box_m": [
+  -0.2,
+  0.55,
+  -0.15,
+  0.15
+ ],
+ "pivot_m": [
+  0.078,
+  0.0
+ ],
+ "background_patches": {
+  "Span0": 180,
+  "Span1": 180,
+  "Bottom": 22,
+  "Inlet": 8,
+  "Outlet": 10,
+  "Top": 24
+ },
+ "overset_patches": {
+  "Span0": 2448,
+  "Span1": 2448,
+  "Flap": 354,
+  "Main": 826,
+  "Overset": 56
+ },
+ "note": "pivot at quarter chord (God\u00c3\u00b8 does not state the rotation axis); flap sealed at 0 deg, rotates with the foil"
+}

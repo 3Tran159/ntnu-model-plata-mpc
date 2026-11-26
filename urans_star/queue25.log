@@ -1,0 +1,4 @@
+2026-11-21 11:02:01 start bez czekania (URANS wolny)
+2026-11-21 11:02:01 start OVS_CEL_005g_S1L_90, jeden MPC (wypadkowa 0,05 g), fala S1, pid 25372
+2026-11-21 12:47:57 end OVS_CEL_005g_S1L_90 : {"result":"HOLD_STOP_FILE","time_s":2.7369999999998096,"steps_this_session":2737,"wall_s":5944.4774367}
+2026-11-21 12:47:57 koniec kolejki 25

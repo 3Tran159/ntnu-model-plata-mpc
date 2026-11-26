@@ -1,0 +1,5 @@
+ARX: suma dL/dth 19455 N/m/rad, suma dL/dv -1793, suma wf 1697, R2 0.9977
+id 44 0.9976613777915396
+('polaktywne_v2', 'MPC', 0.0) {'upadek': '|z kadluba - z_ref| > 0,75 m', 't_upadek': 1.53, 'upust': 0.222} 4 s
+('pasywne_1.5Hz', 'PID', -0.4) {'upadek': None, 't_upadek': None, 'upust': 0.0, 'plat_pct': np.float64(-26.273442807226754), 'tot_pct': np.float64(-12.087669555372017), 'acc_kadlub': 1.8584351738795153, 'sub_min_c': 3.04177013982575, 'skok': [-0.05382062537571208, 0.03236634362969759], 'th': [0.5810035471789237, 5.260504468388855], 'odzysk_W': 0.8018899643570453} 4 s
+('sztywne', 'MPC', -0.4) {'upadek': None, 't_upadek': None, 'upust': 0.0, 'plat_pct': np.float64(-45.230483407909325), 'tot_pct': np.float64(-26.906331559541073), 'acc_kadlub': 2.559915328361832, 'sub_min_c': 2.4744533598413465, 'skok': [0.0, 0.0], 'th': [-0.7920312122690769, 7.499993398655048], 'odzysk_W': 0.0} 9 s

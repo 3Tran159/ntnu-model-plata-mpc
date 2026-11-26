@@ -1,0 +1,92 @@
+2026-11-09 21:26:59 night queue start, t_end 11.621 s (6 periods)
+2026-11-09 21:28:08 MEDIUM: RuntimeError('setup failed: {"stage":"geometry","error":"error: java.net.SocketException: Connection reset\n"}')
+2026-11-09 21:28:08 MEDIUM finished: {'variant': 'MEDIUM', 'base_m': 1.0, 'dt_s': 0.001, 'case': 'T:\\NTNU_GODO_CONTROL_20261109\\70_godo_case\\night\\MEDIUM', 'error': 'RuntimeError(\'setup failed: {"stage":"geometry","error":"error: java.net.SocketException: Connection reset\\n"}\')'}
+2026-11-09 21:28:50 night queue start, t_end 11.621 s (6 periods)
+2026-11-09 21:31:48 MEDIUM: session 1 from GODO_SETUP_B1.0.sim
+2026-11-09 21:33:31 MEDIUM: session 2 from GODO_SETUP_B1.0.sim
+2026-11-10 00:37:28 MEDIUM finished: {'variant': 'MEDIUM', 'base_m': 1.0, 'dt_s': 0.001, 'case': 'T:\\NTNU_GODO_CONTROL_20261109\\70_godo_case\\night\\MEDIUM', 'cells': 112305, 'done': True, 'sessions': 2}
+2026-11-10 00:40:32 COARSE: session 1 from GODO_SETUP_B1.41421356.sim
+2026-11-10 00:42:14 COARSE: session 2 from GODO_SETUP_B1.41421356.sim
+2026-11-10 00:54:25 COARSE: session 3 from GODO_SETUP_B1.41421356.sim
+2026-11-10 00:58:00 COARSE: session 4 from GODO_SETUP_B1.41421356.sim
+2026-11-10 01:04:45 COARSE finished: {'variant': 'COARSE', 'base_m': 1.41421356, 'dt_s': 0.001, 'case': 'T:\\NTNU_GODO_CONTROL_20261109\\70_godo_case\\night\\COARSE', 'cells': 59524, 'done': False, 'sessions': 4}
+2026-11-10 01:08:31 FINE: session 1 from GODO_SETUP_B0.70710678.sim
+2026-11-10 01:10:00 FINE: session 2 from END_t0.0290.sim
+2026-11-10 01:11:01 FINE: session 3 from END_t0.0300.sim
+2026-11-10 01:12:01 FINE: session 4 from END_t0.0310.sim
+2026-11-10 01:13:07 FINE finished: {'variant': 'FINE', 'base_m': 0.70710678, 'dt_s': 0.001, 'case': 'T:\\NTNU_GODO_CONTROL_20261109\\70_godo_case\\night\\FINE', 'cells': 214940, 'done': False, 'sessions': 4}
+2026-11-10 01:16:11 MEDIUM_DT05: session 1 from GODO_SETUP_B1.0.sim
+2026-11-10 01:19:29 MEDIUM_DT05: session 2 from GODO_SETUP_B1.0.sim
+2026-11-10 07:17:28 MEDIUM_DT05 finished: {'variant': 'MEDIUM_DT05', 'base_m': 1.0, 'dt_s': 0.0005, 'case': 'T:\\NTNU_GODO_CONTROL_20261109\\70_godo_case\\night\\MEDIUM_DT05', 'cells': 112305, 'done': True, 'sessions': 2}
+2026-11-10 07:17:28 night queue end
+2026-11-10 07:25:16 night queue start, t_end 11.621 s (6 periods)
+2026-11-10 07:25:16 COARSE: session 1 from GODO_SETUP_B1.41421356.sim
+2026-11-10 07:27:44 COARSE: killed orphan STAR process 42112
+2026-11-10 07:27:44 COARSE: session 2 from GODO_SETUP_B1.41421356.sim
+2026-11-10 07:29:38 COARSE: killed orphan STAR process 30256
+2026-11-10 07:29:38 COARSE: session 3 from GODO_SETUP_B1.41421356.sim
+2026-11-10 07:31:47 COARSE: killed orphan STAR process 19896
+2026-11-10 07:31:47 COARSE: session 4 from GODO_SETUP_B1.41421356.sim
+2026-11-10 07:36:57 COARSE: killed orphan STAR process 40792
+2026-11-10 07:36:57 COARSE: session 5 from CP_000242_t0.2420.sim
+2026-11-10 07:39:28 COARSE: session 6 from CP_000242_t0.2420.sim
+2026-11-10 07:41:18 COARSE: killed orphan STAR process 32020
+2026-11-10 07:41:18 COARSE: session 7 from CP_000242_t0.2420.sim
+2026-11-10 07:43:36 COARSE: session 8 from CP_000242_t0.2420.sim
+2026-11-10 07:48:16 COARSE: killed orphan STAR process 43544
+2026-11-10 07:48:16 COARSE finished: {'variant': 'COARSE', 'base_m': 1.41421356, 'dt_s': 0.001, 'case': 'T:\\NTNU_GODO_CONTROL_20261109\\70_godo_case\\night\\COARSE', 'cells': 59524, 'done': False, 'sessions': 8}
+2026-11-10 07:48:16 FINE_DT0707: session 1 from GODO_SETUP_B0.70710678.sim
+2026-11-10 08:10:19 FINE_DT0707: killed orphan STAR process 40912
+2026-11-10 08:10:19 FINE_DT0707: session 2 from CP_000684_t0.4837.sim
+2026-11-10 08:12:55 FINE_DT0707: killed orphan STAR process 45020
+2026-11-10 08:12:55 FINE_DT0707: session 3 from CP_000684_t0.4837.sim
+2026-11-10 08:14:45 FINE_DT0707: killed orphan STAR process 20680
+2026-11-10 08:14:45 FINE_DT0707: session 4 from CP_000684_t0.4837.sim
+2026-11-10 10:15:03 night queue start, t_end 11.621 s (6 periods)
+2026-11-10 10:15:03 FINE_DT0707: session 1 from END_t1.3633.sim
+2026-11-10 10:21:33 FINE_DT0707: killed orphan STAR process 9612
+2026-11-10 10:21:33 FINE_DT0707: session 2 from CP_002052_t1.4510.sim
+2026-11-10 13:48:21 FINE_DT0707: killed orphan STAR process 30496
+2026-11-10 13:48:21 FINE_DT0707: session 3 from CP_013680_t9.6732.sim
+2026-11-10 14:30:58 FINE_DT0707 finished: {'variant': 'FINE_DT0707', 'base_m': 0.70710678, 'dt_s': 0.00070710678, 'case': 'T:\\NTNU_GODO_CONTROL_20261109\\70_godo_case\\night\\FINE_DT0707', 'cells': 214940, 'done': True, 'sessions': 3}
+2026-11-10 14:30:58 night queue end
+2026-11-10 18:13:19 OVS_PID_BASE: killed orphan STAR process 31852
+2026-11-10 18:13:19 OVS_PID_BASE: killed orphan STAR process 33748
+2026-11-10 18:13:20 OVS_PID_BASE: killed orphan STAR process 19052
+2026-11-10 18:13:21 OVS_PID_BASE: killed orphan STAR process 22072
+2026-11-10 18:13:23 OVS_PID_BASE: killed orphan STAR process 4240
+2026-11-10 18:13:24 OVS_PID_BASE: killed orphan STAR process 13728
+2026-11-10 18:13:24 OVS_PID_BASE: killed orphan STAR process 15604
+2026-11-10 18:13:24 OVS_PID_BASE: killed orphan STAR process 24484
+2026-11-10 18:13:24 OVS_PID_BASE: killed orphan STAR process 21404
+2026-11-10 18:13:25 OVS_PID_BASE: killed orphan STAR process 30464
+2026-11-10 18:13:25 OVS_PID_BASE: killed orphan STAR process 18244
+2026-11-10 18:13:25 OVS_PID_BASE: killed orphan STAR process 34428
+2026-11-10 18:13:25 OVS_PID_BASE: killed orphan STAR process 29712
+2026-11-10 18:13:25 OVS_PID_BASE: killed orphan STAR process 28892
+2026-11-10 18:13:26 OVS_PID_BASE: killed orphan STAR process 28660
+2026-11-10 18:13:26 OVS_PID_BASE: killed orphan STAR process 12832
+2026-11-10 18:13:26 OVS_PID_BASE: killed orphan STAR process 11928
+2026-11-10 18:13:26 OVS_PID_BASE: killed orphan STAR process 35504
+2026-11-10 18:13:26 OVS_PID_BASE: killed orphan STAR process 30268
+2026-11-10 18:13:27 OVS_PID_BASE: killed orphan STAR process 1848
+2026-11-10 18:13:27 OVS_PID_BASE: killed orphan STAR process 29972
+2026-11-10 18:13:27 OVS_PID_BASE: killed orphan STAR process 18936
+2026-11-10 18:13:27 OVS_PID_BASE: killed orphan STAR process 11456
+2026-11-10 18:13:28 OVS_PID_BASE: killed orphan STAR process 25372
+2026-11-10 18:13:28 OVS_PID_BASE: killed orphan STAR process 12700
+2026-11-10 18:13:28 OVS_PID_BASE: killed orphan STAR process 9360
+2026-11-10 18:13:28 OVS_PID_BASE: killed orphan STAR process 32612
+2026-11-10 18:13:28 OVS_PID_BASE: killed orphan STAR process 33928
+2026-11-10 18:13:28 OVS_PID_BASE: killed orphan STAR process 10500
+2026-11-10 18:13:28 OVS_PID_BASE: killed orphan STAR process 30300
+2026-11-10 18:13:29 OVS_PID_BASE: killed orphan STAR process 31980
+2026-11-10 18:13:29 OVS_PID_BASE: killed orphan STAR process 15976
+2026-11-10 18:13:29 OVS_PID_BASE: killed orphan STAR process 33356
+2026-11-10 18:13:29 OVS_PID_BASE: killed orphan STAR process 31596
+2026-11-10 18:13:29 OVS_PID_BASE: killed orphan STAR process 5140
+2026-11-10 18:13:29 OVS_PID_BASE: killed orphan STAR process 5712
+2026-11-10 18:13:30 OVS_PID_BASE: killed orphan STAR process 32032
+2026-11-10 18:13:30 OVS_PID_BASE: killed orphan STAR process 28160
+2026-11-10 18:13:30 OVS_PID_BASE: killed orphan STAR process 7816
+2026-11-10 18:13:30 OVS_PID_BASE: killed orphan STAR process 31928

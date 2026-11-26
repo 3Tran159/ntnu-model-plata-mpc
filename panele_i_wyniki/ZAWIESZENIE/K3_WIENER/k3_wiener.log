@@ -1,0 +1,89 @@
+2026-11-13 23:51:28 start_k3w: czekam na koniec K3 (160 plikow w K3_WIDMO\wyniki i brak workerow k3_widmo)
+2026-11-14 04:28:20 start_k3w: K3 skonczony; projekt filtrow Wienera d = 3 i 6 m (rdzen 18)
+2026-11-14 04:30:09 start_k3w: filtry gotowe; start 6 procesow k3_wiener (rdzenie 18-23)
+2026-11-14 04:36:00 w5: K0P_85_wiener6m S2 s0: P 54.76 W, z'' RMS 0.406, MSI 0.3 %, pradnica 0 W/m el., kat RMS 8.9 deg/s, blad w 0.09150086033575203, zan.min 0.10 m, 350 s
+2026-11-14 04:36:07 w4: K0P_85_wiener3m S2 s0: P 55.57 W, z'' RMS 0.371, MSI 0.4 %, pradnica 0 W/m el., kat RMS 9.4 deg/s, blad w 0.15851491529018016, zan.min 0.11 m, 357 s
+2026-11-14 04:39:15 w3: K3_sky+odzysk+K0_50_wiener3m S1 s0: P 54.53 W, z'' RMS 0.387, MSI 1.6 %, pradnica 38 W/m el., kat RMS 4.8 deg/s, blad w 0.13141219847940316, zan.min -0.10 m, 546 s
+2026-11-14 04:39:18 w2: K3_sky+K0_85_wiener3m S1 s0: P 56.43 W, z'' RMS 0.064, MSI 0.3 %, pradnica 4 W/m el., kat RMS 8.4 deg/s, blad w 0.12994534228331137, zan.min -0.11 m, 548 s
+2026-11-14 04:39:28 w1: K0P_85_wiener6m S1 s0: P 53.87 W, z'' RMS 0.449, MSI 1.6 %, pradnica 0 W/m el., kat RMS 8.2 deg/s, blad w 0.08126868492135438, zan.min -0.20 m, 559 s
+2026-11-14 04:39:45 w0: K0P_85_wiener3m S1 s0: P 54.25 W, z'' RMS 0.456, MSI 1.9 %, pradnica 0 W/m el., kat RMS 8.3 deg/s, blad w 0.1298850195633935, zan.min -0.20 m, 576 s
+2026-11-14 04:41:57 w5: K3_sky+odzysk+K0_50_wiener3m S3 s0: P 55.89 W, z'' RMS 0.240, MSI 3.2 %, pradnica 16 W/m el., kat RMS 2.0 deg/s, blad w 0.19523346721606355, zan.min 0.11 m, 357 s
+2026-11-14 04:42:11 w4: K3_sky+K0_85_wiener3m S3 s0: P 56.38 W, z'' RMS 0.108, MSI 1.5 %, pradnica 6 W/m el., kat RMS 3.6 deg/s, blad w 0.19513545132118387, zan.min 0.06 m, 364 s
+2026-11-14 04:47:45 w5: K0P_85_wiener6m S1 s1: P 53.88 W, z'' RMS 0.459, MSI 1.6 %, pradnica 0 W/m el., kat RMS 8.2 deg/s, blad w 0.0815571454935788, zan.min -0.23 m, 348 s
+2026-11-14 04:48:02 w3: K0P_85_wiener6m S3 s0: P 55.61 W, z'' RMS 0.233, MSI 3.6 %, pradnica 0 W/m el., kat RMS 3.4 deg/s, blad w 0.133365806918414, zan.min -0.01 m, 527 s
+2026-11-14 04:48:09 w4: K0P_85_wiener3m S1 s1: P 54.25 W, z'' RMS 0.464, MSI 1.9 %, pradnica 0 W/m el., kat RMS 8.3 deg/s, blad w 0.13039002933203375, zan.min -0.21 m, 358 s
+2026-11-14 04:48:10 w2: K0P_85_wiener3m S3 s0: P 55.38 W, z'' RMS 0.263, MSI 4.0 %, pradnica 0 W/m el., kat RMS 3.5 deg/s, blad w 0.19509563366204982, zan.min -0.01 m, 532 s
+2026-11-14 04:48:59 w1: K3_sky+odzysk+K0_50_wiener3m S2 s0: P 55.45 W, z'' RMS 0.326, MSI 0.3 %, pradnica 25 W/m el., kat RMS 5.5 deg/s, blad w 0.1587488072463797, zan.min 0.18 m, 570 s
+2026-11-14 04:49:30 w0: K3_sky+K0_85_wiener3m S2 s0: P 56.93 W, z'' RMS 0.023, MSI 0.0 %, pradnica 1 W/m el., kat RMS 9.4 deg/s, blad w 0.1585203183922652, zan.min 0.13 m, 585 s
+2026-11-14 04:53:50 w5: K3_sky+odzysk+K0_50_wiener3m S2 s1: P 55.43 W, z'' RMS 0.327, MSI 0.3 %, pradnica 25 W/m el., kat RMS 5.5 deg/s, blad w 0.158615916092732, zan.min 0.16 m, 365 s
+2026-11-14 04:54:21 w4: K3_sky+K0_85_wiener3m S2 s1: P 56.92 W, z'' RMS 0.023, MSI 0.0 %, pradnica 1 W/m el., kat RMS 9.4 deg/s, blad w 0.1582750269707829, zan.min 0.12 m, 372 s
+2026-11-14 04:57:10 w3: K3_sky+odzysk+K0_50_wiener3m S4 s0: P 51.30 W, z'' RMS 0.513, MSI 3.5 %, pradnica 68 W/m el., kat RMS 5.3 deg/s, blad w 0.11749060673675836, zan.min -0.36 m, 548 s
+2026-11-14 04:57:18 w2: K3_sky+K0_85_wiener3m S4 s0: P 53.80 W, z'' RMS 0.153, MSI 1.1 %, pradnica 17 W/m el., kat RMS 9.2 deg/s, blad w 0.11582960023474954, zan.min -0.42 m, 548 s
+2026-11-14 04:58:14 w1: K0P_85_wiener6m S4 s0: P 47.96 W, z'' RMS 0.769, MSI 4.6 %, pradnica 0 W/m el., kat RMS 8.8 deg/s, blad w 0.07542608574425809, zan.min -0.57 m, 555 s
+2026-11-14 04:59:11 w0: K0P_85_wiener3m S4 s0: P 48.33 W, z'' RMS 0.766, MSI 5.0 %, pradnica 0 W/m el., kat RMS 9.1 deg/s, blad w 0.11511721679579112, zan.min -0.55 m, 581 s
+2026-11-14 04:59:37 w5: K0P_85_wiener6m S4 s1: P 47.65 W, z'' RMS 0.777, MSI 4.7 %, pradnica 0 W/m el., kat RMS 8.8 deg/s, blad w 0.07611396797224601, zan.min -0.72 m, 347 s
+2026-11-14 05:00:15 w4: K0P_85_wiener3m S4 s1: P 47.99 W, z'' RMS 0.773, MSI 5.1 %, pradnica 0 W/m el., kat RMS 9.1 deg/s, blad w 0.115064210589368, zan.min -0.73 m, 354 s
+2026-11-14 05:05:35 w5: K3_sky+odzysk+K0_50_wiener3m S1 s2: P 54.53 W, z'' RMS 0.389, MSI 1.6 %, pradnica 38 W/m el., kat RMS 4.8 deg/s, blad w 0.13192680264725107, zan.min -0.05 m, 358 s
+2026-11-14 05:06:03 w3: K0P_85_wiener6m S2 s1: P 54.73 W, z'' RMS 0.407, MSI 0.3 %, pradnica 0 W/m el., kat RMS 8.9 deg/s, blad w 0.0913534496780401, zan.min 0.09 m, 533 s
+2026-11-14 05:06:12 w2: K0P_85_wiener3m S2 s1: P 55.54 W, z'' RMS 0.373, MSI 0.4 %, pradnica 0 W/m el., kat RMS 9.4 deg/s, blad w 0.1582588029168304, zan.min 0.10 m, 534 s
+2026-11-14 05:06:24 w4: K3_sky+K0_85_wiener3m S1 s2: P 56.46 W, z'' RMS 0.064, MSI 0.3 %, pradnica 4 W/m el., kat RMS 8.4 deg/s, blad w 0.13042462532508758, zan.min -0.09 m, 369 s
+2026-11-14 05:07:39 w1: K3_sky+odzysk+K0_50_wiener3m S1 s1: P 54.56 W, z'' RMS 0.387, MSI 1.6 %, pradnica 38 W/m el., kat RMS 4.8 deg/s, blad w 0.13199929449218856, zan.min -0.07 m, 566 s
+2026-11-14 05:09:00 w0: K3_sky+K0_85_wiener3m S1 s1: P 56.48 W, z'' RMS 0.066, MSI 0.3 %, pradnica 4 W/m el., kat RMS 8.4 deg/s, blad w 0.13046621626331759, zan.min -0.13 m, 589 s
+2026-11-14 05:11:22 w5: K0P_85_wiener6m S3 s2: P 55.45 W, z'' RMS 0.242, MSI 3.5 %, pradnica 0 W/m el., kat RMS 3.4 deg/s, blad w 0.13195229315700674, zan.min -0.06 m, 347 s
+2026-11-14 05:12:22 w4: K0P_85_wiener3m S3 s2: P 55.23 W, z'' RMS 0.269, MSI 4.0 %, pradnica 0 W/m el., kat RMS 3.5 deg/s, blad w 0.19359342640663527, zan.min -0.07 m, 358 s
+2026-11-14 05:15:02 w3: K3_sky+odzysk+K0_50_wiener3m S3 s1: P 55.86 W, z'' RMS 0.238, MSI 3.1 %, pradnica 15 W/m el., kat RMS 2.0 deg/s, blad w 0.19323455226403724, zan.min 0.11 m, 539 s
+2026-11-14 05:15:19 w2: K3_sky+K0_85_wiener3m S3 s1: P 56.32 W, z'' RMS 0.108, MSI 1.4 %, pradnica 6 W/m el., kat RMS 3.6 deg/s, blad w 0.19314058295980024, zan.min 0.04 m, 547 s
+2026-11-14 05:16:49 w1: K0P_85_wiener6m S3 s1: P 55.55 W, z'' RMS 0.233, MSI 3.5 %, pradnica 0 W/m el., kat RMS 3.4 deg/s, blad w 0.13178707942076856, zan.min -0.05 m, 550 s
+2026-11-14 05:17:21 w5: K3_sky+odzysk+K0_50_wiener3m S4 s2: P 51.07 W, z'' RMS 0.518, MSI 3.5 %, pradnica 69 W/m el., kat RMS 5.4 deg/s, blad w 0.11682227145430552, zan.min -0.56 m, 358 s
+2026-11-14 05:18:42 w0: K0P_85_wiener3m S3 s1: P 55.33 W, z'' RMS 0.262, MSI 4.0 %, pradnica 0 W/m el., kat RMS 3.5 deg/s, blad w 0.19310232325883128, zan.min -0.05 m, 582 s
+2026-11-14 05:18:43 w4: K3_sky+K0_85_wiener3m S4 s2: P 53.62 W, z'' RMS 0.162, MSI 1.1 %, pradnica 18 W/m el., kat RMS 9.3 deg/s, blad w 0.11543760175848101, zan.min -0.60 m, 381 s
+2026-11-14 05:23:33 w5: K0P_85_wiener6m S2 s3: P 54.76 W, z'' RMS 0.406, MSI 0.3 %, pradnica 0 W/m el., kat RMS 8.9 deg/s, blad w 0.09118145542404509, zan.min 0.17 m, 372 s
+2026-11-14 05:23:59 w3: K0P_85_wiener6m S1 s2: P 53.89 W, z'' RMS 0.449, MSI 1.6 %, pradnica 0 W/m el., kat RMS 8.2 deg/s, blad w 0.08176588543059497, zan.min -0.21 m, 537 s
+2026-11-14 05:24:24 w2: K0P_85_wiener3m S1 s2: P 54.25 W, z'' RMS 0.457, MSI 1.9 %, pradnica 0 W/m el., kat RMS 8.3 deg/s, blad w 0.13033712980810425, zan.min -0.19 m, 545 s
+2026-11-14 05:25:21 w4: K0P_85_wiener3m S2 s3: P 55.58 W, z'' RMS 0.372, MSI 0.4 %, pradnica 0 W/m el., kat RMS 9.4 deg/s, blad w 0.15802660375649258, zan.min 0.18 m, 399 s
+2026-11-14 05:26:44 w1: K3_sky+odzysk+K0_50_wiener3m S4 s1: P 51.17 W, z'' RMS 0.514, MSI 3.5 %, pradnica 68 W/m el., kat RMS 5.4 deg/s, blad w 0.11740273873392348, zan.min -0.55 m, 595 s
+2026-11-14 05:29:09 w0: K3_sky+K0_85_wiener3m S4 s1: P 53.63 W, z'' RMS 0.158, MSI 1.1 %, pradnica 18 W/m el., kat RMS 9.3 deg/s, blad w 0.11596286938207569, zan.min -0.63 m, 627 s
+2026-11-14 05:30:03 w5: K3_sky+odzysk+K0_50_wiener3m S3 s3: P 55.85 W, z'' RMS 0.237, MSI 3.1 %, pradnica 15 W/m el., kat RMS 2.0 deg/s, blad w 0.19359221625042883, zan.min 0.16 m, 391 s
+2026-11-14 05:32:11 w4: K3_sky+K0_85_wiener3m S3 s3: P 56.32 W, z'' RMS 0.107, MSI 1.4 %, pradnica 6 W/m el., kat RMS 3.6 deg/s, blad w 0.1934298102796429, zan.min 0.08 m, 410 s
+2026-11-14 05:33:24 w3: K3_sky+odzysk+K0_50_wiener3m S2 s2: P 55.43 W, z'' RMS 0.326, MSI 0.3 %, pradnica 25 W/m el., kat RMS 5.5 deg/s, blad w 0.15890293778662462, zan.min 0.24 m, 565 s
+2026-11-14 05:33:52 w2: K3_sky+K0_85_wiener3m S2 s2: P 56.91 W, z'' RMS 0.023, MSI 0.0 %, pradnica 1 W/m el., kat RMS 9.4 deg/s, blad w 0.15825414712341623, zan.min 0.21 m, 568 s
+2026-11-14 05:36:20 w5: K0P_85_wiener6m S1 s4: P 53.95 W, z'' RMS 0.448, MSI 1.6 %, pradnica 0 W/m el., kat RMS 8.2 deg/s, blad w 0.08137234232423204, zan.min -0.09 m, 376 s
+2026-11-14 05:36:22 w1: K0P_85_wiener6m S2 s2: P 54.74 W, z'' RMS 0.407, MSI 0.3 %, pradnica 0 W/m el., kat RMS 8.9 deg/s, blad w 0.09097840803566988, zan.min 0.18 m, 578 s
+2026-11-14 05:38:43 w4: K0P_85_wiener3m S1 s4: P 54.33 W, z'' RMS 0.454, MSI 1.9 %, pradnica 0 W/m el., kat RMS 8.3 deg/s, blad w 0.1301354419556784, zan.min -0.07 m, 392 s
+2026-11-14 05:39:19 w0: K0P_85_wiener3m S2 s2: P 55.54 W, z'' RMS 0.371, MSI 0.4 %, pradnica 0 W/m el., kat RMS 9.4 deg/s, blad w 0.15826801429694032, zan.min 0.19 m, 609 s
+2026-11-14 05:42:30 w3: K0P_85_wiener6m S4 s2: P 47.53 W, z'' RMS 0.783, MSI 4.7 %, pradnica 0 W/m el., kat RMS 8.8 deg/s, blad w 0.0756669473746414, zan.min -0.78 m, 546 s
+2026-11-14 05:42:49 w5: K3_sky+odzysk+K0_50_wiener3m S2 s4: P 55.46 W, z'' RMS 0.325, MSI 0.3 %, pradnica 25 W/m el., kat RMS 5.5 deg/s, blad w 0.15954010319646067, zan.min 0.23 m, 389 s
+2026-11-14 05:43:01 w2: K0P_85_wiener3m S4 s2: P 47.90 W, z'' RMS 0.781, MSI 5.1 %, pradnica 0 W/m el., kat RMS 9.1 deg/s, blad w 0.11444230554796775, zan.min -0.78 m, 549 s
+2026-11-14 05:45:36 w4: K3_sky+K0_85_wiener3m S2 s4: P 56.92 W, z'' RMS 0.023, MSI 0.0 %, pradnica 1 W/m el., kat RMS 9.4 deg/s, blad w 0.1592792069554401, zan.min 0.19 m, 412 s
+2026-11-14 05:46:04 w1: K3_sky+odzysk+K0_50_wiener3m S3 s2: P 55.84 W, z'' RMS 0.236, MSI 3.1 %, pradnica 15 W/m el., kat RMS 2.0 deg/s, blad w 0.19357617083554807, zan.min 0.10 m, 582 s
+2026-11-14 05:49:04 w5: K0P_85_wiener6m S4 s4: P 47.24 W, z'' RMS 0.798, MSI 4.7 %, pradnica 0 W/m el., kat RMS 8.8 deg/s, blad w 0.07632130226878969, zan.min -0.45 m, 375 s
+2026-11-14 05:49:04 w5: koniec
+2026-11-14 05:49:26 w0: K3_sky+K0_85_wiener3m S3 s2: P 56.24 W, z'' RMS 0.109, MSI 1.4 %, pradnica 6 W/m el., kat RMS 3.5 deg/s, blad w 0.19374183965828726, zan.min 0.01 m, 608 s
+2026-11-14 05:51:40 w3: K3_sky+odzysk+K0_50_wiener3m S1 s3: P 54.57 W, z'' RMS 0.386, MSI 1.6 %, pradnica 38 W/m el., kat RMS 4.8 deg/s, blad w 0.1317393212056049, zan.min -0.03 m, 550 s
+2026-11-14 05:52:04 w4: K0P_85_wiener3m S4 s4: P 47.61 W, z'' RMS 0.791, MSI 5.1 %, pradnica 0 W/m el., kat RMS 9.1 deg/s, blad w 0.11496957385734767, zan.min -0.42 m, 388 s
+2026-11-14 05:52:04 w4: koniec
+2026-11-14 05:52:13 w2: K3_sky+K0_85_wiener3m S1 s3: P 56.49 W, z'' RMS 0.062, MSI 0.3 %, pradnica 4 W/m el., kat RMS 8.4 deg/s, blad w 0.1302311678975835, zan.min -0.08 m, 551 s
+2026-11-14 05:55:11 w1: K0P_85_wiener6m S1 s3: P 53.96 W, z'' RMS 0.446, MSI 1.6 %, pradnica 0 W/m el., kat RMS 8.2 deg/s, blad w 0.08114052076306649, zan.min -0.19 m, 546 s
+2026-11-14 05:58:27 w0: K0P_85_wiener3m S1 s3: P 54.33 W, z'' RMS 0.451, MSI 1.9 %, pradnica 0 W/m el., kat RMS 8.3 deg/s, blad w 0.13027901048356796, zan.min -0.17 m, 541 s
+2026-11-14 06:00:02 w3: K0P_85_wiener6m S3 s3: P 55.54 W, z'' RMS 0.224, MSI 3.5 %, pradnica 0 W/m el., kat RMS 3.4 deg/s, blad w 0.13203972048299634, zan.min 0.02 m, 502 s
+2026-11-14 06:00:37 w2: K0P_85_wiener3m S3 s3: P 55.33 W, z'' RMS 0.252, MSI 3.9 %, pradnica 0 W/m el., kat RMS 3.5 deg/s, blad w 0.19340023405746784, zan.min 0.03 m, 505 s
+2026-11-14 06:04:03 w1: K3_sky+odzysk+K0_50_wiener3m S2 s3: P 55.44 W, z'' RMS 0.327, MSI 0.3 %, pradnica 25 W/m el., kat RMS 5.5 deg/s, blad w 0.15841729956223602, zan.min 0.22 m, 533 s
+2026-11-14 06:07:30 w0: K3_sky+K0_85_wiener3m S2 s3: P 56.94 W, z'' RMS 0.023, MSI 0.0 %, pradnica 1 W/m el., kat RMS 9.4 deg/s, blad w 0.1580020849322189, zan.min 0.19 m, 543 s
+2026-11-14 06:08:39 w3: K3_sky+odzysk+K0_50_wiener3m S4 s3: P 50.97 W, z'' RMS 0.520, MSI 3.5 %, pradnica 69 W/m el., kat RMS 5.3 deg/s, blad w 0.11778637188996954, zan.min -0.54 m, 517 s
+2026-11-14 06:09:16 w2: K3_sky+K0_85_wiener3m S4 s3: P 53.48 W, z'' RMS 0.172, MSI 1.2 %, pradnica 19 W/m el., kat RMS 9.2 deg/s, blad w 0.11598705221356843, zan.min -0.51 m, 518 s
+2026-11-14 06:12:44 w1: K0P_85_wiener6m S4 s3: P 47.49 W, z'' RMS 0.778, MSI 4.7 %, pradnica 0 W/m el., kat RMS 8.8 deg/s, blad w 0.07630278590960664, zan.min -0.63 m, 521 s
+2026-11-14 06:16:21 w0: K0P_85_wiener3m S4 s3: P 47.84 W, z'' RMS 0.776, MSI 5.1 %, pradnica 0 W/m el., kat RMS 9.1 deg/s, blad w 0.11515130602108055, zan.min -0.65 m, 532 s
+2026-11-14 06:17:09 w3: K0P_85_wiener6m S2 s4: P 54.77 W, z'' RMS 0.405, MSI 0.3 %, pradnica 0 W/m el., kat RMS 8.9 deg/s, blad w 0.09172118784344734, zan.min 0.16 m, 510 s
+2026-11-14 06:17:48 w2: K0P_85_wiener3m S2 s4: P 55.57 W, z'' RMS 0.371, MSI 0.4 %, pradnica 0 W/m el., kat RMS 9.4 deg/s, blad w 0.15927584429839423, zan.min 0.17 m, 513 s
+2026-11-14 06:21:34 w1: K3_sky+odzysk+K0_50_wiener3m S1 s4: P 54.61 W, z'' RMS 0.386, MSI 1.6 %, pradnica 38 W/m el., kat RMS 4.8 deg/s, blad w 0.1315774433781222, zan.min 0.02 m, 530 s
+2026-11-14 06:25:23 w0: K3_sky+K0_85_wiener3m S1 s4: P 56.53 W, z'' RMS 0.064, MSI 0.3 %, pradnica 4 W/m el., kat RMS 8.4 deg/s, blad w 0.13014736629062387, zan.min -0.02 m, 542 s
+2026-11-14 06:25:42 w3: K3_sky+odzysk+K0_50_wiener3m S3 s4: P 55.90 W, z'' RMS 0.238, MSI 3.1 %, pradnica 16 W/m el., kat RMS 2.0 deg/s, blad w 0.19329864188199256, zan.min 0.13 m, 513 s
+2026-11-14 06:25:42 w3: koniec
+2026-11-14 06:26:20 w2: K3_sky+K0_85_wiener3m S3 s4: P 56.40 W, z'' RMS 0.108, MSI 1.4 %, pradnica 6 W/m el., kat RMS 3.6 deg/s, blad w 0.1933653635043597, zan.min 0.06 m, 512 s
+2026-11-14 06:26:20 w2: koniec
+2026-11-14 06:29:21 w1: K0P_85_wiener6m S3 s4: P 55.58 W, z'' RMS 0.235, MSI 3.5 %, pradnica 0 W/m el., kat RMS 3.4 deg/s, blad w 0.13178633163246076, zan.min -0.01 m, 467 s
+2026-11-14 06:32:23 w0: K0P_85_wiener3m S3 s4: P 55.38 W, z'' RMS 0.262, MSI 4.0 %, pradnica 0 W/m el., kat RMS 3.5 deg/s, blad w 0.19332399375118267, zan.min -0.01 m, 420 s
+2026-11-14 06:36:21 w1: K3_sky+odzysk+K0_50_wiener3m S4 s4: P 50.96 W, z'' RMS 0.517, MSI 3.5 %, pradnica 70 W/m el., kat RMS 5.3 deg/s, blad w 0.11760278637524822, zan.min -0.24 m, 420 s
+2026-11-14 06:36:21 w1: koniec
+2026-11-14 06:38:57 w0: K3_sky+K0_85_wiener3m S4 s4: P 53.46 W, z'' RMS 0.159, MSI 1.1 %, pradnica 19 W/m el., kat RMS 9.2 deg/s, blad w 0.11617844118193854, zan.min -0.34 m, 394 s
+2026-11-14 06:38:57 w0: koniec

@@ -1,0 +1,13 @@
+PLAN RECYRKULACJI .sim  (2026-11-12 11:05)  - nic nie zostalo usuniete
+  ZOSTAJE     122 plikow    31.99 GB
+  DO_KOSZA     29 plikow     8.05 GB
+  CHRONIONE    56 plikow    10.51 GB
+  AKTYWNE       0 plikow     0.00 GB
+Najwiecej do odzyskania:
+    3.11 GB  99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM
+    2.92 GB  99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM_DT05
+    0.95 GB  99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\FINE
+    0.63 GB  99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\FINE_DT0707
+    0.26 GB  99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\COARSE_CPU
+    0.09 GB  99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\overset\explore
+    0.08 GB  99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\overset\DFBI_GUI

@@ -1,0 +1,41 @@
+REGION MINI_water_air
+          VofWaveDampingBoundaryOption 'VOF Wave Damping Boundary Option'
+          VofWaveForcingBoundaryOption 'VOF Wave Forcing Boundary Option'
+            FunctionVectorProfileMethod 'Field Function' [getFieldFunction=Velocity of CB_StokesV 1]
+          VofWaveForcingLength 'VOF Wave Forcing Length'
+          VofWaveDampingBoundaryOption 'VOF Wave Damping Boundary Option'
+          VofWaveForcingBoundaryOption 'VOF Wave Forcing Boundary Option'
+            FunctionScalarProfileMethod 'Field Function' [getFieldFunction=Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 25]
+          VofWaveDampingLength 'VOF Wave Damping Length'
+          VofWaveDampingBoundaryOption 'VOF Wave Damping Boundary Option'
+          VofWaveForcingBoundaryOption 'VOF Wave Forcing Boundary Option'
+            FunctionScalarProfileMethod 'Field Function' [getFieldFunction=Hydrostatic Pressure of Heavy Fluid of NN_OutletFlat 25]
+          VofWaveDampingBoundaryOption 'VOF Wave Damping Boundary Option'
+          VofWaveForcingBoundaryOption 'VOF Wave Forcing Boundary Option'
+          VofWaveDampingBoundaryOption 'VOF Wave Damping Boundary Option'
+          VofWaveForcingBoundaryOption 'VOF Wave Forcing Boundary Option'
+          VofWaveDampingBoundaryOption 'VOF Wave Damping Boundary Option'
+          VofWaveForcingBoundaryOption 'VOF Wave Forcing Boundary Option'
+      VofWaveZoneOption 'VOF Wave Zone Option'
+      ForcingVofWaveSpecification 'Forcing VOF Wave Specification'
+ BOUNDARY inlet Velocity Inlet
+ BOUNDARY outlet Pressure Outlet
+ BOUNDARY top Pressure Outlet
+ BOUNDARY bottom Wall
+ BOUNDARY span_front Symmetry Plane
+ BOUNDARY span_back Symmetry Plane
+REGION GODO overset foil
+      VofWaveZoneOption 'VOF Wave Zone Option'
+ BOUNDARY foil_main Wall
+ BOUNDARY foil_flap Wall
+ BOUNDARY ov_span_front Symmetry Plane
+ BOUNDARY ov_span_back Symmetry Plane
+ BOUNDARY overset Overset Mesh
+CONTINUUM Physics 1
+CONTINUUM MINI_URANS_VOF_2D
+      FunctionScalarProfileMethod 'Field Function' [getFieldFunction=Hydrostatic Pressure of Heavy Fluid of CB_StokesV 1]
+      FunctionVectorProfileMethod 'Field Function' [getFieldFunction=Velocity of CB_StokesV 1]
+          FunctionScalarProfileMethod 'Field Function' [getFieldFunction=Volume Fraction of Heavy Fluid of CB_StokesV 1]
+          FunctionScalarProfileMethod 'Field Function' [getFieldFunction=Volume Fraction of Light Fluid of CB_StokesV 1]
+StokesV: H 1.5 T 0.4555125731921526 current [12.346666666666666, 0.0, 0.0] dir [1.0, 0.0, 0.0] level [0.0, 1.09, 0.0] vert [0.0, 1.0, 0.0] rhoH 1000.0 depth 40.12274979328733 spec WAVE_LENGTH_SPECIFIED add [0.0, 0.0, 0.0]
+  child VofWaveLengthSpecification Wave Length Specification

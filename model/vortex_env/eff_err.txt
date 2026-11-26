@@ -1,0 +1,2 @@
+T:\NTNU_GODO_CONTROL_20261109\50_learning\vortex_env\effects_urans.py:2: SyntaxWarning: invalid escape sequence '\<'
+  Czyta overset_runs\<tag>\history.csv, RUN_STATE.json, RUN_RESULT.json. Zapisuje URANS_LIVE.json i EFFECTS_URANS.png.

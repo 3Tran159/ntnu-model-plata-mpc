@@ -1,0 +1,1283 @@
+{
+ "opis": "susp_mpc.py - noc 11/12.11: kombinacje ZAWIESZENIE x STEROWANIE x GLEBOKOSC na fali nieregularnej, model wirowy v2\n(biegunowa CD(CL) z URANS + opor wspornikow). Jeden plat, tylko pion.\n\nFala: 5 realizacji krotkogrzbietowych JONSWAP Hs 1,5 m, Tp 5 s (te same co MPC_IRR2), szum czujnikow 2 cm / 5 % zanikow.\nSterowanie:\n  PID   - PID2 Godø na wysokosc KADLUBA (z_ref), kat plata\n  MPC   - MPC liniowy (czujnik 3 m + sonda), horyzont 1,94 s; przy zawieszeniu model DWOCH MAS (kadlub + plat na sprezynie z tlumikiem)\nZawieszenie (jak susp_test.py): sztywne | pasywne f_n 1,5 Hz zeta 0,3 | pasywne 0,7 Hz | polaktywne v2:\n  twardo (zeta 0,7, odzysk) normalnie; upust (zeta 0,05) gdy ZMIERZONE albo PRZEWIDZIANE w 0,5 s zanurzenie PLATA < 2,2c.\nGlebokosc: projektowa 1,09 m albo o 0,4 m glebiej (z_ref = -0,4 m; placi wiecej za wspornik).\nOpor raportowany: plat i plat + wsporniki, wzgledem wody spokojnej (PID2, 1,09 m) z wspornikami.\nWynik: SUSP_MPC_RESULT.json.  Wszystko \"w modelu wirowym\".\n",
+ "wyniki": {
+  "fala1_sztywne_PID_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -14.83127977451919,
+   "tot_pct": -11.449178017499806,
+   "acc_kadlub": 1.4833720189153974,
+   "sub_min_c": 1.5877718999047545,
+   "skok": [
+    0.0,
+    0.0
+   ],
+   "th": [
+    1.3294189354927024,
+    4.771864498425641
+   ],
+   "odzysk_W": 0.0
+  },
+  "fala1_pasywne_1.5Hz_PID_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -19.331516831663286,
+   "tot_pct": -14.936822328675458,
+   "acc_kadlub": 1.239623583479935,
+   "sub_min_c": 1.4387629489355336,
+   "skok": [
+    -0.03530604246069652,
+    0.03393872269952897
+   ],
+   "th": [
+    1.3812398135427288,
+    4.761973420917195
+   ],
+   "odzysk_W": 0.4730694109104441
+  },
+  "fala1_pasywne_0.7Hz_PID_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -13.106574869462428,
+   "tot_pct": -10.136728253082271,
+   "acc_kadlub": 1.3626278136034455,
+   "sub_min_c": 1.4584106585162313,
+   "skok": [
+    -0.14577896390986345,
+    0.14998999566221322
+   ],
+   "th": [
+    1.0340002102563386,
+    5.304264661995491
+   ],
+   "odzysk_W": 2.875647402400341
+  },
+  "fala1_polaktywne_v2_PID_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.233,
+   "plat_pct": -15.567851821942458,
+   "tot_pct": -12.196428280679195,
+   "acc_kadlub": 1.351336636547726,
+   "sub_min_c": 1.400279846658321,
+   "skok": [
+    -0.1330205278063084,
+    0.16486420812472063
+   ],
+   "th": [
+    1.2812877169551402,
+    5.11530315011055
+   ],
+   "odzysk_W": 2.6814967284703597
+  },
+  "fala1_sztywne_MPC_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -27.78219803411035,
+   "tot_pct": -20.687704550152684,
+   "acc_kadlub": 2.3293116950730175,
+   "sub_min_c": 1.9710925075372658,
+   "skok": [
+    0.0,
+    0.0
+   ],
+   "th": [
+    -6.2065916727309975,
+    6.741453763051319
+   ],
+   "odzysk_W": 0.0
+  },
+  "fala1_pasywne_1.5Hz_MPC_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -25.702794628769333,
+   "tot_pct": -18.91336355637394,
+   "acc_kadlub": 1.8179841137291701,
+   "sub_min_c": 1.8761836855515481,
+   "skok": [
+    -0.07218743005786492,
+    0.05811040187827898
+   ],
+   "th": [
+    -7.4336228121145895,
+    7.499999170879615
+   ],
+   "odzysk_W": 1.2606236458689664
+  },
+  "fala1_pasywne_0.7Hz_MPC_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -14.802094266948728,
+   "tot_pct": -10.360298828035408,
+   "acc_kadlub": 1.2273714765404535,
+   "sub_min_c": 1.9463846051605087,
+   "skok": [
+    -0.19420620292855803,
+    0.18558090416710338
+   ],
+   "th": [
+    -5.884116971826725,
+    5.429370689288228
+   ],
+   "odzysk_W": 2.879270020479303
+  },
+  "fala1_polaktywne_v2_MPC_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.239,
+   "plat_pct": -17.211146960741708,
+   "tot_pct": -12.397028016796485,
+   "acc_kadlub": 1.3855680599918552,
+   "sub_min_c": 1.9452650753523206,
+   "skok": [
+    -0.25441407993369275,
+    0.16603117870199818
+   ],
+   "th": [
+    -5.833870204410749,
+    7.425377184926636
+   ],
+   "odzysk_W": 2.624936367356076
+  },
+  "fala1_sztywne_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -10.636625196103932,
+   "tot_pct": 0.15873361702891664,
+   "acc_kadlub": 1.3002276161175397,
+   "sub_min_c": 2.838671432706984,
+   "skok": [
+    0.0,
+    0.0
+   ],
+   "th": [
+    1.4442602865878043,
+    4.622580198467139
+   ],
+   "odzysk_W": 0.0
+  },
+  "fala1_pasywne_1.5Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -15.167349982223577,
+   "tot_pct": -3.3516786210079252,
+   "acc_kadlub": 1.1154069804639524,
+   "sub_min_c": 2.699491058142181,
+   "skok": [
+    -0.031164329875501023,
+    0.02993049642678436
+   ],
+   "th": [
+    1.4750488671446542,
+    4.649384115991661
+   ],
+   "odzysk_W": 0.3483415853089137
+  },
+  "fala1_pasywne_0.7Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -10.807369309325153,
+   "tot_pct": 0.008053842238009423,
+   "acc_kadlub": 1.2627294556136825,
+   "sub_min_c": 2.711090506226589,
+   "skok": [
+    -0.13321212626130413,
+    0.13854338015536444
+   ],
+   "th": [
+    1.1290841324624177,
+    5.165740571566315
+   ],
+   "odzysk_W": 2.357646969333873
+  },
+  "fala1_polaktywne_v2_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.025,
+   "plat_pct": -11.470592902538602,
+   "tot_pct": -0.5102715138837866,
+   "acc_kadlub": 1.046778653283769,
+   "sub_min_c": 2.70606958534793,
+   "skok": [
+    -0.07141369968758415,
+    0.08249533180566054
+   ],
+   "th": [
+    1.536874403004872,
+    4.860471816125701
+   ],
+   "odzysk_W": 2.0511848569381415
+  },
+  "fala1_sztywne_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -27.76901820985809,
+   "tot_pct": -13.083460162322403,
+   "acc_kadlub": 2.063472215739325,
+   "sub_min_c": 2.5728458017032882,
+   "skok": [
+    0.0,
+    0.0
+   ],
+   "th": [
+    -0.5096012041531413,
+    6.806687913930599
+   ],
+   "odzysk_W": 0.0
+  },
+  "fala1_pasywne_1.5Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -26.282675474157912,
+   "tot_pct": -11.966205044806467,
+   "acc_kadlub": 1.349682681542244,
+   "sub_min_c": 2.4411660631276293,
+   "skok": [
+    -0.030426952159901044,
+    0.033673171657049195
+   ],
+   "th": [
+    0.1737327632646814,
+    5.805894774952804
+   ],
+   "odzysk_W": 0.5445621269028137
+  },
+  "fala1_pasywne_0.7Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -15.157257149153313,
+   "tot_pct": -3.0015612471632536,
+   "acc_kadlub": 0.8286579089646753,
+   "sub_min_c": 2.496811686060548,
+   "skok": [
+    -0.07677926146548308,
+    0.09008002406515841
+   ],
+   "th": [
+    1.589767786468532,
+    4.72397532694587
+   ],
+   "odzysk_W": 1.123605212581283
+  },
+  "fala1_polaktywne_v2_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.051,
+   "plat_pct": -16.26415597432558,
+   "tot_pct": -3.9291832746464195,
+   "acc_kadlub": 0.88875642904327,
+   "sub_min_c": 2.5027766470679733,
+   "skok": [
+    -0.07293402507868252,
+    0.07021148901094487
+   ],
+   "th": [
+    1.1372387503922927,
+    4.8386198877323405
+   ],
+   "odzysk_W": 1.5515064581624542
+  },
+  "fala3_sztywne_PID_z+0.0": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 28.37,
+   "upust": 0.0
+  },
+  "fala3_pasywne_1.5Hz_PID_z+0.0": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 28.34,
+   "upust": 0.0
+  },
+  "fala3_pasywne_0.7Hz_PID_z+0.0": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 28.34,
+   "upust": 0.0
+  },
+  "fala3_polaktywne_v2_PID_z+0.0": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 28.34,
+   "upust": 0.32
+  },
+  "fala3_sztywne_MPC_z+0.0": {
+   "upadek": "|z kadluba - z_ref| > 0,75 m",
+   "t_upadek": 28.55,
+   "upust": 0.0
+  },
+  "fala3_pasywne_1.5Hz_MPC_z+0.0": {
+   "upadek": "|z kadluba - z_ref| > 0,75 m",
+   "t_upadek": 28.68,
+   "upust": 0.0
+  },
+  "fala3_pasywne_0.7Hz_MPC_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -19.00759921441082,
+   "tot_pct": -12.65136060854546,
+   "acc_kadlub": 1.9113852964995108,
+   "sub_min_c": 1.0668086815236704,
+   "skok": [
+    -0.22106319175750264,
+    0.2527736001376594
+   ],
+   "th": [
+    -6.789532096913584,
+    7.499999995114187
+   ],
+   "odzysk_W": 6.984889882222278
+  },
+  "fala3_polaktywne_v2_MPC_z+0.0": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 28.45,
+   "upust": 0.329
+  },
+  "fala3_sztywne_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -11.516445408416331,
+   "tot_pct": -0.5388838641122939,
+   "acc_kadlub": 1.7298075772144181,
+   "sub_min_c": 1.7384540970382525,
+   "skok": [
+    0.0,
+    0.0
+   ],
+   "th": [
+    1.3856547778088,
+    5.870676030331742
+   ],
+   "odzysk_W": 0.0
+  },
+  "fala3_pasywne_1.5Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -25.761201186749705,
+   "tot_pct": -11.529648648797597,
+   "acc_kadlub": 1.5556795877313392,
+   "sub_min_c": 1.3803845204620646,
+   "skok": [
+    -0.041162187078206236,
+    0.052929866076591
+   ],
+   "th": [
+    1.2943869993294461,
+    5.828822686363593
+   ],
+   "odzysk_W": 0.565726790184128
+  },
+  "fala3_pasywne_0.7Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -17.697018840349465,
+   "tot_pct": -5.3029266013513325,
+   "acc_kadlub": 1.7561834040844648,
+   "sub_min_c": 1.3619032344213808,
+   "skok": [
+    -0.16452377655127245,
+    0.2310616086469146
+   ],
+   "th": [
+    0.7632661976347884,
+    6.363656636750796
+   ],
+   "odzysk_W": 4.492382520231735
+  },
+  "fala3_polaktywne_v2_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.028,
+   "plat_pct": -18.779910045214677,
+   "tot_pct": -6.127836519998087,
+   "acc_kadlub": 1.5490784699757287,
+   "sub_min_c": 1.2814184399258892,
+   "skok": [
+    -0.18484332148482074,
+    0.21009489771973555
+   ],
+   "th": [
+    1.0645289323324432,
+    6.472911340373717
+   ],
+   "odzysk_W": 3.8448784282749147
+  },
+  "fala3_sztywne_MPC_z-0.4": {
+   "upadek": "|z kadluba - z_ref| > 0,75 m",
+   "t_upadek": 28.71,
+   "upust": 0.0
+  },
+  "fala3_pasywne_1.5Hz_MPC_z-0.4": {
+   "upadek": "|z kadluba - z_ref| > 0,75 m",
+   "t_upadek": 28.82,
+   "upust": 0.0
+  },
+  "fala3_pasywne_0.7Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -21.2601762636369,
+   "tot_pct": -7.575826306995614,
+   "acc_kadlub": 1.547568676974559,
+   "sub_min_c": 1.7717780338414013,
+   "skok": [
+    -0.30529943554770494,
+    0.2567165861552124
+   ],
+   "th": [
+    -7.3398026293445,
+    7.499998740462462
+   ],
+   "odzysk_W": 4.613045256754446
+  },
+  "fala3_polaktywne_v2_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.032,
+   "plat_pct": -26.987981766244683,
+   "tot_pct": -12.074285959746822,
+   "acc_kadlub": 1.6253247049034774,
+   "sub_min_c": 1.5163900510559962,
+   "skok": [
+    -0.360476183418287,
+    0.21107607208066603
+   ],
+   "th": [
+    -7.390286907885966,
+    7.4995417541778195
+   ],
+   "odzysk_W": 4.087129871017054
+  },
+  "fala4_sztywne_PID_z+0.0": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 13.29,
+   "upust": 0.0
+  },
+  "fala4_pasywne_1.5Hz_PID_z+0.0": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 13.27,
+   "upust": 0.0
+  },
+  "fala4_pasywne_0.7Hz_PID_z+0.0": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 13.26,
+   "upust": 0.0
+  },
+  "fala4_polaktywne_v2_PID_z+0.0": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 13.26,
+   "upust": 0.276
+  },
+  "fala4_sztywne_MPC_z+0.0": {
+   "upadek": "|z kadluba - z_ref| > 0,75 m",
+   "t_upadek": 13.43,
+   "upust": 0.0
+  },
+  "fala4_pasywne_1.5Hz_MPC_z+0.0": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 13.36,
+   "upust": 0.0
+  },
+  "fala4_pasywne_0.7Hz_MPC_z+0.0": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 13.38,
+   "upust": 0.0
+  },
+  "fala4_polaktywne_v2_MPC_z+0.0": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 13.3,
+   "upust": 0.274
+  },
+  "fala4_sztywne_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -10.782378464949938,
+   "tot_pct": 0.03803827847030927,
+   "acc_kadlub": 1.6455871088362346,
+   "sub_min_c": 1.6946175425372794,
+   "skok": [
+    0.0,
+    0.0
+   ],
+   "th": [
+    0.5936456929461508,
+    5.7786209194444496
+   ],
+   "odzysk_W": 0.0
+  },
+  "fala4_pasywne_1.5Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -16.61613586018792,
+   "tot_pct": -4.4388092853551715,
+   "acc_kadlub": 1.4429477375914803,
+   "sub_min_c": 1.5187947929965209,
+   "skok": [
+    -0.0481104455475137,
+    0.046494692475617105
+   ],
+   "th": [
+    0.5067961543066846,
+    5.93528194839936
+   ],
+   "odzysk_W": 0.5223302235299145
+  },
+  "fala4_pasywne_0.7Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -7.721900423938511,
+   "tot_pct": 2.435611208808175,
+   "acc_kadlub": 1.5872014124248377,
+   "sub_min_c": 1.4546050664554564,
+   "skok": [
+    -0.20058586141626006,
+    0.21368434025693883
+   ],
+   "th": [
+    -0.315644372428267,
+    6.779335117438583
+   ],
+   "odzysk_W": 3.469082749148257
+  },
+  "fala4_polaktywne_v2_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.039,
+   "plat_pct": -10.335599732599688,
+   "tot_pct": 0.3234489207194935,
+   "acc_kadlub": 1.4469382280968046,
+   "sub_min_c": 1.408776466631701,
+   "skok": [
+    -0.13270021595707493,
+    0.20027500409503096
+   ],
+   "th": [
+    0.059864201897737064,
+    6.464540694260075
+   ],
+   "odzysk_W": 3.2274389156832037
+  },
+  "fala4_sztywne_MPC_z-0.4": {
+   "upadek": "|z kadluba - z_ref| > 0,75 m",
+   "t_upadek": 13.66,
+   "upust": 0.0
+  },
+  "fala4_pasywne_1.5Hz_MPC_z-0.4": {
+   "upadek": "|z kadluba - z_ref| > 0,75 m",
+   "t_upadek": 13.78,
+   "upust": 0.0
+  },
+  "fala4_pasywne_0.7Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -17.72966401084358,
+   "tot_pct": -4.661785784723271,
+   "acc_kadlub": 1.4696858575425424,
+   "sub_min_c": 1.7711160733841633,
+   "skok": [
+    -0.23577409627825202,
+    0.2570439054293092
+   ],
+   "th": [
+    -7.060269008323739,
+    7.499999222796278
+   ],
+   "odzysk_W": 3.985702624690518
+  },
+  "fala4_polaktywne_v2_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.056,
+   "plat_pct": -22.023419273963796,
+   "tot_pct": -8.097023046492158,
+   "acc_kadlub": 1.5584243053236482,
+   "sub_min_c": 1.6490129437901127,
+   "skok": [
+    -0.283825751193071,
+    0.23800495120911824
+   ],
+   "th": [
+    -7.161694161787656,
+    7.499999978571749
+   ],
+   "odzysk_W": 3.486449714674045
+  },
+  "fala5_sztywne_PID_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -23.29465818223123,
+   "tot_pct": -18.10586548043037,
+   "acc_kadlub": 1.8672278026414848,
+   "sub_min_c": 1.7707360094421372,
+   "skok": [
+    0.0,
+    0.0
+   ],
+   "th": [
+    0.9170778065713888,
+    4.858613028450265
+   ],
+   "odzysk_W": 0.0
+  },
+  "fala5_pasywne_1.5Hz_PID_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -30.833708663974058,
+   "tot_pct": -23.996140127767706,
+   "acc_kadlub": 1.5372789328048022,
+   "sub_min_c": 1.851246263190372,
+   "skok": [
+    -0.04809859304338909,
+    0.027225070033168902
+   ],
+   "th": [
+    0.6449203412135623,
+    5.082682073409125
+   ],
+   "odzysk_W": 0.7583307458581886
+  },
+  "fala5_pasywne_0.7Hz_PID_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -19.290565852372556,
+   "tot_pct": -15.130736955547874,
+   "acc_kadlub": 1.6850225499810476,
+   "sub_min_c": 1.8266029890511564,
+   "skok": [
+    -0.21646694559978985,
+    0.15731403223395643
+   ],
+   "th": [
+    -0.45043456381312225,
+    6.087205093459667
+   ],
+   "odzysk_W": 4.522519280444263
+  },
+  "fala5_polaktywne_v2_PID_z+0.0": {
+   "upadek": "|z kadluba - z_ref| > 0,75 m",
+   "t_upadek": 8.79,
+   "upust": 0.48
+  },
+  "fala5_sztywne_MPC_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -43.28094588382859,
+   "tot_pct": -33.052800149903085,
+   "acc_kadlub": 2.707055492853726,
+   "sub_min_c": 2.0043463263148102,
+   "skok": [
+    0.0,
+    0.0
+   ],
+   "th": [
+    -1.0694179967352964,
+    7.483232829515925
+   ],
+   "odzysk_W": 0.0
+  },
+  "fala5_pasywne_1.5Hz_MPC_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -41.54801781701462,
+   "tot_pct": -31.751149133709312,
+   "acc_kadlub": 1.7454557400003987,
+   "sub_min_c": 1.966605040776692,
+   "skok": [
+    -0.04572488169167922,
+    0.04536873878195513
+   ],
+   "th": [
+    -1.149532867533188,
+    7.169175505201811
+   ],
+   "odzysk_W": 1.0274317878774766
+  },
+  "fala5_pasywne_0.7Hz_MPC_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -22.029905477473434,
+   "tot_pct": -16.43940539147255,
+   "acc_kadlub": 1.16311912120802,
+   "sub_min_c": 2.003055918455623,
+   "skok": [
+    -0.10723600666141106,
+    0.15380362446362839
+   ],
+   "th": [
+    -0.9030636693599361,
+    5.249940368003142
+   ],
+   "odzysk_W": 2.4569461115992866
+  },
+  "fala5_polaktywne_v2_MPC_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.326,
+   "plat_pct": -24.881674971277924,
+   "tot_pct": -18.83596087085747,
+   "acc_kadlub": 1.2528184113426386,
+   "sub_min_c": 1.988191083931612,
+   "skok": [
+    -0.11101153189853843,
+    0.14728058961948454
+   ],
+   "th": [
+    -1.8713231236030208,
+    5.658479130407863
+   ],
+   "odzysk_W": 2.7318832212249013
+  },
+  "fala5_sztywne_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -16.905739647019857,
+   "tot_pct": -4.802945564431482,
+   "acc_kadlub": 1.6297848145272633,
+   "sub_min_c": 3.0095948523184544,
+   "skok": [
+    0.0,
+    0.0
+   ],
+   "th": [
+    1.0570874373043702,
+    4.711675011402883
+   ],
+   "odzysk_W": 0.0
+  },
+  "fala5_pasywne_1.5Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -24.155843543596013,
+   "tot_pct": -10.458234956169088,
+   "acc_kadlub": 1.3709936673517285,
+   "sub_min_c": 3.0844115414345232,
+   "skok": [
+    -0.04193398697911177,
+    0.02470822573709397
+   ],
+   "th": [
+    0.7602595020104079,
+    4.92102871716894
+   ],
+   "odzysk_W": 0.5640369438147734
+  },
+  "fala5_pasywne_0.7Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -15.752000778082886,
+   "tot_pct": -3.9946931691715037,
+   "acc_kadlub": 1.5419597707389083,
+   "sub_min_c": 3.060408169525858,
+   "skok": [
+    -0.2049973291513677,
+    0.14628209859834185
+   ],
+   "th": [
+    -0.3627399229356746,
+    5.877466655166883
+   ],
+   "odzysk_W": 3.662911259291474
+  },
+  "fala5_polaktywne_v2_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.038,
+   "plat_pct": -17.458279272019972,
+   "tot_pct": -5.310733838018122,
+   "acc_kadlub": 1.2744387938752455,
+   "sub_min_c": 3.0711154063986243,
+   "skok": [
+    -0.12801868267844704,
+    0.10441467843188768
+   ],
+   "th": [
+    0.23321560469018981,
+    5.328209816640539
+   ],
+   "odzysk_W": 3.130303453211657
+  },
+  "fala5_sztywne_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -37.60968770338564,
+   "tot_pct": -20.8849260951247,
+   "acc_kadlub": 2.5444063980015126,
+   "sub_min_c": 2.6934194181738924,
+   "skok": [
+    0.0,
+    0.0
+   ],
+   "th": [
+    -0.16046186670014898,
+    7.487555620161196
+   ],
+   "odzysk_W": 0.0
+  },
+  "fala5_pasywne_1.5Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -35.02340629906489,
+   "tot_pct": -18.96444940498333,
+   "acc_kadlub": 1.5770843887020818,
+   "sub_min_c": 2.7274048855956026,
+   "skok": [
+    -0.041478987580424564,
+    0.03895472454093196
+   ],
+   "th": [
+    0.3954847400422962,
+    6.420057390568248
+   ],
+   "odzysk_W": 0.8154557905972242
+  },
+  "fala5_pasywne_0.7Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -17.463167466793028,
+   "tot_pct": -5.01451322318186,
+   "acc_kadlub": 0.9687918217688319,
+   "sub_min_c": 2.6998757226775285,
+   "skok": [
+    -0.09312139888442542,
+    0.10510896109250728
+   ],
+   "th": [
+    1.5727796825838471,
+    4.810268683969656
+   ],
+   "odzysk_W": 1.6622400601000453
+  },
+  "fala5_polaktywne_v2_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.065,
+   "plat_pct": -20.162451046945517,
+   "tot_pct": -7.17089169672811,
+   "acc_kadlub": 1.031770953843673,
+   "sub_min_c": 2.7132567740309588,
+   "skok": [
+    -0.06704557963859234,
+    0.0851903136379566
+   ],
+   "th": [
+    1.393456104544086,
+    5.197860410007773
+   ],
+   "odzysk_W": 2.180970822189279
+  },
+  "fala6_sztywne_PID_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -11.62485111159195,
+   "tot_pct": -8.881436373964668,
+   "acc_kadlub": 1.891561985106558,
+   "sub_min_c": 1.6881484911433777,
+   "skok": [
+    0.0,
+    0.0
+   ],
+   "th": [
+    0.5892962912059828,
+    5.71695647050737
+   ],
+   "odzysk_W": 0.0
+  },
+  "fala6_pasywne_1.5Hz_PID_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -25.03948948617606,
+   "tot_pct": -19.180157884566785,
+   "acc_kadlub": 1.68648605618274,
+   "sub_min_c": 1.6292211588732448,
+   "skok": [
+    -0.050248728897911765,
+    0.03851141619786269
+   ],
+   "th": [
+    0.5774489271518488,
+    5.871041795142239
+   ],
+   "odzysk_W": 0.7213370923415678
+  },
+  "fala6_pasywne_0.7Hz_PID_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -17.448119048310552,
+   "tot_pct": -13.314936213367856,
+   "acc_kadlub": 1.9684693924008192,
+   "sub_min_c": 1.6644626071234456,
+   "skok": [
+    -0.2219017864233866,
+    0.2077251166475525
+   ],
+   "th": [
+    0.08392480470603016,
+    6.681328792653928
+   ],
+   "odzysk_W": 5.329279070167354
+  },
+  "fala6_polaktywne_v2_PID_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.268,
+   "plat_pct": -21.36670923331928,
+   "tot_pct": -16.52507970879926,
+   "acc_kadlub": 2.069676214135865,
+   "sub_min_c": 1.5108475529891239,
+   "skok": [
+    -0.27406497613462577,
+    0.2522682476679463
+   ],
+   "th": [
+    -0.08255823932312249,
+    7.294036075143692
+   ],
+   "odzysk_W": 4.807159078237906
+  },
+  "fala6_sztywne_MPC_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -29.766157481318047,
+   "tot_pct": -21.70639805222353,
+   "acc_kadlub": 2.680810625851693,
+   "sub_min_c": 1.9770128143684433,
+   "skok": [
+    0.0,
+    0.0
+   ],
+   "th": [
+    -5.745590071893169,
+    7.493316915092077
+   ],
+   "odzysk_W": 0.0
+  },
+  "fala6_pasywne_1.5Hz_MPC_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -31.99183594609939,
+   "tot_pct": -23.250984997205613,
+   "acc_kadlub": 2.177617891427095,
+   "sub_min_c": 1.9479242146763038,
+   "skok": [
+    -0.08346562342069902,
+    0.05771051716731668
+   ],
+   "th": [
+    -7.300780167747789,
+    7.4999455343760335
+   ],
+   "odzysk_W": 1.8283390341003085
+  },
+  "fala6_pasywne_0.7Hz_MPC_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -27.195235666851936,
+   "tot_pct": -19.211497260915145,
+   "acc_kadlub": 1.6119399748004848,
+   "sub_min_c": 1.9912260068575078,
+   "skok": [
+    -0.22527740019001577,
+    0.1842955302216609
+   ],
+   "th": [
+    -5.978234594898177,
+    7.002108491563414
+   ],
+   "odzysk_W": 4.473121352065672
+  },
+  "fala6_polaktywne_v2_MPC_z+0.0": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.249,
+   "plat_pct": -30.915553136845062,
+   "tot_pct": -22.54086423815329,
+   "acc_kadlub": 1.8399462257512016,
+   "sub_min_c": 1.9370438655507591,
+   "skok": [
+    -0.3032638112779722,
+    0.2504668066115364
+   ],
+   "th": [
+    -5.484418909781926,
+    7.499896313317619
+   ],
+   "odzysk_W": 4.437597543797252
+  },
+  "fala6_sztywne_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -7.399198431133525,
+   "tot_pct": 2.740644950472104,
+   "acc_kadlub": 1.6826922852672022,
+   "sub_min_c": 2.929841257603881,
+   "skok": [
+    0.0,
+    0.0
+   ],
+   "th": [
+    0.7356398433276765,
+    5.485546045111247
+   ],
+   "odzysk_W": 0.0
+  },
+  "fala6_pasywne_1.5Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -19.482742678071073,
+   "tot_pct": -6.535590810423086,
+   "acc_kadlub": 1.5265860344287894,
+   "sub_min_c": 2.884266414643781,
+   "skok": [
+    -0.04465907650822605,
+    0.03529327570262486
+   ],
+   "th": [
+    0.7157853353239334,
+    5.614772045026399
+   ],
+   "odzysk_W": 0.550589046555683
+  },
+  "fala6_pasywne_0.7Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -13.883434801296602,
+   "tot_pct": -2.2082994529947775,
+   "acc_kadlub": 1.8093712510348015,
+   "sub_min_c": 2.90683039658141,
+   "skok": [
+    -0.20132067021817368,
+    0.19284373575393232
+   ],
+   "th": [
+    0.24680392589646907,
+    6.374701228625769
+   ],
+   "odzysk_W": 4.399696031591047
+  },
+  "fala6_polaktywne_v2_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.028,
+   "plat_pct": -13.62624062839366,
+   "tot_pct": -1.9744515828595044,
+   "acc_kadlub": 1.4974005287380376,
+   "sub_min_c": 2.90837640192323,
+   "skok": [
+    -0.19123248027486195,
+    0.125191531731778
+   ],
+   "th": [
+    0.5663666012879864,
+    5.833041847783246
+   ],
+   "odzysk_W": 4.065206829551236
+  },
+  "fala6_sztywne_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -38.890340602445036,
+   "tot_pct": -21.493933974237976,
+   "acc_kadlub": 2.4314124292203494,
+   "sub_min_c": 2.3398440284271746,
+   "skok": [
+    0.0,
+    0.0
+   ],
+   "th": [
+    -0.915671459358673,
+    7.499909501723981
+   ],
+   "odzysk_W": 0.0
+  },
+  "fala6_pasywne_1.5Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -46.78964857193303,
+   "tot_pct": -27.557389178843085,
+   "acc_kadlub": 1.7145987656086779,
+   "sub_min_c": 2.18365613513803,
+   "skok": [
+    -0.06500428579937434,
+    0.0391275754625523
+   ],
+   "th": [
+    -0.873875523535128,
+    7.499196781578403
+   ],
+   "odzysk_W": 0.7968573027724726
+  },
+  "fala6_pasywne_0.7Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -30.584490288283316,
+   "tot_pct": -14.798234727431492,
+   "acc_kadlub": 1.0902001022275742,
+   "sub_min_c": 2.307776164563551,
+   "skok": [
+    -0.1413075564993167,
+    0.11550373201586184
+   ],
+   "th": [
+    1.2250894338527696,
+    5.500976654840164
+   ],
+   "odzysk_W": 1.8362460506763387
+  },
+  "fala6_polaktywne_v2_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.055,
+   "plat_pct": -32.32272908040208,
+   "tot_pct": -16.21937883670007,
+   "acc_kadlub": 1.1673499295002465,
+   "sub_min_c": 2.2075705474370517,
+   "skok": [
+    -0.18664936256743525,
+    0.09807857540769083
+   ],
+   "th": [
+    0.8558836758247131,
+    6.10562412492854
+   ],
+   "odzysk_W": 2.326928650963591
+  }
+ },
+ "podsumowanie": {
+  "sztywne_PID_z+0.0": {
+   "przezyl": "3/5",
+   "tot_pct": -12.8,
+   "plat_pct": -16.6,
+   "acc": 1.75
+  },
+  "pasywne_1.5Hz_PID_z+0.0": {
+   "przezyl": "3/5",
+   "tot_pct": -19.4,
+   "plat_pct": -25.1,
+   "acc": 1.49
+  },
+  "pasywne_0.7Hz_PID_z+0.0": {
+   "przezyl": "3/5",
+   "tot_pct": -12.9,
+   "plat_pct": -16.6,
+   "acc": 1.67
+  },
+  "polaktywne_v2_PID_z+0.0": {
+   "przezyl": "2/5",
+   "tot_pct": -14.4,
+   "plat_pct": -18.5,
+   "acc": 1.71
+  },
+  "sztywne_MPC_z+0.0": {
+   "przezyl": "3/5",
+   "tot_pct": -25.1,
+   "plat_pct": -33.6,
+   "acc": 2.57
+  },
+  "pasywne_1.5Hz_MPC_z+0.0": {
+   "przezyl": "3/5",
+   "tot_pct": -24.6,
+   "plat_pct": -33.1,
+   "acc": 1.91
+  },
+  "pasywne_0.7Hz_MPC_z+0.0": {
+   "przezyl": "4/5",
+   "tot_pct": -14.7,
+   "plat_pct": -20.8,
+   "acc": 1.48
+  },
+  "polaktywne_v2_MPC_z+0.0": {
+   "przezyl": "3/5",
+   "tot_pct": -17.9,
+   "plat_pct": -24.3,
+   "acc": 1.49
+  },
+  "sztywne_PID_z-0.4": {
+   "przezyl": "5/5",
+   "tot_pct": -0.5,
+   "plat_pct": -11.4,
+   "acc": 1.6
+  },
+  "pasywne_1.5Hz_PID_z-0.4": {
+   "przezyl": "5/5",
+   "tot_pct": -7.3,
+   "plat_pct": -20.2,
+   "acc": 1.4
+  },
+  "pasywne_0.7Hz_PID_z-0.4": {
+   "przezyl": "5/5",
+   "tot_pct": -1.8,
+   "plat_pct": -13.2,
+   "acc": 1.59
+  },
+  "polaktywne_v2_PID_z-0.4": {
+   "przezyl": "5/5",
+   "tot_pct": -2.7,
+   "plat_pct": -14.3,
+   "acc": 1.36
+  },
+  "sztywne_MPC_z-0.4": {
+   "przezyl": "3/5",
+   "tot_pct": -18.5,
+   "plat_pct": -34.8,
+   "acc": 2.35
+  },
+  "pasywne_1.5Hz_MPC_z-0.4": {
+   "przezyl": "3/5",
+   "tot_pct": -19.5,
+   "plat_pct": -36.0,
+   "acc": 1.55
+  },
+  "pasywne_0.7Hz_MPC_z-0.4": {
+   "przezyl": "5/5",
+   "tot_pct": -7.0,
+   "plat_pct": -20.4,
+   "acc": 1.18
+  },
+  "polaktywne_v2_MPC_z-0.4": {
+   "przezyl": "5/5",
+   "tot_pct": -9.5,
+   "plat_pct": -23.6,
+   "acc": 1.25
+  }
+ }
+}

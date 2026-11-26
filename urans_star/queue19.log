@@ -1,0 +1,9 @@
+2026-11-18 20:24:04 czekam na koniec kolejki 18
+2026-11-19 13:38:20 czekam na koniec kolejki 18
+2026-11-19 23:20:10 start OVS_MPCL_T4_90, most samouczacy pid 22620
+2026-11-20 09:05:48 end OVS_MPCL_T4_90 : {"result":"HOLD_STOP_FILE","time_s":16.992999999997785,"steps_this_session":6743,"wall_s":14543.9945348}
+2026-11-20 09:05:48 koniec kolejki 19
+2026-11-20 10:06:21 czekam na koniec kolejki 18
+2026-11-20 10:06:21 start OVS_MPCL_T4_90, most samouczacy pid 33156
+2026-11-20 20:01:50 end OVS_MPCL_T4_90 : {"result":"DONE","time_s":30.00000000001368,"steps_this_session":13007,"wall_s":35606.0613302}
+2026-11-20 20:01:50 koniec kolejki 19

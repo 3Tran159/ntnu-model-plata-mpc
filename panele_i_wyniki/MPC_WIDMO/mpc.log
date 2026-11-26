@@ -1,0 +1,42 @@
+2026-11-13 20:19:54 model MPC: R2 sila 0.9930, R2 opor 0.9951, suma dL/dth 6662 N/m/rad, 62469 probek, 160 s
+2026-11-13 20:22:10 start_mpc: czekam na koniec widmo_s1s4
+2026-11-13 20:33:09 start_mpc: czekam na koniec widmo_s1s4
+2026-11-13 23:18:46 start_mpc: 6 procesow
+2026-11-13 23:18:46 start_mpc: wariant ACT_K = 57
+2026-11-13 23:23:11 w3 act57: S4 s0: silownik ~2.4 W, plat 33.2 W + wspornik 26.5 W, z -0.93..0.51 m, z'' RMS 3.20, zan.min 0.12 m, <2c 3.6 %, 263 s
+2026-11-13 23:26:41 w5 act57: S2 s1: silownik ~2.0 W, plat 39.1 W + wspornik 27.4 W, z -0.53..0.16 m, z'' RMS 3.07, zan.min 0.58 m, <2c 0.0 %, 474 s
+2026-11-13 23:26:42 w4 act57: S1 s1: silownik ~2.0 W, plat 32.8 W + wspornik 27.0 W, z -0.68..0.49 m, z'' RMS 3.14, zan.min 0.34 m, <2c 0.5 %, 474 s
+2026-11-13 23:28:07 w1 act57: S2 s0: silownik ~2.1 W, plat 38.7 W + wspornik 27.4 W, z -0.51..0.14 m, z'' RMS 3.09, zan.min 0.62 m, <2c 0.0 %, 559 s
+2026-11-13 23:28:23 w0 act57: S1 s0: silownik ~2.0 W, plat 32.4 W + wspornik 26.9 W, z -0.64..0.51 m, z'' RMS 3.14, zan.min 0.41 m, <2c 0.5 %, 575 s
+2026-11-13 23:30:17 w5 act57: S4 s2: silownik ~2.4 W, plat 32.8 W + wspornik 26.4 W, z -0.89..0.51 m, z'' RMS 3.24, zan.min 0.21 m, <2c 3.7 %, 216 s
+2026-11-13 23:30:17 w5: koniec
+2026-11-13 23:32:14 w3 act57: S2 s2: silownik ~2.0 W, plat 39.2 W + wspornik 27.4 W, z -0.49..0.10 m, z'' RMS 3.06, zan.min 0.62 m, <2c 0.0 %, 543 s
+2026-11-13 23:32:14 w3: koniec
+2026-11-13 23:32:19 w1 act57: S4 s1: silownik ~2.4 W, plat 33.3 W + wspornik 26.5 W, z -0.80..0.51 m, z'' RMS 3.22, zan.min 0.23 m, <2c 3.6 %, 253 s
+2026-11-13 23:32:19 w1: koniec
+2026-11-13 23:40:31 w2 act57: S3 s0: silownik ~0.5 W, plat 48.3 W + wspornik 23.6 W, z -0.54..0.51 m, z'' RMS 1.52, zan.min 0.59 m, <2c 0.2 %, 1303 s
+2026-11-13 23:46:34 w4 act57: S3 s2: silownik ~0.5 W, plat 48.6 W + wspornik 23.8 W, z -0.58..0.51 m, z'' RMS 1.50, zan.min 0.54 m, <2c 0.2 %, 1192 s
+2026-11-13 23:46:34 w4: koniec
+2026-11-13 23:48:27 w2 act57: S1 s2: silownik ~1.9 W, plat 33.7 W + wspornik 27.2 W, z -0.70..0.50 m, z'' RMS 3.06, zan.min 0.35 m, <2c 0.7 %, 476 s
+2026-11-13 23:48:27 w2: koniec
+2026-11-13 23:49:26 w0 act57: S3 s1: silownik ~0.5 W, plat 48.8 W + wspornik 23.8 W, z -0.70..0.51 m, z'' RMS 1.53, zan.min 0.43 m, <2c 0.6 %, 1263 s
+2026-11-13 23:49:26 w0: koniec
+2026-11-13 23:49:26 start_mpc: wariant ACT_K = 0
+2026-11-13 23:53:50 w3 act0: S4 s0: silownik ~4.3 W, plat 31.0 W + wspornik 26.5 W, z -0.92..0.51 m, z'' RMS 3.72, zan.min 0.12 m, <2c 3.6 %, 263 s
+2026-11-13 23:57:19 w5 act0: S2 s1: silownik ~5.2 W, plat 36.4 W + wspornik 27.2 W, z -0.53..0.21 m, z'' RMS 4.01, zan.min 0.58 m, <2c 0.0 %, 472 s
+2026-11-13 23:57:36 w4 act0: S1 s1: silownik ~4.0 W, plat 30.7 W + wspornik 26.8 W, z -0.69..0.50 m, z'' RMS 3.74, zan.min 0.34 m, <2c 0.5 %, 490 s
+2026-11-13 23:58:52 w1 act0: S2 s0: silownik ~5.4 W, plat 35.7 W + wspornik 27.1 W, z -0.51..0.18 m, z'' RMS 4.07, zan.min 0.62 m, <2c 0.0 %, 566 s
+2026-11-13 23:59:11 w0 act0: S1 s0: silownik ~3.9 W, plat 30.6 W + wspornik 26.8 W, z -0.64..0.51 m, z'' RMS 3.70, zan.min 0.42 m, <2c 0.5 %, 585 s
+2026-11-14 00:00:54 w5 act0: S4 s2: silownik ~4.6 W, plat 30.3 W + wspornik 26.4 W, z -0.89..0.51 m, z'' RMS 3.78, zan.min 0.21 m, <2c 3.6 %, 215 s
+2026-11-14 00:00:54 w5: koniec
+2026-11-14 00:02:57 w3 act0: S2 s2: silownik ~5.3 W, plat 36.4 W + wspornik 27.2 W, z -0.51..0.14 m, z'' RMS 4.05, zan.min 0.63 m, <2c 0.0 %, 547 s
+2026-11-14 00:02:57 w3: koniec
+2026-11-14 00:03:05 w1 act0: S4 s1: silownik ~4.7 W, plat 31.0 W + wspornik 26.5 W, z -0.80..0.51 m, z'' RMS 3.78, zan.min 0.24 m, <2c 3.6 %, 253 s
+2026-11-14 00:03:05 w1: koniec
+2026-11-14 00:11:11 w2 act0: S3 s0: silownik ~1.0 W, plat 47.1 W + wspornik 23.6 W, z -0.54..0.51 m, z'' RMS 1.88, zan.min 0.59 m, <2c 0.2 %, 1304 s
+2026-11-14 00:17:42 w4 act0: S3 s2: silownik ~1.0 W, plat 47.5 W + wspornik 23.8 W, z -0.58..0.51 m, z'' RMS 1.84, zan.min 0.54 m, <2c 0.2 %, 1206 s
+2026-11-14 00:17:42 w4: koniec
+2026-11-14 00:19:08 w2 act0: S1 s2: silownik ~3.9 W, plat 31.6 W + wspornik 27.0 W, z -0.71..0.50 m, z'' RMS 3.68, zan.min 0.35 m, <2c 0.6 %, 477 s
+2026-11-14 00:19:08 w2: koniec
+2026-11-14 00:20:10 w0 act0: S3 s1: silownik ~1.0 W, plat 47.6 W + wspornik 23.8 W, z -0.70..0.51 m, z'' RMS 1.87, zan.min 0.43 m, <2c 0.6 %, 1259 s
+2026-11-14 00:20:10 w0: koniec

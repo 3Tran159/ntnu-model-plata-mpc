@@ -1,0 +1,117 @@
+{
+ "opis": "mbpo_residual.py - MBPO krok 1 (z fizyka jako podstawa): model wirowy + POPRAWKA nauczona z URANS.\n\nIdea (Julek 12.11): model wirowy jest za optymistyczny, gdy plat \"jedzie\" z fala (PID1: -17 % mocy oporu).\nZamiast uczyc caly model od zera (klasyczne MBPO, sieci na stanach), uczymy tylko RESZTE: dL, dFx = URANS - model wirowy,\nprzy tych samych zadanych ruchach (kat theta(t), nurzanie z(t), v(t), fala dopasowana z eta nad LE).\n\nKrok 1 (ten skrypt, bez nowego CFD):\n  a) odtworzenie kinematyczne kazdego przebiegu URANS w modelu wirowym -> reszty co 10 ms\n  b) cechy: theta, dtheta/dt, v, z, eta_LE, w fali na poziomie sredniej powierzchni, lokalne zanurzenie, CL_lin modelu,\n     opoznione o 20/50/100 ms (pamiec sladu), kwadraty glownych cech\n  c) regresja grzbietowa (ridge) i mala siec (2x64, torch), walidacja \"zostaw jeden przebieg\" (leave-one-run-out)\n  d) zapis: MBPO_RESIDUAL.json (R2 reszt, blad sredniej mocy oporu przed/po poprawce, per przebieg), mbpo_residual.pkl (model)\nKrok 2 (osobno): ResidualPlant w petli zamknietej -> test kroku 5 (PID1/PID3/BASE2) i trening agenta na poprawionym modelu.\nWszystko \"w modelu wirowym (poprawionym z URANS)\".\n",
+ "przebiegi": {
+  "OVS_PID_BASE2": {
+   "a": 0.7305964245572523,
+   "n": 969
+  },
+  "OVS_PID_PRBS1": {
+   "a": 0.7322288858658619,
+   "n": 969
+  },
+  "OVS_PID_SINE_A2": {
+   "a": 0.7281477555284583,
+   "n": 969
+  },
+  "OVS_PID1_GODO": {
+   "a": 0.7348191831627521,
+   "n": 969
+  },
+  "OVS_PID3_GODO": {
+   "a": 0.7281725650667268,
+   "n": 969
+  }
+ },
+ "cv": {
+  "ridge|OVS_PID_BASE2": {
+   "R2_dL": 0.7628579619503364,
+   "R2_dFx": 0.9024396612293567,
+   "P_URANS_W": 77.84,
+   "P_model_W": 76.27,
+   "P_poprawiony_W": 77.45,
+   "blad_model_pct": -2.0,
+   "blad_poprawiony_pct": -0.5
+  },
+  "ridge|OVS_PID_PRBS1": {
+   "R2_dL": -1.682668336023275,
+   "R2_dFx": 0.49062488274159444,
+   "P_URANS_W": 79.09,
+   "P_model_W": 78.72,
+   "P_poprawiony_W": 78.17,
+   "blad_model_pct": -0.5,
+   "blad_poprawiony_pct": -1.2
+  },
+  "ridge|OVS_PID_SINE_A2": {
+   "R2_dL": 0.5374330056243393,
+   "R2_dFx": 0.6527530614261834,
+   "P_URANS_W": 68.06,
+   "P_model_W": 61.05,
+   "P_poprawiony_W": 66.89,
+   "blad_model_pct": -10.3,
+   "blad_poprawiony_pct": -1.7
+  },
+  "ridge|OVS_PID1_GODO": {
+   "R2_dL": 0.2509294480218066,
+   "R2_dFx": 0.7585411115266566,
+   "P_URANS_W": 58.99,
+   "P_model_W": 49.39,
+   "P_poprawiony_W": 59.75,
+   "blad_model_pct": -16.3,
+   "blad_poprawiony_pct": 1.3
+  },
+  "ridge|OVS_PID3_GODO": {
+   "R2_dL": 0.4266674791059283,
+   "R2_dFx": 0.7017548760616843,
+   "P_URANS_W": 92.88,
+   "P_model_W": 97.01,
+   "P_poprawiony_W": 94.12,
+   "blad_model_pct": 4.4,
+   "blad_poprawiony_pct": 1.3
+  },
+  "mlp|OVS_PID_BASE2": {
+   "R2_dL": 0.7330099372314964,
+   "R2_dFx": 0.8383736276021209,
+   "P_URANS_W": 77.84,
+   "P_model_W": 76.27,
+   "P_poprawiony_W": 75.71,
+   "blad_model_pct": -2.0,
+   "blad_poprawiony_pct": -2.7
+  },
+  "mlp|OVS_PID_PRBS1": {
+   "R2_dL": -1.531745789580063,
+   "R2_dFx": 0.27756669522395583,
+   "P_URANS_W": 79.09,
+   "P_model_W": 78.72,
+   "P_poprawiony_W": 76.48,
+   "blad_model_pct": -0.5,
+   "blad_poprawiony_pct": -3.3
+  },
+  "mlp|OVS_PID_SINE_A2": {
+   "R2_dL": -0.12907239178747676,
+   "R2_dFx": -0.21419163199449454,
+   "P_URANS_W": 68.06,
+   "P_model_W": 61.05,
+   "P_poprawiony_W": 73.97,
+   "blad_model_pct": -10.3,
+   "blad_poprawiony_pct": 8.7
+  },
+  "mlp|OVS_PID1_GODO": {
+   "R2_dL": 0.5734460950543223,
+   "R2_dFx": 0.6338549374730296,
+   "P_URANS_W": 58.99,
+   "P_model_W": 49.39,
+   "P_poprawiony_W": 62.55,
+   "blad_model_pct": -16.3,
+   "blad_poprawiony_pct": 6.0
+  },
+  "mlp|OVS_PID3_GODO": {
+   "R2_dL": -1.7129502871098254,
+   "R2_dFx": 0.5391036433161461,
+   "P_URANS_W": 92.88,
+   "P_model_W": 97.01,
+   "P_poprawiony_W": 97.56,
+   "blad_model_pct": 4.4,
+   "blad_poprawiony_pct": 5.0
+  }
+ }
+}

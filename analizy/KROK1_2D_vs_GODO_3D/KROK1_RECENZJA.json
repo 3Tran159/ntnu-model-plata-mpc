@@ -1,0 +1,35 @@
+{
+ "godo_2d_stdout": "Godø: L 110400 N, CL 0.567, D_cw 3D 3301 N, D_ind 778 N, D_cw 2D 2523 N, CD_2D 0.01296\nPID1      Godø 3D -11.20 % (  -370 N) | dD_ind   +26 N | Godø 2D  -15.7 % (  -396 N) | model wirowy  -31.9 % /   -630 N | URANS -18.5 % / -366 N\nPID2      Godø 3D  -2.45 % (   -81 N) | dD_ind   +32 N | Godø 2D   -4.5 % (  -113 N) | model wirowy   -9.6 % /   -190 N | URANS -3.5 % / -70 N\nPID3      Godø 3D +18.00 % (  +594 N) | dD_ind   +16 N | Godø 2D  +22.9 % (  +578 N) | model wirowy  +57.4 % /  +1135 N | URANS +48.9 % / +967 N\nI         Godø 3D -15.00 % (  -495 N) | dD_ind   +26 N | Godø 2D  -20.7 % (  -521 N) | model wirowy  -37.2 % /   -734 N | URANS brak\nTD3_GODO  Godø 3D -63.90 % ( -2109 N) | dD_ind  +171 N | Godø 2D  -90.4 % ( -2280 N) | model wirowy  -67.9 % /  -1341 N | URANS -34.8 % / -689 N\nwykres OK\n",
+ "PID3_B_NASZE_od_zera": {
+  "P_W": 84.23437776847341,
+  "dD_full_N": 748.2706300655875,
+  "acc": 1.6683725183810663,
+  "th_min": -1.7120743153687028,
+  "th_max": 7.499985576641479,
+  "sat_frac": 0.12451612903225806
+ },
+ "PID3_B_NASZE_od_trymu": {
+  "P_W": 84.19083423164737,
+  "dD_full_N": 746.8621894484252,
+  "acc": 1.6237852444333059,
+  "th_min": -1.6450568506723264,
+  "th_max": 7.8825138357234135,
+  "sat_frac": 0.0
+ },
+ "PID3_B_GODO_od_zera": {
+  "P_W": 81.50270201845362,
+  "dD_full_N": 660.865654493432,
+  "acc": 1.5725694641454597,
+  "th_min": -1.482499031282435,
+  "th_max": 7.4997139103109625,
+  "sat_frac": 0.08032258064516129
+ },
+ "PID3_B_GODO_od_trymu": {
+  "P_W": 81.47835192689278,
+  "dD_full_N": 660.0780368471458,
+  "acc": 1.5586559996097722,
+  "th_min": -1.4622107125877057,
+  "th_max": 7.67871622970361,
+  "sat_frac": 0.0
+ }
+}

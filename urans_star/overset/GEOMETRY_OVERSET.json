@@ -1,0 +1,39 @@
+{
+ "section": "66-012 MOD thickness + NACA a=0.8 mean line",
+ "CL_i": 0.63,
+ "max_camber_over_c": 0.0428019833024316,
+ "pivot_m": [
+  0.078,
+  0.0
+ ],
+ "overset_block_m": [
+  -0.1,
+  0.46,
+  -0.11,
+  0.11
+ ],
+ "foil_points": 321,
+ "foil_area_m2": 0.007974282185402581,
+ "foil_buoyancy_strip_N": 1.603668018895386,
+ "vessel_mass_kg": 12500.0,
+ "foil_span_m": 7.9872000000000005,
+ "foil_area_ref_m2": 2.4920064,
+ "CL_required_3D": 0.6298491545396735,
+ "strip_mass_kg": 31.300080128205128,
+ "strip_weight_N": 307.0537860576923,
+ "q_c_span_N": 487.5036885333333,
+ "triangles_background": {
+  "Inlet": 2,
+  "Outlet": 2,
+  "Bottom": 4,
+  "Top": 4,
+  "Span0": 4,
+  "Span1": 4
+ },
+ "triangles_overset": {
+  "Overset": 50,
+  "Foil": 642,
+  "Span0": 1464,
+  "Span1": 1464
+ }
+}

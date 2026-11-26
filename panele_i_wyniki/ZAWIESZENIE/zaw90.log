@@ -1,0 +1,32 @@
+2026-11-13 12:28:26 CALM_100: moc 61.09 W/pasek (+0.0 % wzgl. wody spok.), z'' RMS 0.000 szczyt 0.00 m/s2, z p2p 0.000 m, zan. min 1.09 m, kat 3.2..3.2 deg, nasyc. 0 %, skok +-0.00 m, 2 s
+2026-11-13 12:28:28 CALM_90: moc 57.03 W/pasek (+0.0 % wzgl. wody spok.), z'' RMS 0.000 szczyt 0.00 m/s2, z p2p 0.001 m, zan. min 1.09 m, kat 2.6..2.6 deg, nasyc. 0 %, skok +-0.00 m, 2 s
+2026-11-13 12:28:36 PID1_90: moc 44.24 W/pasek (-22.4 % wzgl. wody spok.), z'' RMS 1.871 szczyt 2.75 m/s2, z p2p 0.517 m, zan. min 0.56 m, kat 2.2..3.3 deg, nasyc. 0 %, skok +-0.00 m, 8 s
+2026-11-13 12:28:43 PID2_90: moc 53.04 W/pasek (-7.0 % wzgl. wody spok.), z'' RMS 2.099 szczyt 3.16 m/s2, z p2p 0.570 m, zan. min 0.62 m, kat 0.9..4.6 deg, nasyc. 0 %, skok +-0.00 m, 7 s
+2026-11-13 12:28:52 K0_fala_25_90: moc 46.44 W/pasek (-18.6 % wzgl. wody spok.), z'' RMS 1.426 szczyt 2.05 m/s2, z p2p 0.395 m, zan. min 0.51 m, kat 2.0..3.5 deg, nasyc. 0 %, skok +-0.00 m, 9 s
+2026-11-13 12:29:01 K0_fala_50_90: moc 48.84 W/pasek (-14.4 % wzgl. wody spok.), z'' RMS 0.984 szczyt 1.49 m/s2, z p2p 0.274 m, zan. min 0.47 m, kat 1.1..4.4 deg, nasyc. 0 %, skok +-0.00 m, 8 s
+2026-11-13 12:29:09 K0_fala_75_90: moc 51.44 W/pasek (-9.8 % wzgl. wody spok.), z'' RMS 0.554 szczyt 0.94 m/s2, z p2p 0.156 m, zan. min 0.42 m, kat 0.2..5.3 deg, nasyc. 0 %, skok +-0.00 m, 9 s
+2026-11-13 12:29:17 K0_fala_100_90: moc 54.22 W/pasek (-4.9 % wzgl. wody spok.), z'' RMS 0.220 szczyt 0.40 m/s2, z p2p 0.060 m, zan. min 0.37 m, kat -0.8..6.2 deg, nasyc. 0 %, skok +-0.00 m, 8 s
+2026-11-13 12:29:25 K0_fala_i_nurzanie_25_90: moc 39.98 W/pasek (-29.9 % wzgl. wody spok.), z'' RMS 1.840 szczyt 2.68 m/s2, z p2p 0.506 m, zan. min 0.53 m, kat 2.5..3.0 deg, nasyc. 0 %, skok +-0.00 m, 8 s
+2026-11-13 12:29:33 K0_fala_i_nurzanie_50_90: moc 34.80 W/pasek (-39.0 % wzgl. wody spok.), z'' RMS 1.709 szczyt 2.45 m/s2, z p2p 0.466 m, zan. min 0.45 m, kat 1.4..3.9 deg, nasyc. 0 %, skok +-0.00 m, 9 s
+2026-11-13 12:29:41 K0_fala_i_nurzanie_75_90: moc 35.82 W/pasek (-37.2 % wzgl. wody spok.), z'' RMS 1.267 szczyt 1.81 m/s2, z p2p 0.346 m, zan. min 0.33 m, kat -0.3..5.7 deg, nasyc. 0 %, skok +-0.00 m, 8 s
+2026-11-13 12:29:50 K0_fala_i_nurzanie_100_90: moc 54.14 W/pasek (-5.1 % wzgl. wody spok.), z'' RMS 1.151 szczyt 5.13 m/s2, z p2p 1.125 m, zan. min 0.05 m, kat -7.5..7.5 deg, nasyc. 15 %, skok +-0.00 m, 9 s
+2026-11-13 12:29:58 K1_f0.3_tl0.3_90: moc 55.40 W/pasek (-2.9 % wzgl. wody spok.), z'' RMS 1.216 szczyt 3.95 m/s2, z p2p 0.371 m, zan. min 0.51 m, kat 2.1..3.1 deg, nasyc. 0 %, skok +-0.34 m, 8 s
+2026-11-13 12:30:05 K1_f0.3_tl0.7_90: moc 52.74 W/pasek (-7.5 % wzgl. wody spok.), z'' RMS 1.294 szczyt 1.84 m/s2, z p2p 0.353 m, zan. min 0.53 m, kat 2.3..3.0 deg, nasyc. 0 %, skok +-0.20 m, 7 s
+2026-11-13 12:30:13 K1_f0.5_tl0.3_90: moc 46.17 W/pasek (-19.0 % wzgl. wody spok.), z'' RMS 2.375 szczyt 3.39 m/s2, z p2p 0.644 m, zan. min 0.49 m, kat 2.0..3.3 deg, nasyc. 0 %, skok +-0.29 m, 8 s
+2026-11-13 12:30:21 K1_f0.5_tl0.7_90: moc 47.23 W/pasek (-17.2 % wzgl. wody spok.), z'' RMS 1.878 szczyt 2.70 m/s2, z p2p 0.514 m, zan. min 0.52 m, kat 2.2..3.2 deg, nasyc. 0 %, skok +-0.15 m, 8 s
+2026-11-13 12:30:29 K1_f1.0_tl0.3_90: moc 39.89 W/pasek (-30.1 % wzgl. wody spok.), z'' RMS 2.351 szczyt 3.45 m/s2, z p2p 0.647 m, zan. min 0.54 m, kat 2.1..3.4 deg, nasyc. 0 %, skok +-0.08 m, 8 s
+2026-11-13 12:30:37 K1_f1.0_tl0.7_90: moc 42.49 W/pasek (-25.5 % wzgl. wody spok.), z'' RMS 2.121 szczyt 3.10 m/s2, z p2p 0.584 m, zan. min 0.54 m, kat 2.1..3.3 deg, nasyc. 0 %, skok +-0.06 m, 8 s
+2026-11-13 12:30:45 K1_f1.5_tl0.3_90: moc 42.25 W/pasek (-25.9 % wzgl. wody spok.), z'' RMS 2.087 szczyt 3.08 m/s2, z p2p 0.575 m, zan. min 0.55 m, kat 2.2..3.3 deg, nasyc. 0 %, skok +-0.03 m, 8 s
+2026-11-13 12:30:53 K1_f1.5_tl0.7_90: moc 42.91 W/pasek (-24.8 % wzgl. wody spok.), z'' RMS 2.030 szczyt 2.98 m/s2, z p2p 0.560 m, zan. min 0.55 m, kat 2.2..3.3 deg, nasyc. 0 %, skok +-0.03 m, 7 s
+2026-11-13 12:31:00 K1_f0.3_tl0.3_K0fala50_90: moc 53.69 W/pasek (-5.9 % wzgl. wody spok.), z'' RMS 0.528 szczyt 0.77 m/s2, z p2p 0.149 m, zan. min 0.46 m, kat 1.0..4.3 deg, nasyc. 0 %, skok +-0.15 m, 8 s
+2026-11-13 12:31:08 K1_f0.5_tl0.3_K0fala50_90: moc 45.10 W/pasek (-20.9 % wzgl. wody spok.), z'' RMS 1.246 szczyt 1.79 m/s2, z p2p 0.340 m, zan. min 0.43 m, kat 1.2..4.1 deg, nasyc. 0 %, skok +-0.15 m, 7 s
+2026-11-13 12:31:08 gotowe
+2026-11-13 12:31:31 K0_fala_85_90: moc 52.53 W/pasek (-7.9 % wzgl. wody spok.), z'' RMS 0.394 szczyt 0.72 m/s2, z p2p 0.112 m, zan. min 0.40 m, kat -0.2..5.6 deg, nasyc. 0 %, skok +-0.00 m, 8 s
+2026-11-13 12:31:39 K0_fala_90_90: moc 53.09 W/pasek (-6.9 % wzgl. wody spok.), z'' RMS 0.322 szczyt 0.61 m/s2, z p2p 0.091 m, zan. min 0.39 m, kat -0.4..5.8 deg, nasyc. 0 %, skok +-0.00 m, 8 s
+2026-11-13 12:31:46 PID1_100: moc 45.21 W/pasek (-26.0 % wzgl. wody spok.), z'' RMS 1.865 szczyt 2.73 m/s2, z p2p 0.516 m, zan. min 0.55 m, kat 2.8..3.9 deg, nasyc. 0 %, skok +-0.00 m, 7 s
+2026-11-13 12:31:54 K0_fala_50_100: moc 50.75 W/pasek (-16.9 % wzgl. wody spok.), z'' RMS 0.990 szczyt 1.51 m/s2, z p2p 0.277 m, zan. min 0.46 m, kat 1.7..4.9 deg, nasyc. 0 %, skok +-0.00 m, 7 s
+2026-11-13 12:32:02 K0_fala_100_100: moc 57.24 W/pasek (-6.3 % wzgl. wody spok.), z'' RMS 0.255 szczyt 0.43 m/s2, z p2p 0.072 m, zan. min 0.37 m, kat -0.2..6.8 deg, nasyc. 0 %, skok +-0.00 m, 8 s
+2026-11-13 12:32:10 K1_f0.2_tl0.5_skok0.5_90: moc 55.91 W/pasek (-2.0 % wzgl. wody spok.), z'' RMS 0.726 szczyt 1.05 m/s2, z p2p 0.210 m, zan. min 0.55 m, kat 2.4..2.9 deg, nasyc. 0 %, skok +-0.25 m, 8 s
+2026-11-13 12:32:18 K1_f0.3_tl0.5_skok0.5_90: moc 54.36 W/pasek (-4.7 % wzgl. wody spok.), z'' RMS 1.165 szczyt 1.66 m/s2, z p2p 0.318 m, zan. min 0.53 m, kat 2.3..3.0 deg, nasyc. 0 %, skok +-0.24 m, 8 s
+2026-11-13 12:32:27 K1_f0.2_tl0.5_skok0.5_K0fala50_90: moc 53.99 W/pasek (-5.3 % wzgl. wody spok.), z'' RMS 0.381 szczyt 0.55 m/s2, z p2p 0.111 m, zan. min 0.46 m, kat 1.0..4.4 deg, nasyc. 0 %, skok +-0.13 m, 8 s
+2026-11-13 12:32:27 gotowe

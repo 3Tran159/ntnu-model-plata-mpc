@@ -1,0 +1,15 @@
+ARX: suma dL/dth 18572 N/m/rad, suma dL/dv -1709, suma wf 1651, R2 0.9976
+model: R2 sila 0.9976, R2 opor 0.9969; estymata wf: {m: pred[m]['quality'] for m in pred}  (91 s)
+fala 1 pid2      : UPADEK po 22.74 s
+fala 1 wyrocznia : opor -63% | z -0.59..0.37 | zanurz. min 1.47c | kat -7.3..7.5 | zacc RMS 4.93
+fala 1 dziob3    : UPADEK po 22.93 s
+fala 1 sonda0    : UPADEK po 6.45 s
+fala 2 pid2      : opor -32% | z -0.25..0.39 | zanurz. min 1.15c | kat 0.7..4.9 | zacc RMS 2.06
+fala 2 wyrocznia : opor -65% | z -0.63..0.36 | zanurz. min 1.98c | kat -7.4..7.5 | zacc RMS 4.77
+fala 2 dziob3    : opor -74% | z -0.62..0.37 | zanurz. min 1.95c | kat -6.7..7.5 | zacc RMS 4.68
+fala 2 sonda0    : opor -76% | z -0.73..0.48 | zanurz. min 1.64c | kat -7.5..7.5 | zacc RMS 4.81
+fala 3 pid2      : opor -30% | z -0.33..0.41 | zanurz. min 1.45c | kat 0.5..5.4 | zacc RMS 2.05
+fala 3 wyrocznia : opor -75% | z -0.63..0.34 | zanurz. min 1.99c | kat -7.4..7.5 | zacc RMS 4.71
+fala 3 dziob3    : opor -91% | z -0.72..0.44 | zanurz. min 1.95c | kat -7.5..7.5 | zacc RMS 4.77
+fala 3 sonda0    : UPADEK po 29.49 s
+gotowe 582 s

@@ -1,0 +1,107 @@
+Starting local server: starserver.bat -power -cpubind off -np 2 -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcNzBfZ29kb19jYXNlXG92ZXJzZXRcT1YyRF9CMVxpbnB1dDNkLnNpbQ==
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0-1
+Process rank 0 THINKPAD-LUCJAN 3468
+Total number of processes : 2
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 3468
+Host ID 0 Rank 1 on THINKPAD-LUCJAN with process ID 28512
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 118 days
+Tue Nov 10 14:54:13 2026
+
+Server::start -host THINKPAD-LUCJAN:47829
+Loading: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset\OV2D_B1\input3d.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Loading module: OversetModel
+Loading module: OversetFlowModel
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=7 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset\OV2D_B1\ConvertOverset2D.java
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset\OV2D_B1\ConvertOverset2D.java:21: warning: [deprecation] setEnabled(boolean) in star.common.AutoSaveBase has been deprecated
+   s.getSimulationIterator().getAutoSave().setEnabled(false);
+                                          ^
+
+Loading/configuring connectivity (old|new partitions: 7|2)
+  MINI_water_air (index 0): 156693 cells, 469268 faces, 626776 verts.
+  GODO overset foil (index 1): 6370 cells, 17746 faces, 23756 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+Configuring finished
+Created new 2D region MINI_water_air 2D from 3D boundary span_front
+Reading material property database "E:\Program Files\Siemens\21.04.009-R8\STAR-CCM+21.04.009-R8\star\data\props.mdb"...
+Created new 2D region GODO overset foil 2D from 3D boundary ov_span_front
+java.lang.RuntimeException: ClientServerObjectManager: star.common.RegionManager_177
+   ObjectName: MINI_water_air
+   error: Named object "MINI_water_air" does not exist in manager
+
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 0
+Starting local server: starserver.bat -power -cpubind off -np 2 -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcNzBfZ29kb19jYXNlXG92ZXJzZXRcT1YyRF9CMVxpbnB1dDNkLnNpbQ==
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0-1
+Process rank 0 THINKPAD-LUCJAN 33004
+Total number of processes : 2
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 33004
+Host ID 0 Rank 1 on THINKPAD-LUCJAN with process ID 34252
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 118 days
+Tue Nov 10 14:56:24 2026
+
+Server::start -host THINKPAD-LUCJAN:47829
+Loading: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset\OV2D_B1\input3d.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Loading module: OversetModel
+Loading module: OversetFlowModel
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=7 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset\OV2D_B1\ConvertOverset2D.java
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset\OV2D_B1\ConvertOverset2D.java:21: warning: [deprecation] setEnabled(boolean) in star.common.AutoSaveBase has been deprecated
+   s.getSimulationIterator().getAutoSave().setEnabled(false);
+                                          ^
+
+Loading/configuring connectivity (old|new partitions: 7|2)
+  MINI_water_air (index 0): 156693 cells, 469268 faces, 626776 verts.
+  GODO overset foil (index 1): 6370 cells, 17746 faces, 23756 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+Configuring finished
+Created new 2D region MINI_water_air 2D from 3D boundary span_front
+Reading material property database "E:\Program Files\Siemens\21.04.009-R8\STAR-CCM+21.04.009-R8\star\data\props.mdb"...
+Created new 2D region GODO overset foil 2D from 3D boundary ov_span_front
+Saving: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset\OV2D_B1\GODO_OVERSET2D_SETUP.sim... complete (33.842MB in 0.2107s).
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 0

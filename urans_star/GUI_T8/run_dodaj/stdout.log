@@ -1,0 +1,60 @@
+Starting local server: starserver.bat -power -cpubind off -np 1 -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcMzBfVVJBTlNfU1RBUlxvdmVyc2V0X3J1bnNcT1ZTX0NFTF8wMDBnX1Q4XzkwXEVORF90MTMuNjg3MC5zaW0=
+The efficiency of some CPUs could not be determined. CPU binding will not exclude the slowest CPU kind.
+The efficiency of some CPUs could not be determined. CPU binding will not exclude the slowest CPU kind.
+The efficiency of some CPUs could not be determined. CPU binding will not exclude the slowest CPU kind.
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 26512
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 26512
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 102 days
+Thu Nov 26 10:52:00 2026
+
+Server::start -host THINKPAD-LUCJAN:47828
+Loading: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_T8_90\END_t13.6870.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Loading module: OversetModel
+Loading module: OversetFlowModel
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=16 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\GUI_T8\DodajIZapisz.java
+T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\GUI_T8\DodajIZapisz.java:12: warning: [deprecation] setInput(star.base.neo.DoubleVector,star.base.neo.DoubleVector,star.base.neo.DoubleVector,double,int,star.common.CoordinateSystem,boolean) in star.vis.VisView has been deprecated
+ void view(Scene sc,double x,double y,double wd,int W,int H){ sc.getCurrentView().setInput(dv(x,y,0),dv(x,y,5),dv(0,1,0),wd*H/W/2,1,s.getCoordinateSystemManager().getLabCoordinateSystem(),false); }
+                                                                                 ^
+T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\GUI_T8\DodajIZapisz.java:13: warning: [deprecation] initializeAndWait() in star.vis.Scene has been deprecated
+ Scene nowa(String n){ for(Scene x:s.getSceneManager().getScenes()) if(x.getPresentationName().equals(n)) return x; Scene sc=s.getSceneManager().createScene(n); sc.setPresentationName(n); sc.initializeAndWait(); return sc; }
+                                                                                                                                                                                              ^
+T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\GUI_T8\DodajIZapisz.java:33: warning: [deprecation] setRange(star.base.neo.DoubleVector) in star.vis.DisplayQuantity has been deprecated
+   if(!q[7].isEmpty()){ sd.getScalarDisplayQuantity().setAutoRange(AutoRangeMode.NONE); sd.getScalarDisplayQuantity().setRange(dv(Double.parseDouble(q[7]),Double.parseDouble(q[8]))); }
+                                                                                                                     ^
+
+Loading/configuring connectivity (old|new partitions: 16|1)
+  MINI_water_air (index 0): 74702 cells, 223508 faces, 298812 verts.
+  GODO overset foil (index 1): 5289 cells, 14624 faces, 19432 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+Configuring finished
+Note: Legacy plots are present in the simulation that might not be compatible with current or future versions.
+  Please consult the documentation for more details and consider converting your plots to the current standard.
+Saving: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_T8_90\END_t13.6870.sim... complete (225.35MB in 0.48891s).
+DodajIZapisz: zapisano T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset_runs\OVS_CEL_000g_T8_90\END_t13.6870.sim
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 0

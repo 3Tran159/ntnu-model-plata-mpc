@@ -1,0 +1,3 @@
+K0P_85_idealny {'P_W': 53.589, 'acc_rms': 0.502, 'MSI_2h_pct': 1.821, 'rate_rms_deg_s': 8.032}
+K0_85 koordynatora {'P_W': 53.589, 'acc_rms': 0.502, 'MSI_2h_pct': 1.821}
+PID1_sztywny {'P_W': 44.545, 'acc_rms': 1.871, 'MSI_2h_pct': 7.528}

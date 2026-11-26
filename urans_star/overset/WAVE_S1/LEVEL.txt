@@ -1,0 +1,10 @@
+MINI_URANS_VOF_2D: poziom 1,09 -> 1.39 m w 28 falach
+== raporty
+  GODO_eta_upstream_quarter_lambda_SI [SurfaceIntegralReport] getFieldFunction=Volume Fraction of water getScalar=Volume Fraction of water
+  GODO_eta_upstream_quarter_lambda [ExpressionReport] getDefinition=${GODO_eta_upstream_quarter_lambda_SIReport}/<0.02 m>+<-39.03274979328733 m>-<1.09 m>
+  GODO_eta_at_LE_SI [SurfaceIntegralReport] getFieldFunction=Volume Fraction of water getScalar=Volume Fraction of water
+  GODO_eta_at_LE [ExpressionReport] getDefinition=${GODO_eta_at_LE_SIReport}/<0.02 m>+<-39.03274979328733 m>-<1.09 m>
+  GODO_eta_at_hinge_SI [SurfaceIntegralReport] getFieldFunction=Volume Fraction of water getScalar=Volume Fraction of water
+  GODO_eta_at_hinge [ExpressionReport] getDefinition=${GODO_eta_at_hinge_SIReport}/<0.02 m>+<-39.03274979328733 m>-<1.09 m>
+== field functions uzytkownika z eta / 1.09 / free
+zapisano GODO_OVERSET_SETUP_S1_L139.sim

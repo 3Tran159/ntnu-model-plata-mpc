@@ -1,0 +1,75 @@
+12:17:31 start: W_A 1.5, KI 0.2, ome 3.2441, H 194
+12:41:26 start: W_A 1.5, KI 0.2, ome 3.2441, H 194
+12:43:14 takt 0 t 0.000 free 0 cmd +0.000
+13:02:00 takt 100 t 1.000 free 0 cmd +2.338
+13:19:39 t 1.940 z +0.000 v +0.006 th +2.34 eta +0.611 | fala A 0.736 b -2.5 | ie -0.000 | cmd +2.57 | 0.09 s
+13:20:48 takt 200 t 2.000 free 1 cmd +1.562
+13:40:06 takt 300 t 3.000 free 1 cmd +0.095
+13:58:00 t 3.940 z -0.372 v +0.264 th +3.32 eta +0.611 | fala A 0.732 b +3.9 | ie +0.500 | cmd +3.96 | 0.06 s
+13:59:05 takt 400 t 4.000 free 1 cmd +4.497
+14:18:00 takt 500 t 5.000 free 1 cmd +0.602
+14:35:37 MPC_STOP - koniec
+14:36:57 historia fali z history.csv: 300 probek do t 5.820
+14:36:57 start: W_A 1.5, KI 0.2, ome 3.2441, H 194
+14:36:58 t 5.820 z -0.243 v +0.236 th +2.63 eta +0.657 | fala A 0.732 b -2.1 | ie +0.002 | cmd -1.79 | 0.05 s
+14:42:13 takt 600 t 6.000 free 1 cmd +4.180
+14:55:58 MPC_STOP - koniec
+14:56:07 historia fali z history.csv: 300 probek do t 6.576
+14:56:07 start: W_A 1.5, KI 0.2, ome 3.2441, H 194
+14:56:07 t 6.580 z -0.262 v -0.179 th +4.34 eta -0.724 | fala A 0.740 b -4.0 | ie +0.003 | cmd +7.06 | 0.05 s
+15:01:25 MPC_STOP - koniec
+15:01:33 historia fali z history.csv: 300 probek do t 6.735
+15:01:33 start: W_A 1.5, KI 0.2, ome 3.2441, H 194
+15:01:33 t 6.740 z -0.282 v -0.105 th +3.25 eta -0.798 | fala A 0.737 b -4.1 | ie +0.003 | cmd +4.37 | 0.05 s
+15:06:00 MPC_STOP - koniec
+15:06:08 historia fali z history.csv: 300 probek do t 6.851
+15:06:08 start: W_A 1.5, KI 0.2, ome 3.2441, H 194
+15:06:08 t 6.850 z -0.290 v -0.052 th +2.38 eta -0.806 | fala A 0.731 b -4.0 | ie +0.003 | cmd +2.55 | 0.05 s
+15:10:38 takt 700 t 7.000 free 1 cmd +0.180
+15:12:16 MPC_STOP - koniec
+15:12:21 historia fali z history.csv: 300 probek do t 7.070
+15:12:21 start: W_A 1.5, KI 0.2, ome 3.2441, H 194, sonda 3.0 m przed LE (wyprzedzenie 0.149 s)
+15:12:21 t 7.070 z -0.292 v +0.024 th +0.24 eta -0.530 | fala A 0.725 b -3.9 | ie +0.003 | cmd -0.53 | 0.05 s
+16:24:45 MPC_STOP - koniec
+16:50:52 historia fali z history.csv: 300 probek do t 7.070
+16:50:52 start: W_A 1.5, KI 0.2, ome 3.2441, H 194, sonda 3.0 m przed LE (wyprzedzenie 0.149 s)
+16:50:52 t 7.710 z -0.204 v +0.228 th +2.20 eta +0.742 | fala A 0.727 b -4.1 | ie +0.002 | cmd -2.10 | 0.05 s
+16:58:37 takt 800 t 8.000 free 1 cmd +4.573
+17:17:18 takt 900 t 9.000 free 1 cmd -0.239
+17:29:10 t 9.710 z -0.229 v +0.257 th +3.04 eta +0.631 | fala A 0.780 b -7.2 | ie +0.500 | cmd +3.63 | 0.06 s
+17:34:04 takt 1000 t 10.000 free 1 cmd +4.892
+17:51:05 takt 1100 t 11.000 free 1 cmd -0.539
+18:03:09 t 11.710 z -0.273 v +0.254 th +3.74 eta +0.491 | fala A 0.752 b -4.7 | ie +0.500 | cmd +4.33 | 0.06 s
+18:08:06 takt 1200 t 12.000 free 1 cmd +5.641
+18:25:07 takt 1300 t 13.000 free 1 cmd -0.618
+18:37:13 t 13.710 z -0.236 v +0.223 th +4.31 eta +0.342 | fala A 0.752 b -5.9 | ie +0.500 | cmd +4.82 | 0.06 s
+18:42:12 takt 1400 t 14.000 free 1 cmd +5.384
+18:59:29 takt 1500 t 15.000 free 1 cmd -0.560
+19:11:38 t 15.710 z -0.230 v +0.200 th +4.88 eta +0.158 | fala A 0.752 b -7.0 | ie +0.500 | cmd +5.29 | 0.06 s
+19:16:38 takt 1600 t 16.000 free 1 cmd +5.213
+19:33:47 takt 1700 t 17.000 free 1 cmd -0.338
+19:45:57 t 17.710 z -0.215 v +0.162 th +5.33 eta -0.013 | fala A 0.752 b -8.3 | ie +0.500 | cmd +5.47 | 0.06 s
+19:50:52 takt 1800 t 18.000 free 1 cmd +4.788
+20:07:53 takt 1900 t 19.000 free 1 cmd +0.026
+20:19:56 t 19.710 z -0.208 v +0.116 th +5.56 eta -0.172 | fala A 0.752 b -9.6 | ie +0.500 | cmd +5.48 | 0.06 s
+20:24:51 takt 2000 t 20.000 free 1 cmd +4.337
+20:41:51 takt 2100 t 21.000 free 1 cmd +0.516
+20:53:55 t 21.710 z -0.202 v +0.054 th +5.58 eta -0.312 | fala A 0.752 b -10.9 | ie +0.500 | cmd +5.34 | 0.06 s
+20:58:50 takt 2200 t 22.000 free 1 cmd +3.951
+21:15:47 takt 2300 t 23.000 free 1 cmd +1.105
+21:30:09 seq 2350 <= 2368: restart makra - zeruje historie MPC
+21:30:09 historia fali z history.csv: 300 probek do t 7.070
+21:30:09 t 23.500 z -0.219 v +0.161 th +5.33 eta -0.011 | fala A 0.725 b -4.1 | ie +0.002 | cmd +1.61 | 0.06 s
+21:39:06 takt 2400 t 24.000 free 1 cmd +3.622
+21:56:38 takt 2500 t 25.000 free 1 cmd +2.153
+22:05:20 t 25.500 z -0.190 v +0.079 th +5.28 eta -0.170 | fala A 0.773 b -12.5 | ie +0.500 | cmd +5.16 | 0.06 s
+22:14:01 takt 2600 t 26.000 free 1 cmd +2.514
+22:31:23 takt 2700 t 27.000 free 1 cmd +2.941
+22:40:05 t 27.500 z -0.223 v +0.087 th +5.81 eta -0.310 | fala A 0.752 b -14.0 | ie +0.500 | cmd +5.58 | 0.06 s
+22:42:51 seq 2750 <= 2752: restart makra - zeruje historie MPC
+22:42:51 historia fali z history.csv: 300 probek do t 7.070
+22:42:51 t 27.500 z -0.223 v +0.087 th +5.81 eta -0.310 | fala A 0.725 b -4.1 | ie +0.002 | cmd +3.54 | 0.06 s
+22:51:47 takt 2800 t 28.000 free 1 cmd +2.352
+23:09:24 takt 2900 t 29.000 free 1 cmd +3.441
+23:18:11 t 29.500 z -0.189 v -0.081 th +5.15 eta -0.455 | fala A 0.773 b -13.7 | ie +0.500 | cmd +4.73 | 0.06 s
+23:26:57 RUN_RESULT - koniec

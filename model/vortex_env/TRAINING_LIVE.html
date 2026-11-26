@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><title>Efekty sterowania</title>
+<style>body{font-family:Segoe UI,Arial,sans-serif;background:#f6f7f9;margin:16px;color:#222}
+h1{font-size:18px;margin:0 0 4px}h2{font-size:15px;margin:14px 0 6px}p{margin:2px 0 10px;font-size:13px;color:#555}
+img{max-width:100%;border:1px solid #ccc;background:#fff;margin-bottom:12px}
+table{border-collapse:collapse;background:#fff;font-size:13px;margin-bottom:12px}td,th{border:1px solid #ccc;padding:4px 8px;text-align:right}th{background:#eef}td:first-child{text-align:left}
+.good{color:#0a7a2a;font-weight:600}.bad{color:#b00}#st{font-family:Consolas,monospace;font-size:12px;white-space:pre;color:#555}</style></head>
+<body>
+<h1>Efekty sterowania</h1>
+<p>Fala regularna H 1,5 m, T 5 s, 24 kn. Odświeżanie co ok. 5 min. Wyniki W URANS i W MODELU WIROWYM są osobno – model nie jest dowodem.</p>
+<h2>1. W URANS (STAR-CCM+) – to, co się liczy</h2>
+<p>Opór płata = średnia z ostatnich 3 okresów spotkania (5,8 s), woda spokojna 61,1 W/pasek = 0 %. Godø: NDLL 3D, jego tab. 4–5. „Model” = mój model wirowy (bazowy).</p>
+<table id="urans"><tr><td>wczytywanie…</td></tr></table>
+<img id="effu" src="EFFECTS_URANS.png" alt="URANS">
+<h2>2. Cztery sterowniki – W MODELU WIROWYM (na papierze)</h2>
+<table><tr><th>sterownik</th><th>czego potrzebuje</th><th>opór płata</th><th>z wspornikami</th><th>z̈ RMS [m/s²]</th><th>haczyk</th></tr>
+<tr><td>PID1 Godø (wolny)</td><td>tylko wysokość</td><td class="good">−32 %</td><td>–</td><td>–</td><td>w URANS −18 %</td></tr>
+<tr><td>SAC</td><td>sieć, 0,6 mln kroków</td><td class="good">−61 %</td><td class="good">−38 %</td><td>2,6</td><td>wersja odporna stale padała</td></tr>
+<tr><td>TD3 (nagroda Godø)</td><td>sieć, 1,4 mln kroków</td><td class="good">−68 %</td><td class="good">−44 %</td><td>3,0</td><td>lata przy granicy −0,75 m; dziś w nocy w URANS</td></tr>
+<tr><td>MPC liniowy, W_Z 2</td><td>model + fala 1,9 s naprzód</td><td class="good">−69 %</td><td class="good">−49 %</td><td>4,5</td><td>dawne −111 % było starym modelem oporu (CD stałe); W_Z 20: −49 % / −34 %; wspornik w koszcie MPC nic nie daje (−48,5 %); fala nieregularna, czujnik 3 m: −18,5 %</td></tr></table>
+<h2>3. Agenty na bieżąco – W MODELU WIROWYM</h2>
+<p>Ta sama fala, faza 0. Agenty: najlepsza polityka z dotychczasowych ocen (TD3_GODO – nagroda Godø; TD3_C338 – wspornik z CFD, uczony na modelu poprawionym; TD3_R – odporny, uczy się).</p>
+<div id="bars" style="background:#fff;border:1px solid #ccc;padding:8px 10px;margin-bottom:12px;max-width:900px"></div>
+<table id="tab"><tr><td>wczytywanie…</td></tr></table>
+<h2>MPC na fali NIEREGULARNEJ – które czujniki fali (W MODELU WIROWYM)</h2>
+<p id="irr2_opis">JONSWAP Hs 1,5 m, Tp 5 s, fala krótkogrzbietowa (cos²), szum czujników 2 cm RMS, 5 % zaników. 30 s na realizację; opór = średnia z ostatnich 20 s, tylko gdy płat przeżył.</p>
+<table id="irr2"><tr><td>wczytywanie…</td></tr></table>
+<h2>MPC: kaskada czujników przy nieznanym prądzie 0,7 m/s (W MODELU WIROWYM)</h2>
+<p>Czujnik 3 m prognozuje, czujnik 1,5 m sprawdza i koryguje (wybór prądu z banku −1…+1 m/s); „+zapas” = margines zanurzenia 3× bieżący błąd prognozy.</p>
+<table id="irr3"><tr><td>jeszcze nie liczone (start po przeglądzie czujników)</td></tr></table>
+<img id="gif" src="LIVE_EPISODE.gif" alt="animacja">
+<h2>Postęp treningu</h2><div id="st">…</div>
+<img id="png" src="TRAINING_VIEW.png" alt="krzywe">
+<script>
+const f=(x)=>x==null?"–":x;
+async function tab(){try{const j=await (await fetch("RESULTS_LIVE.json?"+Date.now())).json();
+let h=`<tr><th>sterowanie</th><th>opór vs woda spokojna</th><th>moc oporu [W/pasek]</th><th>z [m]</th><th>min. zanurzenie [c]</th><th>kąt [°]</th><th>max |dθ/dt| [°/s]</th><th>z̈ RMS [m/s²]</th></tr>`;
+for(const [k,v] of Object.entries(j.wyniki)){ if(!v.ok){h+=`<tr><td>${k}</td><td class="bad" colspan="7">upadek po ${v.upadek_s} s</td></tr>`;continue}
+h+=`<tr><td>${k}</td><td class="${v.opor_pct<0?'good':'bad'}">${v.opor_pct>0?'+':''}${v.opor_pct} %</td><td>${v.P_drag_W}</td><td>${v.z[0]} … ${v.z[1]}</td><td>${v.zanurzenie_min_c}</td><td>${v.kat[0]} … ${v.kat[1]}</td><td>${v.predkosc_kata_max}</td><td>${v.acc_rms}</td></tr>`}
+document.getElementById("tab").innerHTML=h+`<tr><td colspan="8" style="text-align:left;color:#666">stan ${j.czas}; opór i moc: średnia z ostatnich 4 okresów; woda spokojna (PID2) = 100 %</td></tr>`}catch(e){}}
+async function urans(){try{const j=await (await fetch("URANS_LIVE.json?"+Date.now())).json();
+let h=`<tr><th>przebieg w URANS</th><th>stan</th><th>opór URANS</th><th>model wirowy</th><th>model poprawiony</th><th>Godø NDLL</th><th>z [m]</th><th>kąt [°]</th></tr>`;
+const p=v=>v==null?"–":(v>0?"+":"")+v+" %";
+for(const r of j.wyniki){const live=r.stan&&r.stan.startsWith("liczy");
+h+=`<tr><td>${r.nazwa}</td><td style="text-align:left">${r.stan}</td><td class="${r.opor_pct==null?'':(r.opor_pct<0?'good':'bad')}">${p(r.opor_pct)}${live&&r.opor_pct!=null?' <span style="font-size:11px;color:#888">(niepełne)</span>':''}</td><td>${p(r.model_pct)}</td><td>${r.poprawiony||"–"}</td><td>${p(r.godo_pct)}</td><td>${r.z?r.z[0]+" … "+r.z[1]:"–"}</td><td>${r.kat?r.kat[0]+" … "+r.kat[1]:"–"}</td></tr>`}
+document.getElementById("urans").innerHTML=h+`<tr><td colspan="8" style="text-align:left;color:#666">stan ${j.czas}</td></tr>`}catch(e){}}
+urans();setInterval(()=>{urans();document.getElementById("effu").src="EFFECTS_URANS.png?"+Date.now()},60000);
+async function st(){let o="";for(const r of ["TD3_R","TD3_C338","TD3_GODO"]){try{const j=await (await fetch("runs/"+r+"/STATUS.json?"+Date.now())).json();
+o+=`${r.padEnd(9)} krok ${String(j.step).padStart(8)} / ${j.total} (${(100*j.step/j.total).toFixed(1)} %)  ${j.steps_per_s} kr/s  najlepszy opór ${j.best==null?"–":(100*j.best).toFixed(0)+" %"}  [${j.time}]\n`}catch(e){o+=r+": brak statusu\n"}}
+document.getElementById("st").textContent=o;bars()}
+async function bars(){let h='<div style="font-size:13px;font-weight:600;margin-bottom:6px">Postęp treningu</div>';
+ for(const [r,c] of [["TD3_R","#ff7f0e"],["TD3_C338","#9467bd"],["TD3_GODO","#1f77b4"]]){try{const j=await (await fetch("runs/"+r+"/STATUS.json?"+Date.now())).json();
+  const f=j.step/j.total,left=(j.total-j.step)/Math.max(j.steps_per_s,0.1)/3600;
+  h+=`<div style="display:flex;align-items:center;gap:8px;margin:4px 0;font-size:12px"><div style="width:80px;color:${c};font-weight:600">${r}</div>
+  <div style="flex:1;height:16px;background:#eee;border-radius:3px;overflow:hidden"><div style="width:${(100*f).toFixed(1)}%;height:100%;background:${c}"></div></div>
+  <div style="width:330px">${(100*f).toFixed(1)} % · ${(j.step/1e3).toFixed(0)} / ${(j.total/1e3).toFixed(0)} tys. kroków · ${j.steps_per_s} kr/s · ok. ${left.toFixed(1)} h do końca</div></div>`}catch(e){}}
+ document.getElementById("bars").innerHTML=h}
+const NAMES={pid2:"PID2 Godø (odniesienie)",wyrocznia:"MPC – wyrocznia (zna przyszłą falę)",sonda0:"MPC – tylko sonda na kolumnie",d3:"MPC – sonda + czujnik 3 m",
+ "d1.5+3":"MPC – sonda + 1,5 m + 3 m","d3+boki":"MPC – sonda + 3 m + boki ±1,5 m",d6:"MPC – sonda + czujnik 6 m",d3_bez_korekty:"MPC – sonda + 3 m, bez korekty",
+ wspolnie:"MPC – sonda + 1,5 + 3 m razem",kaskada:"MPC – kaskada (1,5 m koryguje 3 m)","kaskada+zapas":"MPC – kaskada + zapas z błędu prognozy"};
+async function irrTab(file,id){try{const j=await (await fetch(file+"?"+Date.now())).json();const W_=j.wyniki||{};
+ const seeds=[...new Set(Object.keys(W_).map(k=>+k.match(/fala(\d+)_/)[1]))].sort((a,b)=>a-b)
+   .filter(s=>!(W_[`fala${s}_pid2`]&&W_[`fala${s}_pid2`].term&&W_[`fala${s}_pid2`].t_upadek<1));   // realizacja z dolina w chwili startu - odrzucona
+ const ctrls=[...new Set(Object.keys(W_).map(k=>k.replace(/^fala\d+_/,"")))];
+ const R2=j.estymata_R2||{};
+ let h=`<tr><th>sterowanie</th>${seeds.map(s=>`<th>fala ${s}</th>`).join("")}<th>przeżył</th><th>opór średnio (gdy przeżył)</th>${id==="irr2"?"<th>prognoza fali R² za 0,5 / 1,0 s</th>":""}</tr>`;
+ for(const c of ctrls){let ok=0,n=0,sum=0;let cells=seeds.map(s=>{const r=W_[`fala${s}_${c}`];if(!r)return "<td style='color:#aaa'>…</td>";n++;
+   if(r.term)return `<td class="bad">upadek ${r.t_upadek} s</td>`;ok++;sum+=r.D_rel;const extra=r.DELTA_koncowe!=null?`<br><span style="font-size:11px;color:#666">prąd ${r.DELTA_koncowe>0?"+":""}${r.DELTA_koncowe} m/s</span>`:"";
+   return `<td class="${r.D_rel<0?'good':'bad'}">${(100*r.D_rel).toFixed(0)} %${extra}</td>`}).join("");
+  const q=R2[c];h+=`<tr><td>${NAMES[c]||c}</td>${cells}<td>${ok}/${n}</td><td>${ok?(100*sum/ok).toFixed(0)+" %":"–"}</td>${id==="irr2"?`<td>${q?q["0.50s"]+" / "+q["1.00s"]:"–"}</td>`:""}</tr>`}
+ document.getElementById(id).innerHTML=h}catch(e){}}
+function irr(){irrTab("MPC_IRR2_RESULT.json","irr2");irrTab("MPC_IRR3_RESULT.json","irr3")}
+irr();setInterval(irr,30000);
+tab();st();setInterval(st,30000);
+setInterval(()=>{const t=Date.now();document.getElementById("gif").src="LIVE_EPISODE.gif?"+t;document.getElementById("png").src="TRAINING_VIEW.png?"+t;tab()},300000);
+</script></body></html>

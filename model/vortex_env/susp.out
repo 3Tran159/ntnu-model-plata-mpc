@@ -1,0 +1,31 @@
+fala 1 sztywny             : opor -18% | zacc kadluba RMS 1.48 | zanurz. min 1.59c | skok +0.00..+0.00 m | odzysk 0.00 W/pasek | upust 0%
+fala 1 pasywne_0.3Hz       : UPADEK po 8.05 s (zanurzenie < 1c)
+fala 1 pasywne_0.7Hz       : opor -16% | zacc kadluba RMS 1.36 | zanurz. min 1.46c | skok -0.15..+0.15 m | odzysk 2.88 W/pasek | upust 0%
+fala 1 pasywne_1.5Hz       : opor -21% | zacc kadluba RMS 1.24 | zanurz. min 1.44c | skok -0.04..+0.03 m | odzysk 0.47 W/pasek | upust 0%
+fala 1 polaktywne_prognoza : opor -18% | zacc kadluba RMS 1.43 | zanurz. min 1.40c | skok -0.15..+0.19 m | odzysk 2.73 W/pasek | upust 35%
+fala 3 sztywny             : UPADEK po 28.37 s (zanurzenie < 1c)
+fala 3 pasywne_0.3Hz       : UPADEK po 28.36 s (zanurzenie < 1c)
+fala 3 pasywne_0.7Hz       : UPADEK po 28.34 s (zanurzenie < 1c)
+fala 3 pasywne_1.5Hz       : UPADEK po 28.34 s (zanurzenie < 1c)
+fala 3 polaktywne_prognoza : UPADEK po 28.34 s (zanurzenie < 1c)
+fala 4 sztywny             : UPADEK po 13.29 s (zanurzenie < 1c)
+fala 4 pasywne_0.3Hz       : UPADEK po 13.34 s (zanurzenie < 1c)
+fala 4 pasywne_0.7Hz       : UPADEK po 13.26 s (zanurzenie < 1c)
+fala 4 pasywne_1.5Hz       : UPADEK po 13.27 s (zanurzenie < 1c)
+fala 4 polaktywne_prognoza : UPADEK po 13.26 s (zanurzenie < 1c)
+fala 5 sztywny             : opor -29% | zacc kadluba RMS 1.87 | zanurz. min 1.77c | skok +0.00..+0.00 m | odzysk 0.00 W/pasek | upust 0%
+fala 5 pasywne_0.3Hz       : opor +5% | zacc kadluba RMS 1.05 | zanurz. min 1.83c | skok -0.51..+0.59 m | odzysk 7.57 W/pasek | upust 0%
+fala 5 pasywne_0.7Hz       : opor -24% | zacc kadluba RMS 1.69 | zanurz. min 1.83c | skok -0.22..+0.16 m | odzysk 4.52 W/pasek | upust 0%
+fala 5 pasywne_1.5Hz       : opor -33% | zacc kadluba RMS 1.54 | zanurz. min 1.85c | skok -0.05..+0.03 m | odzysk 0.76 W/pasek | upust 0%
+fala 5 polaktywne_prognoza : UPADEK po 8.77 s (|z kadluba| > 0,75 m)
+fala 6 sztywny             : opor -19% | zacc kadluba RMS 1.89 | zanurz. min 1.69c | skok +0.00..+0.00 m | odzysk 0.00 W/pasek | upust 0%
+fala 6 pasywne_0.3Hz       : opor +1% | zacc kadluba RMS 0.94 | zanurz. min 1.70c | skok -0.61..+0.45 m | odzysk 7.36 W/pasek | upust 0%
+fala 6 pasywne_0.7Hz       : opor -25% | zacc kadluba RMS 1.97 | zanurz. min 1.66c | skok -0.22..+0.21 m | odzysk 5.33 W/pasek | upust 0%
+fala 6 pasywne_1.5Hz       : opor -29% | zacc kadluba RMS 1.69 | zanurz. min 1.63c | skok -0.05..+0.04 m | odzysk 0.72 W/pasek | upust 0%
+fala 6 polaktywne_prognoza : opor -31% | zacc kadluba RMS 2.21 | zanurz. min 1.51c | skok -0.29..+0.27 m | odzysk 4.51 W/pasek | upust 38%
+PODSUMOWANIE sztywny             : przezyl 3/5, opor -22.2 %, zacc kadluba 1.75 m/s2
+PODSUMOWANIE pasywne_0.3Hz       : przezyl 2/5, opor 3.0 %, zacc kadluba 0.99 m/s2
+PODSUMOWANIE pasywne_0.7Hz       : przezyl 3/5, opor -21.8 %, zacc kadluba 1.67 m/s2
+PODSUMOWANIE pasywne_1.5Hz       : przezyl 3/5, opor -27.7 %, zacc kadluba 1.49 m/s2
+PODSUMOWANIE polaktywne_prognoza : przezyl 2/5, opor -24.6 %, zacc kadluba 1.82 m/s2
+gotowe 442 s

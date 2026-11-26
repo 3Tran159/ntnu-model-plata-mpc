@@ -1,0 +1,8 @@
+2026-11-15 22:33:44,936 - star.application.server_options - WARNING - Error running GraphicsChecker: 'GraphicsCheckResult:' is not in list
+2026-11-15 22:33:44,937 - star.application.server_options - WARNING - Forcing -graphics mesa.
+Starting local server: starserver.bat -new -power -cpubind off -np 1 -printpids 
+2026-11-15 22:33:50,281 - star.application.server_options - WARNING - Error running GraphicsChecker: 'GraphicsCheckResult:' is not in list
+2026-11-15 22:33:50,281 - star.application.server_options - WARNING - Forcing -rgraphics mesa.
+error: Design Simcenter STAR-CCM+ simulation completed
+Server process ended unexpectedly (return code 15)
+

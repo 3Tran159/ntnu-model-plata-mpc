@@ -1,0 +1,8 @@
+2026-11-10 16:34:08 session 1 from GODO_OVERSET_SETUP_B1.0.sim (cpu (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21))
+2026-11-10 16:43:25 session 1 ended rc=0 after 557 s
+2026-11-10 16:43:25 result HOLD_CFL
+2026-11-10 16:43:25 end done=True sessions=1
+2026-11-10 16:48:37 session 1 from END_t0.5110.sim (cpu (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21))
+2026-11-10 16:51:37 session 1 ended rc=0 after 180 s
+2026-11-10 16:51:38 result HOLD_CFL
+2026-11-10 16:51:38 end done=True sessions=1

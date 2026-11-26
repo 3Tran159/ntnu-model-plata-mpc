@@ -1,0 +1,10 @@
+2026-11-19 23:20:12 session 1 from GODO_OVERSET_SETUP_T4.sim (cpu (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17))
+2026-11-20 05:01:18 session 1 ended rc=1 after 20466 s
+2026-11-20 05:01:20 session 2 from CP_010250_t10.2500.sim (cpu (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17))
+2026-11-20 09:05:48 session 2 ended rc=0 after 14668 s
+2026-11-20 09:05:48 result HOLD_STOP_FILE
+2026-11-20 09:05:48 end done=True sessions=2
+2026-11-20 10:06:23 session 1 from END_t16.9930.sim (cpu (2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17))
+2026-11-20 20:01:50 session 1 ended rc=0 after 35727 s
+2026-11-20 20:01:50 result DONE
+2026-11-20 20:01:50 end done=True sessions=1

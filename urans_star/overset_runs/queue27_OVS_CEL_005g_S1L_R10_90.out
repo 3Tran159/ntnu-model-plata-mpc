@@ -1,0 +1,12 @@
+﻿python.exe : OSError: [Errno 28] No space left on device
+At T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\policy_queue27.ps1:23 char:1
++ & $py run_mpcf_ctrl.py $tag $setup (((2..11)+(13..17)) -join ',') mod ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (OSError: [Errno... left on device:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\run_mpcf_ctrl.py", line 60, in <module>

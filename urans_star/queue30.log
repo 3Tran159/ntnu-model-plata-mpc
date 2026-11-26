@@ -1,0 +1,4 @@
+2026-11-24 14:40:06 start: zatrzymuje kolejke 29 i OVS_FIX_L109_90
+2026-11-24 14:40:07 zatrzymana kolejka 29 (pid 52136)
+2026-11-24 14:40:58 L109 przemianowany: True
+2026-11-24 14:41:58 start OVS_CALM_T8DOM_90 (woda spokojna w domenie T8, PID nurzania, z_ref 0)

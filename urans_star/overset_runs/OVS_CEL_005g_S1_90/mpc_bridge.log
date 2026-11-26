@@ -1,0 +1,10 @@
+06:06:53 start: W_A 2.2, KI 0.2, ome 3.2441, H 194, sonda 3.0 m przed LE (wyprzedzenie 0.149 s)
+06:08:48 takt 0 t 0.000 free 0 cmd +0.000
+06:54:54 takt 100 t 1.000 free 0 cmd +2.338
+07:37:59 t 1.940 z -0.000 v -0.017 th +2.34 eta -0.639 | fala A 0.319 b -95.4 | ie +0.000 | cmd +7.50 | 0.08 s
+07:38:28 RLS: odrzucam krok (mnoznik 8.534)
+07:39:03 RLS: odrzucam krok (mnoznik -2.060)
+07:39:24 RLS: odrzucam krok (mnoznik -0.155)
+07:40:05 fala: w_e 5.264 rad/s (okres spotkania 1.194 s), w0 1.686 rad/s (okres fali 3.73 s), k 0.2898 1/m, wyprzedzenie sondy 0.165 s
+07:40:41 takt 200 t 2.000 free 1 cmd +7.500
+07:50:00 RUN_RESULT - koniec

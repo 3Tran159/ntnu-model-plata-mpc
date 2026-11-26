@@ -1,0 +1,64 @@
+Starting local server: starserver.bat -power -cpubind off -np 1 -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcMzBfVVJBTlNfU1RBUlxzdHJ1dF9jYWxtXHZpel9oMS4wOVx2aXpfY29weS5zaW0=
+The efficiency of some CPUs could not be determined. CPU binding will not exclude the slowest CPU kind.
+The efficiency of some CPUs could not be determined. CPU binding will not exclude the slowest CPU kind.
+The efficiency of some CPUs could not be determined. CPU binding will not exclude the slowest CPU kind.
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 20896
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 20896
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 116 days
+Thu Nov 12 13:08:35 2026
+
+Server::start -host THINKPAD-LUCJAN:47829
+Loading: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\strut_calm\viz_h1.09\viz_copy.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Loading module: CadModeler
+Started Parasolid modeler version 38.1.151
+Loading module: StarTrimmer
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=1 
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\strut_calm\ShowFreeSurface.java
+T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\strut_calm\ShowFreeSurface.java:28: warning: [deprecation] initializeAndWait() in star.vis.Scene has been deprecated
+   Scene sc=s.getSceneManager().createScene("STRUT powierzchnia swobodna");sc.initializeAndWait();
+                                                                             ^
+T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\strut_calm\ShowFreeSurface.java:34: warning: [deprecation] setInput(star.base.neo.DoubleVector,star.base.neo.DoubleVector,star.base.neo.DoubleVector,double,int,star.common.CoordinateSystem,boolean) in star.vis.VisView has been deprecated
+   sc.getCurrentView().setInput(new DoubleVector(new double[]{1.2,yfs,0.6}),new DoubleVector(new double[]{-3.5,yfs+4.0,5.5}),new DoubleVector(new double[]{0,1,0}),1.6,1,lab,false);
+                      ^
+T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\strut_calm\ShowFreeSurface.java:36: warning: [deprecation] setInput(star.base.neo.DoubleVector,star.base.neo.DoubleVector,star.base.neo.DoubleVector,double,int,star.common.CoordinateSystem,boolean) in star.vis.VisView has been deprecated
+   sc.getCurrentView().setInput(new DoubleVector(new double[]{1.6,yfs,1.0}),new DoubleVector(new double[]{1.6,yfs+8,1.0}),new DoubleVector(new double[]{-1,0,0}),2.2,1,lab,false);
+                      ^
+T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\strut_calm\ShowFreeSurface.java:38: warning: [deprecation] setInput(star.base.neo.DoubleVector,star.base.neo.DoubleVector,star.base.neo.DoubleVector,double,int,star.common.CoordinateSystem,boolean) in star.vis.VisView has been deprecated
+   sc.getCurrentView().setInput(new DoubleVector(new double[]{0.3,yfs+0.1,0.15}),new DoubleVector(new double[]{-1.2,yfs+1.0,1.6}),new DoubleVector(new double[]{0,1,0}),0.45,1,lab,false);
+                      ^
+T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\strut_calm\ShowFreeSurface.java:41: warning: [deprecation] initializeAndWait() in star.vis.Scene has been deprecated
+   Scene s2=s.getSceneManager().createScene("STRUT przekroj przez cieciwe");s2.initializeAndWait();
+                                                                              ^
+T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\strut_calm\ShowFreeSurface.java:44: warning: [deprecation] setInput(star.base.neo.DoubleVector,star.base.neo.DoubleVector,star.base.neo.DoubleVector,double,int,star.common.CoordinateSystem,boolean) in star.vis.VisView has been deprecated
+   s2.getCurrentView().setInput(new DoubleVector(new double[]{0.6,yfs+0.1,0}),new DoubleVector(new double[]{0.6,yfs+0.1,6}),new DoubleVector(new double[]{0,1,0}),0.55,1,lab,false);
+                      ^
+
+Loading/configuring connectivity (old|new partitions: 1|1)
+  MINI_water_air (index 0): 2226040 cells, 6693605 faces, 2336456 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+Configuring finished
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 0

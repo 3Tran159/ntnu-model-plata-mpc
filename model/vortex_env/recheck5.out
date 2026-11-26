@@ -1,0 +1,4 @@
+OVS_PID_BASE2: opor URANS 69.5 model 69.0 W (-0.7%) | nurzanie 0.305 vs 0.307 m (+0.7%) | PASS True
+OVS_PID_PRBS1: opor URANS 67.2 model 66.8 W (-0.5%) | nurzanie 0.315 vs 0.316 m (+0.4%) | PASS True
+OVS_PID_SINE_A2: opor URANS 64.3 model 58.1 W (-9.7%) | nurzanie 0.150 vs 0.150 m (+0.2%) | PASS True
+D_cw model (sam plat) [W] 61.1  z wspornikami 79.13

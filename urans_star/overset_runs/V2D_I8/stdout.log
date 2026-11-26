@@ -1,0 +1,60 @@
+Starting local server: starserver.bat -power -cpubind off -np 10 -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcNzBfZ29kb19jYXNlXG92ZXJzZXRfcnVuc1xWMkRfSThcR09ET19PVkVSU0VUMkRfU0VUVVAuc2lt
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0-9
+Process rank 0 THINKPAD-LUCJAN 35236
+Total number of processes : 10
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 35236
+Host ID 0 Rank 1 on THINKPAD-LUCJAN with process ID 19536
+Host ID 0 Rank 2 on THINKPAD-LUCJAN with process ID 32188
+Host ID 0 Rank 3 on THINKPAD-LUCJAN with process ID 13692
+Host ID 0 Rank 4 on THINKPAD-LUCJAN with process ID 1436
+Host ID 0 Rank 5 on THINKPAD-LUCJAN with process ID 21016
+Host ID 0 Rank 6 on THINKPAD-LUCJAN with process ID 13364
+Host ID 0 Rank 7 on THINKPAD-LUCJAN with process ID 10500
+Host ID 0 Rank 8 on THINKPAD-LUCJAN with process ID 34224
+Host ID 0 Rank 9 on THINKPAD-LUCJAN with process ID 31956
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 118 days
+Tue Nov 10 14:59:58 2026
+
+Server::start -host THINKPAD-LUCJAN:47828
+Loading: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset_runs\V2D_I8\GODO_OVERSET2D_SETUP.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Loading module: OversetModel
+Loading module: OversetFlowModel
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=2 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset_runs\V2D_I8\GodoOversetRun.java
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset_runs\V2D_I8\GodoOversetRun.java:45: warning: [deprecation] setEnabled(boolean) in star.common.AutoSaveBase has been deprecated
+   s.getSimulationIterator().getAutoSave().setEnabled(false);
+                                          ^
+
+Loading/configuring connectivity (old|new partitions: 2|10)
+  MINI_water_air 2D (index 2): 156693 cells, 469268 faces, 313388 verts.
+  GODO overset foil 2D (index 3): 6370 cells, 17746 faces, 11878 verts.
+Configuring finished
+Continuum or phase "MINI_URANS_VOF_2D 2D" has incompatible models: [{star.vof.VofWaveModel and star.metrics.TwoDimensionalModel},].  Model rules may have changed for newer version. Please remove models as needed.
+Command: InitializeSolution
+   error: Server Error
+java.lang.RuntimeException: Continuum or phase "MINI_URANS_VOF_2D 2D" has incompatible models: [{star.vof.VofWaveModel and star.metrics.TwoDimensionalModel},].  Model rules may have changed for newer version. Please remove models as needed.
+Command: InitializeSolution
+   command: CommandComplete
+   error: Server Error
+
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 0

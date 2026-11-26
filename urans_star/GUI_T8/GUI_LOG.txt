@@ -1,0 +1,30 @@
+czas rozwiazania 36.0000000000068 s
+png T8_01_powierzchnia_cala_domena
+scena T8_01_powierzchnia_cala_domena
+png T8_02_powierzchnia_wokol_plata
+scena T8_02_powierzchnia_wokol_plata
+png T8_03_woda_nad_platem
+scena T8_03_woda_nad_platem
+png T8_04_predkosc_przy_placie
+scena T8_04_predkosc_przy_placie
+png T8_05_wirowosc_slad
+scena T8_05_wirowosc_slad
+png T8_06_cisnienie_przy_placie
+scena T8_06_cisnienie_przy_placie
+png T8_07_predkosc_cala_domena
+scena T8_07_predkosc_cala_domena
+png T8_08_linie_pradu_przy_placie
+scena S8
+png T8_09_wektory_LIC
+scena S9
+png T8_10_siatka_overset
+scena S10
+tabela ok: FileTable
+wykres W1_wysokosc_plata_i_fala [m]
+wykres W2_kat_plata_i_zadany [deg]
+wykres W3_moc_oporu_plata [W na pasek 0,02 m]
+wykres W4_przyspieszenie_pionowe [m/s2]
+wykres W5_CL_i_sila_nosna_do_ciezaru
+wykres W6_predkosc_pionowa_plata [m/s]
+wykres W7_Courant_na_powierzchni
+zapisano OVS_CEL_005g_T8_90_GUI.sim

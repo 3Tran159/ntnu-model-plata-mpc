@@ -1,0 +1,12 @@
+PID2 z_ref -0.3: z_min -0.300 m (przeregulowanie 0.000 m), z(ost. 2 s) -0.300 m
+PID2 z_ref -0.6: z_min -0.625 m (przeregulowanie 0.025 m), z(ost. 2 s) -0.618 m
+PID3 z_ref -0.3: z_min -0.395 m (przeregulowanie 0.095 m), z(ost. 2 s) -0.301 m
+PID3 z_ref -0.6: z_min -0.845 m (przeregulowanie 0.245 m), z(ost. 2 s) -0.604 m
+z_ref +0.0 m: moc oporu bazowy 60.39 W (z +0.011), poprawiony 74.64 W (z +0.012)
+z_ref -0.1 m: moc oporu bazowy 60.61 W (z -0.093), poprawiony 75.57 W (z -0.092)
+z_ref -0.2 m: moc oporu bazowy 60.84 W (z -0.196), poprawiony 76.52 W (z -0.197)
+z_ref -0.3 m: moc oporu bazowy 61.07 W (z -0.300), poprawiony 77.48 W (z -0.301)
+z_ref -0.4 m: moc oporu bazowy 61.30 W (z -0.404), poprawiony 78.45 W (z -0.405)
+z_ref -0.5 m: moc oporu bazowy 61.53 W (z -0.508), poprawiony 79.42 W (z -0.509)
+z_ref -0.6 m: moc oporu bazowy 61.77 W (z -0.612), poprawiony 80.40 W (z -0.613)
+z_ref -0.7 m: moc oporu bazowy 62.01 W (z -0.715), poprawiony 81.38 W (z -0.717)

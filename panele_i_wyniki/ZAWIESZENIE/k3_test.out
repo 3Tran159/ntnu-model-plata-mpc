@@ -1,0 +1,3 @@
+K0P_85_sonda3m {'P_W': 51.255, 'acc_rms': 0.757, 'MSI_2h_pct': 3.614, 'sub_min': 0.121, 'stroke_absmax': 0.0, 'P_damper_W_per_m': 0.0, 'P_gen_el_W_per_m': 0.0, 'rate_rms_deg_s': 7.114, 'w_est_err_rel': 0.275, 'kern_lost': 0.043} 12 s
+K0P_85_sonda6m {'P_W': 54.154, 'acc_rms': 0.542, 'MSI_2h_pct': 2.546, 'sub_min': 0.098, 'stroke_absmax': 0.0, 'P_damper_W_per_m': 0.0, 'P_gen_el_W_per_m': 0.0, 'rate_rms_deg_s': 7.822, 'w_est_err_rel': 0.141, 'kern_lost': 0.011} 12 s
+K3_sky+odzysk+K0_50_sonda {'P_W': 55.112, 'acc_rms': 0.427, 'MSI_2h_pct': 1.859, 'sub_min': 0.182, 'stroke_absmax': 0.143, 'P_damper_W_per_m': 59.282, 'P_gen_el_W_per_m': np.float64(41.114), 'rate_rms_deg_s': 4.552, 'w_est_err_rel': 0.144, 'kern_lost': 0.011} 12 s

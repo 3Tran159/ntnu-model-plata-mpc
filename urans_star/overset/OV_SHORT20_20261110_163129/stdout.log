@@ -1,0 +1,463 @@
+Starting local server: starserver.bat -power -cpubind off -np 2 -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcNzBfZ29kb19jYXNlXG92ZXJzZXRcT1ZfU0hPUlQyMF8yMDI2MTExMF8xNjMxMjlcaW5wdXQuc2lt
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0-1
+Process rank 0 THINKPAD-LUCJAN 25688
+Total number of processes : 2
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 25688
+Host ID 0 Rank 1 on THINKPAD-LUCJAN with process ID 15892
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 118 days
+Tue Nov 10 16:33:17 2026
+
+Server::start -host THINKPAD-LUCJAN:47827
+Loading: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset\OV_SHORT20_20261110_163129\input.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=1 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset\OV_SHORT20_20261110_163129\BuildGodoOverset.java
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset\OV_SHORT20_20261110_163129\BuildGodoOverset.java:79: warning: [deprecation] setEnabled(boolean) in star.common.AutoSaveBase has been deprecated
+   s.getSimulationIterator().getAutoSave().setEnabled(false);
+                                          ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset\OV_SHORT20_20261110_163129\BuildGodoOverset.java:163: warning: [deprecation] createIndirectRegionInterface(star.common.Region,star.common.Region,java.lang.String,boolean) in star.common.InterfaceManager has been deprecated
+   Object itf=s.getInterfaceManager().createIndirectRegionInterface(bg,ov,"Overset Mesh",false);
+                                     ^
+
+Loading/configuring connectivity (old|new partitions: 1|2)
+  MINI_water_air (index 0): 112305 cells, 335027 faces, 447526 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+Configuring finished
+Reading surface from .stl file: GodoBackground_-0.8L_2L.stl
+Scaling from model units: meter
+Done importing surface: CPU Time: 0.00, Wall Time: 0.03, Memory: 273.23 MB
+Imported surface statistics:
+  # Faces:         424
+  # Vertices:      214
+  # Special Edges: 0
+
+Reading surface from .stl file: GodoOverset.stl
+Scaling from model units: meter
+Done importing surface: CPU Time: 0.06, Wall Time: 0.06, Memory: 276.48 MB
+Imported surface statistics:
+  # Faces:         6132
+  # Vertices:      3066
+  # Special Edges: 0
+
+Creating the 2.5d surface slice before remeshing...
+   Done.
+----------------------------------------
+Preparing surface for surface meshing in Parts: 
+----------------------------------------
+
+----------------------------------------
+finished preparing surface for surface meshing CPU Time: 0.00, Wall Time: 0.00, Memory: 287.23 MB
+----------------------------------------
+----------------------------------------
+Executing Surface Remesher
+----------------------------------------
+ Running in serial
+ Project to discrete geometry
+
+ Tri Quality     Faces    Percent
+   < 0.001           0       0.0
+   < 0.01            0       0.0
+   < 0.1             0       0.0
+   < 0.2             0       0.0
+   < 0.3             0       0.0
+   < 0.4             2       1.1
+   < 0.5             3       1.7
+   < 0.6             6       3.3
+   < 0.7            17       9.4
+   < 0.8            37      20.6
+   < 0.9            81      45.0
+   < 1.0           180     100.0
+ Worst Tri quality is 0.3476
+
+ initial number of faces: 424
+
+ Phase 1: Apply Global Limits
+
+   Tri Quality     Faces    Percent
+     < 0.001           0       0.0
+     < 0.01            0       0.0
+     < 0.1             0       0.0
+     < 0.2             0       0.0
+     < 0.3            14       0.2
+     < 0.4            42       0.5
+     < 0.5           139       1.6
+     < 0.6           373       4.3
+     < 0.7           791       9.2
+     < 0.8          1621      18.8
+     < 0.9          3969      46.1
+     < 1.0          8612     100.0
+   Worst Tri quality is 0.2244
+
+
+ Phase 2: Improve Grading
+      current number of faces: 20000
+      current number of faces: 40000
+      current number of faces: 80000
+
+   Tri Quality     Faces    Percent
+     < 0.001           0       0.0
+     < 0.01            0       0.0
+     < 0.1             0       0.0
+     < 0.2             0       0.0
+     < 0.3             0       0.0
+     < 0.4            10       0.0
+     < 0.5           159       0.1
+     < 0.6          1076       0.7
+     < 0.7          2986       2.0
+     < 0.8          9878       6.6
+     < 0.9         59217      39.8
+     < 1.0        148753     100.0
+   Worst Tri quality is 0.3333
+
+
+ Phase 3: Start Improve Quality
+
+   Phase 4: Improve Quality
+      current number of faces: 150000
+
+   Phase 5: Specialized Meshing
+
+   Phase 6: Final Improve Quality
+   Phase 7: Post-processing
+         No intersections found
+      0 faces with quality below 0
+
+ Tri Quality     Faces    Percent
+   < 0.001           0       0.0
+   < 0.01            0       0.0
+   < 0.1             0       0.0
+   < 0.2             0       0.0
+   < 0.3             0       0.0
+   < 0.4             0       0.0
+   < 0.5             0       0.0
+   < 0.6             0       0.0
+   < 0.7            43       0.0
+   < 0.8          7269       4.5
+   < 0.9         53194      32.8
+   < 1.0        162109     100.0
+ Worst Tri quality is 0.6227
+
+ final number of faces: 162109
+                   |   Default Mesher | 
+           Patches |                6 | 
+         Triangles |           162109 | 
+ Aligned mesh not created for any patches.
+
+ Elapsed time: 3.23 secs total, 1.48 secs potentially parallelizable (45.87% of total)
+----------------------------------------
+Surface Remesher Completed: CPU Time: 3.09, Wall Time: 3.23, Memory: 309.36 MB
+----------------------------------------
+
+Executing the 2d mesher...
+
+Surface Diagnostics: 
+Found 1 isolated surfaces from 1 parts.
+ Isolated surface index: 1, face count: 325408, area: 9582.09, reference location: (-30.2262 -39.0327 0)
+Total => Surfaces: 1, Faces: 325408, Area: 9582.09
+
+Dihedral diagnostics is executed for edges of prism growing surfaces only. Special edges are not reported.
+ Dihedral Diagnostics:
+  There are no prism growing surfaces.
+done Surface diagnostics.CPU Time: 0.02, Wall Time: 0.03, Memory: 352.21 MB
+
+Surface is valid for volume meshing.CPU Time: 0.52, Wall Time: 0.55, Memory: 340.66 MB
+
+  done,  CPU Time: 0.66, Wall Time: 0.69, Memory: 340.66 MB
+ Generating dual core mesh...
+ Created 82551 dual faces, and 164501 dual verts.
+Created 81353 cells
+   finished generating poly core mesh CPU Time: 0.50, Wall Time: 0.51, Memory: 434.96 MB
+
+2d mesh generation completed.  CPU Time: 1.86, Wall Time: 1.90, Memory: 371.86 MB
+
+Creating the 2.5d surface slice before remeshing...
+   Done.
+----------------------------------------
+Preparing surface for surface meshing in Parts: 
+----------------------------------------
+
+----------------------------------------
+finished preparing surface for surface meshing CPU Time: 0.02, Wall Time: 0.00, Memory: 316.36 MB
+----------------------------------------
+----------------------------------------
+Executing Surface Remesher
+----------------------------------------
+ Running in serial
+ Project to discrete geometry
+
+ Tri Quality     Faces    Percent
+   < 0.001           0       0.0
+   < 0.01            0       0.0
+   < 0.1             0       0.0
+   < 0.2             0       0.0
+   < 0.3             1       0.0
+   < 0.4             5       0.2
+   < 0.5            28       1.1
+   < 0.6           320      13.1
+   < 0.7           566      23.1
+   < 0.8          1211      49.5
+   < 0.9          1643      67.1
+   < 1.0          2448     100.0
+ Worst Tri quality is 0.2481
+
+ initial number of faces: 6132
+
+ Phase 1: Apply Global Limits
+
+   Tri Quality     Faces    Percent
+     < 0.001           0       0.0
+     < 0.01            0       0.0
+     < 0.1             0       0.0
+     < 0.2             0       0.0
+     < 0.3             0       0.0
+     < 0.4             5       0.2
+     < 0.5            18       0.8
+     < 0.6           231      10.2
+     < 0.7           480      21.2
+     < 0.8          1041      46.1
+     < 0.9          1473      65.2
+     < 1.0          2259     100.0
+   Worst Tri quality is 0.3444
+
+
+ Phase 2: Improve Grading
+
+   Tri Quality     Faces    Percent
+     < 0.001           0       0.0
+     < 0.01            0       0.0
+     < 0.1             0       0.0
+     < 0.2             0       0.0
+     < 0.3             0       0.0
+     < 0.4             1       0.0
+     < 0.5            19       0.2
+     < 0.6           146       1.7
+     < 0.7           449       5.3
+     < 0.8          1410      16.8
+     < 0.9          3672      43.6
+     < 1.0          8416     100.0
+   Worst Tri quality is 0.3207
+
+
+ Phase 3: Start Improve Quality
+
+   Phase 4: Improve Quality
+
+   Phase 5: Specialized Meshing
+
+   Phase 6: Final Improve Quality
+   Phase 7: Post-processing
+         No intersections found
+      0 faces with quality below 0
+
+ Tri Quality     Faces    Percent
+   < 0.001           0       0.0
+   < 0.01            0       0.0
+   < 0.1             0       0.0
+   < 0.2             0       0.0
+   < 0.3             0       0.0
+   < 0.4             0       0.0
+   < 0.5             0       0.0
+   < 0.6             1       0.0
+   < 0.7             4       0.0
+   < 0.8           308       3.6
+   < 0.9          1898      22.2
+   < 1.0          8567     100.0
+ Worst Tri quality is 0.5812
+
+ final number of faces: 8567
+                   |   Default Mesher | 
+           Patches |                5 | 
+         Triangles |             8567 | 
+ Aligned mesh not created for any patches.
+
+ Elapsed time: 0.25 secs total, 0.11 secs potentially parallelizable (42.54% of total)
+----------------------------------------
+Surface Remesher Completed: CPU Time: 0.25, Wall Time: 0.25, Memory: 321.23 MB
+----------------------------------------
+
+Executing the 2d mesher...
+
+Surface Diagnostics: 
+Found 1 isolated surfaces from 1 parts.
+ Isolated surface index: 1, face count: 17916, area: 0.453207, reference location: (-0.2 -0.15 0)
+Total => Surfaces: 1, Faces: 17916, Area: 0.453207
+
+Dihedral diagnostics is executed for edges of prism growing surfaces only. Special edges are not reported.
+ Dihedral Diagnostics:
+ |Angle Range|Prism Growing Edges|High Dihedral Edges|
+ | 0   - 18  |567                |0                  |
+ | 18  - 36  |0                  |0                  |
+ | 36  - 54  |0                  |0                  |
+ | 54  - 72  |0                  |0                  |
+ | 72  - 90  |0                  |0                  |
+ | 90  - 108 |0                  |0                  |
+ | 108 - 126 |0                  |0                  |
+ | 126 - 144 |0                  |0                  |
+ | 144 - 162 |0                  |0                  |
+ | 162 - 180 |1                  |1                  |
+Total => prism growing edges: 568, high dihedral edges: 1
+
+Worst 1 prism growing facetype edges with dihedral angles greater than 46 degrees:
+ dihedral angle: 175.555521, located at: (0.3120000000000000 0.0000000000000000 0.0034968767064319)
+done Surface diagnostics.CPU Time: 0.02, Wall Time: 0.01, Memory: 321.99 MB
+
+Surface is valid for volume meshing.CPU Time: 0.05, Wall Time: 0.04, Memory: 321.99 MB
+
+  done,  CPU Time: 0.05, Wall Time: 0.05, Memory: 321.99 MB
+User set distribution function to be  GEOMETRIC PROGRESSION
+----------------------------------------
+Executing Prism Layer Subsurface
+----------------------------------------
+Global Input surface contains 17916 faces, and 8958 vertices 
+Local Property is activated
+   done, CPU Time: 0.02, Wall Time: 0.01, Memory: 325.06 MB
+ Building preprocessor done 
+Computing vertex normals
+ Exchanged the remote active status done
+Computing the normals done
+   done, CPU Time: 0.02, Wall Time: 0.01, Memory: 325.17 MB
+Computing Vertex normals done
+Computing surface proximity
+   done, CPU Time: 0.00, Wall Time: 0.01, Memory: 325.73 MB
+Constraining boundary vertices
+   done, CPU Time: 0.00, Wall Time: 0.00, Memory: 325.77 MB
+
+Iteration 1:
+-------------
+Initializing final vertex normals
+Creating subsurface (updating 570 of 570 active vertices)
+Checking 570 face-based validity metrics
+   found 0 invalid faces
+Checking vertex intersections for all vertices
+
+Using edge recovery to fix prism layer boundaries...
+Recovering edges... Edges recover info:  0   0
+ Grow affected faces......
+Remeshing surface near recovered edges...
+Surface remeshed.  8 faces added to surface.
+CPU Time: 0.03, Wall Time: 0.04, Memory: 327.95 MB
+ Finished two levels of remeshing 
+Edge recovery was successful.
+CPU Time: 0.08, Wall Time: 0.07, Memory: 327.98 MB
+
+Checking true subsurface intersections for all vertices
+ no intersections 
+   found 0 intersecting vertices
+Checking subsurface orientation!!
+
+Iterations successful
+
+Combining interface maps
+   done, CPU Time: 0.00, Wall Time: 0.00, Memory: 328.12 MB
+Marking zero layer regions
+   found 0 collapsed faces
+   found 1 edges bounding collapsed regions
+   found 2 vertices bounding collapsed regions
+Global Subsurface contains 17848 faces, and 8924 vertices 
+----------------------------------------
+Prism Layer Subsurface Completed: CPU Time: 0.16, Wall Time: 0.15, Memory: 328.16 MB
+----------------------------------------
+ Generating dual core mesh...
+ Created 5261 dual faces, and 10120 dual verts.
+Created 4469 cells
+   finished generating poly core mesh CPU Time: 0.05, Wall Time: 0.06, Memory: 327.46 MB
+There are 17833 faces have subsurface thickness. 
+ The default subsurface thickness is 0.000679
+Set default subsurface thickness 0.000679
+----------------------------------------
+Executing Prism Layer Extrusion
+----------------------------------------
+Marking vertices, edges and faces to extrude
+Subsurface thickness is set by subsurface.
+ find projections withOUT VertMapper (all core mesh)!
+   found (tet) 2 zero layer subsurface vertices
+Marking zero extrusion entities (vertices/edges/faces)
+   done, CPU Time: 0.00, Wall Time: 0.00, Memory: 327.76 MB
+Modifying number of layers for cells adjacent to retracted regions
+   modified number of layers for 2 faces
+Creating extrusion layer mesh
+   default number of layers = 3
+   default stretching = 1.18
+   done, CPU Time: 0.00, Wall Time: 0.00, Memory: 327.85 MB
+ Layer Reduction Percentage set to 50
+Default chopping percentage 50.000000
+There is no Local Layer Reduction 
+Correct number of layer for:  Global Layer Reduction, setting(s).
+   stitching vertical edges at variable layer interface
+   stitching vertical faces at variable layer interface
+Extrusion mesh contains:
+   860 cells
+   3729 faces
+   5167 edges
+   2298 vertices
+----------------------------------------
+Prism Layer Extrusion Completed: CPU Time: 0.03, Wall Time: 0.03, Memory: 328.22 MB
+----------------------------------------
+
+2d mesh generation completed.  CPU Time: 0.33, Wall Time: 0.34, Memory: 328.24 MB
+
+----------------------------------------
+Executing Mesh Operation GODO background directed mesh (Base Size)
+----------------------------------------
+Sweeping part GODO background - domain without foil...
+Number of Cells in - GODO background - domain without foil : 81353
+----------------------------------------
+Total Number of Cells in GODO background - domain without foil : 81353
+----------------------------------------
+Meshing Completed: CPU Time: 4.19, Wall Time: 4.23, Memory: 389.85 MB
+----------------------------------------
+Converting mesh into finite volume representation in Region MINI_water_air
+   Converted mesh for MINI_water_air CPU Time: 0.12, Wall Time: 0.12, Memory: 386.48 MB
+MINI_water_air: Interpolating solution onto new mesh... 
+  Time taken to interpolate the data  = 0.0056534
+Finished Interpolation.
+Mesh conversion completed, CPU Time: 0.19, Wall Time: 0.36, Memory: 355.98 MB
+Converting mesh into finite volume representation completed: CPU Time: 0.19, Wall Time: 0.36, Memory: 355.99 MB
+	Cells: 81353	Faces: 243461	Vertices: 325416
+Mesh Operation GODO background directed mesh (Base Size) complete. CPU Time: 4.38, Wall Time: 4.60, Memory: 322.64 MB
+----------------------------------------
+Executing Mesh Operation GODO overset directed mesh (Base Size)
+----------------------------------------
+Sweeping part GODO overset - box around the foil...
+Number of Cells in - GODO overset - box around the foil : 5329
+----------------------------------------
+Total Number of Cells in GODO overset - box around the foil : 5329
+----------------------------------------
+Meshing Completed: CPU Time: 0.25, Wall Time: 0.25, Memory: 326.16 MB
+----------------------------------------
+Converting mesh into finite volume representation in Region GODO overset foil
+   Converted mesh for GODO overset foil CPU Time: 0.02, Wall Time: 0.01, Memory: 327.28 MB
+Mesh conversion completed, CPU Time: 0.05, Wall Time: 0.08, Memory: 329.97 MB
+Converting mesh into finite volume representation completed: CPU Time: 0.05, Wall Time: 0.08, Memory: 329.97 MB
+	Cells: 86682	Faces: 258188	Vertices: 345008
+Mesh Operation GODO overset directed mesh (Base Size) complete. CPU Time: 0.30, Wall Time: 0.33, Memory: 329.45 MB
+Loading module: OversetModel
+Loading module: OversetFlowModel
+Warning: resetting acceleration method for Pressure Equation due to overset mesh
+Warning: resetting acceleration method for Pressure Equation due to overset mesh
+Note: Legacy plots are present in the simulation that might not be compatible with current or future versions.
+  Please consult the documentation for more details and consider converting your plots to the current standard.
+Saving: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset\OV_SHORT20_20261110_163129\GODO_OVERSET_SETUP_B1.0.sim... complete (78.574MB in 0.42911s).
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 0

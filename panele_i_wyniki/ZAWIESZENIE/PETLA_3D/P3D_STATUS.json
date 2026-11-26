@@ -1,0 +1,1231 @@
+{
+ "P3D_petla": {
+  "mesh": "gotowa",
+  "mesh_t0": "20:02:42",
+  "mesh_t1": "20:11:06",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.gorny;bryla.dolny;bryla.plytka",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.gorny;P3D fluid.bryla.dolny;P3D fluid.bryla.plytka",
+   "mesh_seconds": 340.0873124,
+   "cells": 6322498,
+   "bodies": "gorny,dolny,plytka"
+  },
+  "run": "koniec",
+  "run_t0": "20:36:40",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "20:52:20"
+ },
+ "P3D_jeden": {
+  "mesh": "gotowa",
+  "mesh_t0": "20:12:36",
+  "mesh_t1": "20:16:04",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.plat",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.plat",
+   "mesh_seconds": 61.385255,
+   "cells": 1127028,
+   "bodies": "plat"
+  },
+  "run": "koniec",
+  "run_t0": "20:32:37",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "20:36:40"
+ },
+ "P3D_dwuplat": {
+  "mesh": "gotowa",
+  "mesh_t0": "20:16:04",
+  "mesh_t1": "20:23:33",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.gorny;bryla.dolny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.gorny;P3D fluid.bryla.dolny",
+   "mesh_seconds": 293.6418468,
+   "cells": 5962627,
+   "bodies": "gorny,dolny"
+  },
+  "run": "koniec",
+  "run_t0": "20:52:20",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "21:03:55"
+ },
+ "P3D_petla_s03": {
+  "mesh": "gotowa",
+  "mesh_t0": "20:23:33",
+  "mesh_t1": "20:32:20",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.gorny;bryla.dolny;bryla.plytka",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.gorny;P3D fluid.bryla.dolny;P3D fluid.bryla.plytka",
+   "mesh_seconds": 370.2631028,
+   "cells": 6471633,
+   "bodies": "gorny,dolny,plytka"
+  },
+  "run": "koniec",
+  "run_t0": "21:03:55",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "21:17:50"
+ },
+ "P3D_AR8_jeden": {
+  "mesh": "gotowa",
+  "mesh_t0": "21:48:53",
+  "mesh_t1": "21:51:38",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.plat",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.plat",
+   "mesh_seconds": 18.5800084,
+   "cells": 244757,
+   "bodies": "plat"
+  },
+  "run": "koniec",
+  "run_t0": "21:51:53",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "21:53:55"
+ },
+ "P3D_AR4_jeden": {
+  "mesh": "gotowa",
+  "mesh_t0": "21:34:25",
+  "mesh_t1": "21:37:12",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.plat",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.plat",
+   "mesh_seconds": 8.6525702,
+   "cells": 121623,
+   "bodies": "plat"
+  },
+  "run": "koniec",
+  "run_t0": "21:43:48",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "21:45:42"
+ },
+ "P3D_AR12_jeden": {
+  "mesh": "gotowa",
+  "mesh_t0": "21:58:04",
+  "mesh_t1": "22:01:19",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.plat",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.plat",
+   "mesh_seconds": 36.8031662,
+   "cells": 481940,
+   "bodies": "plat"
+  },
+  "run": "koniec",
+  "run_t0": "22:05:36",
+  "proby": 8,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "22:10:04"
+ },
+ "P3D_AR16_jeden": {
+  "mesh": "gotowa",
+  "mesh_t0": "23:32:59",
+  "mesh_t1": "23:36:38",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.plat",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.plat",
+   "mesh_seconds": 48.0565854,
+   "cells": 505056,
+   "bodies": "plat"
+  },
+  "run": "koniec",
+  "run_t0": "23:41:34",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "23:44:11"
+ },
+ "P3D_g2_h04": {
+  "mesh": "gotowa",
+  "mesh_t0": "23:22:02",
+  "mesh_t1": "23:28:32",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 226.8052121,
+   "cells": 4543044,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "23:28:39",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "23:37:52"
+ },
+ "P3D_AR8_g2_h10": {
+  "mesh": "gotowa",
+  "mesh_t0": "23:28:34",
+  "mesh_t1": "23:32:58",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 99.034179,
+   "cells": 1196919,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "23:37:53",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "23:41:34"
+ },
+ "P3D_AR4_g2_h04": {
+  "mesh": "gotowa",
+  "mesh_t0": "23:36:46",
+  "mesh_t1": "23:40:02",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 35.6554503,
+   "cells": 453146,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "23:44:11",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "23:46:42"
+ },
+ "P3D_AR8_g2_h04": {
+  "mesh": "gotowa",
+  "mesh_t0": "23:40:09",
+  "mesh_t1": "23:43:54",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 59.8218604,
+   "cells": 890920,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "23:46:42",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "23:50:15"
+ },
+ "OPT_00": {
+  "mesh": "gotowa",
+  "mesh_t0": "23:43:58",
+  "mesh_t1": "23:48:19",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 104.4834202,
+   "cells": 2715518,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "23:50:15",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "23:56:31"
+ },
+ "OPT_01": {
+  "mesh": "gotowa",
+  "mesh_t0": "23:48:22",
+  "mesh_t1": "23:51:58",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 62.605714,
+   "cells": 1227114,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "23:56:31",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "00:00:49"
+ },
+ "OPT_02": {
+  "mesh": "gotowa",
+  "mesh_t0": "23:52:01",
+  "mesh_t1": "23:57:57",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 182.8376479,
+   "cells": 3699006,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "00:00:49",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "00:08:40"
+ },
+ "OPT_03": {
+  "mesh": "gotowa",
+  "mesh_t0": "23:57:59",
+  "mesh_t1": "00:01:35",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 50.3148794,
+   "cells": 983676,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "00:08:40",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "00:12:10"
+ },
+ "OPT_04": {
+  "mesh": "gotowa",
+  "mesh_t0": "00:01:38",
+  "mesh_t1": "00:07:12",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 172.1129804,
+   "cells": 2169824,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "00:12:10",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "00:17:40"
+ },
+ "OPT_05": {
+  "mesh": "gotowa",
+  "mesh_t0": "00:07:17",
+  "mesh_t1": "00:13:44",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 235.0103593,
+   "cells": 4157686,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "00:17:40",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "00:26:33"
+ },
+ "OPT_06": {
+  "mesh": "gotowa",
+  "mesh_t0": "00:13:47",
+  "mesh_t1": "00:21:45",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 308.4282297,
+   "cells": 6716385,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "00:26:33",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "00:39:06"
+ },
+ "OPT_07": {
+  "mesh": "gotowa",
+  "mesh_t0": "00:21:54",
+  "mesh_t1": "00:26:50",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 116.8313741,
+   "cells": 1658070,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "00:39:07",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "00:43:51"
+ },
+ "OPT_08": {
+  "mesh": "gotowa",
+  "mesh_t0": "00:26:53",
+  "mesh_t1": "00:32:58",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 194.2268394,
+   "cells": 3560828,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "00:43:51",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "00:51:15"
+ },
+ "OPT_09": {
+  "mesh": "gotowa",
+  "mesh_t0": "00:33:04",
+  "mesh_t1": "00:37:04",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 62.6820277,
+   "cells": 700615,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "00:51:15",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "00:54:18"
+ },
+ "OPT_10": {
+  "mesh": "gotowa",
+  "mesh_t0": "00:37:07",
+  "mesh_t1": "00:42:33",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 153.6268269,
+   "cells": 3890606,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "00:54:18",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "01:02:37"
+ },
+ "OPT_11": {
+  "mesh": "gotowa",
+  "mesh_t0": "00:42:39",
+  "mesh_t1": "00:46:44",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 82.5894024,
+   "cells": 994811,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "01:02:38",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "01:06:25"
+ },
+ "OPT_12": {
+  "mesh": "gotowa",
+  "mesh_t0": "00:46:46",
+  "mesh_t1": "00:52:14",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 149.5389484,
+   "cells": 2640872,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "01:06:25",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "01:12:54"
+ },
+ "OPT_13": {
+  "mesh": "gotowa",
+  "mesh_t0": "00:52:16",
+  "mesh_t1": "00:56:37",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 111.4898183,
+   "cells": 2123282,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "01:12:54",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "01:18:03"
+ },
+ "OPT_14": {
+  "mesh": "gotowa",
+  "mesh_t0": "00:56:44",
+  "mesh_t1": "01:00:28",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 48.7630163,
+   "cells": 481860,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "01:18:03",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "01:20:39"
+ },
+ "OPT_15": {
+  "mesh": "gotowa",
+  "mesh_t0": "01:00:33",
+  "mesh_t1": "01:06:06",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 169.0893337,
+   "cells": 3271929,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "01:20:39",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "01:27:30"
+ },
+ "OPT_16": {
+  "mesh": "gotowa",
+  "mesh_t0": "01:06:10",
+  "mesh_t1": "01:12:39",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 224.5066747,
+   "cells": 3632614,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "01:27:30",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "01:35:13"
+ },
+ "OPT_17": {
+  "mesh": "gotowa",
+  "mesh_t0": "01:12:42",
+  "mesh_t1": "01:16:39",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 74.9948313,
+   "cells": 865008,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "01:35:13",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "01:38:43"
+ },
+ "OPT_18": {
+  "mesh": "gotowa",
+  "mesh_t0": "01:16:45",
+  "mesh_t1": "01:20:28",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 64.1803268,
+   "cells": 1197025,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "01:38:44",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "01:42:26"
+ },
+ "OPT_19": {
+  "mesh": "gotowa",
+  "mesh_t0": "01:20:30",
+  "mesh_t1": "01:24:03",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 50.7884336,
+   "cells": 541814,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "01:42:26",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "01:45:18"
+ },
+ "OPT_20": {
+  "mesh": "gotowa",
+  "mesh_t0": "01:24:09",
+  "mesh_t1": "01:28:49",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 102.7868655,
+   "cells": 2197329,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "01:45:18",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "01:50:36"
+ },
+ "OPT_21": {
+  "mesh": "gotowa",
+  "mesh_t0": "01:28:51",
+  "mesh_t1": "01:32:54",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 82.037195,
+   "cells": 1114555,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "01:50:36",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "01:54:37"
+ },
+ "OPT_22": {
+  "mesh": "gotowa",
+  "mesh_t0": "01:33:00",
+  "mesh_t1": "01:38:52",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 184.0982212,
+   "cells": 5285685,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "01:54:37",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "02:05:15"
+ },
+ "OPT_23": {
+  "mesh": "gotowa",
+  "mesh_t0": "01:38:55",
+  "mesh_t1": "01:43:43",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 124.6643004,
+   "cells": 2464811,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "02:05:15",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "02:10:47"
+ },
+ "OPT_24": {
+  "mesh": "gotowa",
+  "mesh_t0": "01:43:46",
+  "mesh_t1": "01:47:00",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 42.5475598,
+   "cells": 780088,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "02:10:48",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "02:14:09"
+ },
+ "OPT_25": {
+  "mesh": "gotowa",
+  "mesh_t0": "01:47:08",
+  "mesh_t1": "01:56:04",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 354.2206124,
+   "cells": 8509849,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "blad",
+  "run_t0": "02:14:09",
+  "proby": 8,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "07:37:48"
+ },
+ "OPT_26": {
+  "mesh": "gotowa",
+  "mesh_t0": "01:56:06",
+  "mesh_t1": "02:04:24",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 329.4511087,
+   "cells": 5681074,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "07:37:48",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "07:48:44"
+ },
+ "OPT_27": {
+  "mesh": "gotowa",
+  "mesh_t0": "02:04:29",
+  "mesh_t1": "02:08:21",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 65.5096694,
+   "cells": 980920,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "07:48:44",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "07:51:54"
+ },
+ "OPT_28": {
+  "mesh": "gotowa",
+  "mesh_t0": "02:08:26",
+  "mesh_t1": "02:16:22",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 294.3470219,
+   "cells": 7652172,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "blad",
+  "run_t0": "07:51:54",
+  "proby": 8,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "07:59:18"
+ },
+ "OPT_29": {
+  "mesh": "gotowa",
+  "mesh_t0": "02:16:25",
+  "mesh_t1": "02:21:25",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 127.2471759,
+   "cells": 2552377,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "07:59:18",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "08:05:04"
+ },
+ "OPT_30": {
+  "mesh": "gotowa",
+  "mesh_t0": "02:21:27",
+  "mesh_t1": "02:25:07",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 53.7971842,
+   "cells": 1062378,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "08:05:04",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "08:08:13"
+ },
+ "OPT_31": {
+  "mesh": "gotowa",
+  "mesh_t0": "02:25:10",
+  "mesh_t1": "02:28:48",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 64.3823639,
+   "cells": 1139093,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "08:08:13",
+  "proby": 2,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "08:13:54"
+ },
+ "L27_h060": {
+  "mesh": "gotowa",
+  "mesh_t0": "10:22:29",
+  "mesh_t1": "10:24:54",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 21.2444706,
+   "cells": 622123,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "10:25:07",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "10:27:14"
+ },
+ "L27_h080": {
+  "mesh": "gotowa",
+  "mesh_t0": "10:24:55",
+  "mesh_t1": "10:27:25",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 33.010628,
+   "cells": 815806,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "10:27:34",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "10:29:52"
+ },
+ "L27_t05": {
+  "mesh": "gotowa",
+  "mesh_t0": "10:27:27",
+  "mesh_t1": "10:29:59",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 31.6619429,
+   "cells": 980314,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "liczy",
+  "run_t0": "10:30:12",
+  "proby": 4,
+  "start_z": "PETLA_CKPT.sim"
+ },
+ "L27_c06": {
+  "mesh": "gotowa",
+  "mesh_t0": "10:30:01",
+  "mesh_t1": "10:32:26",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 26.593767,
+   "cells": 978608,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "10:38:23",
+  "proby": 4,
+  "start_z": "PETLA_CKPT.sim",
+  "run_t1": "10:46:14"
+ },
+ "L27_t05c06": {
+  "mesh": "gotowa",
+  "mesh_t0": "10:32:27",
+  "mesh_t1": "10:34:47",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 26.271177,
+   "cells": 974576,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "10:46:14",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "10:50:33"
+ },
+ "L27_h080_t05c06": {
+  "mesh": "gotowa",
+  "mesh_t0": "10:34:49",
+  "mesh_t1": "10:37:14",
+  "mesh_launch": 15,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 26.8096212,
+   "cells": 827136,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "10:50:33",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "10:54:25"
+ },
+ "L09_t05c06": {
+  "mesh": "blad",
+  "mesh_t0": "10:37:16",
+  "mesh_t1": "10:39:18",
+  "mesh_launch": 15
+ },
+ "AR4_jeden_TE": {
+  "mesh": "gotowa",
+  "mesh_t0": "10:54:43",
+  "mesh_t1": "10:56:49",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.plat",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.plat",
+   "mesh_seconds": 11.6509641,
+   "cells": 225242,
+   "bodies": "plat"
+  },
+  "run": "koniec",
+  "run_t0": "10:57:03",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "10:58:31"
+ },
+ "OPT27_TE": {
+  "mesh": "gotowa",
+  "mesh_t0": "10:56:51",
+  "mesh_t1": "10:59:44",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 54.3473648,
+   "cells": 1422506,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "10:59:51",
+  "proby": 2,
+  "start_z": "PETLA_CKPT.sim",
+  "run_t1": "11:06:53"
+ },
+ "D27_da+1": {
+  "mesh": "gotowa",
+  "mesh_t0": "11:07:08",
+  "mesh_t1": "11:09:32",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 27.2206503,
+   "cells": 982734,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "11:09:46",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "11:13:55"
+ },
+ "D27_da+2": {
+  "mesh": "gotowa",
+  "mesh_t0": "11:09:34",
+  "mesh_t1": "11:11:58",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 28.3774084,
+   "cells": 982846,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "11:13:55",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "11:16:37"
+ },
+ "D27_da-1": {
+  "mesh": "gotowa",
+  "mesh_t0": "11:12:01",
+  "mesh_t1": "11:14:27",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 28.7952957,
+   "cells": 983157,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "11:16:37",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "11:20:01"
+ },
+ "D27_h080_da+1.5": {
+  "mesh": "gotowa",
+  "mesh_t0": "11:14:29",
+  "mesh_t1": "11:17:07",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 36.445326,
+   "cells": 817132,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "11:20:01",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "11:23:58"
+ },
+ "D27_h080_s+0.3_da+1.5": {
+  "mesh": "gotowa",
+  "mesh_t0": "11:17:09",
+  "mesh_t1": "11:19:33",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 30.1328888,
+   "cells": 813726,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "11:23:58",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "11:28:06"
+ },
+ "D27_c06_da+1.5": {
+  "mesh": "gotowa",
+  "mesh_t0": "11:19:35",
+  "mesh_t1": "11:24:39",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 131.4475025,
+   "cells": 978979,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "11:28:07",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "11:33:05"
+ },
+ "M472": {
+  "mesh": "gotowa",
+  "mesh_t0": "11:33:59",
+  "mesh_t1": "11:37:51",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.plat",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.plat",
+   "mesh_seconds": 28.7338453,
+   "cells": 138291,
+   "bodies": "plat"
+  },
+  "run": "koniec",
+  "run_t0": "11:37:59",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "11:40:25"
+ },
+ "O_f075": {
+  "mesh": "gotowa",
+  "mesh_t0": "11:37:54",
+  "mesh_t1": "11:42:44",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 80.558111,
+   "cells": 1048865,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "11:42:46",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "11:47:04"
+ },
+ "O_f05": {
+  "mesh": "gotowa",
+  "mesh_t0": "11:42:49",
+  "mesh_t1": "11:48:47",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 125.1573561,
+   "cells": 1158694,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "11:49:04",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "11:54:06"
+ },
+ "O_f025": {
+  "mesh": "gotowa",
+  "mesh_t0": "11:48:49",
+  "mesh_t1": "11:53:12",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 80.5903672,
+   "cells": 392689,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "11:54:07",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "11:58:12"
+ },
+ "O_hak": {
+  "mesh": "gotowa",
+  "mesh_t0": "11:53:17",
+  "mesh_t1": "11:58:37",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 66.3590527,
+   "cells": 258162,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "11:58:52",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "12:01:19"
+ },
+ "W90_h05": {
+  "mesh": "gotowa",
+  "mesh_t0": "11:58:41",
+  "mesh_t1": "12:02:07",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 39.3618105,
+   "cells": 195205,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "12:02:19",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "12:04:48"
+ },
+ "W90_h10": {
+  "mesh": "gotowa",
+  "mesh_t0": "12:02:09",
+  "mesh_t1": "12:06:27",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 30.6367385,
+   "cells": 236746,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "12:06:28",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "12:08:36"
+ },
+ "W90_h05_tip": {
+  "mesh": "gotowa",
+  "mesh_t0": "12:47:23",
+  "mesh_t1": "12:49:30",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 9.2788298,
+   "cells": 190636,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "12:49:41",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "12:51:10"
+ },
+ "W90_h07_tip": {
+  "mesh": "gotowa",
+  "mesh_t0": "12:49:32",
+  "mesh_t1": "12:51:40",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 9.9064771,
+   "cells": 197859,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "12:51:50",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "12:53:25"
+ },
+ "W90_h10_tip": {
+  "mesh": "gotowa",
+  "mesh_t0": "12:51:42",
+  "mesh_t1": "12:53:50",
+  "mesh_launch": 0,
+  "mesh_info": {
+   "part_surfaces": "domena.Inlet;domena.Outlet;domena.Symmetry;domena.Side;domena.Bottom;domena.Top;bryla.dolny;bryla.luk;bryla.gorny",
+   "boundaries": "P3D fluid.domena.Inlet;P3D fluid.domena.Outlet;P3D fluid.domena.Symmetry;P3D fluid.domena.Side;P3D fluid.domena.Bottom;P3D fluid.domena.Top;P3D fluid.bryla.dolny;P3D fluid.bryla.luk;P3D fluid.bryla.gorny",
+   "mesh_seconds": 10.2156883,
+   "cells": 234588,
+   "bodies": "dolny,luk,gorny"
+  },
+  "run": "koniec",
+  "run_t0": "12:54:06",
+  "proby": 1,
+  "start_z": "PETLA_SETUP.sim",
+  "run_t1": "12:55:34"
+ }
+}

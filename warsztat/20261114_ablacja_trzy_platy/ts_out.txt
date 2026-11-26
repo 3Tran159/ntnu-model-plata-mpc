@@ -1,0 +1,4 @@
+G1_lim30 S1 {'L_std_pct': [8.3, 18.4, 14.5], 'L_max_pct': [17.7, 41.0, 30.7], 'L_min_pct': [-41.7, -59.4, -70.8], 'F_sum_std_pct': 4.72, 'acc_heave': 0.461, 'acc_bow': 1.487}
+K0 S1 {'L_std_pct': [4.6, 6.8, 11.0], 'L_max_pct': [8.1, 9.8, 13.9], 'L_min_pct': [-47.4, -53.3, -70.7], 'F_sum_std_pct': 5.072, 'acc_heave': 0.495, 'acc_bow': 1.625}
+G1_lim30 S2 {'L_std_pct': [8.8, 17.5, 10.2], 'L_max_pct': [19.5, 34.6, 22.4], 'L_min_pct': [-19.8, -35.8, -52.1], 'F_sum_std_pct': 1.033, 'acc_heave': 0.101, 'acc_bow': 0.46}
+K0 S2 {'L_std_pct': [1.9, 2.4, 5.1], 'L_max_pct': [5.8, 5.9, 8.1], 'L_min_pct': [-16.6, -36.6, -54.4], 'F_sum_std_pct': 1.738, 'acc_heave': 0.17, 'acc_bow': 0.71}

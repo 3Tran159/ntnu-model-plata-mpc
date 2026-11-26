@@ -1,0 +1,313 @@
+{
+ "opis": "susp_test.py - pomysl Julka: plat na ZAWIESZENIU (mala masa nieresorowana), jeden plat, tylko pion. W modelu wirowym.\n\nUklad (na 1 m rozpietosci):\n  kadlub  M_h = 1525 kg/m   :  M_h dV/dt = F_s - M_h g\n  plat    m_f = 40 kg/m + masa dodana wody m_a = rho*pi*c^2/4 = 76 kg/m (ZALOZENIE: model wirowy nie liczy jej osobno)\n                             :  (m_f + m_a) dv/dt = L + B - m_f g - F_s\n  zawieszenie (poduszka pneumatyczna ~ stala sila + tlumik):  F_s = M_h g + k*x + c*dx/dt,  x = z_plat - z_kadlub (dodatnie = plat podjechal w gore, sciska)\n     k = M_h (2 pi f_n)^2 (f_n = czestotliwosc wlasna kadluba na zawieszeniu), c = 2 zeta sqrt(k M_h); odboje przy |x| > 0,9 m (bardzo sztywna sprezyna)\n  odzysk: P_odz = 0,7 * c * (dx/dt)^2  (tlumik-pradnica, sprawnosc 70 %)\n  wysokosc: wolny PID (Kp, Ki jak PID2 Godø) na wysokosc KADLUBA -> kat plata.\nZALOZENIE: opoznienie sily od nurzania z kalibracji (0,08 s) wylaczone - dla lekkiego plata jest fizycznie natychmiastowe (Wagner jest w modelu wirowym).\nWarianty: sztywny (dzisiejszy), pasywne f_n = 0,3 / 0,7 / 1,5 Hz (zeta 0,3), polaktywne z prognoza (czujnik 3 m):\n  normalnie twardo (zeta 0,7, odzysk), \"upust\" (zeta 0,05) gdy przewidziane w ciagu 0,5 s zanurzenie plata < 2,5c.\nFala: te same 5 realizacji krotkogrzbietowych co MPC_IRR2 (JONSWAP Hs 1,5 m, Tp 5 s), szum czujnikow.\nUpadek: zanurzenie plata < 1c albo |z kadluba| > 0,75 m.\nWynik: SUSP_RESULT.json + podglad na zywo (runs/SUSP/live_ep.json).\n",
+ "wyniki": {
+  "fala1_sztywny": {
+   "upadek": null,
+   "t_upadek": null,
+   "udzial_upustu": 0.0,
+   "D_rel": -0.1838614072598006,
+   "acc_rms_kadlub": 1.4833720189153974,
+   "sub_min_c": 1.5877718999047545,
+   "skok": [
+    0.0,
+    0.0
+   ],
+   "z_h": [
+    -0.226884348699492,
+    0.29438953531016465
+   ],
+   "odzysk_W_na_pasek": 0.0
+  },
+  "fala1_pasywne_0.3Hz": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 8.05,
+   "udzial_upustu": 0.0
+  },
+  "fala1_pasywne_0.7Hz": {
+   "upadek": null,
+   "t_upadek": null,
+   "udzial_upustu": 0.0,
+   "D_rel": -0.16125104740664709,
+   "acc_rms_kadlub": 1.3626278136034455,
+   "sub_min_c": 1.4584106585162313,
+   "skok": [
+    -0.14577896390986345,
+    0.14998999566221322
+   ],
+   "z_h": [
+    -0.3130042188632441,
+    0.3373425591056865
+   ],
+   "odzysk_W_na_pasek": 2.875647402400341
+  },
+  "fala1_pasywne_1.5Hz": {
+   "upadek": null,
+   "t_upadek": null,
+   "udzial_upustu": 0.0,
+   "D_rel": -0.20811640300793233,
+   "acc_rms_kadlub": 1.239623583479935,
+   "sub_min_c": 1.4387629489355336,
+   "skok": [
+    -0.03530604246069652,
+    0.03393872269952897
+   ],
+   "z_h": [
+    -0.23103045585618417,
+    0.2876059755665033
+   ],
+   "odzysk_W_na_pasek": 0.4730694109104441
+  },
+  "fala1_polaktywne_prognoza": {
+   "upadek": null,
+   "t_upadek": null,
+   "udzial_upustu": 0.346,
+   "D_rel": -0.183954251114807,
+   "acc_rms_kadlub": 1.4329189928646198,
+   "sub_min_c": 1.395143111491807,
+   "skok": [
+    -0.14513150527237836,
+    0.1890821586454714
+   ],
+   "z_h": [
+    -0.29072543563384773,
+    0.3228197172799638
+   ],
+   "odzysk_W_na_pasek": 2.726155688360974
+  },
+  "fala3_sztywny": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 28.37,
+   "udzial_upustu": 0.0
+  },
+  "fala3_pasywne_0.3Hz": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 28.36,
+   "udzial_upustu": 0.0
+  },
+  "fala3_pasywne_0.7Hz": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 28.34,
+   "udzial_upustu": 0.0
+  },
+  "fala3_pasywne_1.5Hz": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 28.34,
+   "udzial_upustu": 0.0
+  },
+  "fala3_polaktywne_prognoza": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 28.34,
+   "udzial_upustu": 0.417
+  },
+  "fala4_sztywny": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 13.29,
+   "udzial_upustu": 0.0
+  },
+  "fala4_pasywne_0.3Hz": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 13.34,
+   "udzial_upustu": 0.0
+  },
+  "fala4_pasywne_0.7Hz": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 13.26,
+   "udzial_upustu": 0.0
+  },
+  "fala4_pasywne_1.5Hz": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 13.27,
+   "udzial_upustu": 0.0
+  },
+  "fala4_polaktywne_prognoza": {
+   "upadek": "zanurzenie < 1c",
+   "t_upadek": 13.26,
+   "udzial_upustu": 0.4
+  },
+  "fala5_sztywny": {
+   "upadek": null,
+   "t_upadek": null,
+   "udzial_upustu": 0.0,
+   "D_rel": -0.289568939003097,
+   "acc_rms_kadlub": 1.8672278026414848,
+   "sub_min_c": 1.7707360094421372,
+   "skok": [
+    0.0,
+    0.0
+   ],
+   "z_h": [
+    -0.23672135999899466,
+    0.35600797409721147
+   ],
+   "odzysk_W_na_pasek": 0.0
+  },
+  "fala5_pasywne_0.3Hz": {
+   "upadek": null,
+   "t_upadek": null,
+   "udzial_upustu": 0.0,
+   "D_rel": 0.047484427270107155,
+   "acc_rms_kadlub": 1.0480401006296818,
+   "sub_min_c": 1.8262090594974376,
+   "skok": [
+    -0.5132072503762717,
+    0.586083334940731
+   ],
+   "z_h": [
+    -0.49948341480369807,
+    0.4959009135266368
+   ],
+   "odzysk_W_na_pasek": 7.570396107707057
+  },
+  "fala5_pasywne_0.7Hz": {
+   "upadek": null,
+   "t_upadek": null,
+   "udzial_upustu": 0.0,
+   "D_rel": -0.2397405932319463,
+   "acc_rms_kadlub": 1.6850225499810476,
+   "sub_min_c": 1.8266029890511564,
+   "skok": [
+    -0.21646694559978985,
+    0.15731403223395643
+   ],
+   "z_h": [
+    -0.4182161898820461,
+    0.5813484902387377
+   ],
+   "odzysk_W_na_pasek": 4.522519280444263
+  },
+  "fala5_pasywne_1.5Hz": {
+   "upadek": null,
+   "t_upadek": null,
+   "udzial_upustu": 0.0,
+   "D_rel": -0.329468029463565,
+   "acc_rms_kadlub": 1.5372789328048022,
+   "sub_min_c": 1.851246263190372,
+   "skok": [
+    -0.04809859304338909,
+    0.027225070033168902
+   ],
+   "z_h": [
+    -0.2681708717536383,
+    0.39389643868293966
+   ],
+   "odzysk_W_na_pasek": 0.7583307458581886
+  },
+  "fala5_polaktywne_prognoza": {
+   "upadek": "|z kadluba| > 0,75 m",
+   "t_upadek": 8.77,
+   "udzial_upustu": 0.555
+  },
+  "fala6_sztywny": {
+   "upadek": null,
+   "t_upadek": null,
+   "udzial_upustu": 0.0,
+   "D_rel": -0.19157650315773522,
+   "acc_rms_kadlub": 1.891561985106558,
+   "sub_min_c": 1.6881484911433777,
+   "skok": [
+    0.0,
+    0.0
+   ],
+   "z_h": [
+    -0.37638852148567614,
+    0.3992305906099694
+   ],
+   "odzysk_W_na_pasek": 0.0
+  },
+  "fala6_pasywne_0.3Hz": {
+   "upadek": null,
+   "t_upadek": null,
+   "udzial_upustu": 0.0,
+   "D_rel": 0.013417154296731848,
+   "acc_rms_kadlub": 0.9408365348092008,
+   "sub_min_c": 1.7029925909812051,
+   "skok": [
+    -0.6101681713882704,
+    0.45338506118339483
+   ],
+   "z_h": [
+    -0.35999683958239825,
+    0.4961397617497744
+   ],
+   "odzysk_W_na_pasek": 7.357802394093788
+  },
+  "fala6_pasywne_0.7Hz": {
+   "upadek": null,
+   "t_upadek": null,
+   "udzial_upustu": 0.0,
+   "D_rel": -0.2519145535523378,
+   "acc_rms_kadlub": 1.9684693924008192,
+   "sub_min_c": 1.6644626071234456,
+   "skok": [
+    -0.2219017864233866,
+    0.2077251166475525
+   ],
+   "z_h": [
+    -0.5183158549150497,
+    0.47507496215697687
+   ],
+   "odzysk_W_na_pasek": 5.329279070167354
+  },
+  "fala6_pasywne_1.5Hz": {
+   "upadek": null,
+   "t_upadek": null,
+   "udzial_upustu": 0.0,
+   "D_rel": -0.29327434749069314,
+   "acc_rms_kadlub": 1.68648605618274,
+   "sub_min_c": 1.6292211588732448,
+   "skok": [
+    -0.050248728897911765,
+    0.03851141619786269
+   ],
+   "z_h": [
+    -0.39707478918259237,
+    0.40263109836834077
+   ],
+   "odzysk_W_na_pasek": 0.7213370923415678
+  },
+  "fala6_polaktywne_prognoza": {
+   "upadek": null,
+   "t_upadek": null,
+   "udzial_upustu": 0.376,
+   "D_rel": -0.3075714978500679,
+   "acc_rms_kadlub": 2.2083969201444273,
+   "sub_min_c": 1.5052331850435283,
+   "skok": [
+    -0.2852472746092143,
+    0.2731251420210087
+   ],
+   "z_h": [
+    -0.6228180598038848,
+    0.5139034592404349
+   ],
+   "odzysk_W_na_pasek": 4.509666349186131
+  }
+ },
+ "podsumowanie": {
+  "sztywny": {
+   "przezyl": "3/5",
+   "opor_sr": -22.2,
+   "acc_sr": 1.75
+  },
+  "pasywne_0.3Hz": {
+   "przezyl": "2/5",
+   "opor_sr": 3.0,
+   "acc_sr": 0.99
+  },
+  "pasywne_0.7Hz": {
+   "przezyl": "3/5",
+   "opor_sr": -21.8,
+   "acc_sr": 1.67
+  },
+  "pasywne_1.5Hz": {
+   "przezyl": "3/5",
+   "opor_sr": -27.7,
+   "acc_sr": 1.49
+  },
+  "polaktywne_prognoza": {
+   "przezyl": "2/5",
+   "opor_sr": -24.6,
+   "acc_sr": 1.82
+  }
+ }
+}

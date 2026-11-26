@@ -1,0 +1,1 @@
+{"returncode": 0, "seconds": 143.1, "bound": [["14656", "conhost"], ["15096", "mpiexec"], ["15200", "cmd"], ["15712", "cmd"], ["19156", "python"], ["27248", "python"], ["28288", "cmd"], ["28972", "starccm+"], ["31960", "smpd"], ["33912", "python"], ["34424", "conhost"], ["34764", "conhost"], ["38820", "cmd"], ["39284", "star-ccm+"]], "cpus": [23], "np": 1, "gpu": false}

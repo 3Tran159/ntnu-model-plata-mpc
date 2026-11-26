@@ -1,0 +1,113 @@
+{
+ "fala": "JONSWAP Hs 1,5 m, Tp 5 s, gamma 3,3, z dziobu, 30 skladowych",
+ "model": {
+  "r2_lift": 0.9934976565456173,
+  "r2_drag": 0.9968992165937087
+ },
+ "predyktor": {
+  "sonda0": {
+   "R2_wf_0.0s": 0.977,
+   "R2_wf_0.5s": 0.803,
+   "R2_wf_1.0s": 0.34,
+   "R2_wf_1.5s": 0.236
+  },
+  "dziob3": {
+   "R2_wf_0.0s": 0.998,
+   "R2_wf_0.5s": 0.945,
+   "R2_wf_1.0s": 0.486,
+   "R2_wf_1.5s": 0.324
+  }
+ },
+ "wyniki": {
+  "fala1_pid2": {
+   "term": true,
+   "n": 2274,
+   "t_upadek": 22.74
+  },
+  "fala1_wyrocznia": {
+   "term": false,
+   "n": 3000,
+   "t_upadek": null,
+   "D_rel": -0.7045509712006668,
+   "P_drag_W": 21.0009785754455,
+   "z_min": -0.7396315173050555,
+   "z_max": 0.3795284777698117,
+   "sub_min_c": 1.694431855249539,
+   "th_min": -7.464356202665149,
+   "th_max": 7.4999999999993125,
+   "rate_max": 90.0,
+   "acc_rms": 4.980471034960161,
+   "P_shaft_W": 0.8830507712101213
+  },
+  "fala1_dziob3": {
+   "term": true,
+   "n": 648,
+   "t_upadek": 6.48
+  },
+  "fala1_sonda0": {
+   "term": true,
+   "n": 642,
+   "t_upadek": 6.42
+  },
+  "fala2_pid2": {
+   "term": false,
+   "n": 3000,
+   "t_upadek": null,
+   "D_rel": -0.3244063578195653,
+   "P_drag_W": 48.022251631008,
+   "z_min": -0.24673625328558413,
+   "z_max": 0.39131483157448904,
+   "sub_min_c": 1.1481998871271413,
+   "th_min": 0.6541157149590979,
+   "th_max": 4.897313679918573,
+   "rate_max": 7.108981662563335,
+   "acc_rms": 2.0558427910665364,
+   "P_shaft_W": 0.011238011401837101
+  },
+  "fala2_wyrocznia": {
+   "term": true,
+   "n": 1554,
+   "t_upadek": 15.54
+  },
+  "fala2_dziob3": {
+   "term": true,
+   "n": 911,
+   "t_upadek": 9.11
+  },
+  "fala2_sonda0": {
+   "term": true,
+   "n": 906,
+   "t_upadek": 9.06
+  },
+  "fala3_pid2": {
+   "term": false,
+   "n": 3000,
+   "t_upadek": null,
+   "D_rel": -0.30153329336042534,
+   "P_drag_W": 49.6481047895487,
+   "z_min": -0.32713506438693235,
+   "z_max": 0.4149664787338851,
+   "sub_min_c": 1.4511202926584867,
+   "th_min": 0.528018707503477,
+   "th_max": 5.410565463802425,
+   "rate_max": 8.097055394092958,
+   "acc_rms": 2.050322152665135,
+   "P_shaft_W": 0.01227591599130813
+  },
+  "fala3_wyrocznia": {
+   "term": true,
+   "n": 1103,
+   "t_upadek": 11.03
+  },
+  "fala3_dziob3": {
+   "term": true,
+   "n": 689,
+   "t_upadek": 6.89
+  },
+  "fala3_sonda0": {
+   "term": true,
+   "n": 882,
+   "t_upadek": 8.82
+  }
+ }
+}

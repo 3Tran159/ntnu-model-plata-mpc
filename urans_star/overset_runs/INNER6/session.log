@@ -1,0 +1,4 @@
+2026-11-10 15:00:50 session 1 from END_t0.2740.sim (cpu (2, 3, 4, 5, 6, 7, 8, 9, 10, 11))
+2026-11-10 15:04:32 session 1 ended rc=0 after 222 s
+2026-11-10 15:04:32 result DONE
+2026-11-10 15:04:32 end done=True sessions=1

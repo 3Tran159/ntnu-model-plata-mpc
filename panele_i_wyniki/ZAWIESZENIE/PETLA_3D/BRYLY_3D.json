@@ -1,0 +1,43 @@
+{
+ "P3D_jeden": {
+  "watertight": true,
+  "volume_m3": 0.03223048158024132,
+  "faces": 2320,
+  "patches": {
+   "plat": 2320
+  },
+  "sum_volumes": 0.03223047954542971
+ },
+ "P3D_dwuplat": {
+  "watertight": true,
+  "volume_m3": 0.016115238836814743,
+  "faces": 4640,
+  "patches": {
+   "gorny": 2320,
+   "dolny": 2320
+  },
+  "sum_volumes": 0.01611523977271486
+ },
+ "P3D_petla": {
+  "watertight": true,
+  "volume_m3": 0.01809597896609536,
+  "faces": 6210,
+  "patches": {
+   "gorny": 2543,
+   "dolny": 2532,
+   "plytka": 1135
+  },
+  "sum_volumes": 0.0181047755471241
+ },
+ "P3D_petla_s03": {
+  "watertight": true,
+  "volume_m3": 0.018095941582844728,
+  "faces": 6296,
+  "patches": {
+   "gorny": 2571,
+   "dolny": 2523,
+   "plytka": 1202
+  },
+  "sum_volumes": 0.018104775547124096
+ }
+}

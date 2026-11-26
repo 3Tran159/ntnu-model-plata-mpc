@@ -1,0 +1,26 @@
+2026-11-14 08:02:42 w4: K3_sky_skok0.7 S3 s1: P 56.59 W, z'' RMS 0.286, MSI 3.4 %, pradnica 45 W/m el., kat RMS 0.2 deg/s, blad w None, zan.min 0.29 m, 233 s
+2026-11-14 08:03:32 w5: K3_sky+odzysk+K0_50_wiener3m_skok0.7 S3 s1: P 55.86 W, z'' RMS 0.238, MSI 3.1 %, pradnica 15 W/m el., kat RMS 2.0 deg/s, blad w 0.19323455226403724, zan.min 0.11 m, 282 s
+2026-11-14 08:06:29 w4: K3_sky_skok0.7 S4 s2: P 55.15 W, z'' RMS 0.385, MSI 2.7 %, pradnica 134 W/m el., kat RMS 0.2 deg/s, blad w None, zan.min -0.36 m, 227 s
+2026-11-14 08:06:35 w2: K3_sky_skok0.7 S4 s0: P 55.24 W, z'' RMS 0.377, MSI 2.6 %, pradnica 131 W/m el., kat RMS 0.2 deg/s, blad w None, zan.min -0.10 m, 466 s
+2026-11-14 08:06:38 w0: K3_sky_skok0.7 S3 s0: P 56.59 W, z'' RMS 0.286, MSI 3.5 %, pradnica 45 W/m el., kat RMS 0.2 deg/s, blad w None, zan.min 0.35 m, 469 s
+2026-11-14 08:06:48 w1: K3_sky+odzysk+K0_50_wiener3m_skok0.7 S3 s0: P 55.89 W, z'' RMS 0.240, MSI 3.2 %, pradnica 16 W/m el., kat RMS 2.0 deg/s, blad w 0.19523346721606355, zan.min 0.11 m, 479 s
+2026-11-14 08:06:53 w3: K3_sky+odzysk+K0_50_wiener3m_skok0.7 S4 s0: P 51.30 W, z'' RMS 0.513, MSI 3.5 %, pradnica 68 W/m el., kat RMS 5.3 deg/s, blad w 0.11749060673675836, zan.min -0.36 m, 484 s
+2026-11-14 08:08:13 w5: K3_sky+odzysk+K0_50_wiener3m_skok0.7 S4 s2: P 51.07 W, z'' RMS 0.518, MSI 3.5 %, pradnica 69 W/m el., kat RMS 5.4 deg/s, blad w 0.11682231439132398, zan.min -0.56 m, 281 s
+2026-11-14 08:10:15 w4: K3_sky_skok0.7 S3 s4: P 56.62 W, z'' RMS 0.280, MSI 3.3 %, pradnica 45 W/m el., kat RMS 0.2 deg/s, blad w None, zan.min 0.32 m, 225 s
+2026-11-14 08:10:15 w4: koniec
+2026-11-14 08:12:45 w5: K3_sky+odzysk+K0_50_wiener3m_skok0.7 S3 s4: P 55.90 W, z'' RMS 0.238, MSI 3.1 %, pradnica 16 W/m el., kat RMS 2.0 deg/s, blad w 0.19329864188199256, zan.min 0.13 m, 273 s
+2026-11-14 08:12:45 w5: koniec
+2026-11-14 08:13:52 w2: K3_sky_skok0.7 S3 s2: P 56.60 W, z'' RMS 0.278, MSI 3.3 %, pradnica 44 W/m el., kat RMS 0.2 deg/s, blad w None, zan.min 0.30 m, 437 s
+2026-11-14 08:13:55 w0: K3_sky_skok0.7 S4 s1: P 55.18 W, z'' RMS 0.382, MSI 2.7 %, pradnica 132 W/m el., kat RMS 0.2 deg/s, blad w None, zan.min -0.39 m, 437 s
+2026-11-14 08:14:16 w1: K3_sky+odzysk+K0_50_wiener3m_skok0.7 S4 s1: P 51.17 W, z'' RMS 0.514, MSI 3.5 %, pradnica 68 W/m el., kat RMS 5.4 deg/s, blad w 0.11740273873392348, zan.min -0.55 m, 449 s
+2026-11-14 08:14:23 w3: K3_sky+odzysk+K0_50_wiener3m_skok0.7 S3 s2: P 55.84 W, z'' RMS 0.236, MSI 3.1 %, pradnica 15 W/m el., kat RMS 2.0 deg/s, blad w 0.19357617083554807, zan.min 0.10 m, 450 s
+2026-11-14 08:20:31 w2: K3_sky_skok0.7 S4 s3: P 55.06 W, z'' RMS 0.391, MSI 2.7 %, pradnica 134 W/m el., kat RMS 0.2 deg/s, blad w None, zan.min -0.39 m, 399 s
+2026-11-14 08:20:31 w2: koniec
+2026-11-14 08:20:34 w0: K3_sky_skok0.7 S3 s3: P 56.61 W, z'' RMS 0.282, MSI 3.3 %, pradnica 45 W/m el., kat RMS 0.2 deg/s, blad w None, zan.min 0.31 m, 400 s
+2026-11-14 08:21:01 w1: K3_sky+odzysk+K0_50_wiener3m_skok0.7 S3 s3: P 55.85 W, z'' RMS 0.237, MSI 3.1 %, pradnica 15 W/m el., kat RMS 2.0 deg/s, blad w 0.19359221625042883, zan.min 0.16 m, 404 s
+2026-11-14 08:21:10 w3: K3_sky+odzysk+K0_50_wiener3m_skok0.7 S4 s3: P 50.97 W, z'' RMS 0.520, MSI 3.5 %, pradnica 69 W/m el., kat RMS 5.3 deg/s, blad w 0.1177908924154699, zan.min -0.54 m, 408 s
+2026-11-14 08:21:10 w3: koniec
+2026-11-14 08:25:43 w0: K3_sky_skok0.7 S4 s4: P 55.09 W, z'' RMS 0.378, MSI 2.6 %, pradnica 132 W/m el., kat RMS 0.2 deg/s, blad w None, zan.min -0.11 m, 309 s
+2026-11-14 08:25:43 w0: koniec
+2026-11-14 08:26:08 w1: K3_sky+odzysk+K0_50_wiener3m_skok0.7 S4 s4: P 50.96 W, z'' RMS 0.517, MSI 3.5 %, pradnica 70 W/m el., kat RMS 5.3 deg/s, blad w 0.1176061407469276, zan.min -0.24 m, 308 s
+2026-11-14 08:26:08 w1: koniec

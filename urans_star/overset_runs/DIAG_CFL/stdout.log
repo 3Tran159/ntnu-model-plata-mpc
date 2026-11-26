@@ -1,0 +1,113 @@
+Starting local server: starserver.bat -power -cpubind off -np 20 -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcNzBfZ29kb19jYXNlXG92ZXJzZXRfcnVuc1xESUFHX0NGTFxkaWFnX2lucHV0LnNpbQ==
+*****************************************************************************************
+Warning: The host machine [THINKPAD-LUCJAN] has been over-subscribed.
+         The host is running 12 more process(es) than high-performance physical CPU cores.
+
+         Over-subscribing a host can severely affect performance.
+
+         Even when within the limits of hardware multithreading (e.g., hyper-threading, efficiency cores),
+         using more processes than high-performance CPU cores may negatively impact performance.
+
+         The recommended mode of operation is to use the same number of processes as
+         physical high-performance CPU cores. Nevertheless, using additional processes to
+         also occupy the efficiency CPU cores may be beneficial on some systems.
+*****************************************************************************************
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0-19
+Process rank 0 THINKPAD-LUCJAN 7420
+Total number of processes : 20
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 7420
+Host ID 0 Rank 1 on THINKPAD-LUCJAN with process ID 28844
+Host ID 0 Rank 2 on THINKPAD-LUCJAN with process ID 3492
+Host ID 0 Rank 3 on THINKPAD-LUCJAN with process ID 18640
+Host ID 0 Rank 4 on THINKPAD-LUCJAN with process ID 15316
+Host ID 0 Rank 5 on THINKPAD-LUCJAN with process ID 28424
+Host ID 0 Rank 6 on THINKPAD-LUCJAN with process ID 8232
+Host ID 0 Rank 7 on THINKPAD-LUCJAN with process ID 16656
+Host ID 0 Rank 8 on THINKPAD-LUCJAN with process ID 17564
+Host ID 0 Rank 9 on THINKPAD-LUCJAN with process ID 7836
+Host ID 0 Rank 10 on THINKPAD-LUCJAN with process ID 20872
+Host ID 0 Rank 11 on THINKPAD-LUCJAN with process ID 26028
+Host ID 0 Rank 12 on THINKPAD-LUCJAN with process ID 18912
+Host ID 0 Rank 13 on THINKPAD-LUCJAN with process ID 23448
+Host ID 0 Rank 14 on THINKPAD-LUCJAN with process ID 8068
+Host ID 0 Rank 15 on THINKPAD-LUCJAN with process ID 30584
+Host ID 0 Rank 16 on THINKPAD-LUCJAN with process ID 29216
+Host ID 0 Rank 17 on THINKPAD-LUCJAN with process ID 1576
+Host ID 0 Rank 18 on THINKPAD-LUCJAN with process ID 11844
+Host ID 0 Rank 19 on THINKPAD-LUCJAN with process ID 6412
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 118 days
+Tue Nov 10 16:47:42 2026
+
+Server::start -host THINKPAD-LUCJAN:47827
+Loading: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset_runs\DIAG_CFL\diag_input.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Loading module: OversetModel
+Loading module: OversetFlowModel
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=20 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset_runs\DIAG_CFL\DiagCFL.java
+Loading/configuring connectivity (old|new partitions: 20|20)
+  MINI_water_air (index 0): 81353 cells, 243461 faces, 325416 verts.
+  GODO overset foil (index 1): 5329 cells, 14727 faces, 19592 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+Configuring finished
+Reversed flow on  157 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg GODO_yplus_min GODO_yplus_max GODO_yplus_mean GODO_yplus_frac_30_70 GODO_eta_upstream_quarter_lambda GODO_eta_at_LE GODO_eta_at_hinge GODO_interfaceCFL   GODO_heave_m GODO_heave_velocity GODO_pitch_deg GODO_foil_y_centroid_m (m) GODO_M_pivot (N-m) GODO_Fy_fluid (N) GODO_lift_over_weight 
+          4089   6.086659e-03   1.589779e-01   2.883278e-01   3.335883e-02   7.544610e-01   1.605295e-01   1.874402e-01                                                                                                                                                                                                                                                                                                                                                                                                                                    
+Reversed flow on  157 faces on MINI_water_air: top
+          4090   8.384250e-03   3.288388e-02   5.906610e-02   7.540527e-03   1.240256e-01   3.234316e-02   3.782386e-02                                                                                                                                                                                                                                                                                                                                                                                                                                    
+Reversed flow on  157 faces on MINI_water_air: top
+          4091   8.028046e-03   6.584968e-03   1.193325e-02   1.820078e-03   1.956690e-02   6.549247e-03   7.633274e-03                                                                                                                                                                                                                                                                                                                                                                                                                                    
+Reversed flow on  157 faces on MINI_water_air: top
+          4092   7.878150e-03   1.317596e-03   2.344800e-03   7.318541e-04   4.690236e-03   1.359250e-03   1.541703e-03                                                                                                                                                                                                                                                                                                                                                                                                                                    
+Reversed flow on  157 faces on MINI_water_air: top
+          4093   7.449675e-03   4.012845e-04   4.941581e-04   3.679258e-04   1.882742e-03   4.217724e-04   3.132226e-04                                                                                                                                                                                                                                                                                                                                                                                                                                    
+Reversed flow on  157 faces on MINI_water_air: top
+          4094   6.972300e-03   2.718855e-04   2.441680e-04   2.406639e-04   1.034889e-03   1.690346e-04   6.744774e-05                                                                                                                                                                                                                                                                                                                                                                                                                                    
+Reversed flow on  157 faces on MINI_water_air: top
+          4095   6.542822e-03   2.067258e-04   1.971439e-04   1.725101e-04   6.494962e-04   1.230016e-04   2.209403e-05                                                                                                                                                                                                                                                                                                                                                                                                                                    
+Reversed flow on  157 faces on MINI_water_air: top
+TimeStep  512: Time  5.120000e-01
+          4096   6.109899e-03   1.560417e-04   1.580932e-04   9.998204e-05   4.158828e-04   7.408733e-05   1.486257e-05   1.257920e+01   1.443213e+02   1.050353e+01   3.001590e-01   2.644837e-02          9.460683e+04   5.120000e-01         0.000000e+00          0.000000e+00   8.496396e+00   6.278866e+01    4.491422e+01          9.631232e-01                    -7.060896e-01  -3.365241e-01     -2.974289e-01      1.058655e+00   0.000000e+00        0.000000e+00   3.500000e+00               8.443953e-04      -1.091693e+01      1.443213e+02          4.700196e-01 
+Reversed flow on  157 faces on MINI_water_air: top
+          4097   5.787828e-03   1.589644e-01   2.883522e-01   3.334572e-02   7.518989e-01   1.601995e-01   1.870680e-01                                                                                                                                                                                                                                                                                                                                                                                                                                    
+Reversed flow on  157 faces on MINI_water_air: top
+          4098   8.007999e-03   3.288018e-02   5.907456e-02   7.434592e-03   1.235575e-01   3.228110e-02   3.774871e-02                                                                                                                                                                                                                                                                                                                                                                                                                                    
+Reversed flow on  157 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg GODO_yplus_min GODO_yplus_max GODO_yplus_mean GODO_yplus_frac_30_70 GODO_eta_upstream_quarter_lambda GODO_eta_at_LE GODO_eta_at_hinge GODO_interfaceCFL   GODO_heave_m GODO_heave_velocity GODO_pitch_deg GODO_foil_y_centroid_m (m) GODO_M_pivot (N-m) GODO_Fy_fluid (N) GODO_lift_over_weight 
+          4099   7.746099e-03   6.582990e-03   1.193577e-02   1.741585e-03   1.994101e-02   6.560895e-03   7.617675e-03                                                                                                                                                                                                                                                                                                                                                                                                                                    
+Reversed flow on  157 faces on MINI_water_air: top
+          4100   7.796365e-03   1.316574e-03   2.344542e-03   5.026695e-04   4.448152e-03   1.371891e-03   1.537732e-03                                                                                                                                                                                                                                                                                                                                                                                                                                    
+Reversed flow on  157 faces on MINI_water_air: top
+          4101   7.382841e-03   4.294371e-04   5.043180e-04   2.425546e-04   1.784920e-03   6.782746e-04   3.116637e-04                                                                                                                                                                                                                                                                                                                                                                                                                                    
+Reversed flow on  157 faces on MINI_water_air: top
+          4102   6.942852e-03   2.675443e-04   2.381713e-04   1.343743e-04   1.089204e-03   3.693452e-04   6.654668e-05                                                                                                                                                                                                                                                                                                                                                                                                                                    
+Reversed flow on  157 faces on MINI_water_air: top
+          4103   6.514613e-03   1.992593e-04   1.880349e-04   8.289830e-05   7.905055e-04   3.732042e-04   2.114907e-05                                                                                                                                                                                                                                                                                                                                                                                                                                    
+Reversed flow on  157 faces on MINI_water_air: top
+TimeStep  513: Time  5.130000e-01
+          4104   6.086907e-03   1.497079e-04   1.505516e-04   6.498042e-05   5.838499e-04   2.596385e-04   1.235044e-05   1.375065e+01   1.579907e+02   1.281436e+01   3.288996e-01   2.891140e-02          9.284624e+04   5.130000e-01         0.000000e+00          0.000000e+00   8.482077e+00   6.278762e+01    4.490539e+01          9.631232e-01                    -7.058799e-01  -3.367394e-01     -2.985504e-01      1.058027e+00   0.000000e+00        0.000000e+00   3.500000e+00               8.443953e-04      -1.252152e+01      1.579907e+02          5.145375e-01 
+Auto save: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset_runs\DIAG_CFL\diag_input@04104.sim
+Saving: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset_runs\DIAG_CFL\diag_input@04104.sim... complete (220.32MB in 0.62241s).
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 0

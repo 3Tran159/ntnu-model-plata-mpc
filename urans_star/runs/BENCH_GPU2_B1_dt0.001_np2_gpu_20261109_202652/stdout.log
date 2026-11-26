@@ -1,0 +1,978 @@
+Starting local server: starserver.bat -power -cpubind off -np 2 -gpgpu auto -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcNzBfZ29kb19jYXNlXHJ1bnNcQkVOQ0hfR1BVMl9CMV9kdDAuMDAxX25wMl9ncHVfMjAyNjExMDlfMjAyNjUyXGlucHV0LnNpbQ==
+2026-11-09 20:29:04,259 - star.application.gpgpu_arg_parser - WARNING - Could not satisfy dynamic GPGPU selection as there are no unoccupied GPGPUs available, falling back to all available GPGPU(s): 0
+2026-11-09 20:29:04,260 - star.application.gpgpu_arg_parser - WARNING - GPGPUs with indices 0 on THINKPAD-LUCJAN are already running other Simcenter STAR-CCM+ processes.
+2026-11-09 20:29:04,260 - star.application.gpgpu_arg_parser - WARNING - GPGPUs on THINKPAD-LUCJAN are already utilized by other processes: 0: 1%
+2026-11-09 20:29:04,503 - star.application.gpgpu_arg_parser - WARNING - Could not satisfy dynamic GPGPU selection as there are no unoccupied GPGPUs available, falling back to all available GPGPU(s): 0
+2026-11-09 20:29:04,503 - star.application.gpgpu_arg_parser - WARNING - GPGPUs with indices 0 on THINKPAD-LUCJAN are already running other Simcenter STAR-CCM+ processes.
+2026-11-09 20:29:04,503 - star.application.gpgpu_arg_parser - WARNING - GPGPUs on THINKPAD-LUCJAN are already utilized by other processes: 0: 1%
+Warning: -gpgpu has been activated, -power option is ignored.
+Warning: NVIDIA GPGPUs are oversubscribed on the following host:
+             THINKPAD-LUCJAN
+         GPGPU performance might be impaired. Please check the User's Guide for further information about GPGPU oversubscription.
+Warning: -gpgpu has been activated, -power option is ignored.
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0-1
+Process rank 0 THINKPAD-LUCJAN 29868
+Total number of processes : 2
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 29868
+Host ID 0 Rank 1 on THINKPAD-LUCJAN with process ID 37168
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppowerplus checked out from 1999@flex.cd-adapco.com
+Feature ccmppowerplus expires in 119 days
+Mon Nov  9 20:29:28 2026
+
+Server::start -host THINKPAD-LUCJAN:47829
+Loading: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\runs\BENCH_GPU2_B1_dt0.001_np2_gpu_20261109_202652\input.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=2 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\runs\BENCH_GPU2_B1_dt0.001_np2_gpu_20261109_202652\BuildGodoCase.java
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\runs\BENCH_GPU2_B1_dt0.001_np2_gpu_20261109_202652\BuildGodoCase.java:49: warning: [deprecation] setEnabled(boolean) in star.common.AutoSaveBase has been deprecated
+   s.getSimulationIterator().getAutoSave().setEnabled(false);
+                                          ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\runs\BENCH_GPU2_B1_dt0.001_np2_gpu_20261109_202652\BuildGodoCase.java:101: warning: [deprecation] star.meshing.PartsWakeRefinementOption in star.meshing has been deprecated
+    else if(v instanceof PartsWakeRefinementOption w){w.setPartsWakeRefinementOption(true);wakeOn=w.getPartsWakeRefinementOption();}
+                         ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\runs\BENCH_GPU2_B1_dt0.001_np2_gpu_20261109_202652\BuildGodoCase.java:236: warning: [deprecation] initializeAndWait() in star.vis.Scene has been deprecated
+  Scene sc=s.getSceneManager().createScene(name);sc.setPresentationName(name);sc.initializeAndWait();
+                                                                                ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\runs\BENCH_GPU2_B1_dt0.001_np2_gpu_20261109_202652\BuildGodoCase.java:239: warning: [deprecation] setInput(star.base.neo.DoubleVector,star.base.neo.DoubleVector,star.base.neo.DoubleVector,double,int,star.common.CoordinateSystem,boolean) in star.vis.VisView has been deprecated
+  sc.getCurrentView().setInput(new DoubleVector(new double[]{x,y,0}),new DoubleVector(new double[]{x,y,5}),new DoubleVector(new double[]{0,1,0}),scale,1,s.getCoordinateSystemManager().getLabCoordinateSystem(),false);
+                     ^
+
+Loading/configuring connectivity (old|new partitions: 2|2)
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+Configuring finished
+Reading surface from .stl file: GodoFluidDomain.stl
+Scaling from model units: meter
+Done importing surface: CPU Time: 0.19, Wall Time: 0.18, Memory: 596.47 MB
+Imported surface statistics:
+  # Faces:         6820
+  # Vertices:      3410
+  # Special Edges: 0
+
+Creating the 2.5d surface slice before remeshing...
+   Done.
+----------------------------------------
+Preparing surface for surface meshing in Parts: 
+----------------------------------------
+
+----------------------------------------
+finished preparing surface for surface meshing CPU Time: 0.03, Wall Time: 0.02, Memory: 604.77 MB
+----------------------------------------
+----------------------------------------
+Executing Surface Remesher
+----------------------------------------
+ Running in serial
+ Project to discrete geometry
+
+ Tri Quality     Faces    Percent
+   < 0.001           0       0.0
+   < 0.01            0       0.0
+   < 0.1             0       0.0
+   < 0.2             0       0.0
+   < 0.3             1       0.0
+   < 0.4             5       0.2
+   < 0.5            28       1.0
+   < 0.6           308      11.1
+   < 0.7           597      21.5
+   < 0.8          1352      48.7
+   < 0.9          1833      66.0
+   < 1.0          2777     100.0
+ Worst Tri quality is 0.2481
+
+ initial number of faces: 6820
+
+ Phase 1: Apply Global Limits
+
+   Tri Quality     Faces    Percent
+     < 0.001           0       0.0
+     < 0.01            0       0.0
+     < 0.1             3       0.0
+     < 0.2            18       0.1
+     < 0.3            46       0.4
+     < 0.4            93       0.7
+     < 0.5           218       1.7
+     < 0.6           703       5.4
+     < 0.7          1476      11.4
+     < 0.8          3167      24.4
+     < 0.9          7576      58.5
+     < 1.0         12961     100.0
+   Worst Tri quality is 0.04037
+
+
+ Phase 2: Improve Grading
+      current number of faces: 20000
+      current number of faces: 40000
+Incorporating wake sizes...
+done (Incorporating wake sizes).
+      current number of faces: 80000
+      current number of faces: 150000
+      current number of faces: 200000
+
+   Tri Quality     Faces    Percent
+     < 0.001           0       0.0
+     < 0.01            0       0.0
+     < 0.1             0       0.0
+     < 0.2             0       0.0
+     < 0.3             0       0.0
+     < 0.4             3       0.0
+     < 0.5           181       0.1
+     < 0.6          1694       0.8
+     < 0.7          4687       2.2
+     < 0.8         18484       8.8
+     < 0.9        108523      51.6
+     < 1.0        210241     100.0
+   Worst Tri quality is 0.3862
+
+
+ Phase 3: Start Improve Quality
+Incorporating wake sizes...
+done (Incorporating wake sizes).
+
+   Phase 4: Improve Quality
+
+   Phase 5: Specialized Meshing
+
+   Phase 6: Final Improve Quality
+   Phase 7: Post-processing
+         No intersections found
+      0 faces with quality below 0
+
+ Tri Quality     Faces    Percent
+   < 0.001           0       0.0
+   < 0.01            0       0.0
+   < 0.1             0       0.0
+   < 0.2             0       0.0
+   < 0.3             0       0.0
+   < 0.4             0       0.0
+   < 0.5             1       0.0
+   < 0.6             2       0.0
+   < 0.7            93       0.0
+   < 0.8          6122       2.8
+   < 0.9         84890      38.3
+   < 1.0        221834     100.0
+ Worst Tri quality is 0.4626
+
+ final number of faces: 221834
+                   |   Default Mesher | 
+           Patches |                8 | 
+         Triangles |           221834 | 
+ Aligned mesh not created for any patches.
+
+ Elapsed time: 16.60 secs total, 5.70 secs potentially parallelizable (34.32% of total)
+----------------------------------------
+Surface Remesher Completed: CPU Time: 14.36, Wall Time: 16.61, Memory: 649.42 MB
+----------------------------------------
+
+Executing the 2d mesher...
+
+Surface Diagnostics: 
+Found 1 isolated surfaces from 1 parts.
+ Isolated surface index: 1, face count: 445736, area: 13619.7, reference location: (-46.2751 -38.4612 0)
+Total => Surfaces: 1, Faces: 445736, Area: 13619.7
+
+Dihedral diagnostics is executed for edges of prism growing surfaces only. Special edges are not reported.
+ Dihedral Diagnostics:
+ |Angle Range|Prism Growing Edges|High Dihedral Edges|
+ | 0   - 18  |557                |0                  |
+ | 18  - 36  |0                  |0                  |
+ | 36  - 54  |0                  |0                  |
+ | 54  - 72  |0                  |0                  |
+ | 72  - 90  |0                  |0                  |
+ | 90  - 108 |0                  |0                  |
+ | 108 - 126 |0                  |0                  |
+ | 126 - 144 |0                  |0                  |
+ | 144 - 162 |0                  |0                  |
+ | 162 - 180 |1                  |1                  |
+Total => prism growing edges: 558, high dihedral edges: 1
+
+Worst 1 prism growing facetype edges with dihedral angles greater than 46 degrees:
+ dihedral angle: 175.579509, located at: (0.3120000000000000 0.0000000000000000 0.1930087293969269)
+done Surface diagnostics.CPU Time: 0.16, Wall Time: 0.17, Memory: 694.14 MB
+
+Surface is valid for volume meshing.CPU Time: 2.06, Wall Time: 2.26, Memory: 687.34 MB
+
+  done,  CPU Time: 2.61, Wall Time: 2.80, Memory: 687.34 MB
+User set distribution function to be  GEOMETRIC PROGRESSION
+----------------------------------------
+Executing Prism Layer Subsurface
+----------------------------------------
+Global Input surface contains 445736 faces, and 222868 vertices 
+Local Property is activated
+   done, CPU Time: 0.19, Wall Time: 0.18, Memory: 793.81 MB
+ Building preprocessor done 
+Computing vertex normals
+ Exchanged the remote active status done
+Computing the normals done
+   done, CPU Time: 0.02, Wall Time: 0.03, Memory: 797.53 MB
+Computing Vertex normals done
+Computing surface proximity
+   done, CPU Time: 0.33, Wall Time: 0.34, Memory: 817.98 MB
+Constraining boundary vertices
+   done, CPU Time: 0.00, Wall Time: 0.00, Memory: 802.70 MB
+
+Iteration 1:
+-------------
+Initializing final vertex normals
+Creating subsurface (updating 560 of 560 active vertices)
+Checking 560 face-based validity metrics
+   found 0 invalid faces
+Checking vertex intersections for all vertices
+
+Using edge recovery to fix prism layer boundaries...
+Recovering edges... Edges recover info:  0   0
+ Grow affected faces......
+Remeshing surface near recovered edges...
+Surface remeshed.  98 faces added to surface.
+CPU Time: 0.14, Wall Time: 0.13, Memory: 821.39 MB
+ Finished two levels of remeshing 
+Edge recovery was successful.
+CPU Time: 0.33, Wall Time: 0.32, Memory: 821.42 MB
+
+Checking true subsurface intersections for all vertices
+ no intersections 
+   found 0 intersecting vertices
+Checking subsurface orientation!!
+
+Iterations successful
+
+Combining interface maps
+   done, CPU Time: 0.00, Wall Time: 0.00, Memory: 821.55 MB
+Marking zero layer regions
+   found 0 collapsed faces
+   found 1 edges bounding collapsed regions
+   found 2 vertices bounding collapsed regions
+Global Subsurface contains 445834 faces, and 222917 vertices 
+----------------------------------------
+Prism Layer Subsurface Completed: CPU Time: 2.86, Wall Time: 3.53, Memory: 797.80 MB
+----------------------------------------
+ Generating dual core mesh...
+ Created 113576 dual faces, and 226093 dual verts.
+Created 111494 cells
+   finished generating poly core mesh CPU Time: 1.67, Wall Time: 1.67, Memory: 837.36 MB
+There are 444991 faces have subsurface thickness. 
+ The default subsurface thickness is 0.000169
+Set default subsurface thickness 0.000169
+----------------------------------------
+Executing Prism Layer Extrusion
+----------------------------------------
+Marking vertices, edges and faces to extrude
+Subsurface thickness is set by subsurface.
+ find projections withOUT VertMapper (all core mesh)!
+   found (tet) 2 zero layer subsurface vertices
+Marking zero extrusion entities (vertices/edges/faces)
+   done, CPU Time: 0.02, Wall Time: 0.02, Memory: 792.66 MB
+Modifying number of layers for cells adjacent to retracted regions
+   modified number of layers for 2 faces
+Creating extrusion layer mesh
+   default number of layers = 3
+   default stretching = 1.18
+   done, CPU Time: 0.00, Wall Time: 0.00, Memory: 806.35 MB
+ Layer Reduction Percentage set to 50
+Default chopping percentage 50.000000
+There is no Local Layer Reduction 
+Correct number of layer for:  Global Layer Reduction, setting(s).
+   stitching vertical edges at variable layer interface
+   stitching vertical faces at variable layer interface
+Extrusion mesh contains:
+   845 cells
+   3664 faces
+   5077 edges
+   2258 vertices
+----------------------------------------
+Prism Layer Extrusion Completed: CPU Time: 0.59, Wall Time: 0.59, Memory: 781.26 MB
+----------------------------------------
+
+2d mesh generation completed.  CPU Time: 10.61, Wall Time: 11.51, Memory: 720.13 MB
+
+----------------------------------------
+Executing Mesh Operation GODO Directed mesh - one span layer (all sizes relative to Base Size)
+----------------------------------------
+Sweeping part Godø fluid domain - c 0.312 m, 20 mm span...
+Number of Cells in - Godø fluid domain - c 0.312 m, 20 mm span : 112339
+----------------------------------------
+Total Number of Cells in Godø fluid domain - c 0.312 m, 20 mm span : 112339
+----------------------------------------
+Meshing Completed: CPU Time: 32.88, Wall Time: 36.54, Memory: 764.21 MB
+----------------------------------------
+Converting mesh into finite volume representation in Region MINI_water_air
+   Converted mesh for MINI_water_air CPU Time: 0.52, Wall Time: 0.56, Memory: 751.98 MB
+MINI_water_air: Interpolating solution onto new mesh... 
+ Interpolating cell data for MINI_water_air
+ Interpolating  boundary data for main
+ Interpolating  boundary data for flap
+ Interpolating  boundary data for inlet
+ Interpolating  boundary data for outlet
+ Interpolating  boundary data for top
+ Interpolating  boundary data for bottom
+ Interpolating  boundary data for span_front
+ Interpolating  boundary data for span_back
+  Time taken to interpolate the data  = 0.760018
+Finished Interpolation.
+Mesh conversion completed, CPU Time: 1.48, Wall Time: 2.41, Memory: 725.19 MB
+Converting mesh into finite volume representation completed: CPU Time: 1.55, Wall Time: 2.48, Memory: 725.20 MB
+	Cells: 112339	Faces: 335121	Vertices: 447646
+Mesh Operation GODO Directed mesh - one span layer (all sizes relative to Base Size) complete. CPU Time: 34.48, Wall Time: 39.21, Memory: 680.32 MB
+Saving: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\runs\BENCH_GPU2_B1_dt0.001_np2_gpu_20261109_202652\GODO_SETUP_B1.0.sim... complete (171.19MB in 3.7254s).
+Initialization of star.flow.EffectiveViscosityModel requires an additional pass...
+Initialization of star.flow.EffectiveViscositySolver requires an additional pass...
+Re-partitioning
+Initialization of star.mixturemultiphase.SegregatedVolumeFluxBasedFlowModel requires an additional pass...
+Initialization of star.segregatedflow.SegregatedFlowSolver requires an additional pass...
+Initialization of star.vof.SegregatedVofModel requires an additional pass...
+Initialization of star.vof.SegregatedVofSolver requires an additional pass...
+Reversed flow on  399 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+             1   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00                                                                                                                                                   
+Reversed flow on  222 faces on MINI_water_air: top
+             2   1.000000e+00   1.000000e+00   1.000000e+00   1.000000e+00   1.934092e-01   3.861063e-01   2.383608e-01                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+             3   8.099288e-01   6.167172e-01   6.104650e-01   1.000000e+00   6.900405e-02   3.409521e-01   1.000000e+00                                                                                                                                                   
+Reversed flow on  222 faces on MINI_water_air: top
+             4   5.768006e-01   3.698120e-01   3.633348e-01   6.409289e-01   3.406782e-02   1.000000e+00   1.000000e+00                                                                                                                                                   
+Reversed flow on  222 faces on MINI_water_air: top
+             5   4.129187e-01   2.207546e-01   2.143954e-01   2.357420e-01   1.855646e-02   6.467607e-01   6.405450e-01                                                                                                                                                   
+Reversed flow on  222 faces on MINI_water_air: top
+             6   3.046608e-01   1.318114e-01   1.263025e-01   2.984796e-01   1.086418e-02   4.168405e-01   4.104688e-01                                                                                                                                                   
+Reversed flow on  222 faces on MINI_water_air: top
+             7   2.383478e-01   7.993039e-02   7.563286e-02   1.933063e-01   6.724567e-03   2.696833e-01   2.633623e-01                                                                                                                                                   
+Reversed flow on  222 faces on MINI_water_air: top
+             8   1.991102e-01   4.795648e-02   4.614233e-02   1.227009e-01   4.487071e-03   1.757774e-01   1.687217e-01                                                                                                                                                   
+Reversed flow on  222 faces on MINI_water_air: top
+             9   1.726608e-01   2.896225e-02   3.005120e-02   1.090457e-01   3.214032e-03   1.151149e-01   1.081114e-01                                                                                                                                                   
+Reversed flow on  222 faces on MINI_water_air: top
+            10   1.562392e-01   1.764444e-02   1.935589e-02   6.344969e-02   2.404936e-03   7.622786e-02   6.933998e-02                                                                                                                                                   
+Reversed flow on  222 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+            11   1.464033e-01   1.098754e-02   1.244809e-02   4.143438e-02   1.848218e-03   5.141990e-02   4.451919e-02                                                                                                                                                   
+Reversed flow on  222 faces on MINI_water_air: top
+TimeStep    1: Time  1.000000e-03
+            12   1.403228e-01   6.789262e-03   8.399372e-03   3.312844e-02   1.465233e-03   3.532595e-02   2.861524e-02   2.896774e+02   1.336795e+02   9.304781e+01   2.777842e-01   6.090606e-01         -1.396000e+05   1.000000e-03         0.000000e+00          0.000000e+00 
+Reversed flow on  222 faces on MINI_water_air: top
+            13   6.998669e-01   3.372368e+00   3.975367e+00   1.156491e+00   1.339233e+00   1.036872e-01   1.833440e-02                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            14   5.306109e-01   1.899084e+00   1.954274e+00   2.335363e-01   1.682502e-01   4.041380e-02   1.177596e-02                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            15   4.486220e-01   1.138983e+00   1.135843e+00   3.868590e-01   2.922897e-02   3.773788e-02   7.565597e-03                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            16   3.466935e-01   6.826242e-01   6.765694e-01   2.723247e-01   8.216652e-03   3.707961e-02   4.855666e-03                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            17   2.721753e-01   4.065845e-01   4.027774e-01   1.522010e-01   4.869209e-03   3.483406e-02   3.111471e-03                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            18   2.221627e-01   2.425937e-01   2.373171e-01   7.730199e-02   4.079346e-03   3.158586e-02   1.987325e-03                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            19   1.971680e-01   1.455469e-01   1.405481e-01   3.803594e-02   3.749711e-03   2.785871e-02   1.262773e-03                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            20   1.779182e-01   8.765404e-02   8.423762e-02   1.935814e-02   3.516469e-03   2.403156e-02   7.956434e-04                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+            21   1.689638e-01   5.334206e-02   5.271785e-02   1.059156e-02   3.336197e-03   2.039808e-02   4.944782e-04                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            22   1.764665e-01   3.261544e-02   3.583890e-02   6.434914e-03   3.159299e-03   1.712513e-02   3.005520e-04                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            23   1.833159e-01   2.055189e-02   2.497011e-02   4.538792e-03   3.008197e-03   1.427880e-02   1.765592e-04                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+TimeStep    2: Time  2.000000e-03
+            24   1.818911e-01   1.301857e-02   1.715123e-02   4.163751e-03   2.853884e-03   1.185605e-02   9.741079e-05  -1.316924e+02   5.827056e+01  -2.885696e+01   1.192332e-01  -2.768896e-01          1.918369e+05   2.000000e-03         0.000000e+00          0.000000e+00 
+Reversed flow on  223 faces on MINI_water_air: top
+            25   4.811508e-01   1.075662e+00   1.384236e+00   3.730395e-01   1.252379e+00   1.045013e-01   6.135185e-04                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            26   4.168838e-01   6.171176e-01   6.592700e-01   8.230647e-02   1.542990e-01   3.937945e-02   1.737581e-04                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            27   2.865929e-01   3.732862e-01   3.759474e-01   1.301350e-01   2.303287e-02   3.409208e-02   9.428583e-05                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            28   2.374895e-01   2.233107e-01   2.197566e-01   9.126637e-02   4.510507e-03   3.169544e-02   6.773531e-05                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            29   2.089389e-01   1.333199e-01   1.302491e-01   5.092371e-02   1.237889e-03   2.851703e-02   5.138856e-05                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            30   1.921818e-01   7.938064e-02   7.805632e-02   2.578101e-02   4.901262e-04   2.504701e-02   4.099163e-05                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+            31   1.823344e-01   4.754089e-02   4.725647e-02   1.270959e-02   2.824474e-04   2.167469e-02   3.398141e-05                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            32   1.758460e-01   2.869337e-02   2.852575e-02   6.515156e-03   2.043383e-04   1.858682e-02   2.904077e-05                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            33   1.696031e-01   1.728189e-02   1.721301e-02   3.613872e-03   1.632507e-04   1.585410e-02   2.539726e-05                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            34   1.636834e-01   1.059559e-02   1.082884e-02   2.298220e-03   1.380694e-04   1.348247e-02   2.263009e-05                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            35   1.581478e-01   6.442961e-03   7.236746e-03   1.729814e-03   1.255264e-04   1.144636e-02   2.053165e-05                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+TimeStep    3: Time  3.000000e-03
+            36   1.517617e-01   4.081301e-03   5.200924e-03   1.328514e-03   1.147177e-04   9.706566e-03   1.889889e-05   6.390056e+00   8.622524e+01   1.161130e+01   1.780093e-01   1.343540e-02          9.995258e+04   3.000000e-03         0.000000e+00          0.000000e+00 
+Reversed flow on  223 faces on MINI_water_air: top
+            37   1.143348e-01   1.512365e-01   1.793336e-01   4.106606e-02   1.201570e+00   1.013605e-01   5.849159e-04                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            38   1.075211e-01   3.172732e-02   3.612972e-02   1.538746e-02   1.497821e-01   2.807491e-02   1.220021e-04                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            39   9.356855e-02   9.183982e-03   1.252007e-02   9.384412e-03   2.186182e-02   2.005230e-02   3.309072e-05                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            40   8.216971e-02   6.044214e-03   1.017707e-02   6.096417e-03   4.324453e-03   1.858099e-02   1.632923e-05                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+            41   7.634782e-02   5.046982e-03   8.646054e-03   3.974600e-03   1.751290e-03   1.693220e-02   1.002945e-05                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            42   7.821678e-02   4.065789e-03   7.198444e-03   2.575700e-03   1.286753e-03   1.508958e-02   6.384384e-06                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            43   8.094045e-02   2.655902e-03   5.222200e-03   1.661575e-03   9.941905e-04   1.325491e-02   4.141547e-06                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            44   7.947774e-02   1.774700e-03   3.617883e-03   1.076803e-03   8.230886e-04   1.154451e-02   2.869005e-06                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            45   7.132719e-02   1.343433e-03   2.705466e-03   7.096495e-04   6.430271e-04   1.000755e-02   2.131473e-06                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            46   6.254952e-02   1.128014e-03   2.180024e-03   4.810475e-04   5.215770e-04   8.654601e-03   1.704294e-06                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            47   5.537515e-02   9.552840e-04   1.797154e-03   3.570368e-04   4.072015e-04   7.476755e-03   1.448369e-06                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+TimeStep    4: Time  4.000000e-03
+            48   4.998315e-02   8.068993e-04   1.513287e-03   2.821106e-04   3.260622e-04   6.457812e-03   1.296459e-06   5.638416e+00   8.858251e+01   1.176134e+01   1.829655e-01   1.185504e-02          9.957532e+04   4.000000e-03         0.000000e+00          0.000000e+00 
+Reversed flow on  224 faces on MINI_water_air: top
+            49   1.238762e-01   1.493082e-01   1.750276e-01   3.994295e-02   1.166454e+00   1.001101e-01   5.825085e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            50   1.292975e-01   3.044955e-02   3.555347e-02   1.421657e-02   1.483865e-01   2.321594e-02   1.191052e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+            51   1.145833e-01   6.657112e-03   7.687355e-03   8.370457e-03   2.148825e-02   1.238987e-02   2.758465e-05                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            52   1.021469e-01   2.422279e-03   3.368078e-03   5.285213e-03   4.154463e-03   1.108087e-02   1.081608e-05                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            53   9.212930e-02   1.757000e-03   2.720120e-03   3.387682e-03   1.534677e-03   1.009812e-02   6.484798e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            54   8.516273e-02   1.365533e-03   2.319887e-03   2.168083e-03   1.134406e-03   9.048342e-03   4.186905e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            55   7.959852e-02   1.120877e-03   2.011879e-03   1.391156e-03   9.128021e-04   8.017262e-03   2.655559e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            56   7.475521e-02   9.946279e-04   1.737731e-03   9.131892e-04   7.826569e-04   7.060418e-03   1.746813e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            57   7.117726e-02   8.705361e-04   1.535445e-03   6.233851e-04   6.384076e-04   6.200223e-03   1.198133e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            58   6.843417e-02   7.800093e-04   1.368217e-03   4.557907e-04   5.436519e-04   5.439949e-03   8.794196e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            59   6.562239e-02   7.081733e-04   1.226052e-03   3.708712e-04   4.452547e-04   4.773611e-03   6.713809e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+TimeStep    5: Time  5.000000e-03
+            60   6.300543e-02   6.587801e-04   1.124677e-03   3.235955e-04   3.679326e-04   4.191921e-03   5.346359e-07   5.215486e+00   9.081096e+01   1.190975e+01   1.876510e-01   1.096581e-02          9.915907e+04   5.000000e-03         0.000000e+00          0.000000e+00 
+Reversed flow on  224 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+            61   9.286467e-02   1.467367e-01   1.700099e-01   3.860241e-02   1.139060e+00   9.938957e-02   5.801721e-04                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            62   9.744757e-02   2.988764e-02   3.452021e-02   1.322668e-02   1.478683e-01   2.114561e-02   1.178255e-04                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            63   9.431394e-02   6.269964e-03   7.150631e-03   7.577159e-03   2.142369e-02   8.032065e-03   2.550598e-05                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            64   9.188275e-02   1.867348e-03   2.377553e-03   4.684024e-03   3.983129e-03   6.577952e-03   8.289074e-06                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            65   8.966885e-02   1.318693e-03   2.013145e-03   2.980288e-03   9.286431e-04   5.963004e-03   4.743971e-06                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            66   8.809150e-02   1.173654e-03   1.947711e-03   1.912345e-03   3.190645e-04   5.362700e-03   3.119750e-06                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            67   8.779388e-02   1.076308e-03   1.887286e-03   1.236644e-03   1.936702e-04   4.786028e-03   2.088218e-06                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            68   8.725960e-02   1.030512e-03   1.828596e-03   8.297233e-04   9.981493e-05   4.254054e-03   1.366499e-06                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            69   8.579333e-02   1.019716e-03   1.760591e-03   5.938738e-04   1.144152e-04   3.775141e-03   9.169004e-07                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+            70   8.363922e-02   9.944299e-04   1.709627e-03   4.739551e-04   9.643649e-05   3.349556e-03   6.488677e-07                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+            71   8.129856e-02   9.756435e-04   1.674924e-03   4.011694e-04   9.108701e-05   2.974168e-03   4.766862e-07                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+TimeStep    6: Time  6.000000e-03
+            72   7.879570e-02   9.567400e-04   1.635127e-03   3.581105e-04   7.651750e-05   2.644222e-03   3.519004e-07   4.970219e+00   9.296642e+01   1.203794e+01   1.921829e-01   1.045012e-02          9.882394e+04   6.000000e-03         0.000000e+00          0.000000e+00 
+Reversed flow on  224 faces on MINI_water_air: top
+            73   9.334663e-02   1.472721e-01   1.694251e-01   3.778402e-02   1.116703e+00   9.886606e-02   5.778699e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            74   9.395690e-02   2.979958e-02   3.436479e-02   1.255276e-02   1.476208e-01   2.028365e-02   1.170387e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            75   9.054299e-02   6.204455e-03   7.204460e-03   6.978486e-03   2.151450e-02   5.688964e-03   2.455689e-05                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            76   8.892096e-02   1.784677e-03   2.445539e-03   4.255325e-03   4.120462e-03   3.862899e-03   6.845995e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            77   8.772635e-02   1.261161e-03   2.092912e-03   2.681307e-03   1.410530e-03   3.450623e-03   3.534376e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            78   8.644428e-02   1.157715e-03   2.073590e-03   1.701553e-03   5.657130e-04   3.110042e-03   2.319655e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            79   8.517630e-02   1.097350e-03   2.042269e-03   1.086942e-03   4.765456e-04   2.790950e-03   1.558066e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            80   8.409683e-02   1.063480e-03   2.015250e-03   7.149498e-04   2.994576e-04   2.499560e-03   1.060617e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+            81   8.322948e-02   1.026955e-03   1.992840e-03   4.939039e-04   4.706686e-04   2.237836e-03   7.384589e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            82   8.246272e-02   9.877808e-04   1.971917e-03   3.683626e-04   6.163778e-04   2.004889e-03   5.282145e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            83   7.322454e-02   7.884682e-04   1.796377e-03   3.069081e-04   2.869770e-04   1.798494e-03   3.964126e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+TimeStep    7: Time  7.000000e-03
+            84   6.583563e-02   9.073286e-04   1.819968e-03   2.705931e-04   4.947330e-04   1.615798e-03   3.077326e-07   4.853967e+00   9.478954e+01   1.212168e+01   1.960161e-01   1.020570e-02          9.856175e+04   7.000000e-03         0.000000e+00          0.000000e+00 
+Reversed flow on  224 faces on MINI_water_air: top
+            85   9.147542e-02   1.506877e-01   1.758970e-01   3.730621e-02   1.097636e+00   9.842870e-02   5.756195e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            86   7.308170e-02   3.062142e-02   3.580436e-02   1.213170e-02   1.473593e-01   1.993023e-02   1.164125e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            87   5.807320e-02   6.477015e-03   7.546640e-03   6.589568e-03   2.173684e-02   4.661434e-03   2.405017e-05                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            88   6.085924e-02   1.785406e-03   2.244556e-03   3.958238e-03   4.184072e-03   2.412999e-03   6.119900e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            89   5.996879e-02   8.730590e-04   1.465786e-03   2.467941e-03   1.139867e-03   2.095032e-03   2.893577e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            90   5.871416e-02   6.965524e-04   1.393061e-03   1.553293e-03   5.135164e-04   1.899789e-03   1.918487e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+            91   5.764988e-02   6.356520e-04   1.363185e-03   9.875105e-04   3.024846e-04   1.719360e-03   1.333431e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            92   5.679268e-02   6.301080e-04   1.326739e-03   6.381705e-04   1.930499e-04   1.552756e-03   9.555447e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            93   5.579044e-02   7.179549e-04   1.296801e-03   4.297740e-04   1.255621e-04   1.400878e-03   6.916746e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            94   5.167378e-02   6.934546e-04   1.356517e-03   3.092332e-04   8.343288e-05   1.263717e-03   5.028304e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            95   5.215605e-02   7.619464e-04   1.408370e-03   2.351943e-04   6.059785e-05   1.140438e-03   3.720342e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+TimeStep    8: Time  8.000000e-03
+            96   5.325001e-02   6.306340e-04   1.296296e-03   1.976925e-04   4.777332e-05   1.030105e-03   2.926186e-07   4.818238e+00   9.643060e+01   1.217740e+01   1.994665e-01   1.013058e-02          9.832409e+04   8.000000e-03         0.000000e+00          0.000000e+00 
+Reversed flow on  224 faces on MINI_water_air: top
+            97   8.478994e-02   1.501321e-01   1.792124e-01   3.683478e-02   1.081152e+00   9.802742e-02   5.734165e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            98   7.007998e-02   3.063588e-02   3.651262e-02   1.176594e-02   1.468749e-01   1.977274e-02   1.158950e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+            99   5.992173e-02   6.502026e-03   7.595242e-03   6.292477e-03   2.160853e-02   4.312103e-03   2.372521e-05                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           100   5.702072e-02   2.014682e-03   2.084816e-03   3.754517e-03   4.105838e-03   1.789446e-03   5.577033e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+           101   4.661483e-02   1.406233e-03   1.309515e-03   2.339114e-03   1.030997e-03   1.486127e-03   2.319523e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           102   4.144094e-02   1.079902e-03   1.264041e-03   1.465267e-03   7.518481e-04   1.349190e-03   1.479234e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           103   4.169956e-02   8.315159e-04   9.998633e-04   9.293112e-04   8.472812e-04   1.224191e-03   1.007138e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           104   4.035722e-02   6.997111e-04   9.289101e-04   5.995881e-04   4.303465e-04   1.107085e-03   7.048337e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           105   3.929230e-02   6.281221e-04   8.974777e-04   3.994338e-04   1.359920e-04   9.989352e-04   4.992943e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           106   3.854498e-02   5.753365e-04   8.669985e-04   2.804957e-04   1.024407e-04   9.006524e-04   3.691600e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           107   3.784984e-02   5.318194e-04   8.309256e-04   2.081308e-04   9.787973e-05   8.118076e-04   2.856934e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+TimeStep    9: Time  9.000000e-03
+           108   3.703845e-02   4.996979e-04   7.980208e-04   1.709681e-04   1.223581e-04   7.317981e-04   2.294419e-07   4.820015e+00   9.788034e+01   1.219749e+01   2.025147e-01   1.013431e-02          9.812123e+04   9.000000e-03         0.000000e+00          0.000000e+00 
+Reversed flow on  224 faces on MINI_water_air: top
+           109   6.748743e-02   1.489424e-01   1.770123e-01   3.633613e-02   1.066558e+00   9.763854e-02   5.712440e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           110   5.325366e-02   3.040206e-02   3.590076e-02   1.146329e-02   1.464106e-01   1.966870e-02   1.154147e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+           111   4.743202e-02   6.348363e-03   7.310448e-03   6.058323e-03   2.169504e-02   4.171288e-03   2.351652e-05                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           112   4.476744e-02   1.668358e-03   1.772600e-03   3.594122e-03   4.089504e-03   1.489926e-03   5.277270e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           113   4.380544e-02   8.649771e-04   1.067674e-03   2.225041e-03   9.424153e-04   1.164954e-03   1.953136e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           114   4.319396e-02   6.265874e-04   9.795454e-04   1.390989e-03   2.904628e-04   1.048243e-03   1.215348e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           115   4.244904e-02   5.441625e-04   9.480029e-04   8.815290e-04   1.137386e-04   9.466986e-04   8.654253e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           116   4.164604e-02   4.882017e-04   9.226271e-04   5.657495e-04   6.550532e-05   8.524633e-04   6.267820e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           117   4.105310e-02   4.677700e-04   9.048590e-04   3.716235e-04   5.023920e-05   7.663897e-04   4.680590e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           118   4.054235e-02   4.548751e-04   8.821900e-04   2.537995e-04   4.497881e-05   6.885753e-04   3.578221e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           119   4.004985e-02   4.373348e-04   8.604756e-04   1.818643e-04   4.173591e-05   6.189077e-04   2.780997e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+TimeStep   10: Time  1.000000e-02
+           120   3.953667e-02   4.288619e-04   8.419830e-04   1.414066e-04   3.986066e-05   5.567352e-04   2.204151e-07   4.837136e+00   9.909389e+01   1.219123e+01   2.050662e-01   1.017031e-02          9.798022e+04   1.000000e-02         0.000000e+00          0.000000e+00 
+Reversed flow on  224 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+           121   4.089274e-02   1.480332e-01   1.728958e-01   3.591461e-02   1.053468e+00   9.725440e-02   5.690904e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           122   4.181151e-02   3.030158e-02   3.507113e-02   1.123122e-02   1.447706e-01   1.957764e-02   1.149607e-04                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           123   3.985323e-02   6.234112e-03   7.168667e-03   5.873830e-03   2.156161e-02   4.084403e-03   2.339774e-05                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           124   3.931168e-02   1.608107e-03   1.701761e-03   3.449257e-03   4.211113e-03   1.288377e-03   5.215735e-06                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           125   3.872770e-02   8.182461e-04   9.634713e-04   2.118138e-03   1.080834e-03   9.319906e-04   1.902353e-06                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           126   3.815210e-02   5.482150e-04   8.718507e-04   1.322102e-03   3.933232e-04   8.274781e-04   1.191105e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           127   3.762139e-02   4.399760e-04   8.425435e-04   8.354204e-04   1.829916e-04   7.434243e-04   8.388913e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           128   3.677076e-02   3.650047e-04   8.141791e-04   5.382757e-04   1.013607e-04   6.685625e-04   6.048083e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           129   3.601448e-02   3.388587e-04   8.017274e-04   3.578876e-04   6.084421e-05   6.015628e-04   4.432742e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           130   3.537485e-02   3.151631e-04   7.840061e-04   2.557009e-04   3.960684e-05   5.416550e-04   3.333406e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+           131   3.461225e-02   2.990378e-04   7.648886e-04   1.910067e-04   2.806133e-05   4.882849e-04   2.556134e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+TimeStep   11: Time  1.100000e-02
+           132   3.387995e-02   2.945123e-04   7.432324e-04   1.596014e-04   2.232959e-05   4.407888e-04   2.008634e-07   4.861518e+00   1.003667e+02   1.219990e+01   2.077424e-01   1.022158e-02          9.786640e+04   1.100000e-02         0.000000e+00          0.000000e+00 
+Reversed flow on  225 faces on MINI_water_air: top
+           133   3.479193e-02   1.475540e-01   1.701968e-01   3.559335e-02   1.038467e+00   9.687355e-02   5.669514e-04                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           134   3.215518e-02   3.020170e-02   3.457771e-02   1.105751e-02   1.434638e-01   1.949395e-02   1.145204e-04                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           135   2.995119e-02   6.217370e-03   7.073472e-03   5.732959e-03   2.144627e-02   4.030498e-03   2.328045e-05                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           136   2.908467e-02   1.605721e-03   1.622191e-03   3.344728e-03   4.312791e-03   1.171981e-03   5.153594e-06                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           137   2.816704e-02   8.144658e-04   8.120956e-04   2.046935e-03   1.242232e-03   7.951328e-04   1.852837e-06                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           138   2.730956e-02   5.764361e-04   7.062063e-04   1.270771e-03   6.014526e-04   7.012756e-04   1.156860e-06                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           139   2.651090e-02   4.205510e-04   6.523466e-04   7.973494e-04   3.372130e-04   6.312199e-04   8.251763e-07                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           140   2.577158e-02   3.438189e-04   6.206076e-04   5.080927e-04   2.073544e-04   5.699121e-04   5.938294e-07                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+           141   2.505894e-02   3.170898e-04   6.008921e-04   3.325666e-04   1.284965e-04   5.154053e-04   4.249754e-07                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           142   2.435528e-02   3.009512e-04   5.847333e-04   2.271998e-04   8.214743e-05   4.665563e-04   3.073790e-07                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           143   2.366488e-02   2.888654e-04   5.694143e-04   1.661394e-04   5.470764e-05   4.228279e-04   2.253290e-07                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+TimeStep   12: Time  1.200000e-02
+           144   2.298713e-02   2.760688e-04   5.529700e-04   1.342203e-04   3.895878e-05   3.835435e-04   1.696643e-07   4.880614e+00   1.015456e+02   1.220460e+01   2.102210e-01   1.026173e-02          9.779285e+04   1.200000e-02         0.000000e+00          0.000000e+00 
+Reversed flow on  225 faces on MINI_water_air: top
+           145   2.133505e-02   1.471723e-01   1.689314e-01   3.537133e-02   1.022828e+00   9.649584e-02   5.648247e-04                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           146   2.411454e-02   3.015406e-02   3.437589e-02   1.088916e-02   1.425021e-01   1.941596e-02   1.140802e-04                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           147   2.226292e-02   6.160963e-03   7.023681e-03   5.605788e-03   2.139050e-02   4.002034e-03   2.315443e-05                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           148   2.150010e-02   1.562663e-03   1.569991e-03   3.250522e-03   4.144480e-03   1.126295e-03   5.019308e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           149   2.020705e-02   7.810020e-04   7.089512e-04   1.973189e-03   9.891184e-04   7.413271e-04   1.695406e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           150   1.929823e-02   5.447454e-04   5.909034e-04   1.216797e-03   3.094214e-04   6.530704e-04   1.045988e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+           151   1.866286e-02   3.836104e-04   5.326917e-04   7.581421e-04   1.363425e-04   5.894374e-04   7.385277e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           152   1.811806e-02   3.201618e-04   5.027685e-04   4.779473e-04   7.471717e-05   5.331935e-04   5.237398e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           153   1.761933e-02   2.744449e-04   4.762668e-04   3.079053e-04   1.202929e-04   4.827437e-04   3.707994e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           154   1.712328e-02   2.591864e-04   4.565388e-04   2.053384e-04   1.579771e-04   4.373842e-04   2.645183e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           155   1.662131e-02   2.493975e-04   4.379767e-04   1.454804e-04   3.421845e-04   3.964500e-04   1.907614e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+TimeStep   13: Time  1.300000e-02
+           156   1.607886e-02   2.361876e-04   4.193667e-04   1.143225e-04   4.794663e-04   3.594122e-04   1.422585e-07   4.890666e+00   1.026352e+02   1.220582e+01   2.125119e-01   1.028286e-02          9.773245e+04   1.300000e-02         0.000000e+00          0.000000e+00 
+Reversed flow on  224 faces on MINI_water_air: top
+           157   2.115600e-02   1.470885e-01   1.687664e-01   3.517167e-02   1.007911e+00   9.612080e-02   5.627109e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           158   2.427039e-02   3.012522e-02   3.435402e-02   1.074832e-02   1.418169e-01   1.934059e-02   1.136451e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           159   2.267186e-02   6.159336e-03   7.023866e-03   5.472815e-03   2.156051e-02   3.983308e-03   2.304539e-05                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           160   2.219761e-02   1.561946e-03   1.547961e-03   3.138879e-03   4.607652e-03   1.109646e-03   4.944013e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+           161   2.136976e-02   7.736734e-04   6.533148e-04   1.891157e-03   1.844828e-03   7.222278e-04   1.583181e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           162   2.052128e-02   5.306072e-04   5.306518e-04   1.157588e-03   1.118206e-03   6.356153e-04   9.366722e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           163   1.957068e-02   3.567234e-04   4.709825e-04   7.177076e-04   7.179288e-04   5.735036e-04   6.518525e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           164   1.864622e-02   2.714832e-04   4.397092e-04   4.495428e-04   7.530626e-04   5.187832e-04   4.603984e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           165   1.794132e-02   2.410394e-04   4.203216e-04   2.912699e-04   8.078579e-04   4.693005e-04   3.263438e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           166   1.733240e-02   2.239842e-04   4.031153e-04   1.926331e-04   9.833151e-04   4.244653e-04   2.345698e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           167   1.679640e-02   2.119996e-04   3.894400e-04   1.396201e-04   1.094076e-03   3.839177e-04   1.697795e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+TimeStep   14: Time  1.400000e-02
+           168   1.629740e-02   2.037206e-04   3.721605e-04   1.086999e-04   7.890588e-04   3.473764e-04   1.253452e-07   4.891246e+00   1.036561e+02   1.220418e+01   2.146586e-01   1.028408e-02          9.768897e+04   1.400000e-02         0.000000e+00          0.000000e+00 
+Reversed flow on  224 faces on MINI_water_air: top
+           169   1.977913e-02   1.471406e-01   1.691713e-01   3.498088e-02   9.934021e-01   9.574796e-02   5.606110e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           170   2.289319e-02   3.012666e-02   3.443822e-02   1.061587e-02   1.407603e-01   1.926582e-02   1.132151e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+           171   2.098325e-02   6.138035e-03   7.032096e-03   5.334955e-03   2.157603e-02   3.965711e-03   2.293873e-05                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           172   2.064789e-02   1.562399e-03   1.542948e-03   3.035347e-03   4.428168e-03   1.096037e-03   4.861483e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           173   2.012459e-02   7.579749e-04   6.164654e-04   1.811031e-03   1.308149e-03   7.056335e-04   1.460978e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           174   1.964216e-02   5.112804e-04   4.885569e-04   1.098797e-03   7.983830e-04   6.183975e-04   8.232513e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           175   1.926416e-02   3.376484e-04   4.325403e-04   6.726496e-04   6.766089e-04   5.560394e-04   5.651619e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           176   1.894794e-02   2.687948e-04   4.146510e-04   4.169964e-04   6.160184e-04   5.011320e-04   4.038525e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           177   1.865035e-02   2.189575e-04   3.993632e-04   2.633052e-04   5.695352e-04   4.521324e-04   2.928249e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           178   1.835684e-02   2.026488e-04   3.905406e-04   1.730872e-04   5.292088e-04   4.082550e-04   2.184431e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           179   1.808806e-02   1.928942e-04   3.830039e-04   1.216653e-04   4.926210e-04   3.688598e-04   1.654766e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+TimeStep   15: Time  1.500000e-02
+           180   1.783431e-02   1.858086e-04   3.762995e-04   9.653763e-05   4.588671e-04   3.334501e-04   1.259817e-07   4.888833e+00   1.046720e+02   1.220250e+01   2.167945e-01   1.027901e-02          9.765999e+04   1.500000e-02         0.000000e+00          0.000000e+00 
+Reversed flow on  223 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+           181   2.023588e-02   1.472478e-01   1.698097e-01   3.481586e-02   9.780147e-01   9.537702e-02   5.585241e-04                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+           182   2.281748e-02   3.015430e-02   3.456201e-02   1.048958e-02   1.400598e-01   1.919044e-02   1.127884e-04                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+           183   2.134362e-02   6.161745e-03   7.059453e-03   5.208220e-03   2.157511e-02   3.943148e-03   2.282895e-05                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+           184   2.117365e-02   1.558197e-03   1.544210e-03   2.929015e-03   4.972924e-03   1.063926e-03   4.763221e-06                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+           185   2.069247e-02   7.743790e-04   6.444388e-04   1.728319e-03   3.368749e-03   6.623058e-04   1.297582e-06                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+           186   2.022011e-02   5.365025e-04   5.288845e-04   1.035076e-03   3.441601e-03   5.751467e-04   6.703221e-07                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+           187   1.983212e-02   3.737777e-04   4.797559e-04   6.247002e-04   3.411808e-03   5.152977e-04   4.581839e-07                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+           188   1.932373e-02   3.076706e-04   4.579302e-04   3.823015e-04   3.402278e-03   4.637175e-04   3.326046e-07                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+           189   1.896963e-02   2.633144e-04   4.419761e-04   2.385695e-04   3.413105e-03   4.180879e-04   2.335518e-07                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+           190   1.865617e-02   2.471557e-04   4.323088e-04   1.550418e-04   3.416579e-03   3.775047e-04   1.690491e-07                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+           191   1.835125e-02   2.371027e-04   4.237940e-04   1.082662e-04   3.416100e-03   3.412309e-04   1.290473e-07                                                                                                                                                   
+Reversed flow on  223 faces on MINI_water_air: top
+TimeStep   16: Time  1.600000e-02
+           192   1.804103e-02   2.292508e-04   4.156139e-04   8.342460e-05   3.415829e-03   3.087306e-04   1.003890e-07   4.883218e+00   1.055720e+02   1.219229e+01   2.186867e-01   1.026720e-02          9.763345e+04   1.600000e-02         0.000000e+00          0.000000e+00 
+Reversed flow on  224 faces on MINI_water_air: top
+           193   1.796626e-02   1.473319e-01   1.705484e-01   3.467030e-02   9.634424e-01   9.500804e-02   5.564491e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           194   2.008832e-02   3.019269e-02   3.471666e-02   1.037980e-02   1.393708e-01   1.911449e-02   1.123657e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           195   1.826659e-02   6.159021e-03   7.094461e-03   5.077477e-03   2.180507e-02   3.916395e-03   2.272977e-05                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           196   1.808345e-02   1.566092e-03   1.558468e-03   2.812451e-03   5.807875e-03   1.017983e-03   4.703810e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           197   1.758260e-02   7.801492e-04   6.440633e-04   1.636365e-03   4.192314e-03   5.992398e-04   1.212456e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           198   1.704532e-02   5.391574e-04   5.189618e-04   9.679281e-04   4.131189e-03   5.138776e-04   5.939803e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           199   1.665195e-02   3.702696e-04   4.640646e-04   5.778437e-04   4.131161e-03   4.588627e-04   4.069036e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           200   1.632764e-02   3.027407e-04   4.434453e-04   3.500929e-04   4.130942e-03   4.126565e-04   2.944150e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+           201   1.603497e-02   2.543655e-04   4.258949e-04   2.175563e-04   4.130797e-03   3.723411e-04   2.175172e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           202   1.575453e-02   2.379284e-04   4.156018e-04   1.409283e-04   4.131210e-03   3.366811e-04   1.630252e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           203   1.548732e-02   2.277252e-04   4.064885e-04   9.813224e-05   4.131075e-03   3.048758e-04   1.229527e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+TimeStep   17: Time  1.700000e-02
+           204   1.522992e-02   2.198167e-04   3.978865e-04   7.629181e-05   4.131272e-03   2.763774e-04   9.381126e-08   4.879627e+00   1.064592e+02   1.218307e+01   2.205522e-01   1.025965e-02          9.761178e+04   1.700000e-02         0.000000e+00          0.000000e+00 
+Reversed flow on  224 faces on MINI_water_air: top
+           205   1.273508e-02   1.475363e-01   1.713474e-01   3.455863e-02   9.499240e-01   9.464091e-02   5.543862e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           206   1.534555e-02   3.023197e-02   3.488694e-02   1.027809e-02   1.397511e-01   1.903839e-02   1.119470e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           207   1.313830e-02   6.163484e-03   7.128269e-03   4.934067e-03   2.167946e-02   3.889379e-03   2.264103e-05                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           208   1.304774e-02   1.547967e-03   1.534122e-03   2.680430e-03   5.030335e-03   9.732789e-04   4.678517e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           209   1.251888e-02   7.505065e-04   5.488631e-04   1.534563e-03   2.716101e-03   5.374673e-04   1.204150e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           210   1.202362e-02   5.003212e-04   3.931243e-04   8.929240e-04   2.461726e-03   4.553105e-04   6.011891e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+           211   1.166612e-02   3.170699e-04   3.225359e-04   5.254812e-04   2.457129e-03   4.060766e-04   4.178806e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           212   1.138373e-02   2.392558e-04   3.001798e-04   3.154629e-04   2.516411e-03   3.655745e-04   3.007549e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           213   1.113392e-02   1.796586e-04   2.821320e-04   1.951661e-04   2.714046e-03   3.305150e-04   2.175162e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           214   1.089839e-02   1.605605e-04   2.744506e-04   1.276097e-04   2.919002e-03   2.995239e-04   1.573070e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           215   1.067142e-02   1.499425e-04   2.682314e-04   9.387522e-05   2.563324e-03   2.718284e-04   1.133110e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+TimeStep   18: Time  1.800000e-02
+           216   1.045247e-02   1.425640e-04   2.624981e-04   7.398212e-05   2.382479e-03   2.469169e-04   8.268104e-08   4.877192e+00   1.072787e+02   1.217264e+01   2.222751e-01   1.025453e-02          9.758942e+04   1.800000e-02         0.000000e+00          0.000000e+00 
+Reversed flow on  224 faces on MINI_water_air: top
+           217   8.660316e-03   1.477405e-01   1.719427e-01   3.448713e-02   9.376908e-01   9.427563e-02   5.523350e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           218   1.257524e-02   3.028084e-02   3.500238e-02   1.019089e-02   1.386644e-01   1.896274e-02   1.115312e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           219   1.005353e-02   6.171291e-03   7.142788e-03   4.788992e-03   2.210936e-02   3.864898e-03   2.255169e-05                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           220   1.011829e-02   1.561221e-03   1.519575e-03   2.546774e-03   6.240794e-03   9.400635e-04   4.645350e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+           221   9.576500e-03   7.275638e-04   4.756969e-04   1.425875e-03   2.783238e-03   4.940195e-04   1.162453e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           222   9.067559e-03   4.703390e-04   2.948555e-04   8.163358e-04   1.846263e-03   4.157585e-04   5.479407e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           223   8.719768e-03   2.790441e-04   2.034641e-04   4.744427e-04   1.142452e-03   3.713993e-04   3.650715e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           224   8.458108e-03   1.926782e-04   1.739268e-04   2.828557e-04   7.594576e-04   3.349889e-04   2.529546e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           225   8.232432e-03   1.234040e-04   1.508039e-04   1.745786e-04   4.879351e-04   3.032982e-04   1.768516e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           226   8.018479e-03   9.940521e-05   1.439309e-04   1.146116e-04   3.218694e-04   2.750812e-04   1.245420e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           227   7.814654e-03   8.686979e-05   1.395925e-04   8.459653e-05   2.080250e-04   2.496648e-04   8.856540e-08                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+TimeStep   19: Time  1.900000e-02
+           228   7.619686e-03   7.915546e-05   1.360394e-04   6.708703e-05   1.361495e-04   2.266153e-04   6.465999e-08   4.877789e+00   1.080588e+02   1.216346e+01   2.239154e-01   1.025579e-02          9.756746e+04   1.900000e-02         0.000000e+00          0.000000e+00 
+Reversed flow on  225 faces on MINI_water_air: top
+           229   1.051251e-02   1.477757e-01   1.719595e-01   3.445249e-02   9.260534e-01   9.391244e-02   5.502952e-04                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           230   1.440679e-02   3.028321e-02   3.500123e-02   1.011823e-02   1.378264e-01   1.888818e-02   1.111176e-04                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+           231   1.224535e-02   6.174819e-03   7.134428e-03   4.654620e-03   2.150049e-02   3.844263e-03   2.246292e-05                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           232   1.221212e-02   1.567193e-03   1.518842e-03   2.424219e-03   4.436786e-03   9.210003e-04   4.610200e-06                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           233   1.169665e-02   7.388173e-04   5.070049e-04   1.339132e-03   1.338479e-03   4.719720e-04   1.107352e-06                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           234   1.122170e-02   4.880624e-04   3.495232e-04   7.598495e-04   6.728613e-04   3.971714e-04   4.776473e-07                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           235   1.088735e-02   3.086172e-04   2.755115e-04   4.402173e-04   4.421518e-04   3.557366e-04   3.064383e-07                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           236   1.062090e-02   2.335946e-04   2.514093e-04   2.623672e-04   2.769223e-04   3.213574e-04   2.074733e-07                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           237   1.038421e-02   1.929555e-04   2.377773e-04   1.634291e-04   1.803619e-04   2.909897e-04   1.420948e-07                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           238   1.016323e-02   1.642468e-04   2.264178e-04   1.139156e-04   1.132173e-04   2.635922e-04   9.852837e-08                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           239   9.953160e-03   1.546436e-04   2.208889e-04   8.565514e-05   7.236528e-05   2.386982e-04   7.063796e-08                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+TimeStep   20: Time  2.000000e-02
+           240   9.754856e-03   1.488157e-04   2.163626e-04   6.938784e-05   4.607409e-05   2.160251e-04   5.335121e-08   4.880722e+00   1.088024e+02   1.215624e+01   2.254789e-01   1.026195e-02          9.754067e+04   2.000000e-02         0.000000e+00          0.000000e+00 
+Reversed flow on  225 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+           241   1.386240e-02   1.475819e-01   1.713147e-01   3.445177e-02   9.151627e-01   9.355134e-02   5.482667e-04                                                                                                                                                   
+Reversed flow on  226 faces on MINI_water_air: top
+           242   1.703753e-02   3.024566e-02   3.486385e-02   1.007757e-02   1.378532e-01   1.881438e-02   1.107064e-04                                                                                                                                                   
+Reversed flow on  226 faces on MINI_water_air: top
+           243   1.532769e-02   6.182437e-03   7.114942e-03   4.543664e-03   2.160426e-02   3.825175e-03   2.237329e-05                                                                                                                                                   
+Reversed flow on  226 faces on MINI_water_air: top
+           244   1.528802e-02   1.560387e-03   1.538884e-03   2.319993e-03   4.417460e-03   9.059355e-04   4.570074e-06                                                                                                                                                   
+Reversed flow on  226 faces on MINI_water_air: top
+           245   1.486762e-02   7.462934e-04   5.979532e-04   1.265071e-03   1.162407e-03   4.551025e-04   1.047463e-06                                                                                                                                                   
+Reversed flow on  226 faces on MINI_water_air: top
+           246   1.446531e-02   4.878691e-04   4.647220e-04   7.111847e-04   4.446250e-04   3.825277e-04   4.050158e-07                                                                                                                                                   
+Reversed flow on  226 faces on MINI_water_air: top
+           247   1.415569e-02   2.959448e-04   4.034845e-04   4.085844e-04   2.002473e-04   3.425842e-04   2.479774e-07                                                                                                                                                   
+Reversed flow on  226 faces on MINI_water_air: top
+           248   1.388838e-02   2.151150e-04   3.819467e-04   2.429829e-04   1.093000e-04   3.088995e-04   1.642363e-07                                                                                                                                                   
+Reversed flow on  226 faces on MINI_water_air: top
+           249   1.363389e-02   1.573622e-04   3.654134e-04   1.518821e-04   6.351539e-05   2.788140e-04   1.105693e-07                                                                                                                                                   
+Reversed flow on  226 faces on MINI_water_air: top
+           250   1.338559e-02   1.411932e-04   3.565323e-04   1.074421e-04   3.972167e-05   2.514589e-04   7.621788e-08                                                                                                                                                   
+Reversed flow on  226 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+           251   1.314168e-02   1.332681e-04   3.489116e-04   8.255583e-05   2.612924e-05   2.265581e-04   5.553473e-08                                                                                                                                                   
+Reversed flow on  226 faces on MINI_water_air: top
+TimeStep   21: Time  2.100000e-02
+           252   1.290336e-02   1.272584e-04   3.415952e-04   6.848886e-05   1.829753e-05   2.039472e-04   4.418504e-08   4.884755e+00   1.095013e+02   1.214950e+01   2.269483e-01   1.027043e-02          9.750941e+04   2.100000e-02         0.000000e+00          0.000000e+00 
+Reversed flow on  225 faces on MINI_water_air: top
+           253   1.576951e-02   1.472330e-01   1.702376e-01   3.450180e-02   9.055088e-01   9.319221e-02   5.462495e-04                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           254   1.831060e-02   3.017416e-02   3.464593e-02   1.007075e-02   1.368051e-01   1.874071e-02   1.102974e-04                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           255   1.672291e-02   6.175710e-03   7.078244e-03   4.460974e-03   2.126966e-02   3.804668e-03   2.228594e-05                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           256   1.659672e-02   1.568654e-03   1.550200e-03   2.483523e-03   4.285988e-03   8.841596e-04   4.537586e-06                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           257   1.616506e-02   7.580283e-04   6.336699e-04   1.330469e-03   1.084486e-03   4.246179e-04   1.004004e-06                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           258   1.576452e-02   5.021256e-04   5.061110e-04   7.359843e-04   4.002395e-04   3.531049e-04   3.476650e-07                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           259   1.545691e-02   3.151823e-04   4.479618e-04   4.173089e-04   1.787823e-04   3.151561e-04   2.030814e-07                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           260   1.519237e-02   2.383429e-04   4.265449e-04   2.466477e-04   1.086259e-04   2.831100e-04   1.347790e-07                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+           261   1.494662e-02   1.830823e-04   4.100989e-04   1.635657e-04   7.787618e-05   2.546248e-04   9.813112e-08                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           262   1.471028e-02   1.673206e-04   4.014316e-04   1.150112e-04   6.525686e-05   2.290695e-04   8.330500e-08                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+           263   1.448123e-02   1.598612e-04   3.942221e-04   8.616724e-05   5.804288e-05   2.059031e-04   7.270492e-08                                                                                                                                                   
+Reversed flow on  225 faces on MINI_water_air: top
+TimeStep   22: Time  2.200000e-02
+           264   1.425997e-02   1.555160e-04   3.876615e-04   6.922631e-05   5.330423e-05   1.846899e-04   5.119970e-08   4.889380e+00   1.101814e+02   1.214414e+01   2.283782e-01   1.028016e-02          9.748479e+04   2.200000e-02         0.000000e+00          0.000000e+00 
+Reversed flow on  224 faces on MINI_water_air: top
+           265   1.541144e-02   1.468801e-01   1.691096e-01   3.461492e-02   8.943107e-01   9.283498e-02   5.442433e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           266   1.759055e-02   3.010292e-02   3.443360e-02   1.011243e-02   1.359778e-01   1.866712e-02   1.098911e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           267   1.600497e-02   6.159121e-03   7.043455e-03   4.410647e-03   2.136274e-02   3.782691e-03   2.220041e-05                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           268   1.591195e-02   1.564553e-03   1.544325e-03   2.406819e-03   4.449652e-03   8.554630e-04   4.509680e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           269   1.548662e-02   7.602517e-04   6.181082e-04   1.273762e-03   1.233517e-03   3.791361e-04   9.710194e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           270   1.508915e-02   5.059934e-04   4.834067e-04   7.002638e-04   4.957388e-04   3.083537e-04   3.006415e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+           271   1.473184e-02   3.218899e-04   4.226176e-04   3.967779e-04   2.256347e-04   2.738430e-04   1.627970e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           272   1.431455e-02   2.466166e-04   4.000957e-04   2.342645e-04   1.164964e-04   2.451906e-04   1.053107e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           273   1.366034e-02   1.866214e-04   3.745191e-04   1.540926e-04   6.153102e-05   2.198234e-04   7.158972e-08                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           274   1.327440e-02   1.711959e-04   3.627950e-04   1.068150e-04   3.417036e-05   1.971347e-04   5.121573e-08                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           275   1.291357e-02   1.635062e-04   3.484916e-04   7.950005e-05   1.966100e-05   1.768038e-04   3.971137e-08                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+TimeStep   23: Time  2.300000e-02
+           276   1.257789e-02   1.583981e-04   3.353597e-04   6.397448e-05   1.255038e-05   1.585823e-04   3.349669e-08   4.893371e+00   1.108192e+02   1.213767e+01   2.297192e-01   1.028855e-02          9.746124e+04   2.300000e-02         0.000000e+00          0.000000e+00 
+Reversed flow on  224 faces on MINI_water_air: top
+           277   1.165521e-02   1.466092e-01   1.682458e-01   3.482891e-02   8.830845e-01   9.247966e-02   5.422481e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           278   1.397074e-02   3.006523e-02   3.428610e-02   1.023858e-02   1.353736e-01   1.859388e-02   1.094869e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           279   1.197462e-02   6.134076e-03   6.994805e-03   4.407325e-03   2.096406e-02   3.760937e-03   2.211612e-05                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           280   1.185556e-02   1.571366e-03   1.501896e-03   2.355868e-03   4.177671e-03   8.268097e-04   4.485540e-06                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+           281   1.133577e-02   7.435849e-04   5.105134e-04   1.220624e-03   1.012784e-03   3.294802e-04   9.494644e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           282   1.087931e-02   4.861036e-04   3.499633e-04   6.615696e-04   3.519605e-04   2.583546e-04   2.710553e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           283   1.055085e-02   2.969730e-04   2.708499e-04   3.711684e-04   1.361034e-04   2.280641e-04   1.390499e-07                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           284   1.028551e-02   2.154289e-04   2.445175e-04   2.337638e-04   6.504866e-05   2.037611e-04   9.034873e-08                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           285   1.004795e-02   1.527011e-04   2.226083e-04   1.516086e-04   3.141683e-05   1.825127e-04   6.199431e-08                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           286   9.823870e-03   1.334475e-04   2.141025e-04   1.032672e-04   1.650430e-05   1.636546e-04   4.500936e-08                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           287   9.609812e-03   1.222619e-04   2.079531e-04   7.593450e-05   9.408671e-06   1.468215e-04   3.483578e-08                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+TimeStep   24: Time  2.400000e-02
+           288   9.403283e-03   1.149775e-04   2.029637e-04   6.107855e-05   6.351613e-06   1.317743e-04   2.870358e-08   4.896258e+00   1.114275e+02   1.213036e+01   2.309982e-01   1.029462e-02          9.743826e+04   2.400000e-02         0.000000e+00          0.000000e+00 
+Reversed flow on  224 faces on MINI_water_air: top
+           289   8.915724e-03   1.465248e-01   1.678778e-01   3.519148e-02   8.727892e-01   9.212625e-02   5.402637e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+           290   1.200563e-02   3.003428e-02   3.421830e-02   1.045036e-02   1.354775e-01   1.852129e-02   1.090853e-04                                                                                                                                                   
+Reversed flow on  224 faces on MINI_water_air: top
+     Iteration     Continuity     X-momentum     Y-momentum     Z-momentum          water            Tke            Sdr      AF_Fx (N)      AF_Fz (N)    AF_Mh (N-m)          AF_CL          AF_CD AF_Flap_pAbs_Min (Pa)    AF_Time (s) AF_Delta_Command_deg AF_Delta_Measured_deg 
+           291   9.897861e-03   6.116355e-03   6.977633e-03   4.443931e-03   2.123562e-02   3.740633e-03   2.203324e-05                                                                                                                                                   

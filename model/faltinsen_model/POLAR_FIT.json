@@ -1,0 +1,105 @@
+{
+ "runs": {
+  "OVS_PID_BASE2": {
+   "rola": "identyfikacja",
+   "srednia_reszta_oporu_N_m": 36.971101734217754,
+   "jako_dCD": 0.0015546704553954737,
+   "wariancja_CL_model": 0.02763531669281894,
+   "P_URANS_W": 69.47240835137076,
+   "P_model_B_W": 60.3430109384872
+  },
+  "OVS_PID_PRBS1": {
+   "rola": "identyfikacja",
+   "srednia_reszta_oporu_N_m": 40.20326149267307,
+   "jako_dCD": 0.0016905858879328257,
+   "wariancja_CL_model": 0.036732169869676375,
+   "P_URANS_W": 67.1797046388232,
+   "P_model_B_W": 57.252179240763624
+  },
+  "OVS_PID_SINE_A2": {
+   "rola": "identyfikacja",
+   "srednia_reszta_oporu_N_m": 33.95528124025331,
+   "jako_dCD": 0.0014278522974068718,
+   "wariancja_CL_model": 0.008345531554585423,
+   "P_URANS_W": 64.30989839366013,
+   "P_model_B_W": 55.925207590096726
+  },
+  "OVS_PID1_GODO": {
+   "rola": "sprawdzenie",
+   "srednia_reszta_oporu_N_m": 45.57674577131867,
+   "jako_dCD": 0.001916546080047158,
+   "wariancja_CL_model": 0.020039386319722362,
+   "P_URANS_W": 52.47286795272607,
+   "P_model_B_W": 41.21845016654396
+  },
+  "OVS_PID2_GODO": {
+   "rola": "sprawdzenie",
+   "srednia_reszta_oporu_N_m": 41.95847042607338,
+   "jako_dCD": 0.0017643941150021888,
+   "wariancja_CL_model": 0.02560097748173263,
+   "P_URANS_W": 58.28063981915162,
+   "P_model_B_W": 47.919694827300916
+  },
+  "OVS_PID3_GODO": {
+   "rola": "sprawdzenie",
+   "srednia_reszta_oporu_N_m": 19.046001688500155,
+   "jako_dCD": 0.0008009027248197585,
+   "wariancja_CL_model": 0.01753356533096078,
+   "P_URANS_W": 90.12935942194166,
+   "P_model_B_W": 85.42626672563068
+  },
+  "OVS_POL_TD3_GODO": {
+   "rola": "sprawdzenie",
+   "srednia_reszta_oporu_N_m": 43.73893147670314,
+   "jako_dCD": 0.0018392642179354366,
+   "wariancja_CL_model": 0.034725464363925325,
+   "P_URANS_W": 37.523096277529255,
+   "P_model_B_W": 26.72249610238941
+  }
+ },
+ "fits": {
+  "K": {
+   "coef": {
+    "dcl2": 0.03214803902810867
+   },
+   "blad_sredniej_mocy_pct": {
+    "OVS_PID_BASE2": -5.5538328659866405,
+    "OVS_PID_PRBS1": -4.387011657028827,
+    "OVS_PID_SINE_A2": -10.49928846428334,
+    "OVS_PID1_GODO": -14.15602821637757,
+    "OVS_PID2_GODO": -9.401905840038294,
+    "OVS_PID3_GODO": -1.4553458828706067,
+    "OVS_POL_TD3_GODO": -10.945320270670422
+   }
+  },
+  "C": {
+   "coef": {
+    "one": 0.001557702880245057
+   },
+   "blad_sredniej_mocy_pct": {
+    "OVS_PID_BASE2": 0.02563193893498905,
+    "OVS_PID_PRBS1": -1.161542558256179,
+    "OVS_PID_SINE_A2": 1.1856864240989307,
+    "OVS_PID1_GODO": -4.015814896779979,
+    "OVS_PID2_GODO": -2.082579150551811,
+    "OVS_PID3_GODO": 4.93081485362914,
+    "OVS_POL_TD3_GODO": -4.4063411631655285
+   }
+  },
+  "C+K": {
+   "coef": {
+    "one": 0.0012916224407804925,
+    "dcl2": 0.010853725268815246
+   },
+   "blad_sredniej_mocy_pct": {
+    "OVS_PID_BASE2": 0.33812525266936344,
+    "OVS_PID_PRBS1": 0.02065205569088402,
+    "OVS_PID_SINE_A2": -0.3868420764183589,
+    "OVS_PID1_GODO": -4.531603911605798,
+    "OVS_PID2_GODO": -1.9357483709587675,
+    "OVS_PID3_GODO": 4.467598279101659,
+    "OVS_POL_TD3_GODO": -2.5478125200239843
+   }
+  }
+ }
+}

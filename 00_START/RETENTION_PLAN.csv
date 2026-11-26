@@ -1,0 +1,208 @@
+﻿akcja;GB;plik;powod;data
+CHRONIONE;0.082;70_godo_case\overset_runs\AB20\GODO_OVERSET_SETUP_B1.0.sim;duplikat SETUP (zostaje 70_godo_case\overset\OV_SHORT20_20261110_163129\GODO_OVERSET_SETUP_B1.0.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 16:33
+CHRONIONE;0.08;70_godo_case\overset_runs\AB30\GODO_OVERSET_SETUP_B1.0.sim;duplikat SETUP (zostaje 70_godo_case\overset\OV_SHORT30_20261110_171107\GODO_OVERSET_SETUP_B1.0.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 17:14
+CHRONIONE;0.111;70_godo_case\overset_runs\CPU_SCALE16\GODO_OVERSET_SETUP_B1.0.sim;duplikat SETUP (zostaje 70_godo_case\overset\OV_B1_20261110_124148\GODO_OVERSET_SETUP_B1.0.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 12:44
+CHRONIONE;0.386;70_godo_case\overset_runs\CTRL_SMOKE2\CP_000040_t0.0400.sim;starszy checkpoint (jest nowszy CP_000080_t0.0800.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 12:59
+CHRONIONE;0.386;70_godo_case\overset_runs\CTRL_SMOKE2\CP_000080_t0.0800.sim;ostatni checkpoint, ale jest END/FINAL | overset_runs - nie ruszam bez zgody;2026-11-10 13:04
+CHRONIONE;0.111;70_godo_case\overset_runs\CTRL_SMOKE2\GODO_OVERSET_SETUP_B1.0.sim;duplikat SETUP (zostaje 70_godo_case\overset\OV_B1_20261110_124148\GODO_OVERSET_SETUP_B1.0.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 12:44
+CHRONIONE;0.111;70_godo_case\overset_runs\CTRL_SMOKE_CPU\GODO_OVERSET_SETUP_B1.0.sim;duplikat SETUP (zostaje 70_godo_case\overset\OV_B1_20261110_124148\GODO_OVERSET_SETUP_B1.0.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 12:44
+CHRONIONE;0.111;70_godo_case\overset_runs\INNER12\GODO_OVERSET_SETUP_B1.0.sim;duplikat SETUP (zostaje 70_godo_case\overset\OV_B1_20261110_124148\GODO_OVERSET_SETUP_B1.0.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 12:44
+CHRONIONE;0.111;70_godo_case\overset_runs\INNER6\GODO_OVERSET_SETUP_B1.0.sim;duplikat SETUP (zostaje 70_godo_case\overset\OV_B1_20261110_124148\GODO_OVERSET_SETUP_B1.0.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 12:44
+CHRONIONE;0.111;70_godo_case\overset_runs\INNER8\GODO_OVERSET_SETUP_B1.0.sim;duplikat SETUP (zostaje 70_godo_case\overset\OV_B1_20261110_124148\GODO_OVERSET_SETUP_B1.0.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 12:44
+CHRONIONE;0.222;70_godo_case\overset_runs\OVS_CALM_PID2\CP_003750_t3.7500.sim;starszy checkpoint (jest nowszy CP_004000_t4.0000.sim) | overset_runs - nie ruszam bez zgody;2026-11-11 15:44
+CHRONIONE;0.222;70_godo_case\overset_runs\OVS_CALM_PID2\CP_004000_t4.0000.sim;ostatni checkpoint, ale jest END/FINAL | overset_runs - nie ruszam bez zgody;2026-11-11 15:48
+CHRONIONE;0.218;70_godo_case\overset_runs\OVS_CALM_PID2\END_t0.9650.sim;starszy END (zostaje najnowszy END_t4.0000.sim) | overset_runs - nie ruszam bez zgody;2026-11-11 14:09
+CHRONIONE;0.081;70_godo_case\overset_runs\OVS_CALM_PID2\GODO_OVERSET_SETUP_CALM.sim;duplikat SETUP (zostaje 70_godo_case\overset\CALM\GODO_OVERSET_SETUP_CALM.sim) | overset_runs - nie ruszam bez zgody;2026-11-11 10:27
+CHRONIONE;0.233;70_godo_case\overset_runs\OVS_PID1_GODO\CP_011250_t11.2500.sim;starszy checkpoint (jest nowszy CP_011500_t11.5000.sim) | overset_runs - nie ruszam bez zgody;2026-11-12 00:47
+CHRONIONE;0.233;70_godo_case\overset_runs\OVS_PID1_GODO\CP_011500_t11.5000.sim;ostatni checkpoint, ale jest END/FINAL | overset_runs - nie ruszam bez zgody;2026-11-12 00:52
+CHRONIONE;0.08;70_godo_case\overset_runs\OVS_PID1_GODO\GODO_OVERSET_SETUP_B1.0.sim;duplikat SETUP (zostaje 70_godo_case\overset\OV_SHORT30_20261110_171107\GODO_OVERSET_SETUP_B1.0.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 17:14
+CHRONIONE;0.233;70_godo_case\overset_runs\OVS_PID3_GODO\CP_011250_t11.2500.sim;starszy checkpoint (jest nowszy CP_011500_t11.5000.sim) | overset_runs - nie ruszam bez zgody;2026-11-12 04:59
+CHRONIONE;0.233;70_godo_case\overset_runs\OVS_PID3_GODO\CP_011500_t11.5000.sim;ostatni checkpoint, ale jest END/FINAL | overset_runs - nie ruszam bez zgody;2026-11-12 05:03
+CHRONIONE;0.08;70_godo_case\overset_runs\OVS_PID3_GODO\GODO_OVERSET_SETUP_B1.0.sim;duplikat SETUP (zostaje 70_godo_case\overset\OV_SHORT30_20261110_171107\GODO_OVERSET_SETUP_B1.0.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 17:14
+CHRONIONE;0.233;70_godo_case\overset_runs\OVS_PID_BASE2\CP_011250_t11.2500.sim;starszy checkpoint (jest nowszy CP_011500_t11.5000.sim) | overset_runs - nie ruszam bez zgody;2026-11-11 00:42
+CHRONIONE;0.233;70_godo_case\overset_runs\OVS_PID_BASE2\CP_011500_t11.5000.sim;ostatni checkpoint, ale jest END/FINAL | overset_runs - nie ruszam bez zgody;2026-11-11 00:47
+CHRONIONE;0.08;70_godo_case\overset_runs\OVS_PID_BASE2\GODO_OVERSET_SETUP_B1.0.sim;duplikat SETUP (zostaje 70_godo_case\overset\OV_SHORT30_20261110_171107\GODO_OVERSET_SETUP_B1.0.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 17:14
+CHRONIONE;0.222;70_godo_case\overset_runs\OVS_PID_BASE\CP_003750_t3.7500.sim;starszy checkpoint (jest nowszy CP_004000_t4.0000.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 20:44
+CHRONIONE;0.222;70_godo_case\overset_runs\OVS_PID_BASE\CP_004000_t4.0000.sim;ostatni checkpoint, ale jest END/FINAL | overset_runs - nie ruszam bez zgody;2026-11-10 20:49
+CHRONIONE;0.217;70_godo_case\overset_runs\OVS_PID_BASE\END_t0.0510.sim;starszy END (zostaje najnowszy END_t4.1740.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 18:15
+CHRONIONE;0.217;70_godo_case\overset_runs\OVS_PID_BASE\END_t0.0510.sim~;kopia zapasowa STAR (.sim~) | overset_runs - nie ruszam bez zgody;2026-11-10 17:45
+CHRONIONE;0.217;70_godo_case\overset_runs\OVS_PID_BASE\END_t0.0530.sim;starszy END (zostaje najnowszy END_t4.1740.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 18:21
+CHRONIONE;0.217;70_godo_case\overset_runs\OVS_PID_BASE\END_t0.0670.sim;starszy END (zostaje najnowszy END_t4.1740.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 18:28
+CHRONIONE;0.217;70_godo_case\overset_runs\OVS_PID_BASE\END_t0.6660.sim;starszy END (zostaje najnowszy END_t4.1740.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 19:04
+CHRONIONE;0.08;70_godo_case\overset_runs\OVS_PID_BASE\GODO_OVERSET_SETUP_B1.0.sim;duplikat SETUP (zostaje 70_godo_case\overset\OV_SHORT30_20261110_171107\GODO_OVERSET_SETUP_B1.0.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 17:14
+CHRONIONE;0.231;70_godo_case\overset_runs\OVS_PID_BASE_cfl2\CP_000250_t0.2500.sim;starszy checkpoint (jest nowszy CP_000500_t0.5000.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 16:39
+CHRONIONE;0.231;70_godo_case\overset_runs\OVS_PID_BASE_cfl2\CP_000500_t0.5000.sim;ostatni checkpoint, ale jest END/FINAL | overset_runs - nie ruszam bez zgody;2026-11-10 16:43
+CHRONIONE;0.231;70_godo_case\overset_runs\OVS_PID_BASE_cfl2\END_t0.5110.sim;starszy END (zostaje najnowszy END_t0.5840.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 16:43
+CHRONIONE;0.082;70_godo_case\overset_runs\OVS_PID_BASE_cfl2\GODO_OVERSET_SETUP_B1.0.sim;duplikat SETUP (zostaje 70_godo_case\overset\OV_SHORT20_20261110_163129\GODO_OVERSET_SETUP_B1.0.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 16:33
+CHRONIONE;0.254;70_godo_case\overset_runs\OVS_PID_BASE_cfl\CP_000250_t0.2500.sim;starszy checkpoint (jest nowszy CP_000500_t0.5000.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 15:11
+CHRONIONE;0.254;70_godo_case\overset_runs\OVS_PID_BASE_cfl\CP_000500_t0.5000.sim;ostatni checkpoint, ale jest END/FINAL | overset_runs - nie ruszam bez zgody;2026-11-10 15:14
+CHRONIONE;0.254;70_godo_case\overset_runs\OVS_PID_BASE_cfl\END_t0.5010.sim;starszy END (zostaje najnowszy END_t0.5080.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 15:14
+CHRONIONE;0.254;70_godo_case\overset_runs\OVS_PID_BASE_cfl\END_t0.5020.sim;starszy END (zostaje najnowszy END_t0.5080.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 15:16
+CHRONIONE;0.254;70_godo_case\overset_runs\OVS_PID_BASE_cfl\END_t0.5030.sim;starszy END (zostaje najnowszy END_t0.5080.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 15:18
+CHRONIONE;0.254;70_godo_case\overset_runs\OVS_PID_BASE_cfl\END_t0.5040.sim;starszy END (zostaje najnowszy END_t0.5080.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 15:20
+CHRONIONE;0.254;70_godo_case\overset_runs\OVS_PID_BASE_cfl\END_t0.5050.sim;starszy END (zostaje najnowszy END_t0.5080.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 15:22
+CHRONIONE;0.254;70_godo_case\overset_runs\OVS_PID_BASE_cfl\END_t0.5060.sim;starszy END (zostaje najnowszy END_t0.5080.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 15:24
+CHRONIONE;0.254;70_godo_case\overset_runs\OVS_PID_BASE_cfl\END_t0.5070.sim;starszy END (zostaje najnowszy END_t0.5080.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 15:26
+CHRONIONE;0.087;70_godo_case\overset_runs\OVS_PID_BASE_cfl\GODO_OVERSET_SETUP_B1.0.sim;duplikat SETUP (zostaje 70_godo_case\overset\OV_SHORT_20261110_150042\GODO_OVERSET_SETUP_B1.0.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 15:02
+CHRONIONE;0.233;70_godo_case\overset_runs\OVS_PID_PRBS1\CP_011250_t11.2500.sim;starszy checkpoint (jest nowszy CP_011500_t11.5000.sim) | overset_runs - nie ruszam bez zgody;2026-11-11 04:39
+CHRONIONE;0.233;70_godo_case\overset_runs\OVS_PID_PRBS1\CP_011500_t11.5000.sim;ostatni checkpoint, ale jest END/FINAL | overset_runs - nie ruszam bez zgody;2026-11-11 04:44
+CHRONIONE;0.08;70_godo_case\overset_runs\OVS_PID_PRBS1\GODO_OVERSET_SETUP_B1.0.sim;duplikat SETUP (zostaje 70_godo_case\overset\OV_SHORT30_20261110_171107\GODO_OVERSET_SETUP_B1.0.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 17:14
+CHRONIONE;0.233;70_godo_case\overset_runs\OVS_PID_SINE_A2\CP_011250_t11.2500.sim;starszy checkpoint (jest nowszy CP_011500_t11.5000.sim) | overset_runs - nie ruszam bez zgody;2026-11-11 11:51
+CHRONIONE;0.233;70_godo_case\overset_runs\OVS_PID_SINE_A2\CP_011500_t11.5000.sim;ostatni checkpoint, ale jest END/FINAL | overset_runs - nie ruszam bez zgody;2026-11-11 11:57
+CHRONIONE;0.08;70_godo_case\overset_runs\OVS_PID_SINE_A2\GODO_OVERSET_SETUP_B1.0.sim;duplikat SETUP (zostaje 70_godo_case\overset\OV_SHORT30_20261110_171107\GODO_OVERSET_SETUP_B1.0.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 17:14
+CHRONIONE;0.111;70_godo_case\overset_runs\OV_GPU_TEST\GODO_OVERSET_SETUP_B1.0.sim;duplikat SETUP (zostaje 70_godo_case\overset\OV_B1_20261110_124148\GODO_OVERSET_SETUP_B1.0.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 12:44
+CHRONIONE;0.387;70_godo_case\overset_runs\OV_PID_BASE\CP_000250_t0.2500.sim;ostatni checkpoint, ale jest END/FINAL | overset_runs - nie ruszam bez zgody;2026-11-10 14:50
+CHRONIONE;0.111;70_godo_case\overset_runs\OV_PID_BASE\GODO_OVERSET_SETUP_B1.0.sim;duplikat SETUP (zostaje 70_godo_case\overset\OV_B1_20261110_124148\GODO_OVERSET_SETUP_B1.0.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 12:44
+CHRONIONE;0.035;70_godo_case\overset_runs\V2D_I12\GODO_OVERSET2D_SETUP.sim;duplikat SETUP (zostaje 70_godo_case\overset\OV2D_B1\GODO_OVERSET2D_SETUP.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 14:56
+CHRONIONE;0.035;70_godo_case\overset_runs\V2D_I8\GODO_OVERSET2D_SETUP.sim;duplikat SETUP (zostaje 70_godo_case\overset\OV2D_B1\GODO_OVERSET2D_SETUP.sim) | overset_runs - nie ruszam bez zgody;2026-11-10 14:56
+DO_KOSZA;0.189;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\COARSE_CPU\CP_011374_t11.3740.sim;starszy checkpoint (jest nowszy CP_011616_t11.6160.sim);2026-11-10 13:43
+DO_KOSZA;0.072;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\COARSE_CPU\GODO_SETUP_B1.41421356.sim;duplikat SETUP (zostaje 70_godo_case\night\COARSE\GODO_SETUP_B1.41421356.sim);2026-11-10 00:40
+DO_KOSZA;0.476;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\FINE\END_t0.0290.sim;starszy END (zostaje najnowszy END_t0.0310.sim);2026-11-10 01:09
+DO_KOSZA;0.476;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\FINE\END_t0.0300.sim;starszy END (zostaje najnowszy END_t0.0310.sim);2026-11-10 01:10
+DO_KOSZA;0.505;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\FINE_DT0707\CP_016074_t11.3660.sim;starszy checkpoint (jest nowszy CP_016416_t11.6079.sim);2026-11-10 14:25
+DO_KOSZA;0.129;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\FINE_DT0707\GODO_SETUP_B0.70710678.sim;duplikat SETUP (zostaje 70_godo_case\night\FINE\GODO_SETUP_B0.70710678.sim);2026-11-10 01:08
+DO_KOSZA;0.274;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM\CP_000968_t0.9680.sim;starszy checkpoint (jest nowszy CP_011616_t11.6160.sim);2026-11-09 21:56
+DO_KOSZA;0.276;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM\CP_001936_t1.9360.sim;starszy checkpoint (jest nowszy CP_011616_t11.6160.sim);2026-11-09 22:11
+DO_KOSZA;0.278;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM\CP_002904_t2.9040.sim;starszy checkpoint (jest nowszy CP_011616_t11.6160.sim);2026-11-09 22:26
+DO_KOSZA;0.28;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM\CP_003872_t3.8720.sim;starszy checkpoint (jest nowszy CP_011616_t11.6160.sim);2026-11-09 22:41
+DO_KOSZA;0.281;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM\CP_004840_t4.8400.sim;starszy checkpoint (jest nowszy CP_011616_t11.6160.sim);2026-11-09 22:57
+DO_KOSZA;0.283;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM\CP_005808_t5.8080.sim;starszy checkpoint (jest nowszy CP_011616_t11.6160.sim);2026-11-09 23:11
+DO_KOSZA;0.285;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM\CP_006776_t6.7760.sim;starszy checkpoint (jest nowszy CP_011616_t11.6160.sim);2026-11-09 23:26
+DO_KOSZA;0.287;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM\CP_007744_t7.7440.sim;starszy checkpoint (jest nowszy CP_011616_t11.6160.sim);2026-11-09 23:40
+DO_KOSZA;0.288;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM\CP_008712_t8.7120.sim;starszy checkpoint (jest nowszy CP_011616_t11.6160.sim);2026-11-09 23:54
+DO_KOSZA;0.29;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM\CP_009680_t9.6800.sim;starszy checkpoint (jest nowszy CP_011616_t11.6160.sim);2026-11-10 00:08
+DO_KOSZA;0.292;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM\CP_010648_t10.6480.sim;starszy checkpoint (jest nowszy CP_011616_t11.6160.sim);2026-11-10 00:22
+DO_KOSZA;0.276;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM_DT05\CP_001937_t0.9685.sim;starszy checkpoint (jest nowszy CP_021307_t10.6535.sim);2026-11-10 01:49
+DO_KOSZA;0.28;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM_DT05\CP_003874_t1.9370.sim;starszy checkpoint (jest nowszy CP_021307_t10.6535.sim);2026-11-10 02:19
+DO_KOSZA;0.283;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM_DT05\CP_005811_t2.9055.sim;starszy checkpoint (jest nowszy CP_021307_t10.6535.sim);2026-11-10 02:48
+DO_KOSZA;0.287;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM_DT05\CP_007748_t3.8740.sim;starszy checkpoint (jest nowszy CP_021307_t10.6535.sim);2026-11-10 03:18
+DO_KOSZA;0.29;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM_DT05\CP_009685_t4.8425.sim;starszy checkpoint (jest nowszy CP_021307_t10.6535.sim);2026-11-10 03:48
+DO_KOSZA;0.294;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM_DT05\CP_011622_t5.8110.sim;starszy checkpoint (jest nowszy CP_021307_t10.6535.sim);2026-11-10 04:18
+DO_KOSZA;0.297;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM_DT05\CP_013559_t6.7795.sim;starszy checkpoint (jest nowszy CP_021307_t10.6535.sim);2026-11-10 04:48
+DO_KOSZA;0.301;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM_DT05\CP_015496_t7.7480.sim;starszy checkpoint (jest nowszy CP_021307_t10.6535.sim);2026-11-10 05:18
+DO_KOSZA;0.304;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM_DT05\CP_017433_t8.7165.sim;starszy checkpoint (jest nowszy CP_021307_t10.6535.sim);2026-11-10 05:48
+DO_KOSZA;0.308;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM_DT05\CP_019370_t9.6850.sim;starszy checkpoint (jest nowszy CP_021307_t10.6535.sim);2026-11-10 06:17
+DO_KOSZA;0.08;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\overset\DFBI_GUI\GODO_OVERSET_SETUP_DFBI.sim~;kopia zapasowa STAR (.sim~);2026-11-10 17:14
+DO_KOSZA;0.092;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\overset\explore\GODO_SETUP_B1.0.sim;duplikat SETUP (zostaje 70_godo_case\night\MEDIUM\GODO_SETUP_B1.0.sim);2026-11-09 21:31
+ZOSTAJE;0.955;30_runs\FIXED_LONG_20261109_135203\CALM_VOF_NATIVE_FULL_BAND_FIXED_STABILIZE_20261105_144455_AF_resume.simh;;2026-11-09 19:20
+ZOSTAJE;0.275;30_runs\FIXED_LONG_20261109_135203\FINAL.sim;;2026-11-09 19:22
+ZOSTAJE;0.227;30_runs\FIXED_LONG_20261109_135203\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.29;30_runs\FIXED_REF_20261109_091938\CALM_VOF_NATIVE_FULL_BAND_FIXED_STABILIZE_20261105_144455_AF_resume.simh;;2026-11-09 10:52
+ZOSTAJE;0.243;30_runs\FIXED_REF_20261109_091938\FINAL.sim;;2026-11-09 10:55
+ZOSTAJE;0.227;30_runs\FIXED_REF_20261109_091938\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.107;30_runs\INT_FIXED_20261109_091202\CALM_VOF_NATIVE_FULL_BAND_FIXED_STABILIZE_20261105_144455_AF_resume.simh;;2026-11-09 09:34
+ZOSTAJE;0.242;30_runs\INT_FIXED_20261109_091202\FINAL.sim;;2026-11-09 09:35
+ZOSTAJE;0.227;30_runs\INT_FIXED_20261109_091202\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.068;30_runs\INT_POWER_20261109_194532\CALM_VOF_NATIVE_FULL_BAND_FIXED_STABILIZE_20261105_144455_AF_resume.simh;;2026-11-09 20:08
+ZOSTAJE;0.242;30_runs\INT_POWER_20261109_194532\FINAL.sim;;2026-11-09 20:09
+ZOSTAJE;0.227;30_runs\INT_POWER_20261109_194532\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.107;30_runs\INT_SCRIPTED_20261109_091159\CALM_VOF_NATIVE_FULL_BAND_FIXED_STABILIZE_20261105_144455_AF_resume.simh;;2026-11-09 09:35
+ZOSTAJE;0.242;30_runs\INT_SCRIPTED_20261109_091159\FINAL.sim;;2026-11-09 09:36
+ZOSTAJE;0.227;30_runs\INT_SCRIPTED_20261109_091159\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.956;30_runs\MAP_FF180_20261109_135209\CALM_VOF_NATIVE_FULL_BAND_FIXED_STABILIZE_20261105_144455_AF_resume.simh;;2026-11-09 18:21
+ZOSTAJE;0.275;30_runs\MAP_FF180_20261109_135209\FINAL.sim;;2026-11-09 18:21
+ZOSTAJE;0.227;30_runs\MAP_FF180_20261109_135209\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.956;30_runs\MAP_FF_20261109_135206\CALM_VOF_NATIVE_FULL_BAND_FIXED_STABILIZE_20261105_144455_AF_resume.simh;;2026-11-09 19:06
+ZOSTAJE;0.275;30_runs\MAP_FF_20261109_135206\FINAL.sim;;2026-11-09 19:07
+ZOSTAJE;0.227;30_runs\MAP_FF_20261109_135206\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.29;30_runs\PI_KP08_20261109_091936\CALM_VOF_NATIVE_FULL_BAND_FIXED_STABILIZE_20261105_144455_AF_resume.simh;;2026-11-09 10:40
+ZOSTAJE;0.243;30_runs\PI_KP08_20261109_091936\FINAL.sim;;2026-11-09 10:41
+ZOSTAJE;0.227;30_runs\PI_KP08_20261109_091936\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.127;30_runs\PI_LP_KP05_20261109_135212\CALM_VOF_NATIVE_FULL_BAND_FIXED_STABILIZE_20261105_144455_AF_resume.simh;;2026-11-09 14:42
+ZOSTAJE;0.227;30_runs\PI_LP_KP05_20261109_135212\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.917;30_runs\PRBS1_20261109_145648\CALM_VOF_NATIVE_FULL_BAND_FIXED_STABILIZE_20261105_144455_AF_resume.simh;;2026-11-09 20:43
+ZOSTAJE;0.227;30_runs\PRBS1_20261109_145648\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.923;30_runs\PRBS2_20261109_145648\CALM_VOF_NATIVE_FULL_BAND_FIXED_STABILIZE_20261105_144455_AF_resume.simh;;2026-11-09 20:42
+ZOSTAJE;0.227;30_runs\PRBS2_20261109_145648\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.227;30_runs\PROBE\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.336;70_godo_case\ctrl_runs\INT_GODO_20261109_220803\FINAL.sim;;2026-11-09 22:35
+ZOSTAJE;0.092;70_godo_case\ctrl_runs\INT_GODO_20261109_220803\input.sim;;2026-11-09 21:31
+ZOSTAJE;0.092;70_godo_case\ctrl_runs\UDVM_GPU_20261110_143407\input.sim;;2026-11-09 21:31
+ZOSTAJE;0.169;70_godo_case\night\COARSE\CP_000242_t0.2420.sim;;2026-11-10 07:35
+ZOSTAJE;0.072;70_godo_case\night\COARSE\GODO_SETUP_B1.41421356.sim;;2026-11-10 00:40
+ZOSTAJE;0.227;70_godo_case\night\COARSE\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.19;70_godo_case\night\COARSE_CPU\END_t11.6210.sim;;2026-11-10 13:47
+ZOSTAJE;0.476;70_godo_case\night\FINE\END_t0.0320.sim;;2026-11-10 01:12
+ZOSTAJE;0.129;70_godo_case\night\FINE\GODO_SETUP_B0.70710678.sim;;2026-11-10 01:08
+ZOSTAJE;0.227;70_godo_case\night\FINE\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.505;70_godo_case\night\FINE_DT0707\END_t11.6206.sim;;2026-11-10 14:30
+ZOSTAJE;0.294;70_godo_case\night\MEDIUM\END_t11.6210.sim;;2026-11-10 00:37
+ZOSTAJE;0.092;70_godo_case\night\MEDIUM\GODO_SETUP_B1.0.sim;;2026-11-09 21:31
+ZOSTAJE;0.227;70_godo_case\night\MEDIUM\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.315;70_godo_case\night\MEDIUM_DT05\END_t11.6210.sim;;2026-11-10 07:17
+ZOSTAJE;0.092;70_godo_case\night\MEDIUM_DT05\GODO_SETUP_B1.0.sim;;2026-11-10 01:15
+ZOSTAJE;0.227;70_godo_case\night\MEDIUM_DT05\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.081;70_godo_case\overset\CALM\GODO_OVERSET_SETUP_CALM.sim;;2026-11-11 10:27
+ZOSTAJE;0.08;70_godo_case\overset\CALM\diag_input.sim;;2026-11-10 17:14
+ZOSTAJE;0.081;70_godo_case\overset\DFBI_CFG\diag_input.sim;;2026-11-10 20:43
+ZOSTAJE;0.081;70_godo_case\overset\DFBI_GUI\GODO_OVERSET_SETUP_DFBI.sim;;2026-11-10 20:43
+ZOSTAJE;0.035;70_godo_case\overset\OV2D_B1\GODO_OVERSET2D_SETUP.sim;;2026-11-10 14:56
+ZOSTAJE;0.111;70_godo_case\overset\OV2D_B1\input3d.sim;;2026-11-10 12:44
+ZOSTAJE;0.092;70_godo_case\overset\OV_B1_20261110_122734\input.sim;;2026-11-09 21:31
+ZOSTAJE;0.11;70_godo_case\overset\OV_B1_20261110_122734\input@meshed.sim;;2026-11-10 12:30
+ZOSTAJE;0.092;70_godo_case\overset\OV_B1_20261110_123230\input.sim;;2026-11-09 21:31
+ZOSTAJE;0.11;70_godo_case\overset\OV_B1_20261110_123230\input@meshed.sim;;2026-11-10 12:35
+ZOSTAJE;0.092;70_godo_case\overset\OV_B1_20261110_123635\input.sim;;2026-11-09 21:31
+ZOSTAJE;0.11;70_godo_case\overset\OV_B1_20261110_123635\input@meshed.sim;;2026-11-10 12:39
+ZOSTAJE;0.386;70_godo_case\overset\OV_B1_20261110_124148\GODO_OVERSET_PROBE_END_B1.0.sim;;2026-11-10 12:48
+ZOSTAJE;0.111;70_godo_case\overset\OV_B1_20261110_124148\GODO_OVERSET_SETUP_B1.0.sim;;2026-11-10 12:44
+ZOSTAJE;0.092;70_godo_case\overset\OV_B1_20261110_124148\input.sim;;2026-11-09 21:31
+ZOSTAJE;0.082;70_godo_case\overset\OV_SHORT20_20261110_163129\GODO_OVERSET_SETUP_B1.0.sim;;2026-11-10 16:33
+ZOSTAJE;0.092;70_godo_case\overset\OV_SHORT20_20261110_163129\input.sim;;2026-11-09 21:31
+ZOSTAJE;0.08;70_godo_case\overset\OV_SHORT30_20261110_171107\GODO_OVERSET_SETUP_B1.0.sim;;2026-11-10 17:14
+ZOSTAJE;0.092;70_godo_case\overset\OV_SHORT30_20261110_171107\input.sim;;2026-11-09 21:31
+ZOSTAJE;0.087;70_godo_case\overset\OV_SHORT_20261110_150042\GODO_OVERSET_SETUP_B1.0.sim;;2026-11-10 15:02
+ZOSTAJE;0.092;70_godo_case\overset\OV_SHORT_20261110_150042\input.sim;;2026-11-09 21:31
+ZOSTAJE;0.23;70_godo_case\overset_runs\AB20\END_t0.0300.sim;;2026-11-10 18:39
+ZOSTAJE;0.217;70_godo_case\overset_runs\AB30\END_t0.0300.sim;;2026-11-10 18:48
+ZOSTAJE;0.081;70_godo_case\overset_runs\CHECK_DFBI\diag_input.sim;;2026-11-10 20:43
+ZOSTAJE;0.387;70_godo_case\overset_runs\CPU_SCALE16\END_t0.0500.sim;;2026-11-10 14:39
+ZOSTAJE;0.386;70_godo_case\overset_runs\CTRL_SMOKE2\END_t0.0800.sim;;2026-11-10 13:04
+ZOSTAJE;0.386;70_godo_case\overset_runs\CTRL_SMOKE_CPU\END_t0.0230.sim;;2026-11-10 12:52
+ZOSTAJE;0.231;70_godo_case\overset_runs\DIAG_CFL2\diag_input.sim;;2026-11-10 16:51
+ZOSTAJE;0.231;70_godo_case\overset_runs\DIAG_CFL2\diag_input@04688.sim;;2026-11-10 17:10
+ZOSTAJE;0.217;70_godo_case\overset_runs\DIAG_CFL3\diag_input.sim;;2026-11-10 19:04
+ZOSTAJE;0.218;70_godo_case\overset_runs\DIAG_CFL3\diag_input@05344.sim;;2026-11-10 19:48
+ZOSTAJE;0.231;70_godo_case\overset_runs\DIAG_CFL\diag_input.sim;;2026-11-10 16:43
+ZOSTAJE;0.231;70_godo_case\overset_runs\DIAG_CFL\diag_input@04104.sim;;2026-11-10 16:47
+ZOSTAJE;0.387;70_godo_case\overset_runs\INNER12\END_t0.3540.sim;;2026-11-10 14:58
+ZOSTAJE;0.387;70_godo_case\overset_runs\INNER6\END_t0.3540.sim;;2026-11-10 15:04
+ZOSTAJE;0.387;70_godo_case\overset_runs\INNER8\END_t0.3540.sim;;2026-11-10 14:56
+ZOSTAJE;0.222;70_godo_case\overset_runs\OVS_CALM_PID2\END_t4.0000.sim;;2026-11-11 15:48
+ZOSTAJE;0.233;70_godo_case\overset_runs\OVS_PID1_GODO\END_t11.6210.sim;;2026-11-12 00:55
+ZOSTAJE;0.233;70_godo_case\overset_runs\OVS_PID3_GODO\END_t11.6210.sim;;2026-11-12 05:06
+ZOSTAJE;0.233;70_godo_case\overset_runs\OVS_PID_BASE2\END_t11.6210.sim;;2026-11-11 00:49
+ZOSTAJE;0.222;70_godo_case\overset_runs\OVS_PID_BASE\END_t4.1740.sim;;2026-11-10 20:52
+ZOSTAJE;0.231;70_godo_case\overset_runs\OVS_PID_BASE_cfl2\END_t0.5840.sim;;2026-11-10 16:51
+ZOSTAJE;0.254;70_godo_case\overset_runs\OVS_PID_BASE_cfl\END_t0.5080.sim;;2026-11-10 15:28
+ZOSTAJE;0.233;70_godo_case\overset_runs\OVS_PID_PRBS1\END_t11.6210.sim;;2026-11-11 04:46
+ZOSTAJE;0.233;70_godo_case\overset_runs\OVS_PID_SINE_A2\END_t11.6210.sim;;2026-11-11 12:01
+ZOSTAJE;0.387;70_godo_case\overset_runs\OV_PID_BASE\END_t0.2740.sim;;2026-11-10 14:51
+ZOSTAJE;0.179;70_godo_case\runs\BENCH_GPU1_B1_dt0.001_np1_gpu_20261109_201817\GODO_SETUP_B1.0.sim;;2026-11-09 20:23
+ZOSTAJE;0.227;70_godo_case\runs\BENCH_GPU1_B1_dt0.001_np1_gpu_20261109_201817\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.18;70_godo_case\runs\BENCH_GPU2_B1_dt0.001_np2_gpu_20261109_202652\GODO_SETUP_B1.0.sim;;2026-11-09 20:31
+ZOSTAJE;0.227;70_godo_case\runs\BENCH_GPU2_B1_dt0.001_np2_gpu_20261109_202652\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.0;70_godo_case\runs\CLEAN_GPU1_B1_dt0.001_np1_gpu_20261109_203641\GODO_SETUP_B1.0.sim;;2026-11-09 20:40
+ZOSTAJE;0.227;70_godo_case\runs\CLEAN_GPU1_B1_dt0.001_np1_gpu_20261109_203641\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.0;70_godo_case\runs\CLEAN_GPU1_B1_dt0.001_np1_gpu_20261109_203641\input@meshed.sim;;2026-11-09 20:40
+ZOSTAJE;0.227;70_godo_case\runs\CLEAN_GPU1_B1_dt0.001_np1_gpu_20261109_204142\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.273;70_godo_case\runs\CLEAN_GPU1_B1_dt0.001_np1_gpu_20261109_205505\GODO_PROBE_END_B1.0.sim;;2026-11-09 20:58
+ZOSTAJE;0.091;70_godo_case\runs\CLEAN_GPU1_B1_dt0.001_np1_gpu_20261109_205505\GODO_SETUP_B1.0.sim;;2026-11-09 20:57
+ZOSTAJE;0.227;70_godo_case\runs\CLEAN_GPU1_B1_dt0.001_np1_gpu_20261109_205505\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.227;70_godo_case\runs\PROBE_B1_dt0.001_20261109_195858\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.18;70_godo_case\runs\PROBE_B1_dt0.001_20261109_195858\input@meshed.sim;;2026-11-09 20:02
+ZOSTAJE;0.361;70_godo_case\runs\PROBE_B1_dt0.001_20261109_200304\GODO_PROBE_END_B1.0.sim;;2026-11-09 20:16
+ZOSTAJE;0.18;70_godo_case\runs\PROBE_B1_dt0.001_20261109_200304\GODO_SETUP_B1.0.sim;;2026-11-09 20:06
+ZOSTAJE;0.227;70_godo_case\runs\PROBE_B1_dt0.001_20261109_200304\input.sim;;2026-11-06 13:51
+ZOSTAJE;0.246;70_godo_case\vorticity\OVS_PID_BASE2\vort_scene.sim;;2026-11-11 14:48
+ZOSTAJE;0.246;70_godo_case\vorticity\OVS_PID_PRBS1\vort_scene.sim;;2026-11-11 14:53
+ZOSTAJE;0.246;70_godo_case\vorticity\OVS_PID_SINE_A2\vort_scene.sim;;2026-11-11 14:51
+ZOSTAJE;0.955;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\30_runs\FIXED_LONG_20261109_135203\CTRL_playback.simh;;2026-11-09 19:20
+ZOSTAJE;0.956;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\30_runs\MAP_FF180_20261109_135209\CTRL_playback.simh;;2026-11-09 18:20
+ZOSTAJE;0.956;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\30_runs\MAP_FF_20261109_135206\CTRL_playback.simh;;2026-11-09 19:05
+ZOSTAJE;0.19;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\COARSE_CPU\CP_011616_t11.6160.sim;;2026-11-10 13:47
+ZOSTAJE;0.476;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\FINE\END_t0.0310.sim;;2026-11-10 01:11
+ZOSTAJE;0.505;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\FINE_DT0707\CP_016416_t11.6079.sim;;2026-11-10 14:30
+ZOSTAJE;0.479;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\FINE_DT0707\END_t1.3633.sim;;2026-11-10 08:54
+ZOSTAJE;0.294;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM\CP_011616_t11.6160.sim;;2026-11-10 00:37
+ZOSTAJE;0.311;99_DO_UPORZADKOWANIA\_DO_USUNIECIA\70_godo_case\night\MEDIUM_DT05\CP_021307_t10.6535.sim;;2026-11-10 06:47

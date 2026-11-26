@@ -1,0 +1,9 @@
+nowa fala S1_JONSWAP_seed100 1, skladowych 59, prad [12.346666666666666, 0.0, 0.0], poziom [0.0, 1.09, 0.0], glebia: przyblizenie glebokiej wody
+jednostka fazy: radian
+  FF: Volume Fraction of Heavy Fluid of CB_StokesV 1 -> Volume Fraction of Heavy Fluid of S1_JONSWAP_seed100 1
+  FF: Velocity of CB_StokesV 1 -> Velocity of S1_JONSWAP_seed100 1
+  FF: Hydrostatic Pressure of Heavy Fluid of CB_StokesV 1 -> Hydrostatic Pressure of Heavy Fluid of S1_JONSWAP_seed100 1
+  FF: Velocity of CB_StokesV 1 -> Velocity of S1_JONSWAP_seed100 1
+  FF: Volume Fraction of Heavy Fluid of CB_StokesV 1 -> Volume Fraction of Heavy Fluid of S1_JONSWAP_seed100 1
+  FF: Volume Fraction of Light Fluid of CB_StokesV 1 -> Volume Fraction of Light Fluid of S1_JONSWAP_seed100 1
+przepiete field functions: 6, przepiete wybory fali: 0

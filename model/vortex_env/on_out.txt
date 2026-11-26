@@ -1,0 +1,6 @@
+czysty (jak w treningu)                    4/4  plat  -67.9 %  z'' 3.04  szarpanie kata 0.112 deg/takt
+roznica eta, bez szumu                     4/4  plat  -67.7 %  z'' 3.04  szarpanie kata 0.113 deg/takt
+roznica eta + szum 5 mm                    4/4  plat  -64.1 %  z'' 2.94  szarpanie kata 0.170 deg/takt
+roznica eta + szum 5 mm + dolina -0,15 m   0/4  plat   +nan %  z'' nan  szarpanie kata nan deg/takt
+j.w. + filtr 50 ms                         0/4  plat   +nan %  z'' nan  szarpanie kata nan deg/takt
+j.w. + filtr 100 ms                        4/4  plat  -53.1 %  z'' 2.86  szarpanie kata 0.151 deg/takt

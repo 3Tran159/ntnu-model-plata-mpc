@@ -1,0 +1,34 @@
+fala 3 sonda0   : UPADEK po 28.37 s
+fala 3 d3       : UPADEK po 28.56 s
+fala 3 d1.5+3   : UPADEK po 28.55 s
+fala 3 d3+boki  : UPADEK po 28.56 s
+fala 3 d6       : UPADEK po 28.55 s
+fala 4 pid2     : UPADEK po 13.29 s
+fala 4 wyrocznia: opor -52% | z -0.65..0.41 | zanurz. min 1.36c | zacc RMS 4.56
+fala 4 sonda0   : UPADEK po 13.21 s
+fala 4 d3       : UPADEK po 13.47 s
+fala 4 d1.5+3   : UPADEK po 13.48 s
+fala 4 d3+boki  : UPADEK po 13.46 s
+fala 4 d6       : opor -51% | z -0.75..0.43 | zanurz. min 1.53c | zacc RMS 4.51
+fala 5 pid2     : opor -29% | z -0.24..0.36 | zanurz. min 1.77c | zacc RMS 1.87
+fala 5 wyrocznia: opor -77% | z -0.65..0.31 | zanurz. min 2.00c | zacc RMS 4.79
+fala 5 sonda0   : opor -67% | z -0.69..0.48 | zanurz. min 1.79c | zacc RMS 4.73
+fala 5 d3       : opor -79% | z -0.63..0.36 | zanurz. min 2.01c | zacc RMS 4.68
+fala 5 d1.5+3   : opor -78% | z -0.60..0.37 | zanurz. min 2.01c | zacc RMS 4.72
+fala 5 d3+boki  : opor -79% | z -0.60..0.33 | zanurz. min 2.02c | zacc RMS 4.72
+fala 5 d6       : opor -80% | z -0.56..0.34 | zanurz. min 1.97c | zacc RMS 4.68
+fala 6 pid2     : opor -19% | z -0.38..0.40 | zanurz. min 1.69c | zacc RMS 1.89
+fala 6 wyrocznia: opor -55% | z -0.59..0.42 | zanurz. min 2.00c | zacc RMS 4.52
+fala 6 sonda0   : opor -57% | z -0.69..0.50 | zanurz. min 1.80c | zacc RMS 4.48
+fala 6 d3       : opor -60% | z -0.58..0.50 | zanurz. min 1.98c | zacc RMS 4.35
+fala 6 d1.5+3   : opor -60% | z -0.58..0.50 | zanurz. min 1.97c | zacc RMS 4.34
+fala 6 d3+boki  : opor -60% | z -0.57..0.49 | zanurz. min 1.99c | zacc RMS 4.44
+fala 6 d6       : opor -58% | z -0.55..0.43 | zanurz. min 1.96c | zacc RMS 4.47
+PODSUMOWANIE pid2     : przezyl 3/5, opor (gdy przezyl) -22.2 %
+PODSUMOWANIE wyrocznia: przezyl 5/5, opor (gdy przezyl) -57.6 %
+PODSUMOWANIE sonda0   : przezyl 2/5, opor (gdy przezyl) -62.2 %
+PODSUMOWANIE d3       : przezyl 2/5, opor (gdy przezyl) -69.5 %
+PODSUMOWANIE d1.5+3   : przezyl 2/5, opor (gdy przezyl) -69.3 %
+PODSUMOWANIE d3+boki  : przezyl 2/5, opor (gdy przezyl) -69.1 %
+PODSUMOWANIE d6       : przezyl 4/5, opor (gdy przezyl) -60.2 %
+gotowe 1451 s

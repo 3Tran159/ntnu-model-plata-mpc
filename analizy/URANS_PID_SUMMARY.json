@@ -1,0 +1,67 @@
+{
+ "OVS_PID_BASE2": {
+  "P_drag_W": 70.3,
+  "vs_calm_pct": 15.1,
+  "z_min_m": -0.291,
+  "z_max_m": 0.337,
+  "acc_rms": 2.3,
+  "theta_deg": [
+   0.09,
+   6.22
+  ],
+  "P_act_mean_W": 0.2,
+  "t_end": 11.621
+ },
+ "OVS_PID1_GODO": {
+  "P_drag_W": 49.9,
+  "vs_calm_pct": -18.4,
+  "z_min_m": -0.172,
+  "z_max_m": 0.382,
+  "acc_rms": 1.99,
+  "theta_deg": [
+   2.68,
+   3.78
+  ],
+  "P_act_mean_W": 0.09,
+  "t_end": 11.621
+ },
+ "OVS_PID3_GODO": {
+  "P_drag_W": 91.0,
+  "vs_calm_pct": 49.0,
+  "z_min_m": -0.208,
+  "z_max_m": 0.248,
+  "acc_rms": 1.79,
+  "theta_deg": [
+   -2.23,
+   7.5
+  ],
+  "P_act_mean_W": 0.61,
+  "t_end": 11.621
+ },
+ "OVS_PID_SINE_A2": {
+  "P_drag_W": 64.6,
+  "vs_calm_pct": 5.7,
+  "z_min_m": -0.141,
+  "z_max_m": 0.174,
+  "acc_rms": 1.14,
+  "theta_deg": [
+   0.92,
+   5.42
+  ],
+  "P_act_mean_W": 0.96,
+  "t_end": 11.621
+ },
+ "OVS_PID_PRBS1": {
+  "P_drag_W": 73.0,
+  "vs_calm_pct": 19.4,
+  "z_min_m": -0.322,
+  "z_max_m": 0.37,
+  "acc_rms": 2.56,
+  "theta_deg": [
+   -1.95,
+   7.46
+  ],
+  "P_act_mean_W": 0.88,
+  "t_end": 11.621
+ }
+}

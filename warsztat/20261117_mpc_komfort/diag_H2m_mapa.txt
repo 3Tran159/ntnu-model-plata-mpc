@@ -1,0 +1,8 @@
+T5.0006_cel0.4905 = bazowy H2m (kontrola) (FSOFF '')
+T5.0007_cel0.4905 = bazowy spokojna (FSOFF '')
+T5.0008_cel0.4905 = bez fs_lift H2m (FSOFF 'fs_lift')
+T5.0009_cel0.4905 = bez fs_lift spokojna (FSOFF 'fs_lift')
+T5.001_cel0.4905 = bez fs_wave H2m (FSOFF 'fs_wave')
+T5.0011_cel0.4905 = bez fs_wave spokojna (FSOFF 'fs_wave')
+T5.0012_cel0.4905 = bez obu H2m (FSOFF 'fs_lift,fs_wave')
+T5.0013_cel0.4905 = bez obu spokojna (FSOFF 'fs_lift,fs_wave')

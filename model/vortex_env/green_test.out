@@ -1,0 +1,6 @@
+OVS_PID_BASE2   : URANS  69.5 W | model  69.0 W ( -0.7 %) | model + Green  70.6 W ( +1.6 %)
+OVS_PID1_GODO   : URANS  52.5 W | model  43.5 W (-17.1 %) | model + Green  44.8 W (-14.6 %)
+OVS_PID3_GODO   : URANS  90.1 W | model  95.6 W ( +6.0 %) | model + Green  96.6 W ( +7.1 %)
+woda spokojna z +0.0 m: model 60.39 W | model + Green 60.44 W
+woda spokojna z -0.3 m: model 61.07 W | model + Green 60.28 W
+woda spokojna z -0.6 m: model 61.77 W | model + Green 60.19 W

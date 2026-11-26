@@ -1,0 +1,33 @@
+{"cleanup":{"scenes":8,"plots":7,"tables":55,"solution_views":5,"solution_histories":3,"monitors":20,"reports":1645,"derived_parts":338,"mesh_operations":1,"geometry_parts":3,"user_field_functions":29,"vof_waves":27,"reports_left":15,"monitors_left":18},"base_size_m":1.0,"cells":112305,"mesh_seconds":14.1509252,"min_cell_quality":0.1865806862952411,"min_volume_m3":1.807291426519132E-9,"min_face_validity":1.0,"orientation_repaired":0,"wake_refinement":true,"active_wave":"CB_StokesV 1","waves":["NN_OutletFlat 6:FlatVofWave","CB_StokesV 1:FifthOrderVofWave","NN_OutletFlat 25:FlatVofWave"],"coefficient_basis":{"defs":{"AF_CL_old":"(${AF_FzReport}-<9810 N/m^3>*(<11.2 m^3>-${AF_FluidVolumeReport}))/<3855.6 N>","AF_CL_new":"(${AF_FzReport}-1.5616517410475184)/475.61335466666657","AF_CD_old":"${AF_FxReport}/<3855.6 N>","AF_CD_new":"${AF_FxReport}/475.61335466666657"},"q_N":475.61335466666657,"buoyancy_N":1.5616517410475184},"stage":"physics","error":"SIGSEGV: memory access exception
+Command: SaveState
+   Recoverability: Non-recoverable
+   ServerStack: [SymInit: Symbol-SearchPath: '.', symOptions: 530, UserName: 'ThinkPad'
+, OS-Version: 6.2.9200 () 0x100-0x1
+, 00007FFD83A431E6 (StarNeo): (filename not available): StateSaver::toBeRegistered
+, 00007FFD83A430B5 (StarNeo): (filename not available): StateSaver::registerToSave
+, 00007FFD839EF873 (StarNeo): (filename not available): PropertySaveStrategy::set
+, 00007FFD839CB450 (StarNeo): (filename not available): Properties::set
+, 00007FFCDB8988B6 (StarPost): (filename not available): SolutionViewManager::getDataProperties
+, 00007FFD8394BCD9 (StarNeo): (filename not available): ClientServerObject::save
+, 00007FFD83A0D522 (StarNeo): (filename not available): Serializable::saveObjectState
+, 00007FFD1CCF48DB (StarCommon): (filename not available): ObjectStateSaver::performSave
+, 00007FFD1CCF2CC0 (StarCommon): (filename not available): ObjectStateSaver::save
+, 00007FFD1CCF1C12 (StarCommon): (filename not available): ObjectStateSaver::save
+, 00007FFD1CE68806 (StarCommon): (filename not available): RootObject::saveWithNotification
+, 00007FFD1CE80A53 (StarCommon): (filename not available): RootRepositoryBase::RootRepositoryBase
+, 00007FFD8397869C (StarNeo): (filename not available): Controller::executeCommand
+, 00007FFD83977813 (StarNeo): (filename not available): Controller::processCommands
+, 00007FFD84CDDCBE (StarMachine): (filename not available): CommandController::processCommands
+, 00007FFD84DA8EBB (StarMachine): (filename not available): ServerSession::startServerHost
+, 00007FFD84DA7486 (StarMachine): (filename not available): ServerSession::launchServer
+, 00007FFD84DA71D5 (StarMachine): (filename not available): ServerSession::main
+, ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00007FF6555F2792)
+, 00007FF6555F2792 (star-ccm+): (filename not available): (function-name not available)
+, ERROR: SymGetSymFromAddr64, GetLastError: 487 (Address: 00007FF6555F9550)
+, 00007FF6555F9550 (star-ccm+): (filename not available): (function-name not available)
+, 00007FFE4963DDA7 (KERNEL32): (filename not available): BaseThreadInitThunk
+, 00007FFE4B2DEE4C (ntdll): (filename not available): RtlUserThreadStart
+]
+   Signal: SIGSEGV: memory access exception
+   error: Server Error
+"}

@@ -1,0 +1,4 @@
+2026-11-20 22:17:22 czekam na koniec kolejki 22
+2026-11-21 06:06:51 start OVS_CEL_005g_S1_90, jeden MPC (wypadkowa 0,05 g), fala S1, pid 34656
+2026-11-21 07:50:10 end OVS_CEL_005g_S1_90 : {"result":"HOLD_LIMIT","time_s":2.1929999999998695,"steps_this_session":2193,"wall_s":6072.6606258}
+2026-11-21 07:50:10 koniec kolejki 24

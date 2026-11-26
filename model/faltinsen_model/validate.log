@@ -1,0 +1,99 @@
+2026-11-13 10:56:20 OVS_PID1_GODO|A_2pi_bez_u|petla_zamknieta: moc oporu URANS 52.5 W, model 56.8 W (+8.3 %); z p2p URANS 0.566 m, model 0.546 m (-3.5 %); CLmax model 0.81; 2 s
+2026-11-13 10:56:22 OVS_PID1_GODO|A_2pi_bez_u|odtworzenie_ruchu: moc oporu URANS 52.5 W, model 38.7 W (-26.3 %); CL 1.harm URANS/model 0.685, faza -12.0 deg; 2 s
+2026-11-13 10:56:25 OVS_PID1_GODO|B_2pi_z_u|petla_zamknieta: moc oporu URANS 52.5 W, model 47.4 W (-9.7 %); z p2p URANS 0.566 m, model 0.562 m (-0.7 %); CLmax model 0.82; 2 s
+2026-11-13 10:56:27 OVS_PID1_GODO|B_2pi_z_u|odtworzenie_ruchu: moc oporu URANS 52.5 W, model 41.2 W (-21.4 %); CL 1.harm URANS/model 0.923, faza -4.0 deg; 2 s
+2026-11-13 10:56:29 OVS_PID1_GODO|C_nachylenie_090_z_u|petla_zamknieta: moc oporu URANS 52.5 W, model 45.2 W (-13.8 %); z p2p URANS 0.566 m, model 0.558 m (-1.4 %); CLmax model 0.82; 2 s
+2026-11-13 10:56:31 OVS_PID1_GODO|C_nachylenie_090_z_u|odtworzenie_ruchu: moc oporu URANS 52.5 W, model 43.9 W (-16.4 %); CL 1.harm URANS/model 1.068, faza -2.6 deg; 2 s
+2026-11-13 10:56:34 OVS_PID1_GODO|D_2pi_z_u_biegunowa_DOPASOWANA_v2|petla_zamknieta: moc oporu URANS 52.5 W, model 54.0 W (+3.0 %); z p2p URANS 0.566 m, model 0.562 m (-0.7 %); CLmax model 0.82; 2 s
+2026-11-13 10:56:36 OVS_PID1_GODO|D_2pi_z_u_biegunowa_DOPASOWANA_v2|odtworzenie_ruchu: moc oporu URANS 52.5 W, model 49.7 W (-5.2 %); CL 1.harm URANS/model 0.923, faza -4.0 deg; 2 s
+2026-11-13 10:56:38 OVS_PID2_GODO|A_2pi_bez_u|petla_zamknieta: moc oporu URANS 58.3 W, model 60.2 W (+3.3 %); z p2p URANS 0.635 m, model 0.590 m (-7.2 %); CLmax model 0.83; 2 s
+2026-11-13 10:56:41 OVS_PID2_GODO|A_2pi_bez_u|odtworzenie_ruchu: moc oporu URANS 58.3 W, model 48.1 W (-17.4 %); CL 1.harm URANS/model 0.691, faza -5.7 deg; 2 s
+2026-11-13 10:56:43 OVS_PID2_GODO|B_2pi_z_u|petla_zamknieta: moc oporu URANS 58.3 W, model 52.6 W (-9.8 %); z p2p URANS 0.635 m, model 0.600 m (-5.6 %); CLmax model 0.83; 2 s
+2026-11-13 10:56:45 OVS_PID2_GODO|B_2pi_z_u|odtworzenie_ruchu: moc oporu URANS 58.3 W, model 47.9 W (-17.8 %); CL 1.harm URANS/model 0.915, faza -2.5 deg; 2 s
+2026-11-13 10:56:47 OVS_PID2_GODO|C_nachylenie_090_z_u|petla_zamknieta: moc oporu URANS 58.3 W, model 49.3 W (-15.4 %); z p2p URANS 0.635 m, model 0.606 m (-4.5 %); CLmax model 0.84; 2 s
+2026-11-13 10:56:50 OVS_PID2_GODO|C_nachylenie_090_z_u|odtworzenie_ruchu: moc oporu URANS 58.3 W, model 49.0 W (-15.9 %); CL 1.harm URANS/model 1.058, faza -2.0 deg; 2 s
+2026-11-13 10:56:52 OVS_PID2_GODO|D_2pi_z_u_biegunowa_DOPASOWANA_v2|petla_zamknieta: moc oporu URANS 58.3 W, model 61.0 W (+4.6 %); z p2p URANS 0.635 m, model 0.600 m (-5.6 %); CLmax model 0.83; 2 s
+2026-11-13 10:56:54 OVS_PID2_GODO|D_2pi_z_u_biegunowa_DOPASOWANA_v2|odtworzenie_ruchu: moc oporu URANS 58.3 W, model 58.8 W (+0.9 %); CL 1.harm URANS/model 0.915, faza -2.5 deg; 2 s
+2026-11-13 10:56:57 OVS_PID3_GODO|A_2pi_bez_u|petla_zamknieta: moc oporu URANS 90.1 W, model 81.1 W (-10.1 %); z p2p URANS 0.459 m, model 0.421 m (-8.4 %); CLmax model 0.78; 2 s
+2026-11-13 10:56:59 OVS_PID3_GODO|A_2pi_bez_u|odtworzenie_ruchu: moc oporu URANS 90.1 W, model 91.3 W (+1.4 %); CL 1.harm URANS/model 0.669, faza +14.0 deg; 2 s
+2026-11-13 10:57:01 OVS_PID3_GODO|B_2pi_z_u|petla_zamknieta: moc oporu URANS 90.1 W, model 83.7 W (-7.1 %); z p2p URANS 0.459 m, model 0.435 m (-5.2 %); CLmax model 0.76; 2 s
+2026-11-13 10:57:04 OVS_PID3_GODO|B_2pi_z_u|odtworzenie_ruchu: moc oporu URANS 90.1 W, model 85.4 W (-5.2 %); CL 1.harm URANS/model 0.880, faza +1.4 deg; 2 s
+2026-11-13 10:57:06 OVS_PID3_GODO|C_nachylenie_090_z_u|petla_zamknieta: moc oporu URANS 90.1 W, model 84.0 W (-6.9 %); z p2p URANS 0.459 m, model 0.462 m (+0.5 %); CLmax model 0.77; 2 s
+2026-11-13 10:57:08 OVS_PID3_GODO|C_nachylenie_090_z_u|odtworzenie_ruchu: moc oporu URANS 90.1 W, model 81.8 W (-9.2 %); CL 1.harm URANS/model 1.015, faza -0.6 deg; 2 s
+2026-11-13 10:57:11 OVS_PID3_GODO|D_2pi_z_u_biegunowa_DOPASOWANA_v2|petla_zamknieta: moc oporu URANS 90.1 W, model 88.8 W (-1.5 %); z p2p URANS 0.459 m, model 0.435 m (-5.2 %); CLmax model 0.76; 2 s
+2026-11-13 10:57:13 OVS_PID3_GODO|D_2pi_z_u_biegunowa_DOPASOWANA_v2|odtworzenie_ruchu: moc oporu URANS 90.1 W, model 93.0 W (+3.2 %); CL 1.harm URANS/model 0.880, faza +1.4 deg; 2 s
+2026-11-13 10:57:15 OVS_POL_TD3_GODO|A_2pi_bez_u|petla_zamknieta: moc oporu URANS 37.5 W, model 30.6 W (-18.4 %); z p2p URANS 0.676 m, model 0.716 m (+6.0 %); CLmax model 0.92; 2 s
+2026-11-13 10:57:17 OVS_POL_TD3_GODO|A_2pi_bez_u|odtworzenie_ruchu: moc oporu URANS 37.5 W, model 20.3 W (-45.8 %); CL 1.harm URANS/model 0.820, faza -13.2 deg; 2 s
+2026-11-13 10:57:20 OVS_POL_TD3_GODO|B_2pi_z_u|petla_zamknieta: moc oporu URANS 37.5 W, model 19.8 W (-47.3 %); z p2p URANS 0.676 m, model 0.773 m (+14.4 %); CLmax model 0.93; 3 s
+2026-11-13 10:57:22 OVS_POL_TD3_GODO|B_2pi_z_u|odtworzenie_ruchu: moc oporu URANS 37.5 W, model 26.7 W (-28.8 %); CL 1.harm URANS/model 1.002, faza -1.7 deg; 2 s
+2026-11-13 10:57:25 OVS_POL_TD3_GODO|C_nachylenie_090_z_u|petla_zamknieta: moc oporu URANS 37.5 W, model 19.1 W (-49.1 %); z p2p URANS 0.676 m, model 0.779 m (+15.3 %); CLmax model 0.92; 2 s
+2026-11-13 10:57:27 OVS_POL_TD3_GODO|C_nachylenie_090_z_u|odtworzenie_ruchu: moc oporu URANS 37.5 W, model 30.6 W (-18.3 %); CL 1.harm URANS/model 1.139, faza -0.1 deg; 2 s
+2026-11-13 10:57:29 OVS_POL_TD3_GODO|D_2pi_z_u_biegunowa_DOPASOWANA_v2|petla_zamknieta: moc oporu URANS 37.5 W, model 36.2 W (-3.5 %); z p2p URANS 0.676 m, model 0.773 m (+14.4 %); CLmax model 0.93; 2 s
+2026-11-13 10:57:31 OVS_POL_TD3_GODO|D_2pi_z_u_biegunowa_DOPASOWANA_v2|odtworzenie_ruchu: moc oporu URANS 37.5 W, model 41.6 W (+10.9 %); CL 1.harm URANS/model 1.002, faza -1.7 deg; 2 s
+2026-11-13 10:57:31 gotowe
+2026-11-13 11:15:02 OVS_PID1_GODO|E_2pi_z_u_staly_dodatek_w_fali|petla_zamknieta: moc oporu URANS 52.5 W, model 56.8 W (+8.2 %); z p2p URANS 0.566 m, model 0.562 m (-0.7 %); CLmax model 0.82; 2 s
+2026-11-13 11:15:04 OVS_PID1_GODO|E_2pi_z_u_staly_dodatek_w_fali|odtworzenie_ruchu: moc oporu URANS 52.5 W, model 50.6 W (-3.5 %); CL 1.harm URANS/model 0.923, faza -4.0 deg; 2 s
+2026-11-13 11:15:07 OVS_PID1_GODO|F_2pi_z_u_dodatek_i_biegunowa|petla_zamknieta: moc oporu URANS 52.5 W, model 56.0 W (+6.8 %); z p2p URANS 0.566 m, model 0.562 m (-0.7 %); CLmax model 0.82; 2 s
+2026-11-13 11:15:09 OVS_PID1_GODO|F_2pi_z_u_dodatek_i_biegunowa|odtworzenie_ruchu: moc oporu URANS 52.5 W, model 50.1 W (-4.4 %); CL 1.harm URANS/model 0.923, faza -4.0 deg; 2 s
+2026-11-13 11:15:11 OVS_PID2_GODO|E_2pi_z_u_staly_dodatek_w_fali|petla_zamknieta: moc oporu URANS 58.3 W, model 62.0 W (+6.4 %); z p2p URANS 0.635 m, model 0.600 m (-5.6 %); CLmax model 0.83; 2 s
+2026-11-13 11:15:14 OVS_PID2_GODO|E_2pi_z_u_staly_dodatek_w_fali|odtworzenie_ruchu: moc oporu URANS 58.3 W, model 57.3 W (-1.7 %); CL 1.harm URANS/model 0.915, faza -2.5 deg; 2 s
+2026-11-13 11:15:16 OVS_PID2_GODO|F_2pi_z_u_dodatek_i_biegunowa|petla_zamknieta: moc oporu URANS 58.3 W, model 61.5 W (+5.5 %); z p2p URANS 0.635 m, model 0.600 m (-5.6 %); CLmax model 0.83; 2 s
+2026-11-13 11:15:18 OVS_PID2_GODO|F_2pi_z_u_dodatek_i_biegunowa|odtworzenie_ruchu: moc oporu URANS 58.3 W, model 57.2 W (-1.8 %); CL 1.harm URANS/model 0.915, faza -2.5 deg; 2 s
+2026-11-13 11:15:21 OVS_PID3_GODO|E_2pi_z_u_staly_dodatek_w_fali|petla_zamknieta: moc oporu URANS 90.1 W, model 93.1 W (+3.3 %); z p2p URANS 0.459 m, model 0.435 m (-5.2 %); CLmax model 0.76; 2 s
+2026-11-13 11:15:23 OVS_PID3_GODO|E_2pi_z_u_staly_dodatek_w_fali|odtworzenie_ruchu: moc oporu URANS 90.1 W, model 94.8 W (+5.2 %); CL 1.harm URANS/model 0.880, faza +1.4 deg; 2 s
+2026-11-13 11:15:25 OVS_PID3_GODO|F_2pi_z_u_dodatek_i_biegunowa|petla_zamknieta: moc oporu URANS 90.1 W, model 92.1 W (+2.2 %); z p2p URANS 0.459 m, model 0.435 m (-5.2 %); CLmax model 0.76; 2 s
+2026-11-13 11:15:27 OVS_PID3_GODO|F_2pi_z_u_dodatek_i_biegunowa|odtworzenie_ruchu: moc oporu URANS 90.1 W, model 94.2 W (+4.5 %); CL 1.harm URANS/model 0.880, faza +1.4 deg; 2 s
+2026-11-13 11:15:29 OVS_POL_TD3_GODO|E_2pi_z_u_staly_dodatek_w_fali|petla_zamknieta: moc oporu URANS 37.5 W, model 29.1 W (-22.3 %); z p2p URANS 0.676 m, model 0.773 m (+14.4 %); CLmax model 0.93; 2 s
+2026-11-13 11:15:31 OVS_POL_TD3_GODO|E_2pi_z_u_staly_dodatek_w_fali|odtworzenie_ruchu: moc oporu URANS 37.5 W, model 36.1 W (-3.7 %); CL 1.harm URANS/model 1.002, faza -1.7 deg; 2 s
+2026-11-13 11:15:34 OVS_POL_TD3_GODO|F_2pi_z_u_dodatek_i_biegunowa|petla_zamknieta: moc oporu URANS 37.5 W, model 29.9 W (-20.3 %); z p2p URANS 0.676 m, model 0.773 m (+14.4 %); CLmax model 0.93; 2 s
+2026-11-13 11:15:36 OVS_POL_TD3_GODO|F_2pi_z_u_dodatek_i_biegunowa|odtworzenie_ruchu: moc oporu URANS 37.5 W, model 36.6 W (-2.4 %); CL 1.harm URANS/model 1.002, faza -1.7 deg; 2 s
+2026-11-13 11:15:36 gotowe
+2026-11-13 12:27:42 OVS_PID1_GODO|A_2pi_bez_u|petla_zamknieta: moc oporu URANS 52.5 W, model 56.8 W (+8.3 %); z p2p URANS 0.566 m, model 0.546 m (-3.5 %); CLmax model 0.81; 2 s
+2026-11-13 12:27:44 OVS_PID1_GODO|A_2pi_bez_u|odtworzenie_ruchu: moc oporu URANS 52.5 W, model 38.7 W (-26.3 %); CL 1.harm URANS/model 0.685, faza -12.0 deg; 2 s
+2026-11-13 12:27:47 OVS_PID1_GODO|B_2pi_z_u|petla_zamknieta: moc oporu URANS 52.5 W, model 47.4 W (-9.7 %); z p2p URANS 0.566 m, model 0.562 m (-0.7 %); CLmax model 0.82; 2 s
+2026-11-13 12:27:49 OVS_PID1_GODO|B_2pi_z_u|odtworzenie_ruchu: moc oporu URANS 52.5 W, model 41.2 W (-21.4 %); CL 1.harm URANS/model 0.923, faza -4.0 deg; 2 s
+2026-11-13 12:27:51 OVS_PID1_GODO|C_nachylenie_090_z_u|petla_zamknieta: moc oporu URANS 52.5 W, model 45.2 W (-13.8 %); z p2p URANS 0.566 m, model 0.558 m (-1.4 %); CLmax model 0.82; 2 s
+2026-11-13 12:27:53 OVS_PID1_GODO|C_nachylenie_090_z_u|odtworzenie_ruchu: moc oporu URANS 52.5 W, model 43.9 W (-16.4 %); CL 1.harm URANS/model 1.068, faza -2.6 deg; 2 s
+2026-11-13 12:27:56 OVS_PID1_GODO|D_2pi_z_u_biegunowa_DOPASOWANA_v2|petla_zamknieta: moc oporu URANS 52.5 W, model 54.0 W (+3.0 %); z p2p URANS 0.566 m, model 0.562 m (-0.7 %); CLmax model 0.82; 2 s
+2026-11-13 12:27:58 OVS_PID1_GODO|D_2pi_z_u_biegunowa_DOPASOWANA_v2|odtworzenie_ruchu: moc oporu URANS 52.5 W, model 49.7 W (-5.2 %); CL 1.harm URANS/model 0.923, faza -4.0 deg; 2 s
+2026-11-13 12:28:00 OVS_PID1_GODO|E_2pi_z_u_staly_dodatek_w_fali|petla_zamknieta: moc oporu URANS 52.5 W, model 56.8 W (+8.2 %); z p2p URANS 0.566 m, model 0.562 m (-0.7 %); CLmax model 0.82; 2 s
+2026-11-13 12:28:02 OVS_PID1_GODO|E_2pi_z_u_staly_dodatek_w_fali|odtworzenie_ruchu: moc oporu URANS 52.5 W, model 50.6 W (-3.5 %); CL 1.harm URANS/model 0.923, faza -4.0 deg; 2 s
+2026-11-13 12:28:05 OVS_PID1_GODO|F_2pi_z_u_dodatek_i_biegunowa|petla_zamknieta: moc oporu URANS 52.5 W, model 56.0 W (+6.8 %); z p2p URANS 0.566 m, model 0.562 m (-0.7 %); CLmax model 0.82; 2 s
+2026-11-13 12:28:07 OVS_PID1_GODO|F_2pi_z_u_dodatek_i_biegunowa|odtworzenie_ruchu: moc oporu URANS 52.5 W, model 50.1 W (-4.4 %); CL 1.harm URANS/model 0.923, faza -4.0 deg; 2 s
+2026-11-13 12:28:09 OVS_PID2_GODO|A_2pi_bez_u|petla_zamknieta: moc oporu URANS 58.3 W, model 60.2 W (+3.3 %); z p2p URANS 0.635 m, model 0.590 m (-7.2 %); CLmax model 0.83; 2 s
+2026-11-13 12:28:11 OVS_PID2_GODO|A_2pi_bez_u|odtworzenie_ruchu: moc oporu URANS 58.3 W, model 48.1 W (-17.4 %); CL 1.harm URANS/model 0.691, faza -5.7 deg; 2 s
+2026-11-13 12:28:13 OVS_PID2_GODO|B_2pi_z_u|petla_zamknieta: moc oporu URANS 58.3 W, model 52.6 W (-9.8 %); z p2p URANS 0.635 m, model 0.600 m (-5.6 %); CLmax model 0.83; 2 s
+2026-11-13 12:28:16 OVS_PID2_GODO|B_2pi_z_u|odtworzenie_ruchu: moc oporu URANS 58.3 W, model 47.9 W (-17.8 %); CL 1.harm URANS/model 0.915, faza -2.5 deg; 2 s
+2026-11-13 12:28:18 OVS_PID2_GODO|C_nachylenie_090_z_u|petla_zamknieta: moc oporu URANS 58.3 W, model 49.3 W (-15.4 %); z p2p URANS 0.635 m, model 0.606 m (-4.5 %); CLmax model 0.84; 2 s
+2026-11-13 12:28:20 OVS_PID2_GODO|C_nachylenie_090_z_u|odtworzenie_ruchu: moc oporu URANS 58.3 W, model 49.0 W (-15.9 %); CL 1.harm URANS/model 1.058, faza -2.0 deg; 2 s
+2026-11-13 12:28:23 OVS_PID2_GODO|D_2pi_z_u_biegunowa_DOPASOWANA_v2|petla_zamknieta: moc oporu URANS 58.3 W, model 61.0 W (+4.6 %); z p2p URANS 0.635 m, model 0.600 m (-5.6 %); CLmax model 0.83; 2 s
+2026-11-13 12:28:25 OVS_PID2_GODO|D_2pi_z_u_biegunowa_DOPASOWANA_v2|odtworzenie_ruchu: moc oporu URANS 58.3 W, model 58.8 W (+0.9 %); CL 1.harm URANS/model 0.915, faza -2.5 deg; 2 s
+2026-11-13 12:28:27 OVS_PID2_GODO|E_2pi_z_u_staly_dodatek_w_fali|petla_zamknieta: moc oporu URANS 58.3 W, model 62.0 W (+6.4 %); z p2p URANS 0.635 m, model 0.600 m (-5.6 %); CLmax model 0.83; 2 s
+2026-11-13 12:28:29 OVS_PID2_GODO|E_2pi_z_u_staly_dodatek_w_fali|odtworzenie_ruchu: moc oporu URANS 58.3 W, model 57.3 W (-1.7 %); CL 1.harm URANS/model 0.915, faza -2.5 deg; 2 s
+2026-11-13 12:28:31 OVS_PID2_GODO|F_2pi_z_u_dodatek_i_biegunowa|petla_zamknieta: moc oporu URANS 58.3 W, model 61.5 W (+5.5 %); z p2p URANS 0.635 m, model 0.600 m (-5.6 %); CLmax model 0.83; 2 s
+2026-11-13 12:28:33 OVS_PID2_GODO|F_2pi_z_u_dodatek_i_biegunowa|odtworzenie_ruchu: moc oporu URANS 58.3 W, model 57.2 W (-1.8 %); CL 1.harm URANS/model 0.915, faza -2.5 deg; 2 s
+2026-11-13 12:28:36 OVS_PID3_GODO|A_2pi_bez_u|petla_zamknieta: moc oporu URANS 90.1 W, model 81.1 W (-10.1 %); z p2p URANS 0.459 m, model 0.421 m (-8.4 %); CLmax model 0.78; 2 s
+2026-11-13 12:28:38 OVS_PID3_GODO|A_2pi_bez_u|odtworzenie_ruchu: moc oporu URANS 90.1 W, model 91.3 W (+1.4 %); CL 1.harm URANS/model 0.669, faza +14.0 deg; 2 s
+2026-11-13 12:28:40 OVS_PID3_GODO|B_2pi_z_u|petla_zamknieta: moc oporu URANS 90.1 W, model 83.7 W (-7.1 %); z p2p URANS 0.459 m, model 0.435 m (-5.2 %); CLmax model 0.76; 2 s
+2026-11-13 12:28:42 OVS_PID3_GODO|B_2pi_z_u|odtworzenie_ruchu: moc oporu URANS 90.1 W, model 85.4 W (-5.2 %); CL 1.harm URANS/model 0.880, faza +1.4 deg; 2 s
+2026-11-13 12:28:45 OVS_PID3_GODO|C_nachylenie_090_z_u|petla_zamknieta: moc oporu URANS 90.1 W, model 84.0 W (-6.9 %); z p2p URANS 0.459 m, model 0.462 m (+0.5 %); CLmax model 0.77; 2 s
+2026-11-13 12:28:47 OVS_PID3_GODO|C_nachylenie_090_z_u|odtworzenie_ruchu: moc oporu URANS 90.1 W, model 81.8 W (-9.2 %); CL 1.harm URANS/model 1.015, faza -0.6 deg; 2 s
+2026-11-13 12:28:49 OVS_PID3_GODO|D_2pi_z_u_biegunowa_DOPASOWANA_v2|petla_zamknieta: moc oporu URANS 90.1 W, model 88.8 W (-1.5 %); z p2p URANS 0.459 m, model 0.435 m (-5.2 %); CLmax model 0.76; 2 s
+2026-11-13 12:28:51 OVS_PID3_GODO|D_2pi_z_u_biegunowa_DOPASOWANA_v2|odtworzenie_ruchu: moc oporu URANS 90.1 W, model 93.0 W (+3.2 %); CL 1.harm URANS/model 0.880, faza +1.4 deg; 2 s
+2026-11-13 12:28:53 OVS_PID3_GODO|E_2pi_z_u_staly_dodatek_w_fali|petla_zamknieta: moc oporu URANS 90.1 W, model 93.1 W (+3.3 %); z p2p URANS 0.459 m, model 0.435 m (-5.2 %); CLmax model 0.76; 2 s
+2026-11-13 12:28:56 OVS_PID3_GODO|E_2pi_z_u_staly_dodatek_w_fali|odtworzenie_ruchu: moc oporu URANS 90.1 W, model 94.8 W (+5.2 %); CL 1.harm URANS/model 0.880, faza +1.4 deg; 2 s
+2026-11-13 12:28:58 OVS_PID3_GODO|F_2pi_z_u_dodatek_i_biegunowa|petla_zamknieta: moc oporu URANS 90.1 W, model 92.1 W (+2.2 %); z p2p URANS 0.459 m, model 0.435 m (-5.2 %); CLmax model 0.76; 2 s
+2026-11-13 12:29:00 OVS_PID3_GODO|F_2pi_z_u_dodatek_i_biegunowa|odtworzenie_ruchu: moc oporu URANS 90.1 W, model 94.2 W (+4.5 %); CL 1.harm URANS/model 0.880, faza +1.4 deg; 2 s
+2026-11-13 12:29:02 OVS_POL_TD3_GODO|A_2pi_bez_u|petla_zamknieta: moc oporu URANS 37.5 W, model 30.6 W (-18.4 %); z p2p URANS 0.676 m, model 0.716 m (+6.0 %); CLmax model 0.92; 2 s
+2026-11-13 12:29:05 OVS_POL_TD3_GODO|A_2pi_bez_u|odtworzenie_ruchu: moc oporu URANS 37.5 W, model 20.3 W (-45.8 %); CL 1.harm URANS/model 0.820, faza -13.2 deg; 2 s
+2026-11-13 12:29:07 OVS_POL_TD3_GODO|B_2pi_z_u|petla_zamknieta: moc oporu URANS 37.5 W, model 19.8 W (-47.3 %); z p2p URANS 0.676 m, model 0.773 m (+14.4 %); CLmax model 0.93; 2 s
+2026-11-13 12:29:09 OVS_POL_TD3_GODO|B_2pi_z_u|odtworzenie_ruchu: moc oporu URANS 37.5 W, model 26.7 W (-28.8 %); CL 1.harm URANS/model 1.002, faza -1.7 deg; 2 s
+2026-11-13 12:29:11 OVS_POL_TD3_GODO|C_nachylenie_090_z_u|petla_zamknieta: moc oporu URANS 37.5 W, model 19.1 W (-49.1 %); z p2p URANS 0.676 m, model 0.779 m (+15.3 %); CLmax model 0.92; 2 s
+2026-11-13 12:29:13 OVS_POL_TD3_GODO|C_nachylenie_090_z_u|odtworzenie_ruchu: moc oporu URANS 37.5 W, model 30.6 W (-18.3 %); CL 1.harm URANS/model 1.139, faza -0.1 deg; 2 s
+2026-11-13 12:29:16 OVS_POL_TD3_GODO|D_2pi_z_u_biegunowa_DOPASOWANA_v2|petla_zamknieta: moc oporu URANS 37.5 W, model 36.2 W (-3.5 %); z p2p URANS 0.676 m, model 0.773 m (+14.4 %); CLmax model 0.93; 2 s
+2026-11-13 12:29:18 OVS_POL_TD3_GODO|D_2pi_z_u_biegunowa_DOPASOWANA_v2|odtworzenie_ruchu: moc oporu URANS 37.5 W, model 41.6 W (+10.9 %); CL 1.harm URANS/model 1.002, faza -1.7 deg; 2 s
+2026-11-13 12:29:21 OVS_POL_TD3_GODO|E_2pi_z_u_staly_dodatek_w_fali|petla_zamknieta: moc oporu URANS 37.5 W, model 29.1 W (-22.3 %); z p2p URANS 0.676 m, model 0.773 m (+14.4 %); CLmax model 0.93; 2 s
+2026-11-13 12:29:23 OVS_POL_TD3_GODO|E_2pi_z_u_staly_dodatek_w_fali|odtworzenie_ruchu: moc oporu URANS 37.5 W, model 36.1 W (-3.7 %); CL 1.harm URANS/model 1.002, faza -1.7 deg; 2 s
+2026-11-13 12:29:25 OVS_POL_TD3_GODO|F_2pi_z_u_dodatek_i_biegunowa|petla_zamknieta: moc oporu URANS 37.5 W, model 29.9 W (-20.3 %); z p2p URANS 0.676 m, model 0.773 m (+14.4 %); CLmax model 0.93; 2 s
+2026-11-13 12:29:27 OVS_POL_TD3_GODO|F_2pi_z_u_dodatek_i_biegunowa|odtworzenie_ruchu: moc oporu URANS 37.5 W, model 36.6 W (-2.4 %); CL 1.harm URANS/model 1.002, faza -1.7 deg; 2 s
+2026-11-13 12:29:27 gotowe

@@ -1,0 +1,37 @@
+2026-11-25 00:40:28 start: zatrzymuje skrypt kolejki 30 (sam przebieg wody spokojnej liczy dalej)
+2026-11-25 00:40:28 zatrzymany skrypt kolejki 30 (pid 38316)
+2026-11-25 00:40:28 zatrzymany skrypt kolejki 30 (pid 50984)
+2026-11-25 00:40:28 czekam na koniec OVS_CALM_T8DOM_90
+2026-11-25 10:20:00 koordynator: skrypt kolejki 31 zatrzymany przed przenosinami laptopa na uczelnie (Julek 10:19). OVS_CALM_T8DOM_90 konczy sie sam (t 33,8/34,1). Wznowienie na uczelni: uruchom policy_queue31.ps1 (liczy OVS_CEL_000g_T8_90, potem kolejka 29).
+2026-11-25 11:02:12 start: zatrzymuje skrypt kolejki 30 (sam przebieg wody spokojnej liczy dalej)
+2026-11-25 11:02:12 czekam na koniec OVS_CALM_T8DOM_90
+2026-11-25 11:02:12 koniec OVS_CALM_T8DOM_90: {"result":"DONE","time_s":34.10000000001123,"steps_this_session":34100,"wall_s":70954.1926205}
+2026-11-25 11:03:12 start OVS_CEL_000g_T8_90, jeden MPC (cel 0 g = rowna jazda), fala T 8 s H 1,5 m, most pid 23668
+2026-11-25 14:56:12 PAUZA (Julek 14:56 zamyka laptopa): STOP w OVS_CEL_000g_T8_90, skrypt kolejki zatrzymany. Wznowienie: usun STOP z OVS_CEL_000g_T8_90 i uruchom policy_queue31.ps1 (run_mpcf_ctrl wznowi z punktu kontrolnego).
+2026-11-25 18:15:37 start: zatrzymuje skrypt kolejki 30 (sam przebieg wody spokojnej liczy dalej)
+2026-11-25 18:15:37 czekam na koniec OVS_CALM_T8DOM_90
+2026-11-25 18:15:37 koniec OVS_CALM_T8DOM_90: {"result":"DONE","time_s":34.10000000001123,"steps_this_session":34100,"wall_s":70954.1926205}
+2026-11-25 18:16:38 start OVS_CEL_000g_T8_90, jeden MPC (cel 0 g = rowna jazda), fala T 8 s H 1,5 m, most pid 13808
+2026-11-26 08:53:54 start: zatrzymuje skrypt kolejki 30 (sam przebieg wody spokojnej liczy dalej)
+2026-11-26 08:53:55 czekam na koniec OVS_CALM_T8DOM_90
+2026-11-26 08:53:55 koniec OVS_CALM_T8DOM_90: {"result":"DONE","time_s":34.10000000001123,"steps_this_session":34100,"wall_s":70954.1926205}
+2026-11-26 08:54:55 start OVS_CEL_000g_T8_90, jeden MPC (cel 0 g = rowna jazda), fala T 8 s H 1,5 m, most pid 7704
+2026-11-26 08:54:55 end OVS_CEL_000g_T8_90 : 
+2026-11-26 08:54:55 uruchamiam kolejke 29 (plat nieruchomy)
+2026-11-26 08:54:55 koniec kolejki 31
+2026-11-26 08:55:48 koordynator: przebieg wznowiony 25.11 18:16 (kolejka 31 pid 10464) czekal bez mostu MPC (MPC_STOP z pauzy); drugi start kolejki 31 o 08:54 zabil nowy most i wystartowal kolejke 29 - zabita. Nowy most pid 25924.
+2026-11-26 08:58:58 start: zatrzymuje skrypt kolejki 30 (sam przebieg wody spokojnej liczy dalej)
+2026-11-26 08:58:59 czekam na koniec OVS_CALM_T8DOM_90
+2026-11-26 08:58:59 koniec OVS_CALM_T8DOM_90: {"result":"DONE","time_s":34.10000000001123,"steps_this_session":34100,"wall_s":70954.1926205}
+2026-11-26 08:59:59 start OVS_CEL_000g_T8_90, jeden MPC (cel 0 g = rowna jazda), fala T 8 s H 1,5 m, most pid 1520
+2026-11-26 09:49:25 PAUZA (Julek 09:49). Wznowienie: usun STOP, MPC_STOP i RUN_RESULT.json z OVS_CEL_000g_T8_90, uruchom policy_queue31.ps1 RAZ (sprawdz, ze nie ma drugiej kolejki 31).
+2026-11-26 10:19:27 start: zatrzymuje skrypt kolejki 30 (sam przebieg wody spokojnej liczy dalej)
+2026-11-26 10:19:28 czekam na koniec OVS_CALM_T8DOM_90
+2026-11-26 10:19:28 koniec OVS_CALM_T8DOM_90: {"result":"DONE","time_s":34.10000000001123,"steps_this_session":34100,"wall_s":70954.1926205}
+2026-11-26 10:20:28 start OVS_CEL_000g_T8_90, jeden MPC (cel 0 g = rowna jazda), fala T 8 s H 1,5 m, most pid 11296
+2026-11-26 10:46:56 PAUZA na dodanie scen i wykresow (Julek 10:46), potem wznowienie.
+2026-11-26 10:52:32 dodane sceny ZYWO_01-09 i wykresy monitorow ZYWO_W1-W5 do END_t13.6870.sim (GUI_T8\DodajIZapisz.java; kopia przed: GUI_T8\END_t13.6870_przed_scenami.sim); wznowienie.
+2026-11-26 10:52:32 start: zatrzymuje skrypt kolejki 30 (sam przebieg wody spokojnej liczy dalej)
+2026-11-26 10:52:32 czekam na koniec OVS_CALM_T8DOM_90
+2026-11-26 10:52:32 koniec OVS_CALM_T8DOM_90: {"result":"DONE","time_s":34.10000000001123,"steps_this_session":34100,"wall_s":70954.1926205}
+2026-11-26 10:53:33 start OVS_CEL_000g_T8_90, jeden MPC (cel 0 g = rowna jazda), fala T 8 s H 1,5 m, most pid 30876

@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "T:\NTNU_GODO_CONTROL_20261109\50_learning\vortex_env\robust_test.py", line 12, in <module>
+    ag = train_rl.Agent(); ag.actor.load_state_dict(torch.load(HERE / "runs" / tag / "best_actor.pt", weights_only=False))
+                                                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\NTNU_GODO_CONTROL_20261109\.venv\Lib\site-packages\torch\serialization.py", line 1566, in load
+    with _open_file_like(f, "rb") as opened_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\NTNU_GODO_CONTROL_20261109\.venv\Lib\site-packages\torch\serialization.py", line 796, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\NTNU_GODO_CONTROL_20261109\.venv\Lib\site-packages\torch\serialization.py", line 777, in __init__
+    super().__init__(open(name, mode))  # noqa: SIM115
+                     ^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'T:\\NTNU_GODO_CONTROL_20261109\\50_learning\\vortex_env\\runs\\SAC_C\\best_actor.pt'

@@ -1,0 +1,8 @@
+TD3_GODO nominal           : {'przezyl': '4/4', 'tot_pct': np.float64(-17.5), 'plat_pct': np.float64(-32.8), 'z_min': -0.74, 'sub_min_c': 2.61, 'acc': np.float64(3.04)}
+TD3_GODO CL x0.85          : {'przezyl': '4/4', 'tot_pct': np.float64(-32.3), 'plat_pct': np.float64(-52.1), 'z_min': -0.75, 'sub_min_c': 2.59, 'acc': np.float64(3.02)}
+TD3_GODO CL x1.15          : {'przezyl': '4/4', 'tot_pct': np.float64(-6.5), 'plat_pct': np.float64(-18.4), 'z_min': -0.74, 'sub_min_c': 2.63, 'acc': np.float64(3.02)}
+TD3_GODO opor x0.8         : {'przezyl': '4/4', 'tot_pct': np.float64(-14.7), 'plat_pct': np.float64(-32.8), 'z_min': -0.74, 'sub_min_c': 2.61, 'acc': np.float64(3.04)}
+TD3_GODO opor x1.2         : {'przezyl': '4/4', 'tot_pct': np.float64(-19.5), 'plat_pct': np.float64(-32.8), 'z_min': -0.74, 'sub_min_c': 2.61, 'acc': np.float64(3.04)}
+TD3_GODO fala x0.9         : {'przezyl': '4/4', 'tot_pct': np.float64(-9.3), 'plat_pct': np.float64(-22.1), 'z_min': -0.71, 'sub_min_c': 2.78, 'acc': np.float64(2.73)}
+TD3_GODO fala x1.1         : {'przezyl': '0/4', 'tot_pct': None, 'plat_pct': None, 'z_min': None, 'sub_min_c': None, 'acc': None}
+TD3_GODO opoznienie 1 takt : {'przezyl': '4/4', 'tot_pct': np.float64(-17.3), 'plat_pct': np.float64(-32.6), 'z_min': -0.74, 'sub_min_c': 2.61, 'acc': np.float64(3.05)}

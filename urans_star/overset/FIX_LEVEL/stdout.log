@@ -1,0 +1,102 @@
+Starting local server: starserver.bat -power -cpubind off -np 1 -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcMzBfVVJBTlNfU1RBUlxvdmVyc2V0XEZJWF9MRVZFTFxpbnB1dC5zaW0=
+The efficiency of some CPUs could not be determined. CPU binding will not exclude the slowest CPU kind.
+The efficiency of some CPUs could not be determined. CPU binding will not exclude the slowest CPU kind.
+The efficiency of some CPUs could not be determined. CPU binding will not exclude the slowest CPU kind.
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 27820
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 27820
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 104 days
+Tue Nov 24 14:13:53 2026
+
+Server::start -host THINKPAD-LUCJAN:47827
+Loading: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\FIX_LEVEL\input.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Loading module: OversetModel
+Loading module: OversetFlowModel
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=2 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\FIX_LEVEL\SetLevelFixL139.java
+T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\FIX_LEVEL\SetLevelFixL139.java:12: warning: [deprecation] setEnabled(boolean) in star.common.AutoSaveBase has been deprecated
+  s.getSimulationIterator().getAutoSave().setEnabled(false); double Y=1.39;
+                                         ^
+
+Loading/configuring connectivity (old|new partitions: 2|1)
+  MINI_water_air (index 0): 74702 cells, 223508 faces, 298812 verts.
+  GODO overset foil (index 1): 5289 cells, 14624 faces, 19432 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+Configuring finished
+Saving: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\FIX_LEVEL\GODO_OVERSET_SETUP_B1.0_L139.sim... complete (76.809MB in 0.30021s).
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 0
+Starting local server: starserver.bat -power -cpubind off -np 1 -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcMzBfVVJBTlNfU1RBUlxvdmVyc2V0XEZJWF9MRVZFTFxpbnB1dC5zaW0=
+The efficiency of some CPUs could not be determined. CPU binding will not exclude the slowest CPU kind.
+The efficiency of some CPUs could not be determined. CPU binding will not exclude the slowest CPU kind.
+The efficiency of some CPUs could not be determined. CPU binding will not exclude the slowest CPU kind.
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 26108
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 26108
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 104 days
+Tue Nov 24 14:15:55 2026
+
+Server::start -host THINKPAD-LUCJAN:47827
+Loading: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\FIX_LEVEL\input.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Loading module: OversetModel
+Loading module: OversetFlowModel
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=2 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\FIX_LEVEL\SetLevelFixL169.java
+T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\FIX_LEVEL\SetLevelFixL169.java:12: warning: [deprecation] setEnabled(boolean) in star.common.AutoSaveBase has been deprecated
+  s.getSimulationIterator().getAutoSave().setEnabled(false); double Y=1.69;
+                                         ^
+
+Loading/configuring connectivity (old|new partitions: 2|1)
+  MINI_water_air (index 0): 74702 cells, 223508 faces, 298812 verts.
+  GODO overset foil (index 1): 5289 cells, 14624 faces, 19432 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+Configuring finished
+Saving: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\FIX_LEVEL\GODO_OVERSET_SETUP_B1.0_L169.sim... complete (76.809MB in 0.28323s).
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 0

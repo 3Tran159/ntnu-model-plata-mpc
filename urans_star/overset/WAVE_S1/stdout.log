@@ -1,0 +1,328 @@
+Starting local server: starserver.bat -power -cpubind off -np 1 -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcMzBfVVJBTlNfU1RBUlxvdmVyc2V0XFdBVkVfUzFcaW5wdXQuc2lt
+*****************************************************************************************
+Warning: CPU contention on 1 process could not be resolved.
+         CPU affinity will be cleared on that process.
+
+         This is a strong indication that another server is already running and on some
+         hosts there are now more processes running than there are physical CPU cores.
+
+         Over-subscribing a host can severely affect performance.
+
+         Even when within the limits of hardware multithreading (e.g., hyper-threading),
+         using more processes than CPU cores will likely negatively impact performance.
+
+         The recommended mode of operation is to use the same number of processes as
+         physical CPU cores.
+*****************************************************************************************
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 44736
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 44736
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 108 days
+Fri Nov 20 21:57:51 2026
+
+Server::start -host THINKPAD-LUCJAN:47830
+Loading: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\WAVE_S1\input.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Loading module: OversetModel
+Loading module: OversetFlowModel
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=2 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\WAVE_S1\ProbeSup.java
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 0
+Starting local server: starserver.bat -power -cpubind off -np 1 -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcMzBfVVJBTlNfU1RBUlxvdmVyc2V0XFdBVkVfUzFcaW5wdXQuc2lt
+*****************************************************************************************
+Warning: CPU contention on 1 process could not be resolved.
+         CPU affinity will be cleared on that process.
+
+         This is a strong indication that another server is already running and on some
+         hosts there are now more processes running than there are physical CPU cores.
+
+         Over-subscribing a host can severely affect performance.
+
+         Even when within the limits of hardware multithreading (e.g., hyper-threading),
+         using more processes than CPU cores will likely negatively impact performance.
+
+         The recommended mode of operation is to use the same number of processes as
+         physical CPU cores.
+*****************************************************************************************
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 39284
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 39284
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 108 days
+Fri Nov 20 22:02:00 2026
+
+Server::start -host THINKPAD-LUCJAN:47829
+Loading: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\WAVE_S1\input.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Loading module: OversetModel
+Loading module: OversetFlowModel
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=2 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\WAVE_S1\ProbeRef.java
+T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\WAVE_S1\ProbeRef.java:30: warning: [deprecation] getWavePeriod() in star.vof.FifthOrderVofWave has been deprecated
+   b.append("StokesV: H ").append(w.getWaveHeight().evaluate()).append(" T ").append(w.getWavePeriod().evaluate()).append(" current ").append(w.getCurrentVector()).append(" dir ").append(w.getAdvancingDirectionVector())
+                                                                                      ^
+
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 0
+Starting local server: starserver.bat -power -cpubind off -np 1 -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcMzBfVVJBTlNfU1RBUlxvdmVyc2V0XFdBVkVfUzFcaW5wdXQuc2lt
+*****************************************************************************************
+Warning: CPU contention on 1 process could not be resolved.
+         CPU affinity will be cleared on that process.
+
+         This is a strong indication that another server is already running and on some
+         hosts there are now more processes running than there are physical CPU cores.
+
+         Over-subscribing a host can severely affect performance.
+
+         Even when within the limits of hardware multithreading (e.g., hyper-threading),
+         using more processes than CPU cores will likely negatively impact performance.
+
+         The recommended mode of operation is to use the same number of processes as
+         physical CPU cores.
+*****************************************************************************************
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 29340
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 29340
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 108 days
+Fri Nov 20 22:05:43 2026
+
+Server::start -host THINKPAD-LUCJAN:47829
+Loading: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\WAVE_S1\input.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Loading module: OversetModel
+Loading module: OversetFlowModel
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=2 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\WAVE_S1\SetWaveS1.java
+T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\WAVE_S1\SetWaveS1.java:37: warning: [deprecation] setEnabled(boolean) in star.common.AutoSaveBase has been deprecated
+  s.getSimulationIterator().getAutoSave().setEnabled(false);
+                                         ^
+
+Loading/configuring connectivity (old|new partitions: 2|1)
+  MINI_water_air (index 0): 74702 cells, 223508 faces, 298812 verts.
+  GODO overset foil (index 1): 5289 cells, 14624 faces, 19432 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+Configuring finished
+Saving: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\WAVE_S1\GODO_OVERSET_SETUP_S1.sim... complete (77.029MB in 0.7031s).
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 0
+Starting local server: starserver.bat -power -cpubind off -np 1 -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcMzBfVVJBTlNfU1RBUlxvdmVyc2V0XFdBVkVfUzFcR09ET19PVkVSU0VUX1NFVFVQX1MxLnNpbQ==
+*****************************************************************************************
+Warning: CPU contention on 1 process could not be resolved.
+         CPU affinity will be cleared on that process.
+
+         This is a strong indication that another server is already running and on some
+         hosts there are now more processes running than there are physical CPU cores.
+
+         Over-subscribing a host can severely affect performance.
+
+         Even when within the limits of hardware multithreading (e.g., hyper-threading),
+         using more processes than CPU cores will likely negatively impact performance.
+
+         The recommended mode of operation is to use the same number of processes as
+         physical CPU cores.
+*****************************************************************************************
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 37492
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 37492
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 108 days
+Fri Nov 20 22:14:32 2026
+
+Server::start -host THINKPAD-LUCJAN:47831
+Loading: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\WAVE_S1\GODO_OVERSET_SETUP_S1.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Loading module: OversetModel
+Loading module: OversetFlowModel
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=1 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\WAVE_S1\ProbeFor.java
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 0
+Starting local server: starserver.bat -power -cpubind off -np 1 -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcMzBfVVJBTlNfU1RBUlxvdmVyc2V0XFdBVkVfUzFcR09ET19PVkVSU0VUX1NFVFVQX1MxLnNpbQ==
+*****************************************************************************************
+Warning: CPU contention on 1 process could not be resolved.
+         CPU affinity will be cleared on that process.
+
+         This is a strong indication that another server is already running and on some
+         hosts there are now more processes running than there are physical CPU cores.
+
+         Over-subscribing a host can severely affect performance.
+
+         Even when within the limits of hardware multithreading (e.g., hyper-threading),
+         using more processes than CPU cores will likely negatively impact performance.
+
+         The recommended mode of operation is to use the same number of processes as
+         physical CPU cores.
+*****************************************************************************************
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 19056
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 19056
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 108 days
+Fri Nov 20 22:22:59 2026
+
+Server::start -host THINKPAD-LUCJAN:47829
+Loading: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\WAVE_S1\GODO_OVERSET_SETUP_S1.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Loading module: OversetModel
+Loading module: OversetFlowModel
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=1 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\WAVE_S1\FixForcing.java
+T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\WAVE_S1\FixForcing.java:9: warning: [deprecation] setEnabled(boolean) in star.common.AutoSaveBase has been deprecated
+  s.getSimulationIterator().getAutoSave().setEnabled(false);
+                                         ^
+
+Loading/configuring connectivity (old|new partitions: 1|1)
+  MINI_water_air (index 0): 74702 cells, 223508 faces, 298812 verts.
+  GODO overset foil (index 1): 5289 cells, 14624 faces, 19432 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+Configuring finished
+Saving: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\WAVE_S1\GODO_OVERSET_SETUP_S1.sim... complete (77.029MB in 0.70844s).
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 0
+Starting local server: starserver.bat -power -cpubind off -np 1 -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcMzBfVVJBTlNfU1RBUlxvdmVyc2V0XFdBVkVfUzFcR09ET19PVkVSU0VUX1NFVFVQX1MxLnNpbQ==
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 12780
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 12780
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 107 days
+Sat Nov 21 10:57:13 2026
+
+Server::start -host THINKPAD-LUCJAN:47827
+Loading: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\WAVE_S1\GODO_OVERSET_SETUP_S1.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Loading module: OversetModel
+Loading module: OversetFlowModel
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=1 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\WAVE_S1\SetLevelS1.java
+T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\WAVE_S1\SetLevelS1.java:12: warning: [deprecation] setEnabled(boolean) in star.common.AutoSaveBase has been deprecated
+  s.getSimulationIterator().getAutoSave().setEnabled(false); double Y=1.39;
+                                         ^
+
+Loading/configuring connectivity (old|new partitions: 1|1)
+  MINI_water_air (index 0): 74702 cells, 223508 faces, 298812 verts.
+  GODO overset foil (index 1): 5289 cells, 14624 faces, 19432 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+Configuring finished
+Saving: T:\NTNU_GODO_CONTROL_20261109\30_URANS_STAR\overset\WAVE_S1\GODO_OVERSET_SETUP_S1_L139.sim... complete (77.029MB in 0.36704s).
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 0

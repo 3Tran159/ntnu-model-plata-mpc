@@ -1,0 +1,299 @@
+2026-11-10 20:20:28 chain start, waiting for OVS_PID_BASE
+2026-11-10 20:47:24 chain start, waiting for OVS_PID_BASE
+2026-11-10 20:48:42 chain start (v2, servo lag2); waiting for the old OVS_PID_BASE session to stop
+2026-11-10 20:53:05 start OVS_PID_BASE2
+2026-11-11 00:49:23 end OVS_PID_BASE2: {"result":"DONE","time_s":11.620999999998999,"steps_this_session":11621,"wall_s":14041.9575509}
+2026-11-11 00:49:23 start OVS_PID_PRBS1
+2026-11-11 04:46:44 end OVS_PID_PRBS1: {"result":"DONE","time_s":11.620999999998999,"steps_this_session":11621,"wall_s":14113.4016136}
+2026-11-11 04:46:44 start OVS_PID_SINE_A2
+2026-11-11 09:58:56 RESUME_after_move: OVS_PID_SINE_A2 from CP_006750
+2026-11-11 10:25:21 chain_calm: waiting for OVS_PID_SINE_A2
+2026-11-11 12:01:56 OVS_PID_SINE_A2 end: {"result":"DONE","time_s":11.620999999998999,"steps_this_session":4871,"wall_s":7255.0978915}
+2026-11-11 12:01:56 start OVS_CALM_PID2
+2026-11-11 14:09:10 end OVS_CALM_PID2: {"result":"HOLD_STOP_FILE","time_s":0.9650000000000007,"steps_this_session":965,"wall_s":7483.8498461}
+2026-11-11 14:46:57 vorticity: OVS_PID_BASE2 start z END_t11.6210.sim
+2026-11-11 14:49:04 vorticity: OVS_PID_BASE2 koniec: {  "time_s": "11.620999999998999",  "ff_VolumeFractionwater": "Volume Fraction of water",  "ff_OversetCellStatus": "Overset Cell Status",  "ff_OversetCellType": "Overset Cell Type",  "ff_OversetTestData": "Overset Test Data",  "ff_Overset Grid Volume": "Overset Grid Volume",  "ff_Overset Grid Area":
+2026-11-11 14:49:05 vorticity: OVS_PID_SINE_A2 start z END_t11.6210.sim
+2026-11-11 14:51:13 vorticity: OVS_PID_SINE_A2 koniec: {  "time_s": "11.620999999998999",  "ff_VolumeFractionwater": "Volume Fraction of water",  "ff_OversetCellStatus": "Overset Cell Status",  "ff_OversetCellType": "Overset Cell Type",  "ff_OversetTestData": "Overset Test Data",  "ff_Overset Grid Volume": "Overset Grid Volume",  "ff_Overset Grid Area":
+2026-11-11 14:51:13 vorticity: OVS_PID_PRBS1 start z END_t11.6210.sim
+2026-11-11 14:53:19 vorticity: OVS_PID_PRBS1 koniec: {  "time_s": "11.620999999998999",  "ff_VolumeFractionwater": "Volume Fraction of water",  "ff_OversetCellStatus": "Overset Cell Status",  "ff_OversetCellType": "Overset Cell Type",  "ff_OversetTestData": "Overset Test Data",  "ff_Overset Grid Volume": "Overset Grid Volume",  "ff_Overset Grid Area":
+2026-11-11 14:53:19 vorticity: start dokonczenia OVS_CALM_PID2
+2026-11-11 20:50:26 night2: start OVS_PID1_GODO (Kp 2.01, Ki 0.196)
+2026-11-12 00:55:48 night2: end OVS_PID1_GODO : {"result":"DONE","time_s":11.620999999998999,"steps_this_session":5371,"wall_s":7363.9929074}
+2026-11-12 00:55:48 night2: start OVS_PID3_GODO (Kp 22.3, Ki 7.25)
+2026-11-12 05:06:14 night2: end OVS_PID3_GODO : {"result":"DONE","time_s":11.620999999998999,"steps_this_session":11621,"wall_s":14879.8908141}
+2026-11-12 11:15:07 pid2: start OVS_PID2_GODO (Kp 6.63, Ki 1.18)
+2026-11-12 11:15:09 RESUME3: TD3_C wznowiony
+2026-11-12 17:32:37 PAUZA 17:33 (laptop w drodze): kolejka polityk zatrzymana, STOP dla PID2 i TD3_R
+2026-11-12 17:32:43 pid2: end OVS_PID2_GODO : {"result":"HOLD_STOP_FILE","time_s":10.032999999999879,"steps_this_session":10033,"wall_s":22566.3730444}
+2026-11-12 17:56:48 RESUME4: PID2 wznowiony z checkpointu
+2026-11-12 17:56:48 pid2: start OVS_PID2_GODO (Kp 6.63, Ki 1.18)
+2026-11-12 17:57:08 RESUME4: policy_queue3 wznowiona (czeka na PID2)
+2026-11-12 17:57:08 RESUME4: TD3_R wznowiony (rdzen 20)
+2026-11-12 18:57:25 pid2: end OVS_PID2_GODO : {"result":"DONE","time_s":11.620999999998999,"steps_this_session":1588,"wall_s":3526.000142}
+2026-11-12 18:59:09 policy3: PID2 gotowy - start kolejki polityk (TD3_GODO, TD3_C338, TD3_C)
+2026-11-12 18:59:13 policy3: start OVS_POL_TD3_GODO (polityka T:\NTNU_GODO_CONTROL_20261109\40_MODEL_WIROWY_I_STEROWANIE\vortex_env\runs\TD3_GODO\policy_TD3_GODO.txt)
+2026-11-12 22:13:19 policy3: end OVS_POL_TD3_GODO : {"result":"DONE","time_s":11.620999999998999,"steps_this_session":11621,"wall_s":11521.3002086}
+2026-11-12 22:13:19 policy3: TD3_C338 - brak best_actor, uzyty best_any_actor
+2026-11-12 22:13:23 policy3: start OVS_POL_TD3_C338 (polityka T:\NTNU_GODO_CONTROL_20261109\40_MODEL_WIROWY_I_STEROWANIE\vortex_env\runs\TD3_C338\policy_TD3_C338.txt)
+2026-11-12 22:16:09 policy3 zatrzymana (TD3_C338 liczy dalej); dalsza kolejka: policy_queue4 (MPC, woda spokojna, wspornik)
+2026-11-12 22:16:10 policy4: start (czeka na TD3_C338)
+2026-11-13 02:06:57 BLAD WYKRYTY: nq.compile_macro nadpisywal kopie makra oryginalem -> OVS_POL_TD3_GODO i OVS_POL_TD3_C338 liczyly PID Kp10 (mode=policy nieznany). queue4 zatrzymana, poprawka run_policy_ctrl/run_mpc_ctrl, nowa kolejka queue5.
+2026-11-13 02:07:44 policy5: start (czeka na koniec blednego OVS_POL_TD3_C338)
+2026-11-13 02:09:44 policy5: OVS_POL_TD3_GODO -> OVS_POL_TD3_GODO_BLAD_PIDKp10 (makro bez trybu policy)
+2026-11-13 02:09:44 policy5: OVS_POL_TD3_C338 -> OVS_POL_TD3_C338_BLAD_PIDKp10 (makro bez trybu policy)
+2026-11-13 02:09:44 policy5: start OVS_POL_TD3_GODO (polityka T:\NTNU_GODO_CONTROL_20261109\40_MODEL_WIROWY_I_STEROWANIE\vortex_env\runs\TD3_GODO\policy_TD3_GODO.txt, poprawione makro)
+2026-11-13 05:26:07 policy5: end OVS_POL_TD3_GODO : {"result":"DONE","time_s":11.620999999998999,"steps_this_session":11621,"wall_s":11656.6636867}
+2026-11-13 05:26:30 policy5: start OVS_MPC_WZ2 (MPC liniowy z modelu wirowego, W_Z 2, most mpc_bridge_server.py, rdzen 22)
+2026-11-13 05:40:47 policy5: end OVS_MPC_WZ2 : {"result":"HOLD_MPC","time_s":0.5500000000000004,"steps_this_session":550,"wall_s":724.6865071}
+2026-11-13 05:40:52 policy5: start OVS_POL_TD3_C338 (polityka T:\NTNU_GODO_CONTROL_20261109\40_MODEL_WIROWY_I_STEROWANIE\vortex_env\runs\TD3_C338\policy_TD3_C338.txt, poprawione makro)
+2026-11-13 05:42:37 policy6: start (czeka na TD3_C338, potem MPC ponownie)
+2026-11-13 07:39:27 PAUZA 07:40 (laptop na uczelnie): queue6 zatrzymana, STOP dla TD3_C338 i TD3_R; wznowienie: 00_START\RESUME_after_move5.ps1
+2026-11-13 08:08:52 RESUME5: OVS_POL_TD3_C338 wznowiony z checkpointu
+2026-11-13 08:09:12 RESUME5: policy_queue6 wznowiona (czeka na TD3_C338, potem MPC i woda spokojna)
+2026-11-13 08:09:12 policy6: start (czeka na TD3_C338, potem MPC ponownie)
+2026-11-13 08:09:12 RESUME5: TD3_R wznowiony
+2026-11-13 10:20:18 RESUME6: OVS_POL_TD3_C338 wznowiony z checkpointu
+2026-11-13 10:20:38 RESUME6: policy_queue6 wznowiona (czeka na TD3_C338, potem MPC i woda spokojna)
+2026-11-13 10:20:38 policy6: start (czeka na TD3_C338, potem MPC ponownie)
+2026-11-13 10:32:40 policy6: TD3_C338 koniec: {"result":"DONE","time_s":11.620999999998999,"steps_this_session":642,"wall_s":578.7807168}
+2026-11-13 10:32:40 policy6: OVS_MPC_WZ2 -> OVS_MPC_WZ2_BLAD_most
+2026-11-13 10:32:41 policy5: start (czeka na koniec blednego OVS_POL_TD3_C338)
+2026-11-13 10:32:41 policy5: OVS_POL_TD3_GODO juz skonczony
+2026-11-13 10:33:04 policy5: start OVS_MPC_WZ2 (MPC liniowy z modelu wirowego, W_Z 2, most mpc_bridge_server.py, rdzen 22)
+2026-11-13 12:27:22 koordynator: queue5/6 zatrzymane, start policy_queue7 (test plata nieruchomego po MPC)
+2026-11-13 12:27:22 policy7: start (czeka na koniec OVS_MPC_WZ2)
+2026-11-13 14:03:49 policy7: OVS_MPC_WZ2 koniec: {"result":"DONE","time_s":11.620999999998999,"steps_this_session":11621,"wall_s":12495.8063443}
+2026-11-13 14:03:54 policy7: start OVS_FIX_TRIM (plat nieruchomy na fali: mode=hold, release_s=99, kat 3,5 st, z=0)
+2026-11-13 15:08:54 koordynator2: wznowienie policy_queue7 (OVS_FIX_TRIM z END_t1.3070, STOP i RUN_RESULT usuniete; zlecenie Julka 15:06)
+2026-11-13 15:08:55 policy7: start (czeka na koniec OVS_MPC_WZ2)
+2026-11-13 15:08:55 policy7: OVS_MPC_WZ2 koniec: {"result":"DONE","time_s":11.620999999998999,"steps_this_session":11621,"wall_s":12495.8063443}
+2026-11-13 15:09:00 policy7: start OVS_FIX_TRIM (plat nieruchomy na fali: mode=hold, release_s=99, kat 3,5 st, z=0)
+2026-11-13 19:09:20 policy7: end OVS_FIX_TRIM : {"result":"DONE","time_s":11.620999999998999,"steps_this_session":10314,"wall_s":14302.7976191}
+2026-11-13 19:09:20 policy7: start OVS_CALM_Z-0.3 (woda spokojna, z_ref -0.3 m)
+2026-11-13 20:14:27 policy8: start (czeka na koniec policy_queue7)
+2026-11-13 22:47:18 policy7: end OVS_CALM_Z-0.3 : {"result":"DONE","time_s":8.000000000001005,"steps_this_session":8000,"wall_s":12953.7131437}
+2026-11-13 22:47:18 policy7: start OVS_CALM_Z-0.6 (woda spokojna, z_ref -0.6 m)
+2026-11-14 01:04:07 policy7: end OVS_CALM_Z-0.6 : {"result":"DONE","time_s":8.000000000001005,"steps_this_session":8000,"wall_s":8088.0671564}
+2026-11-14 01:04:07 policy7: koniec kolejki
+2026-11-14 01:04:33 policy8: policy_queue7 skonczona
+2026-11-14 01:04:33 policy8: start OVS_CALM_90 (woda spokojna, obciazenie 90 %, PID2, 8 s)
+2026-11-14 02:16:36 koordynator: policy_queue8 zatrzymana po starcie OVS_CALM_90 (liczy dalej); K0 przejmuje policy_queue9 z trymem z CALM_90
+2026-11-14 02:16:37 policy9: start (czeka na koniec OVS_CALM_90)
+2026-11-14 03:24:49 policy9: OVS_CALM_90 koniec: {"result":"DONE","time_s":8.000000000001005,"steps_this_session":8000,"wall_s":8292.7643824}
+2026-11-14 03:24:50 policy9: trym K0 przy 90 % = 2.338 deg (z OVS_CALM_90)
+2026-11-14 03:24:50 policy9: start OVS_K0_85_90 (fala Godø, obciazenie 90 %, PID1 + K0 85 %, makro_k0, trym 2.338)
+2026-11-14 06:50:59 policy9: end OVS_K0_85_90 : {"result":"DONE","time_s":11.620999999998999,"steps_this_session":11621,"wall_s":12249.4947837}
+2026-11-14 06:50:59 policy9: koniec kolejki
+2026-11-14 12:44:53 policy10: start kolejki (3 przebiegi, rdzenie 2-17)
+2026-11-14 12:44:53 policy10: start OVS_K0_85_90_H1 (mode=k0 k0_gain=0.85 k0_est=h1)
+2026-11-14 16:31:38 policy10: end OVS_K0_85_90_H1 : {"result":"DONE","time_s":11.620999999998999,"steps_this_session":11621,"wall_s":13482.4504071}
+2026-11-14 16:31:38 policy10: start OVS_K0_50_90_H1 (mode=k0 k0_gain=0.5 k0_est=h1)
+2026-11-14 19:58:42 policy11: start (czeka na koniec policy_queue10)
+2026-11-14 20:25:10 policy10: end OVS_K0_50_90_H1 : {"result":"DONE","time_s":11.620999999998999,"steps_this_session":11621,"wall_s":13890.0383947}
+2026-11-14 20:25:10 policy10: start OVS_PID1_90 (mode=pid)
+2026-11-14 23:58:03 policy10: end OVS_PID1_90 : {"result":"DONE","time_s":11.620999999998999,"steps_this_session":11621,"wall_s":12647.5019075}
+2026-11-14 23:58:03 policy10: koniec kolejki
+2026-11-14 23:58:43 policy11: start OVS_CALM_100_FALA (woda spokojna 100 %, PID2, 20 s, sondy fali za platem)
+2026-11-15 07:06:44 policy11: end OVS_CALM_100_FALA : {"result":"DONE","time_s":20.00000000000146,"steps_this_session":20000,"wall_s":25552.3755771}
+2026-11-15 07:06:44 policy11: koniec kolejki
+2026-11-15 18:47:45 policy12: start kolejki
+2026-11-15 18:47:45 policy12: start OVS_CALM_100_FALA do 40 s (wznowienie)
+2026-11-16 04:08:56 policy12: end OVS_CALM_100_FALA : {"result":"DONE","time_s":39.99999999999748,"steps_this_session":20000,"wall_s":33545.9549316}
+2026-11-16 04:08:56 policy12: start OVS_CALM_90 do 20 s (wznowienie)
+2026-11-16 08:08:00 policy12: end OVS_CALM_90 : {"result":"DONE","time_s":20.00000000000146,"steps_this_session":12000,"wall_s":14189.7340474}
+2026-11-16 08:08:00 policy12: koniec kolejki
+2026-11-16 13:15:54 policy13: start (czeka na koniec obliczen modelu na rdzeniach 2-23)
+2026-11-16 13:50:07 policy13: start (czeka na koniec obliczen modelu na rdzeniach 2-23)
+2026-11-16 15:34:20 policy13: OVS_CALM_90 do 30 s
+2026-11-16 19:00:47 policy13: end OVS_CALM_90 : {"result":"DONE","time_s":30.00000000001368,"steps_this_session":10000,"wall_s":12263.3687645}
+2026-11-16 19:00:47 policy13: OVS_K0_85_90_H1 do 30 s
+2026-11-17 01:00:51 policy13: end OVS_K0_85_90_H1 : {"result":"DONE","time_s":30.00000000001368,"steps_this_session":18379,"wall_s":21484.2409478}
+2026-11-17 01:00:51 policy13: OVS_PID1_90 do 30 s
+2026-11-17 06:29:46 policy13: end OVS_PID1_90 : {"result":"DONE","time_s":30.00000000001368,"steps_this_session":18379,"wall_s":19611.9352226}
+2026-11-17 06:29:46 policy13: koniec kolejki
+2026-11-17 12:17:30 policy14: start OVS_MPCF_90, most MPC pid 31836
+2026-11-17 12:19:00 policy14: PAUZA na prosbe Julka (12:18) - przebieg przerwany przed 1. krokiem; wznowienie: uruchom policy_queue14.ps1
+2026-11-17 12:41:25 policy14: start OVS_MPCF_90, most MPC pid 9484
+2026-11-17 14:35:37 policy14: end OVS_MPCF_90 : {"result":"HOLD_STOP_FILE","time_s":5.829000000000281,"steps_this_session":5829,"wall_s":6735.3827037}
+2026-11-17 14:35:37 policy14: koniec kolejki
+2026-11-17 14:36:56 policy14: start OVS_MPCF_90, most MPC pid 520
+2026-11-17 14:55:58 policy14: end OVS_MPCF_90 : {"result":"HOLD_STOP_FILE","time_s":6.585000000000534,"steps_this_session":756,"wall_s":1030.0738786}
+2026-11-17 14:55:58 policy14: koniec kolejki
+2026-11-17 14:56:06 policy14: start OVS_MPCF_90, most MPC pid 13464
+2026-11-17 15:01:25 policy14: end OVS_MPCF_90 : {"result":"HOLD_STOP_FILE","time_s":6.744000000000587,"steps_this_session":159,"wall_s":207.400992}
+2026-11-17 15:01:25 policy14: koniec kolejki
+2026-11-17 15:01:33 policy14: start OVS_MPCF_90, most MPC pid 9148
+2026-11-17 15:06:00 policy14: end OVS_MPCF_90 : {"result":"HOLD_STOP_FILE","time_s":6.860000000000626,"steps_this_session":116,"wall_s":156.0017453}
+2026-11-17 15:06:00 policy14: koniec kolejki
+2026-11-17 15:06:07 policy14: start OVS_MPCF_90, most MPC pid 29932
+2026-11-17 15:12:16 policy14: end OVS_MPCF_90 : {"result":"HOLD_STOP_FILE","time_s":7.079000000000699,"steps_this_session":219,"wall_s":257.1201468}
+2026-11-17 15:12:16 policy14: koniec kolejki
+2026-11-17 15:12:20 policy14: start OVS_MPCF_90, most MPC pid 16052
+2026-11-17 15:52:45 policy15: start OVS_MPCA_90, most MPC pid 14136
+2026-11-17 15:52:45 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:45 policy15: koniec kolejki
+2026-11-17 15:52:45 policy15: start OVS_MPCA_90, most MPC pid 12440
+2026-11-17 15:52:45 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:45 policy15: koniec kolejki
+2026-11-17 15:52:45 policy15: start OVS_MPCA_90, most MPC pid 18648
+2026-11-17 15:52:45 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:45 policy15: koniec kolejki
+2026-11-17 15:52:45 policy15: start OVS_MPCA_90, most MPC pid 32880
+2026-11-17 15:52:45 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:45 policy15: koniec kolejki
+2026-11-17 15:52:45 policy15: start OVS_MPCA_90, most MPC pid 33032
+2026-11-17 15:52:45 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:45 policy15: koniec kolejki
+2026-11-17 15:52:45 policy15: start OVS_MPCA_90, most MPC pid 33308
+2026-11-17 15:52:45 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:45 policy15: koniec kolejki
+2026-11-17 15:52:45 policy15: start OVS_MPCA_90, most MPC pid 33688
+2026-11-17 15:52:45 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:45 policy15: koniec kolejki
+2026-11-17 15:52:45 policy15: start OVS_MPCA_90, most MPC pid 33900
+2026-11-17 15:52:45 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:45 policy15: koniec kolejki
+2026-11-17 15:52:46 policy15: start OVS_MPCA_90, most MPC pid 34192
+2026-11-17 15:52:46 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:46 policy15: koniec kolejki
+2026-11-17 15:52:46 policy15: start OVS_MPCA_90, most MPC pid 34480
+2026-11-17 15:52:46 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:46 policy15: koniec kolejki
+2026-11-17 15:52:46 policy15: start OVS_MPCA_90, most MPC pid 34752
+2026-11-17 15:52:46 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:46 policy15: koniec kolejki
+2026-11-17 15:52:46 policy15: start OVS_MPCA_90, most MPC pid 32288
+2026-11-17 15:52:46 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:46 policy15: koniec kolejki
+2026-11-17 15:52:46 policy15: start OVS_MPCA_90, most MPC pid 34884
+2026-11-17 15:52:46 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:46 policy15: koniec kolejki
+2026-11-17 15:52:46 policy15: start OVS_MPCA_90, most MPC pid 35140
+2026-11-17 15:52:46 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:46 policy15: koniec kolejki
+2026-11-17 15:52:46 policy15: start OVS_MPCA_90, most MPC pid 35400
+2026-11-17 15:52:46 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:46 policy15: koniec kolejki
+2026-11-17 15:52:46 policy15: start OVS_MPCA_90, most MPC pid 35676
+2026-11-17 15:52:46 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:46 policy15: koniec kolejki
+2026-11-17 15:52:46 policy15: start OVS_MPCA_90, most MPC pid 9580
+2026-11-17 15:52:46 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:46 policy15: koniec kolejki
+2026-11-17 15:52:47 policy15: start OVS_MPCA_90, most MPC pid 32824
+2026-11-17 15:52:47 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:47 policy15: koniec kolejki
+2026-11-17 15:52:47 policy15: start OVS_MPCA_90, most MPC pid 33616
+2026-11-17 15:52:47 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:47 policy15: koniec kolejki
+2026-11-17 15:52:47 policy15: start OVS_MPCA_90, most MPC pid 32912
+2026-11-17 15:52:47 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:47 policy15: koniec kolejki
+2026-11-17 15:52:47 policy15: start OVS_MPCA_90, most MPC pid 33496
+2026-11-17 15:52:47 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:47 policy15: koniec kolejki
+2026-11-17 15:52:47 policy15: start OVS_MPCA_90, most MPC pid 33044
+2026-11-17 15:52:47 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:47 policy15: koniec kolejki
+2026-11-17 15:52:47 policy15: start OVS_MPCA_90, most MPC pid 34728
+2026-11-17 15:52:47 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:47 policy15: koniec kolejki
+2026-11-17 15:52:48 policy15: start OVS_MPCA_90, most MPC pid 34544
+2026-11-17 15:52:48 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:48 policy15: koniec kolejki
+2026-11-17 15:52:48 policy15: start OVS_MPCA_90, most MPC pid 34804
+2026-11-17 15:52:48 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:48 policy15: koniec kolejki
+2026-11-17 15:52:48 policy15: start OVS_MPCA_90, most MPC pid 34984
+2026-11-17 15:52:48 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:48 policy15: koniec kolejki
+2026-11-17 15:52:48 policy15: start OVS_MPCA_90, most MPC pid 35384
+2026-11-17 15:52:48 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:48 policy15: koniec kolejki
+2026-11-17 15:52:48 policy15: start OVS_MPCA_90, most MPC pid 33240
+2026-11-17 15:52:48 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:48 policy15: koniec kolejki
+2026-11-17 15:52:48 policy15: start OVS_MPCA_90, most MPC pid 24672
+2026-11-17 15:52:48 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:48 policy15: koniec kolejki
+2026-11-17 15:52:48 policy15: start OVS_MPCA_90, most MPC pid 7608
+2026-11-17 15:52:48 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:48 policy15: koniec kolejki
+2026-11-17 15:52:48 policy15: start OVS_MPCA_90, most MPC pid 34212
+2026-11-17 15:52:49 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:49 policy15: koniec kolejki
+2026-11-17 15:52:49 policy15: start OVS_MPCA_90, most MPC pid 27256
+2026-11-17 15:52:49 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:49 policy15: koniec kolejki
+2026-11-17 15:52:49 policy15: start OVS_MPCA_90, most MPC pid 33088
+2026-11-17 15:52:49 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:49 policy15: koniec kolejki
+2026-11-17 15:52:49 policy15: start OVS_MPCA_90, most MPC pid 33808
+2026-11-17 15:52:49 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:49 policy15: koniec kolejki
+2026-11-17 15:52:49 policy15: start OVS_MPCA_90, most MPC pid 34428
+2026-11-17 15:52:49 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:49 policy15: koniec kolejki
+2026-11-17 15:52:49 policy15: start OVS_MPCA_90, most MPC pid 33712
+2026-11-17 15:52:49 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:49 policy15: koniec kolejki
+2026-11-17 15:52:49 policy15: start OVS_MPCA_90, most MPC pid 33744
+2026-11-17 15:52:49 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:49 policy15: koniec kolejki
+2026-11-17 15:52:49 policy15: start OVS_MPCA_90, most MPC pid 6440
+2026-11-17 15:52:49 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:49 policy15: koniec kolejki
+2026-11-17 15:52:50 policy15: start OVS_MPCA_90, most MPC pid 34780
+2026-11-17 15:52:50 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:50 policy15: koniec kolejki
+2026-11-17 15:52:50 policy15: start OVS_MPCA_90, most MPC pid 35348
+2026-11-17 15:52:50 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:50 policy15: koniec kolejki
+2026-11-17 15:52:50 policy15: start OVS_MPCA_90, most MPC pid 1472
+2026-11-17 15:52:50 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:50 policy15: koniec kolejki
+2026-11-17 15:52:50 policy15: start OVS_MPCA_90, most MPC pid 34528
+2026-11-17 15:52:50 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:50 policy15: koniec kolejki
+2026-11-17 15:52:50 policy15: start OVS_MPCA_90, most MPC pid 35524
+2026-11-17 15:52:50 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:50 policy15: koniec kolejki
+2026-11-17 15:52:50 policy15: start OVS_MPCA_90, most MPC pid 35744
+2026-11-17 15:52:50 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:50 policy15: koniec kolejki
+2026-11-17 15:52:51 policy15: start OVS_MPCA_90, most MPC pid 32796
+2026-11-17 15:52:51 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:51 policy15: koniec kolejki
+2026-11-17 15:52:51 policy15: start OVS_MPCA_90, most MPC pid 33456
+2026-11-17 15:52:51 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:51 policy15: koniec kolejki
+2026-11-17 15:52:51 policy15: start OVS_MPCA_90, most MPC pid 33620
+2026-11-17 15:52:51 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:51 policy15: koniec kolejki
+2026-11-17 15:52:51 policy15: start OVS_MPCA_90, most MPC pid 28616
+2026-11-17 15:52:51 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:51 policy15: koniec kolejki
+2026-11-17 15:52:52 policy15: start OVS_MPCA_90, most MPC pid 34204
+2026-11-17 15:52:52 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:52 policy15: koniec kolejki
+2026-11-17 15:52:52 policy15: start OVS_MPCA_90, most MPC pid 35676
+2026-11-17 15:52:52 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:52 policy15: koniec kolejki
+2026-11-17 15:52:52 policy15: start OVS_MPCA_90, most MPC pid 34480
+2026-11-17 15:52:52 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:52 policy15: koniec kolejki
+2026-11-17 15:52:52 policy15: start OVS_MPCA_90, most MPC pid 35376
+2026-11-17 15:52:52 policy15: end OVS_MPCA_90 : 
+2026-11-17 15:52:52 policy15: koniec kolejki
+2026-11-17 15:54:04 policy15: czekam na koniec policy_queue14 (OVS_MPCF_90)
+2026-11-17 16:24:21 policy15: PAUZA (Julek 16:23) - zatrzymane przed startem; wznowienie: uruchom policy_queue15.ps1
+2026-11-17 16:24:45 policy14: end OVS_MPCF_90 : {"result":"HOLD_STOP_FILE","time_s":7.7160000000009115,"steps_this_session":637,"wall_s":4220.3748034}
+2026-11-17 16:24:45 policy14: koniec kolejki
+2026-11-17 16:50:51 policy14: start OVS_MPCF_90, most MPC pid 34232
+2026-11-17 16:50:56 policy15: czekam na koniec policy_queue14 (OVS_MPCF_90)
+2026-11-17 23:27:05 policy14: end OVS_MPCF_90 : {"result":"DONE","time_s":30.00000000001368,"steps_this_session":2500,"wall_s":2646.4781997}
+2026-11-17 23:27:05 policy14: koniec kolejki
+2026-11-17 23:27:24 policy15: start OVS_MPCA_90, most adaptacyjny pid 11536
+2026-11-18 08:20:37 policy15: end OVS_MPCA_90 : {"result":"DONE","time_s":30.00000000001368,"steps_this_session":30000,"wall_s":31862.3901542}
+2026-11-18 08:20:37 policy15: koniec kolejki

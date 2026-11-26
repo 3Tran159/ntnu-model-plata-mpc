@@ -1,0 +1,23 @@
+  double zc=gap/2, xc=0.25*c, L=Math.max(hs,1.0); final FieldFunction fwx=wx, fq=q, ftau=tau, fyp=yp, fvort=vort, fcp=cp, fvmag=vmag, fvx=vx; final PrimitiveFieldFunction fvel=vel;
+  step("02",()->{Scene a=sc("P3D 02 Cp na platach - widok z gory");scal(a,"Cp",walls,fcp,-1.2,1.0);view(a,new double[]{xc,hs/2,zc},new double[]{xc,hs/2,zc+30},new double[]{-1,0,0},L*0.62);png(a,"02_CP_GORA");});
+  step("03",()->{Scene b=sc("P3D 03 Cp na platach - widok z dolu");scal(b,"Cp",walls,fcp,-1.2,1.0);view(b,new double[]{xc,hs/2,zc},new double[]{xc,hs/2,zc-30},new double[]{-1,0,0},L*0.62);png(b,"03_CP_DOL");});
+  step("04",()->{Scene b2=sc("P3D 04 Cp - widok izometryczny");scal(b2,"Cp",walls,fcp,-1.2,1.0);view(b2,new double[]{xc,hs/2,zc},new double[]{xc-6,hs/2-5,zc+4},new double[]{0,0,1},L*0.62);png(b2,"04_CP_ISO");});
+  step("05",()->{Scene t=sc("P3D 05 Naprezenie styczne |tau_w| [Pa] - z gory (oderwanie = minima)");scal(t,"|tau_w|",walls,((PrimitiveFieldFunction)ftau).getMagnitudeFunction(),0,400);view(t,new double[]{xc,hs/2,zc},new double[]{xc,hs/2,zc+30},new double[]{-1,0,0},L*0.62);png(t,"05_TARCIE");});
+  step("06",()->{Scene t=sc("P3D 06 y+ pierwszej komorki (funkcja scianowa 30-100)");scal(t,"y+",walls,fyp,0,120);view(t,new double[]{xc,hs/2,zc},new double[]{xc-6,hs/2-5,zc+4},new double[]{0,0,1},L*0.62);png(t,"06_YPLUS");});
+  step("07",()->{IsoPart iso=s.getPartManager().createIsoPart();iso.getInputParts().setObjects(rg);
+   if(fq!=null){iso.setFieldFunction(fq);iso.setMode(IsoMode.ISOVALUE_SINGLE);iso.getSingleIsoValue().setValue(Math.pow(U/c,2)*2);iso.setPresentationName("P3D izopowierzchnia Q = 2 (U/c)^2");}
+   else{iso.setFieldFunction(((PrimitiveFieldFunction)fvort).getMagnitudeFunction());iso.setMode(IsoMode.ISOVALUE_SINGLE);iso.getSingleIsoValue().setValue(3*U/c);iso.setPresentationName("P3D izopowierzchnia |omega| = 3 U/c");}
+   Scene w=sc("P3D 07 Wiry - izopowierzchnia kolorowana wirowoscia wzdluzna omega_x [1/s]");scal(w,"omega_x",List.of(iso),fwx,-60,60);outline(w);view(w,new double[]{1.5,hs/2,zc},new double[]{-5,hs/2-7,zc+5},new double[]{0,0,1},Math.max(L*0.75,2.5));png(w,"07_WIRY_ISO");});
+  final List<Part> pls=new ArrayList<>();
+  step("08",()->{for(double x:new double[]{xc+c,1.0,3.0})pls.add(plane("P3D przekroj x = "+String.format(Locale.ROOT,"%.2f",x)+" m",new double[]{x,0,0},new double[]{1,0,0}));
+   Scene w2=sc("P3D 08 Wirowosc wzdluzna omega_x w przekrojach x = 1c za platem, 1 m, 3 m");scal(w2,"omega_x",pls,fwx,-40,40);outline(w2);view(w2,new double[]{1.5,hs/2,zc},new double[]{8,hs/2+6,zc+3},new double[]{0,0,1},Math.max(L*0.75,2.5));png(w2,"08_WIRY_PRZEKROJE");});
+  final double yflat=Math.max(0.1,(yl-c)/2); final PlaneSection[] py=new PlaneSection[1];
+  step("09",()->{py[0]=plane("P3D przekroj y = "+String.format(Locale.ROOT,"%.2f",yflat)+" m (plaskie platy)",new double[]{0,yflat,0},new double[]{0,1,0});
+   Scene v=sc("P3D 09 Predkosc |U| i linie pradu (LIC) w przekroju przez plaskie platy");scal(v,"|U|",List.of(py[0]),fvmag,0.6*U,1.3*U);lic(v,py[0],fvel);view(v,new double[]{xc+0.2,yflat,zc},new double[]{xc+0.2,yflat+30,zc},new double[]{0,0,1},Math.max(gap,c)*1.1+0.3);png(v,"09_PREDKOSC_PRZEKROJ_Y");});
+  step("10",()->{Scene v2=sc("P3D 10 Cp w przekroju przez plaskie platy");scal(v2,"Cp",List.of(py[0]),fcp,-1.2,1.0);view(v2,new double[]{xc+0.2,yflat,zc},new double[]{xc+0.2,yflat+30,zc},new double[]{0,0,1},Math.max(gap,c)*1.1+0.3);png(v2,"10_CP_PRZEKROJ_Y");});
+  step("11",()->{PlaneSection pz=plane("P3D przekroj z = "+String.format(Locale.ROOT,"%.2f",zc)+" m (srodek luku)",new double[]{0,0,zc},new double[]{0,0,1});
+   Scene k=sc("P3D 11 Cp i linie pradu w przekroju poziomym przez srodek luku");scal(k,"Cp",List.of(pz),fcp,-0.6,1.0);lic(k,pz,fvel);view(k,new double[]{xc+0.2,yl,zc},new double[]{xc+0.2,yl,zc+30},new double[]{-1,0,0},Math.max(4*c,0.8));png(k,"11_LUK_PRZEKROJ_Z");});
+  step("12",()->{Scene sl=sc("P3D 12 Slad: predkosc osiowa U_x w przekroju x = 1 m");scal(sl,"U_x",List.of(pls.get(1)),fvx,0.85*U,1.05*U);outline(sl);view(sl,new double[]{1.0,hs/2,zc},new double[]{-10,hs/2,zc},new double[]{0,0,1},L*0.62);png(sl,"12_SLAD");});
+  s.saveState(out.resolve("PETLA_KONIEC.sim").toString());
+ }
+ void step(String n,Runnable r){try{r.run();s.println("POST krok "+n+" OK");}catch(Throwable e){s.println("POST BLAD krok "+n+": "+e);StackTraceElement[] st=e.getStackTrace();for(int i=0;i<Math.min(6,st.length);i++)s.println("   "+st[i]);}}

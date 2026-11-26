@@ -1,0 +1,232 @@
+12:48:46 start: W_A 2.2, KI 0.2, ome 3.2441, H 194, sonda 3.0 m przed LE (wyprzedzenie 0.149 s)
+12:50:40 takt 0 t 0.000 free 0 cmd +0.000
+13:25:56 takt 100 t 1.000 free 0 cmd +2.338
+14:01:13 fala: w_e 5.260 rad/s (okres spotkania 1.195 s), w0 1.685 rad/s (okres fali 3.73 s), k 0.2895 1/m, wyprzedzenie sondy 0.165 s
+14:01:37 takt 200 t 2.000 free 0 cmd +2.338
+14:38:04 fala: w_e 4.298 rad/s (okres spotkania 1.462 s), w0 1.493 rad/s (okres fali 4.21 s), k 0.2272 1/m, wyprzedzenie sondy 0.159 s
+14:38:27 takt 300 t 3.000 free 0 cmd +2.338
+15:17:12 fala: w_e 3.754 rad/s (okres spotkania 1.674 s), w0 1.375 rad/s (okres fali 4.57 s), k 0.1927 1/m, wyprzedzenie sondy 0.154 s
+15:17:40 takt 400 t 4.000 free 0 cmd +2.338
+15:57:53 fala: w_e 3.663 rad/s (okres spotkania 1.715 s), w0 1.354 rad/s (okres fali 4.64 s), k 0.1870 1/m, wyprzedzenie sondy 0.153 s
+15:58:16 takt 500 t 5.000 free 0 cmd +2.338
+16:34:42 fala: w_e 3.714 rad/s (okres spotkania 1.692 s), w0 1.366 rad/s (okres fali 4.60 s), k 0.1902 1/m, wyprzedzenie sondy 0.154 s
+16:35:06 takt 600 t 6.000 free 0 cmd +2.338
+17:11:51 fala: w_e 3.661 rad/s (okres spotkania 1.716 s), w0 1.354 rad/s (okres fali 4.64 s), k 0.1869 1/m, wyprzedzenie sondy 0.153 s
+17:12:15 takt 700 t 7.000 free 0 cmd +2.338
+17:50:20 fala: w_e 3.286 rad/s (okres spotkania 1.912 s), w0 1.267 rad/s (okres fali 4.96 s), k 0.1635 1/m, wyprzedzenie sondy 0.149 s
+17:50:44 takt 800 t 8.000 free 0 cmd +2.338
+19:30:51 historia fali z history.csv: 300 probek do t 8.511
+19:30:51 start: W_A 2.2, KI 0.2, ome 3.2441, H 194, sonda 3.0 m przed LE (wyprzedzenie 0.149 s)
+19:32:43 seq 850 <= 852: restart makra - zeruje historie MPC
+19:32:43 historia fali z history.csv: 300 probek do t 8.511
+19:51:14 takt 900 t 9.000 free 0 cmd +2.338
+20:04:57 fala: w_e 4.553 rad/s (okres spotkania 1.380 s), w0 1.546 rad/s (okres fali 4.06 s), k 0.2436 1/m, wyprzedzenie sondy 0.160 s
+20:16:36 t 10.000 z +0.000 v +0.000 th +2.34 eta +1.068 | fala A 0.388 b +110.5 | ie +0.000 | cmd +2.01 | 0.09 s
+20:16:36 takt 1000 t 10.000 free 1 cmd +2.011
+20:16:49 RLS: odrzucam krok (mnoznik -2.137)
+20:17:02 RLS: odrzucam krok (mnoznik 8.986)
+20:17:15 RLS: odrzucam krok (mnoznik 3.743)
+20:17:28 RLS: odrzucam krok (mnoznik 2.026)
+20:27:28 fala: w_e 4.301 rad/s (okres spotkania 1.461 s), w0 1.494 rad/s (okres fali 4.21 s), k 0.2274 1/m, wyprzedzenie sondy 0.159 s
+20:38:34 RLS t 10.99: mnoznik sily dynamicznej 1.025, przesuniecie -167 N/m, suma dL/dth 6832 (Faltinsen 6662), blad RMS 420 N/m
+20:38:58 takt 1100 t 11.000 free 1 cmd +1.955
+20:55:01 fala: w_e 4.134 rad/s (okres spotkania 1.520 s), w0 1.458 rad/s (okres fali 4.31 s), k 0.2167 1/m, wyprzedzenie sondy 0.157 s
+21:17:05 historia fali z history.csv: 300 probek do t 11.631
+21:17:06 start: W_A 2.2, KI 0.2, ome 3.2441, H 194, sonda 3.0 m przed LE (wyprzedzenie 0.149 s)
+21:17:06 t 11.650 z -0.274 v -0.018 th +0.21 eta +0.943 | fala A 0.595 b +96.9 | ie +0.003 | cmd +0.53 | 0.16 s
+21:19:05 seq 1150 <= 1165: restart makra - zeruje historie MPC
+21:19:05 historia fali z history.csv: 300 probek do t 11.631
+21:19:05 t 11.500 z -0.267 v -0.065 th -1.24 eta +0.804 | fala A 0.593 b +96.8 | ie +0.003 | cmd +0.45 | 0.11 s
+21:31:47 RLS: odrzucam krok (mnoznik 0.369)
+21:32:30 RLS: odrzucam krok (mnoznik 0.013)
+22:04:14 takt 1200 t 12.000 free 1 cmd +5.321
+22:57:31 fala: w_e 3.762 rad/s (okres spotkania 1.670 s), w0 1.377 rad/s (okres fali 4.56 s), k 0.1932 1/m, wyprzedzenie sondy 0.154 s
+23:16:25 RLS t 12.65: mnoznik sily dynamicznej 0.926, przesuniecie +83 N/m, suma dL/dth 6173 (Faltinsen 6662), blad RMS 796 N/m
+23:33:34 seq 1250 <= 1274: restart makra - zeruje historie MPC
+23:33:34 historia fali z history.csv: 300 probek do t 12.741
+23:33:34 t 12.500 z -0.074 v +0.148 th +2.36 eta +0.165 | fala A 0.568 b +37.9 | ie +0.001 | cmd -7.41 | 0.07 s
+23:34:20 MPC_STOP - koniec
+08:31:40 historia fali z history.csv: 300 probek do t 12.741
+08:31:40 start: W_A 2.2, KI 0.2, ome 3.2441, H 194, sonda 3.0 m przed LE (wyprzedzenie 0.149 s)
+08:31:40 t 12.510 z -0.073 v +0.118 th +1.68 eta +0.157 | fala A 0.511 b +70.9 | ie +0.001 | cmd -0.02 | 0.07 s
+08:33:31 seq 1250 <= 1251: restart makra - zeruje historie MPC
+08:33:31 historia fali z history.csv: 300 probek do t 12.741
+08:33:31 t 12.500 z -0.074 v +0.148 th +2.36 eta +0.165 | fala A 0.511 b +70.9 | ie +0.001 | cmd -1.12 | 0.09 s
+08:40:01 RLS: odrzucam krok (mnoznik 0.464)
+08:51:08 takt 1300 t 13.000 free 1 cmd +0.664
+09:08:27 fala: w_e 3.981 rad/s (okres spotkania 1.578 s), w0 1.425 rad/s (okres fali 4.41 s), k 0.2070 1/m, wyprzedzenie sondy 0.156 s
+09:10:34 RLS: odrzucam krok (mnoznik 0.460)
+09:10:48 RLS: odrzucam krok (mnoznik 0.484)
+09:13:18 RLS t 13.65: mnoznik sily dynamicznej 0.537, przesuniecie +263 N/m, suma dL/dth 3580 (Faltinsen 6662), blad RMS 491 N/m
+09:25:50 takt 1400 t 14.000 free 1 cmd +4.747
+09:42:59 fala: w_e 3.731 rad/s (okres spotkania 1.684 s), w0 1.370 rad/s (okres fali 4.59 s), k 0.1912 1/m, wyprzedzenie sondy 0.154 s
+09:43:42 t 14.500 z -0.269 v +0.088 th +4.46 eta -0.176 | fala A 0.313 b +11.7 | ie +0.388 | cmd +4.86 | 0.07 s
+09:49:07 RLS t 14.65: mnoznik sily dynamicznej 0.933, przesuniecie -11 N/m, suma dL/dth 6217 (Faltinsen 6662), blad RMS 495 N/m
+10:01:55 takt 1500 t 15.000 free 1 cmd +0.272
+10:26:05 RLS t 15.65: mnoznik sily dynamicznej 0.962, przesuniecie +31 N/m, suma dL/dth 6410 (Faltinsen 6662), blad RMS 424 N/m
+10:42:43 takt 1600 t 16.000 free 1 cmd +3.552
+11:00:13 fala: w_e 3.643 rad/s (okres spotkania 1.724 s), w0 1.350 rad/s (okres fali 4.65 s), k 0.1858 1/m, wyprzedzenie sondy 0.153 s
+11:00:58 t 16.500 z -0.260 v -0.116 th +0.08 eta +0.221 | fala A 0.541 b -35.9 | ie +0.500 | cmd -0.89 | 0.08 s
+11:06:36 RLS t 16.65: mnoznik sily dynamicznej 1.021, przesuniecie -2 N/m, suma dL/dth 6805 (Faltinsen 6662), blad RMS 430 N/m
+11:19:15 takt 1700 t 17.000 free 1 cmd +1.228
+11:37:11 fala: w_e 3.611 rad/s (okres spotkania 1.740 s), w0 1.343 rad/s (okres fali 4.68 s), k 0.1837 1/m, wyprzedzenie sondy 0.153 s
+11:37:11 cel wypadkowa 0.490: z'' 0.583, x'' (z modelu) 0.313, wypadkowa 0.662 m/s2 -> W_A 3.076
+11:43:19 RLS t 17.65: mnoznik sily dynamicznej 1.000, przesuniecie +61 N/m, suma dL/dth 6665 (Faltinsen 6662), blad RMS 261 N/m
+11:56:09 takt 1800 t 18.000 free 1 cmd +4.579
+12:12:31 fala: w_e 3.465 rad/s (okres spotkania 1.813 s), w0 1.309 rad/s (okres fali 4.80 s), k 0.1746 1/m, wyprzedzenie sondy 0.151 s
+12:13:14 t 18.500 z -0.318 v -0.135 th -0.59 eta +0.045 | fala A 0.685 b -177.7 | ie +0.500 | cmd -1.07 | 0.07 s
+12:18:36 RLS t 18.65: mnoznik sily dynamicznej 1.067, przesuniecie -35 N/m, suma dL/dth 7112 (Faltinsen 6662), blad RMS 576 N/m
+12:30:56 takt 1900 t 19.000 free 1 cmd +1.328
+12:48:27 fala: w_e 3.338 rad/s (okres spotkania 1.882 s), w0 1.279 rad/s (okres fali 4.91 s), k 0.1668 1/m, wyprzedzenie sondy 0.150 s
+12:54:41 RLS t 19.65: mnoznik sily dynamicznej 1.073, przesuniecie +23 N/m, suma dL/dth 7151 (Faltinsen 6662), blad RMS 408 N/m
+13:07:19 takt 2000 t 20.000 free 1 cmd +3.484
+13:24:54 fala: w_e 3.282 rad/s (okres spotkania 1.914 s), w0 1.266 rad/s (okres fali 4.96 s), k 0.1633 1/m, wyprzedzenie sondy 0.149 s
+13:25:38 t 20.500 z -0.222 v -0.189 th +1.89 eta +0.015 | fala A 0.505 b +21.6 | ie +0.500 | cmd +0.94 | 0.08 s
+13:30:59 RLS t 20.65: mnoznik sily dynamicznej 1.111, przesuniecie -19 N/m, suma dL/dth 7399 (Faltinsen 6662), blad RMS 409 N/m
+13:43:16 takt 2100 t 21.000 free 1 cmd +0.088
+13:59:57 fala: w_e 3.196 rad/s (okres spotkania 1.966 s), w0 1.245 rad/s (okres fali 5.05 s), k 0.1580 1/m, wyprzedzenie sondy 0.148 s
+14:05:47 RLS t 21.65: mnoznik sily dynamicznej 1.122, przesuniecie -8 N/m, suma dL/dth 7474 (Faltinsen 6662), blad RMS 228 N/m
+14:17:44 takt 2200 t 22.000 free 1 cmd +4.000
+14:34:07 fala: w_e 3.106 rad/s (okres spotkania 2.023 s), w0 1.223 rad/s (okres fali 5.14 s), k 0.1525 1/m, wyprzedzenie sondy 0.147 s
+14:34:07 cel wypadkowa 0.490: z'' 0.368, x'' (z modelu) 0.295, wypadkowa 0.472 m/s2 -> W_A 6.269
+14:34:47 t 22.500 z -0.286 v -0.182 th +2.81 eta -0.395 | fala A 0.525 b -156.3 | ie +0.500 | cmd +2.15 | 0.07 s
+14:39:54 RLS t 22.65: mnoznik sily dynamicznej 1.134, przesuniecie -26 N/m, suma dL/dth 7556 (Faltinsen 6662), blad RMS 305 N/m
+14:51:42 takt 2300 t 23.000 free 1 cmd -1.391
+15:13:54 RLS t 23.65: mnoznik sily dynamicznej 1.150, przesuniecie -20 N/m, suma dL/dth 7664 (Faltinsen 6662), blad RMS 252 N/m
+15:25:41 takt 2400 t 24.000 free 1 cmd +6.451
+15:40:49 t 24.500 z -0.276 v +0.186 th +1.14 eta +0.382 | fala A 0.632 b +125.4 | ie +0.500 | cmd +0.34 | 0.06 s
+15:48:24 RLS t 24.65: mnoznik sily dynamicznej 1.173, przesuniecie -3 N/m, suma dL/dth 7814 (Faltinsen 6662), blad RMS 379 N/m
+16:04:37 takt 2500 t 25.000 free 1 cmd +1.878
+16:21:33 fala: w_e 3.203 rad/s (okres spotkania 1.962 s), w0 1.247 rad/s (okres fali 5.04 s), k 0.1584 1/m, wyprzedzenie sondy 0.148 s
+16:25:43 RLS t 25.65: mnoznik sily dynamicznej 1.301, przesuniecie -73 N/m, suma dL/dth 8665 (Faltinsen 6662), blad RMS 905 N/m
+16:39:16 takt 2600 t 26.000 free 1 cmd +2.874
+17:03:25 fala: w_e 3.341 rad/s (okres spotkania 1.880 s), w0 1.280 rad/s (okres fali 4.91 s), k 0.1670 1/m, wyprzedzenie sondy 0.150 s
+17:04:32 t 26.500 z -0.141 v +0.052 th +0.98 eta +0.358 | fala A 0.415 b +108.7 | ie +0.500 | cmd +1.49 | 0.14 s
+17:12:35 RLS t 26.65: mnoznik sily dynamicznej 1.243, przesuniecie -54 N/m, suma dL/dth 8282 (Faltinsen 6662), blad RMS 632 N/m
+17:32:47 takt 2700 t 27.000 free 1 cmd +2.694
+17:58:51 fala: w_e 3.405 rad/s (okres spotkania 1.846 s), w0 1.295 rad/s (okres fali 4.85 s), k 0.1709 1/m, wyprzedzenie sondy 0.151 s
+17:58:51 cel wypadkowa 0.490: z'' 0.764, x'' (z modelu) 0.220, wypadkowa 0.795 m/s2 -> W_A 14.492
+18:08:00 RLS t 27.65: mnoznik sily dynamicznej 1.260, przesuniecie -45 N/m, suma dL/dth 8397 (Faltinsen 6662), blad RMS 459 N/m
+18:27:07 takt 2800 t 28.000 free 1 cmd +1.704
+19:07:10 t 28.500 z -0.252 v -0.109 th +0.55 eta +0.342 | fala A 0.208 b -179.4 | ie +0.500 | cmd +0.32 | 0.13 s
+19:15:27 RLS t 28.65: mnoznik sily dynamicznej 1.266, przesuniecie -52 N/m, suma dL/dth 8438 (Faltinsen 6662), blad RMS 205 N/m
+19:32:42 takt 2900 t 29.000 free 1 cmd +2.281
+20:03:07 RLS t 29.65: mnoznik sily dynamicznej 1.277, przesuniecie -43 N/m, suma dL/dth 8506 (Faltinsen 6662), blad RMS 306 N/m
+20:21:38 takt 3000 t 30.000 free 1 cmd +3.590
+20:47:33 fala: w_e 3.244 rad/s (okres spotkania 1.937 s), w0 1.257 rad/s (okres fali 5.00 s), k 0.1610 1/m, wyprzedzenie sondy 0.149 s
+20:48:33 t 30.500 z -0.328 v -0.037 th +1.68 eta +0.505 | fala A 0.163 b +32.8 | ie +0.500 | cmd +1.18 | 0.15 s
+20:56:17 RLS t 30.65: mnoznik sily dynamicznej 1.285, przesuniecie -54 N/m, suma dL/dth 8559 (Faltinsen 6662), blad RMS 213 N/m
+21:17:04 takt 3100 t 31.000 free 1 cmd +3.184
+21:46:24 fala: w_e 5.301 rad/s (okres spotkania 1.185 s), w0 1.693 rad/s (okres fali 3.71 s), k 0.2922 1/m, wyprzedzenie sondy 0.165 s
+21:57:18 RLS t 31.65: mnoznik sily dynamicznej 1.299, przesuniecie -62 N/m, suma dL/dth 8654 (Faltinsen 6662), blad RMS 351 N/m
+22:22:40 takt 3200 t 32.000 free 1 cmd +2.886
+23:00:58 fala: w_e 2.578 rad/s (okres spotkania 2.437 s), w0 1.088 rad/s (okres fali 5.77 s), k 0.1207 1/m, wyprzedzenie sondy 0.140 s
+23:00:58 cel wypadkowa 0.490: z'' 0.435, x'' (z modelu) 0.158, wypadkowa 0.463 m/s2 -> W_A 11.003
+23:02:48 t 32.500 z -0.319 v -0.090 th +5.56 eta -0.280 | fala A 0.296 b +35.3 | ie +0.500 | cmd +6.10 | 0.16 s
+23:13:54 RLS t 32.65: mnoznik sily dynamicznej 1.313, przesuniecie -72 N/m, suma dL/dth 8749 (Faltinsen 6662), blad RMS 274 N/m
+23:36:36 takt 3300 t 33.000 free 1 cmd +2.404
+00:17:41 RLS t 33.65: mnoznik sily dynamicznej 1.322, przesuniecie -62 N/m, suma dL/dth 8810 (Faltinsen 6662), blad RMS 305 N/m
+00:40:07 takt 3400 t 34.000 free 1 cmd +2.513
+01:10:41 fala: w_e 2.772 rad/s (okres spotkania 2.267 s), w0 1.139 rad/s (okres fali 5.52 s), k 0.1322 1/m, wyprzedzenie sondy 0.143 s
+01:11:56 t 34.500 z -0.279 v -0.090 th +4.77 eta -0.054 | fala A 0.592 b -5.0 | ie +0.500 | cmd +4.49 | 0.08 s
+01:21:32 RLS t 34.65: mnoznik sily dynamicznej 1.336, przesuniecie -66 N/m, suma dL/dth 8898 (Faltinsen 6662), blad RMS 385 N/m
+01:44:55 takt 3500 t 35.000 free 1 cmd +1.581
+02:26:38 RLS t 35.65: mnoznik sily dynamicznej 1.353, przesuniecie -84 N/m, suma dL/dth 9014 (Faltinsen 6662), blad RMS 415 N/m
+02:47:29 takt 3600 t 36.000 free 1 cmd +1.300
+03:17:29 fala: w_e 2.979 rad/s (okres spotkania 2.109 s), w0 1.192 rad/s (okres fali 5.27 s), k 0.1448 1/m, wyprzedzenie sondy 0.146 s
+03:18:59 t 36.500 z -0.303 v +0.114 th +3.02 eta +0.665 | fala A 0.359 b +23.1 | ie +0.500 | cmd +2.57 | 0.16 s
+03:29:28 RLS t 36.65: mnoznik sily dynamicznej 1.369, przesuniecie -73 N/m, suma dL/dth 9123 (Faltinsen 6662), blad RMS 333 N/m
+03:53:12 takt 3700 t 37.000 free 1 cmd +4.650
+04:26:55 fala: w_e 3.014 rad/s (okres spotkania 2.084 s), w0 1.200 rad/s (okres fali 5.23 s), k 0.1469 1/m, wyprzedzenie sondy 0.146 s
+04:26:55 cel wypadkowa 0.490: z'' 0.464, x'' (z modelu) 0.262, wypadkowa 0.532 m/s2 -> W_A 11.438
+04:41:49 RLS t 37.65: mnoznik sily dynamicznej 1.394, przesuniecie -86 N/m, suma dL/dth 9284 (Faltinsen 6662), blad RMS 390 N/m
+05:05:31 takt 3800 t 38.000 free 1 cmd +4.362
+05:38:45 fala: w_e 3.385 rad/s (okres spotkania 1.856 s), w0 1.290 rad/s (okres fali 4.87 s), k 0.1697 1/m, wyprzedzenie sondy 0.150 s
+05:40:11 t 38.500 z -0.220 v +0.234 th +2.36 eta +0.353 | fala A 0.099 b +102.7 | ie +0.500 | cmd +2.07 | 0.10 s
+05:50:47 RLS t 38.65: mnoznik sily dynamicznej 1.411, przesuniecie -102 N/m, suma dL/dth 9403 (Faltinsen 6662), blad RMS 441 N/m
+06:14:15 takt 3900 t 39.000 free 1 cmd +0.906
+06:49:06 fala: w_e 3.542 rad/s (okres spotkania 1.774 s), w0 1.327 rad/s (okres fali 4.74 s), k 0.1794 1/m, wyprzedzenie sondy 0.152 s
+07:00:36 RLS t 39.65: mnoznik sily dynamicznej 1.362, przesuniecie -65 N/m, suma dL/dth 9074 (Faltinsen 6662), blad RMS 416 N/m
+07:25:03 takt 4000 t 40.000 free 1 cmd +2.508
+07:55:45 fala: w_e 2.331 rad/s (okres spotkania 2.695 s), w0 1.021 rad/s (okres fali 6.16 s), k 0.1062 1/m, wyprzedzenie sondy 0.137 s
+07:56:50 t 40.500 z -0.505 v -0.112 th +2.65 eta +0.075 | fala A 0.161 b -120.8 | ie +0.500 | cmd +3.21 | 0.23 s
+08:06:05 RLS t 40.65: mnoznik sily dynamicznej 1.331, przesuniecie -75 N/m, suma dL/dth 8868 (Faltinsen 6662), blad RMS 537 N/m
+08:28:04 takt 4100 t 41.000 free 1 cmd +2.346
+08:56:53 fala: w_e 5.163 rad/s (okres spotkania 1.217 s), w0 1.667 rad/s (okres fali 3.77 s), k 0.2831 1/m, wyprzedzenie sondy 0.165 s
+09:07:10 RLS t 41.65: mnoznik sily dynamicznej 1.316, przesuniecie -70 N/m, suma dL/dth 8769 (Faltinsen 6662), blad RMS 351 N/m
+09:28:01 takt 4200 t 42.000 free 1 cmd +2.880
+09:56:32 fala: w_e 5.192 rad/s (okres spotkania 1.210 s), w0 1.672 rad/s (okres fali 3.76 s), k 0.2851 1/m, wyprzedzenie sondy 0.165 s
+09:56:32 cel wypadkowa 0.490: z'' 0.252, x'' (z modelu) 0.084, wypadkowa 0.265 m/s2 -> W_A 10.976
+09:57:52 t 42.500 z -0.422 v +0.144 th +1.61 eta +0.703 | fala A 0.104 b +72.5 | ie +0.500 | cmd +1.30 | 0.14 s
+10:06:16 RLS t 42.65: mnoznik sily dynamicznej 1.323, przesuniecie -66 N/m, suma dL/dth 8818 (Faltinsen 6662), blad RMS 274 N/m
+10:26:08 takt 4300 t 43.000 free 1 cmd +4.074
+10:54:38 fala: w_e 4.781 rad/s (okres spotkania 1.314 s), w0 1.592 rad/s (okres fali 3.95 s), k 0.2583 1/m, wyprzedzenie sondy 0.162 s
+11:05:15 RLS t 43.65: mnoznik sily dynamicznej 1.338, przesuniecie -80 N/m, suma dL/dth 8912 (Faltinsen 6662), blad RMS 358 N/m
+11:26:43 takt 4400 t 44.000 free 1 cmd -0.263
+11:56:25 fala: w_e 4.684 rad/s (okres spotkania 1.342 s), w0 1.572 rad/s (okres fali 4.00 s), k 0.2520 1/m, wyprzedzenie sondy 0.161 s
+11:57:31 t 44.500 z -0.352 v +0.205 th +2.54 eta +0.559 | fala A 0.449 b +17.0 | ie +0.500 | cmd +3.32 | 0.09 s
+12:06:23 RLS t 44.65: mnoznik sily dynamicznej 1.355, przesuniecie -75 N/m, suma dL/dth 9026 (Faltinsen 6662), blad RMS 337 N/m
+12:29:16 takt 4500 t 45.000 free 1 cmd +2.411
+12:47:55 fala: w_e 4.575 rad/s (okres spotkania 1.374 s), w0 1.550 rad/s (okres fali 4.05 s), k 0.2450 1/m, wyprzedzenie sondy 0.161 s
+12:56:28 RLS t 45.65: mnoznik sily dynamicznej 1.368, przesuniecie -94 N/m, suma dL/dth 9112 (Faltinsen 6662), blad RMS 468 N/m
+13:08:30 takt 4600 t 46.000 free 1 cmd +2.133
+13:29:22 fala: w_e 4.147 rad/s (okres spotkania 1.515 s), w0 1.461 rad/s (okres fali 4.30 s), k 0.2175 1/m, wyprzedzenie sondy 0.157 s
+13:30:05 t 46.500 z -0.145 v +0.215 th +5.95 eta -0.148 | fala A 0.234 b +165.8 | ie +0.500 | cmd +7.37 | 0.11 s
+13:35:10 RLS t 46.65: mnoznik sily dynamicznej 1.378, przesuniecie -98 N/m, suma dL/dth 9184 (Faltinsen 6662), blad RMS 616 N/m
+13:47:01 takt 4700 t 47.000 free 1 cmd +1.615
+14:03:08 fala: w_e 4.075 rad/s (okres spotkania 1.542 s), w0 1.446 rad/s (okres fali 4.35 s), k 0.2130 1/m, wyprzedzenie sondy 0.157 s
+14:03:08 cel wypadkowa 0.490: z'' 0.812, x'' (z modelu) 0.138, wypadkowa 0.824 m/s2 -> W_A 20.000
+14:09:01 RLS t 47.65: mnoznik sily dynamicznej 1.360, przesuniecie -72 N/m, suma dL/dth 9062 (Faltinsen 6662), blad RMS 492 N/m
+14:22:15 takt 4800 t 48.000 free 1 cmd +2.939
+14:42:32 t 48.500 z -0.026 v -0.276 th +1.57 eta +0.063 | fala A 0.248 b +18.7 | ie +0.373 | cmd +0.57 | 0.19 s
+14:48:43 RLS t 48.65: mnoznik sily dynamicznej 1.374, przesuniecie -78 N/m, suma dL/dth 9151 (Faltinsen 6662), blad RMS 304 N/m
+15:03:50 takt 4900 t 49.000 free 1 cmd +0.005
+15:26:20 fala: w_e 4.020 rad/s (okres spotkania 1.563 s), w0 1.434 rad/s (okres fali 4.38 s), k 0.2095 1/m, wyprzedzenie sondy 0.156 s
+15:33:33 RLS t 49.65: mnoznik sily dynamicznej 1.378, przesuniecie -75 N/m, suma dL/dth 9181 (Faltinsen 6662), blad RMS 187 N/m
+15:49:20 takt 5000 t 50.000 free 1 cmd +2.694
+16:11:44 fala: w_e 2.865 rad/s (okres spotkania 2.193 s), w0 1.163 rad/s (okres fali 5.40 s), k 0.1379 1/m, wyprzedzenie sondy 0.144 s
+16:12:43 t 50.500 z -0.275 v -0.346 th +1.10 eta -0.184 | fala A 0.457 b +177.5 | ie +0.500 | cmd +1.28 | 0.18 s
+16:20:08 RLS t 50.65: mnoznik sily dynamicznej 1.357, przesuniecie -83 N/m, suma dL/dth 9040 (Faltinsen 6662), blad RMS 537 N/m
+16:37:45 takt 5100 t 51.000 free 1 cmd -0.265
+17:12:01 RLS t 51.65: mnoznik sily dynamicznej 1.345, przesuniecie -91 N/m, suma dL/dth 8960 (Faltinsen 6662), blad RMS 278 N/m
+17:32:06 takt 5200 t 52.000 free 1 cmd +3.544
+17:52:51 fala: w_e 3.179 rad/s (okres spotkania 1.976 s), w0 1.241 rad/s (okres fali 5.06 s), k 0.1570 1/m, wyprzedzenie sondy 0.148 s
+17:52:51 cel wypadkowa 0.490: z'' 0.354, x'' (z modelu) 0.314, wypadkowa 0.473 m/s2 -> W_A 16.315
+17:53:48 t 52.500 z -0.363 v +0.223 th +2.74 eta +0.491 | fala A 0.287 b -25.6 | ie +0.500 | cmd +2.36 | 0.10 s
+18:00:47 RLS t 52.65: mnoznik sily dynamicznej 1.356, przesuniecie -89 N/m, suma dL/dth 9031 (Faltinsen 6662), blad RMS 452 N/m
+18:09:07 takt 5300 t 53.000 free 1 cmd +3.877
+18:33:03 fala: w_e 3.608 rad/s (okres spotkania 1.741 s), w0 1.342 rad/s (okres fali 4.68 s), k 0.1835 1/m, wyprzedzenie sondy 0.153 s
+18:40:57 RLS t 53.65: mnoznik sily dynamicznej 1.364, przesuniecie -96 N/m, suma dL/dth 9085 (Faltinsen 6662), blad RMS 285 N/m
+18:54:29 takt 5400 t 54.000 free 1 cmd -0.017
+19:13:19 t 54.500 z -0.240 v +0.101 th +2.18 eta +0.856 | fala A 0.406 b -3.3 | ie +0.500 | cmd +2.89 | 0.09 s
+19:20:48 RLS t 54.65: mnoznik sily dynamicznej 1.364, przesuniecie -88 N/m, suma dL/dth 9090 (Faltinsen 6662), blad RMS 202 N/m
+19:38:41 takt 5500 t 55.000 free 1 cmd +4.533
+19:51:52 RLS t 55.65: mnoznik sily dynamicznej 1.391, przesuniecie -111 N/m, suma dL/dth 9268 (Faltinsen 6662), blad RMS 570 N/m
+19:58:50 takt 5600 t 56.000 free 1 cmd -2.217
+20:08:04 fala: w_e 3.505 rad/s (okres spotkania 1.793 s), w0 1.318 rad/s (okres fali 4.77 s), k 0.1771 1/m, wyprzedzenie sondy 0.152 s
+20:08:27 t 56.500 z -0.395 v -0.078 th +0.67 eta +0.648 | fala A 0.544 b -177.6 | ie +0.500 | cmd +1.25 | 0.07 s
+20:11:14 RLS t 56.65: mnoznik sily dynamicznej 1.398, przesuniecie -101 N/m, suma dL/dth 9315 (Faltinsen 6662), blad RMS 300 N/m
+20:18:12 takt 5700 t 57.000 free 1 cmd +5.230
+20:27:37 fala: w_e 2.336 rad/s (okres spotkania 2.690 s), w0 1.022 rad/s (okres fali 6.15 s), k 0.1064 1/m, wyprzedzenie sondy 0.137 s
+20:27:38 cel wypadkowa 0.490: z'' 0.784, x'' (z modelu) 0.468, wypadkowa 0.913 m/s2 -> W_A 20.000
+20:30:59 RLS t 57.65: mnoznik sily dynamicznej 1.253, przesuniecie -42 N/m, suma dL/dth 8348 (Faltinsen 6662), blad RMS 738 N/m
+20:37:53 takt 5800 t 58.000 free 1 cmd +1.147
+20:47:16 fala: w_e 2.507 rad/s (okres spotkania 2.507 s), w0 1.069 rad/s (okres fali 5.88 s), k 0.1164 1/m, wyprzedzenie sondy 0.139 s
+20:47:40 t 58.500 z -0.176 v -0.291 th -1.33 eta +0.602 | fala A 0.617 b -111.7 | ie +0.500 | cmd -1.86 | 0.06 s
+20:50:37 RLS t 58.65: mnoznik sily dynamicznej 1.203, przesuniecie -17 N/m, suma dL/dth 8014 (Faltinsen 6662), blad RMS 490 N/m
+20:57:27 takt 5900 t 59.000 free 1 cmd +0.911
+21:06:52 fala: w_e 2.882 rad/s (okres spotkania 2.180 s), w0 1.167 rad/s (okres fali 5.38 s), k 0.1389 1/m, wyprzedzenie sondy 0.145 s
+21:10:11 RLS t 59.65: mnoznik sily dynamicznej 1.197, przesuniecie -27 N/m, suma dL/dth 7972 (Faltinsen 6662), blad RMS 599 N/m
+21:17:01 takt 6000 t 60.000 free 1 cmd +2.872
+21:26:46 t 60.500 z -0.403 v +0.062 th +1.20 eta +0.593 | fala A 0.403 b +16.3 | ie +0.500 | cmd +1.00 | 0.06 s
+21:29:42 RLS t 60.65: mnoznik sily dynamicznej 1.205, przesuniecie -29 N/m, suma dL/dth 8028 (Faltinsen 6662), blad RMS 352 N/m
+21:36:32 takt 6100 t 61.000 free 1 cmd +2.550
+21:45:53 fala: w_e 2.955 rad/s (okres spotkania 2.126 s), w0 1.186 rad/s (okres fali 5.30 s), k 0.1433 1/m, wyprzedzenie sondy 0.145 s
+21:49:13 RLS t 61.65: mnoznik sily dynamicznej 1.207, przesuniecie -36 N/m, suma dL/dth 8039 (Faltinsen 6662), blad RMS 185 N/m
+21:56:03 takt 6200 t 62.000 free 1 cmd +0.410
+22:05:29 fala: w_e 3.120 rad/s (okres spotkania 2.014 s), w0 1.227 rad/s (okres fali 5.12 s), k 0.1534 1/m, wyprzedzenie sondy 0.147 s
+22:05:29 cel wypadkowa 0.490: z'' 0.413, x'' (z modelu) 0.154, wypadkowa 0.441 m/s2 -> W_A 18.970
+22:05:53 t 62.500 z -0.426 v +0.021 th +0.80 eta +0.684 | fala A 0.437 b +72.1 | ie +0.500 | cmd +1.27 | 0.06 s
+22:08:54 RLS t 62.65: mnoznik sily dynamicznej 1.220, przesuniecie -40 N/m, suma dL/dth 8126 (Faltinsen 6662), blad RMS 389 N/m
+22:22:58 takt 6300 t 63.000 free 1 cmd +3.308
+23:47:29 MPC_STOP - koniec

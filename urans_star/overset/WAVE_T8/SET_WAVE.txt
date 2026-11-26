@@ -1,0 +1,5 @@
+MINI_URANS_VOF_2D: CB_StokesV 1 H 1.5 -> 1.5 m, lambda -> 99.88971665101667 m
+== strefy fal (getValues regionow i granic)
+MINI_water_air ForcingVofWaveSpecification
+  granica inlet VofWaveForcingLength
+  granica outlet VofWaveDampingLength

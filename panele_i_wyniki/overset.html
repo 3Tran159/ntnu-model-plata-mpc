@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Godø overset – live</title>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<style>
+:root{--bg:#0f1216;--card:#171c22;--fg:#e6e8eb;--mut:#8b939c;--ok:#3fb950;--warn:#d29922;--bad:#f85149;--a:#58a6ff;--b:#f0883e;--c:#a371f7;--d:#3fb950}
+body{margin:0;background:var(--bg);color:var(--fg);font:14px/1.4 system-ui,Segoe UI,sans-serif}
+header{display:flex;flex-wrap:wrap;gap:12px;align-items:center;padding:12px 16px;border-bottom:1px solid #222a33}
+h1{font-size:16px;margin:0 12px 0 0}select{background:var(--card);color:var(--fg);border:1px solid #2d3640;border-radius:6px;padding:4px}
+.kpis{display:flex;flex-wrap:wrap;gap:8px;padding:12px 16px}
+.k{background:var(--card);border-radius:8px;padding:8px 12px;min-width:110px}.k b{display:block;font-size:18px}.k span{color:var(--mut);font-size:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(440px,1fr));gap:12px;padding:0 16px 16px}
+.card{background:var(--card);border-radius:8px;padding:10px}.card h2{font-size:13px;margin:0 0 6px;color:var(--mut);font-weight:600}
+canvas{width:100%!important;height:230px!important}
+pre{white-space:pre-wrap;color:var(--mut);font-size:12px;margin:0}
+.ok{color:var(--ok)}.warn{color:var(--warn)}.bad{color:var(--bad)}
+</style></head><body>
+<header><h1>Godø – obracany płat + heave (overset, URANS-VOF)</h1>
+<label>przebieg <select id="run"></select></label><span id="upd" style="color:var(--mut)"></span></header>
+<div class="kpis" id="kpis"></div>
+<div class="grid">
+ <div class="card"><h2>Kąt płata θ [deg] (nose-up +), komenda</h2><canvas id="c1"></canvas></div>
+ <div class="card"><h2>Heave z [m] i prędkość ż [m/s]</h2><canvas id="c2"></canvas></div>
+ <div class="card"><h2>Lift / weight  i  CL</h2><canvas id="c3"></canvas></div>
+ <div class="card"><h2>Moc: oporu U·Fx i siłownika max(0,−M·ω) [W]</h2><canvas id="c4"></canvas></div>
+ <div class="card"><h2>Fala: η λ/4 przed płatem, η nad LE [m]</h2><canvas id="c5"></canvas></div>
+ <div class="card"><h2>Interface CFL (limit), s/krok</h2><canvas id="c6"></canvas></div>
+ <div class="card"><h2>Log sesji / stan</h2><pre id="log"></pre></div>
+</div>
+<script>
+const C={};const col=getComputedStyle(document.documentElement);
+const pal=['--a','--b','--c','--d'].map(v=>col.getPropertyValue(v).trim());
+function chart(id,sets,y2){const ds=sets.map((s,i)=>({label:s,data:[],borderColor:pal[i],borderWidth:1.3,pointRadius:0,yAxisID:(y2&&i==1)?'y2':'y'}));
+ const sc={x:{type:'linear',ticks:{color:'#8b939c'},grid:{color:'#222a33'},title:{display:true,text:'t [s]',color:'#8b939c'}},y:{ticks:{color:'#8b939c'},grid:{color:'#222a33'}}};
+ if(y2)sc.y2={position:'right',ticks:{color:'#8b939c'},grid:{display:false}};
+ C[id]=new Chart(document.getElementById(id),{type:'line',data:{datasets:ds},options:{animation:false,parsing:false,normalized:true,scales:sc,plugins:{legend:{labels:{color:'#e6e8eb',boxWidth:10}}}}});}
+chart('c1',['θ','θ cmd']);chart('c2',['z','ż'],true);chart('c3',['L/W','CL'],true);chart('c4',['P_drag','P_act'],true);chart('c5',['η λ/4','η LE']);chart('c6',['iface CFL','s/krok'],true);
+function put(id,xs,ysets){ysets.forEach((ys,i)=>{C[id].data.datasets[i].data=xs.map((x,j)=>({x,y:ys[j]}))});C[id].update('none');}
+function k(lbl,val,cls){return `<div class="k"><span>${lbl}</span><b class="${cls||''}">${val}</b></div>`}
+let sel=null;
+async function tick(){
+ try{const r=await (await fetch('/api/overset'+(sel?('?run='+encodeURIComponent(sel)):''))).json();
+  const s=document.getElementById('run');if(s.options.length!=r.runs.length){s.innerHTML=r.runs.map(n=>`<option>${n}</option>`).join('');}
+  s.value=r.run;const S=r.series||{};const t=S.time_s||[];
+  put('c1',t,[S.theta_deg,S.theta_cmd_deg]);put('c2',t,[S.z_m,S.v_m_s]);put('c3',t,[S.GODO_lift_over_weight,S.AF_CL]);
+  put('c4',t,[S.P_drag_W,S.P_act_W]);put('c5',t,[S.GODO_eta_upstream_quarter_lambda,S.GODO_eta_at_LE]);put('c6',t,[S.GODO_interfaceCFL,S.solver_s]);
+  const st=r.run_state||{},p=r.props||{},tend=+(p.t_end_s||st.t_end_s||11.62),tn=st.time_s||0,sps=st.s_per_step||0,dt=+(p.dt_s||0.001);
+  const eta=sps?((tend-tn)/dt*sps/3600):NaN;const res=r.run_result?r.run_result.result:'liczy';
+  const cfl=st.interfaceCFL,cmax=+(p.cfl_max||0.95);
+  document.getElementById('kpis').innerHTML=k('status',r.run_error?'BŁĄD':res,r.run_error?'bad':(res=='liczy'||res=='DONE'?'ok':'warn'))+k('t / t_end',tn.toFixed(3)+' / '+tend.toFixed(2)+' s')+k('postęp',(100*tn/tend).toFixed(1)+' %')
+   +k('s/krok',sps.toFixed(2))+k('ETA',isFinite(eta)?eta.toFixed(1)+' h':'–')+k('heartbeat',r.age_s+' s temu',r.age_s>1200?'bad':(r.age_s>120?'warn':'ok'))
+   +k('θ',(st.theta_deg??NaN).toFixed(2)+'°')+k('z',(st.z_m??NaN).toFixed(4)+' m')+k('L/W',(st.lift_over_weight??NaN).toFixed(3))+k('iface CFL',(cfl??NaN).toFixed(2)+' / '+cmax,cfl>cmax*0.9?'warn':'ok')
+   +k('tryb',p.mode||'–')+k('zwolnienie heave',(+(p.release_s||0)).toFixed(2)+' s');
+  document.getElementById('log').textContent=(r.session_log||[]).join('\n')+(r.run_warn?'\nWARN: '+JSON.stringify(r.run_warn):'')+(r.run_error?'\nERROR: '+JSON.stringify(r.run_error):'')
+   +'\n\nparametry: '+Object.entries(p).filter(([a])=>!/stop_file|wall/.test(a)).map(([a,b])=>a+'='+b).join('  ');
+  document.getElementById('upd').textContent='odświeżono '+new Date().toLocaleTimeString();
+ }catch(e){document.getElementById('upd').textContent='brak połączenia: '+e}
+}
+document.getElementById('run').onchange=e=>{sel=e.target.value;tick()};
+tick();setInterval(tick,15000);
+</script></body></html>

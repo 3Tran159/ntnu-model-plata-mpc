@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="pl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Godø – podgląd na żywo</title>
+<script src="https://cdn.jsdelivr.net/npm/plotly.js-dist-min@2.35.2/plotly.min.js"></script>
+<style>
+:root{--bg:#0f1216;--panel:#171b21;--line:#262c35;--txt:#e6e9ee;--mut:#8b94a3;--acc:#4fb3ff;--ok:#3ecf8e;--bad:#ff6b6b}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--txt);font:14px/1.45 system-ui,Segoe UI,sans-serif}
+header{padding:14px 20px;border-bottom:1px solid var(--line);display:flex;gap:16px;align-items:baseline;flex-wrap:wrap}
+h1{font-size:18px;margin:0}h2{font-size:15px;margin:0 0 8px}small,.mut{color:var(--mut)}
+main{padding:16px 20px;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(520px,1fr))}
+section{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px}
+.runs{display:grid;gap:6px}.run{display:grid;grid-template-columns:200px 1fr 90px;gap:10px;align-items:center}
+.bar{height:8px;background:#232a33;border-radius:5px;overflow:hidden}.bar>i{display:block;height:100%;background:var(--acc)}
+.done>i{background:var(--ok)}.err>i{background:var(--bad)}.plot{height:300px}
+.note{font-size:12.5px;color:var(--mut);margin-top:6px}
+table{border-collapse:collapse;width:100%;font-size:13px}td,th{padding:4px 6px;border-bottom:1px solid var(--line);text-align:right}td:first-child,th:first-child{text-align:left}
+</style></head><body>
+<header><h1>Godø w STAR-CCM+ — podgląd na żywo</h1><small id="t">…</small><small>odświeżanie co 15 s · tylko odczyt</small></header>
+<main>
+<section style="grid-column:1/-1"><h2>Noc: fala Godø (H 1,5 m, T 5 s) — test zbieżności siatek na GPU</h2><div class="runs" id="nruns"></div>
+<div id="nCL" class="plot"></div>
+<div class="note">Warianty po kolei: MEDIUM → COARSE → FINE → MEDIUM_DT05. 6 okresów fali (11,6 s) każdy. Pierwsze 2 okresy to rozbieg.</div></section>
+<section><h2>Noc: CD i fala przed płatem</h2><div id="nCD" class="plot"></div></section>
+<section><h2>Noc: y⁺ (cel 30–70) i CFL powierzchni</h2><div id="nY" class="plot"></div></section>
+<section><h2>Przebiegi STAR-CCM+</h2><div class="runs" id="runs"></div>
+<div class="note">Postęp w krokach czasowych (dt = 0,5 ms). Zielony = zakończony, czerwony = błąd.</div></section>
+<section><h2>CL w czasie (przebiegi STAR)</h2><div id="pCL" class="plot"></div></section>
+<section><h2>Kąt klapki [deg] (komenda)</h2><div id="pD" class="plot"></div></section>
+<section><h2>Surrogat — test na trajektorii, której model nie widział</h2><div id="pS" class="plot"></div>
+<div id="sTab"></div><div class="note">Czarny: URANS. Kolor: przewidywanie modelu w otwartej pętli (model sam sobie podaje swoje CL). Pasmo: rozrzut zespołu 5 modeli — tam model „nie wie”.</div></section>
+<section><h2>Uczenie — nagroda na epizod</h2><div id="pR" class="plot"></div><div class="note">Każda linia to jeden trening (algorytm_seed). Rośnie = polityka znajduje lepszy bilans energii.</div></section>
+<section><h2>Co robi polityka — w fazie fali</h2><div id="pP" class="plot"></div><div class="note">Ostatni epizod ewaluacyjny każdej polityki: kąt klapki w funkcji fazy fali (0° = grzbiet nad zawiasem).</div></section>
+</main>
+<script>
+const L={paper_bgcolor:'#171b21',plot_bgcolor:'#171b21',font:{color:'#e6e9ee',size:11},margin:{l:50,r:10,t:10,b:36},legend:{orientation:'h',y:-0.22},xaxis:{gridcolor:'#262c35'},yaxis:{gridcolor:'#262c35'}};
+function P(id,tr,x,y){Plotly.react(id,tr,Object.assign({},L,{xaxis:Object.assign({},L.xaxis,{title:x}),yaxis:Object.assign({},L.yaxis,{title:y})}),{displaylogo:false,responsive:true})}
+async function tick(){
+ let d; try{d=await (await fetch('/api')).json()}catch(e){document.getElementById('t').textContent='brak połączenia';return}
+ document.getElementById('t').textContent='stan: '+d.time;
+ const nv=(d.night&&d.night.variants)||[];const nr=document.getElementById('nruns');nr.innerHTML='';
+ for(const v of nv){const t=v.state?v.state.time_s:0,te=v.state?v.state.t_end_s:11.62,f=Math.min(1,t/te);
+  const sp=v.state&&v.state.s_per_step?v.state.s_per_step.toFixed(2)+' s/krok':'';
+  nr.insertAdjacentHTML('beforeend',`<div class="run"><span>${v.name}</span><div class="bar ${v.done?'done':''}"><i style="width:${(100*f).toFixed(1)}%"></i></div><small>${t.toFixed(2)}/${te.toFixed(1)} s ${sp}${v.done?' ✓':''}</small></div>`)}
+ P('nCL',nv.map(v=>({x:v.series.time_s,y:v.series.AF_CL,name:v.name,mode:'lines',line:{width:1}})),'t [s]','CL');
+ P('nCD',nv.map(v=>({x:v.series.time_s,y:v.series.AF_CD,name:v.name+' CD',mode:'lines',line:{width:1}})),'t [s]','CD');
+ P('nY',nv.map(v=>({x:v.series.time_s,y:v.series.GODO_yplus_mean,name:v.name+' y⁺ śr.',mode:'lines',line:{width:1}})).concat(nv.map(v=>({x:v.series.time_s,y:v.series.GODO_interfaceCFL.map(c=>100*c),name:v.name+' CFL×100',mode:'lines',line:{width:1,dash:'dot'}}))),'t [s]','y⁺ / CFL×100');
+ const runs=document.getElementById('runs');runs.innerHTML='';
+ const act=d.star.filter(r=>!/^(PROBE)/.test(r.name));
+ for(const r of act){const f=r.of?Math.min(1,(r.step||0)/r.of):0;const c=r.error?'err':(r.done?'done':'');
+  runs.insertAdjacentHTML('beforeend',`<div class="run"><span>${r.name}</span><div class="bar ${c}"><i style="width:${(100*f).toFixed(1)}%"></i></div><small>${r.step||0}/${r.of||'?'}${r.done?' ✓':''}</small></div>`)}
+ const live=act.filter(r=>r.series.time_s.length>5&&!/^INT_/.test(r.name));
+ P('pCL',live.map(r=>({x:r.series.time_s,y:r.series.CL,name:r.name.replace(/_2026\d+_\d+/,''),mode:'lines',line:{width:1}})),'t [s]','CL');
+ P('pD',live.filter(r=>r.mode!=='fixed').map(r=>({x:r.series.time_s,y:r.series.cmd_deg,name:r.name.replace(/_2026\d+_\d+/,''),mode:'lines',line:{width:1}})),'t [s]','δ [deg]');
+ const s=d.surrogate;if(s&&s.rollouts){const tr=[];let first=true;
+  for(const [k,v] of Object.entries(s.rollouts)){ if(!(s.eval&&s.eval[k]&&s.eval[k].role.startsWith('TEST')))continue;
+   const up=v.CL_pred.map((c,i)=>c+2*v.ens_spread_CL[i]),lo=v.CL_pred.map((c,i)=>c-2*v.ens_spread_CL[i]);
+   tr.push({x:v.t,y:v.CL,name:k+' URANS',mode:'lines',line:{color:'#ddd',width:1}});
+   tr.push({x:v.t.concat([...v.t].reverse()),y:up.concat([...lo].reverse()),fill:'toself',name:k+' ±2σ zespołu',line:{width:0},fillcolor:'rgba(79,179,255,.18)'});
+   tr.push({x:v.t,y:v.CL_pred,name:k+' model',mode:'lines',line:{width:1.4}})}
+  P('pS',tr,'t [s]','CL');
+  let h='<table><tr><th>trajektoria</th><th>rola</th><th>CL śr. URANS</th><th>CL śr. model</th><th>CL 1.harm URANS</th><th>model</th><th>CD śr. błąd %</th></tr>';
+  for(const [k,v] of Object.entries(s.eval||{})){ if(!v||!v.CL)continue;
+   h+=`<tr><td>${k}</td><td>${v.role.split(' ')[0]}</td><td>${v.CL.true_mean.toFixed(4)}</td><td>${v.CL.pred_mean.toFixed(4)}</td><td>${v.CL.true_h1.toFixed(4)}</td><td>${v.CL.pred_h1.toFixed(4)}</td><td>${v.CD.mean_err_rel_pct.toFixed(1)}</td></tr>`}
+  document.getElementById('sTab').innerHTML=h+'</table>'}
+ P('pR',d.training.map(t=>({x:t.progress.env_steps,y:t.progress.ep_return,name:t.name,mode:'lines',line:{width:1.2}})),'kroki środowiska (takty 5 ms)','nagroda / epizod');
+ P('pP',d.training.filter(t=>t.snapshot&&t.snapshot.phase_deg).map(t=>({x:t.snapshot.phase_deg,y:t.snapshot.delta_deg,name:t.name,mode:'lines'})),'faza fali [deg]','δ [deg]');
+}
+tick();setInterval(tick,15000);
+</script></body></html>

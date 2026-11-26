@@ -1,0 +1,12 @@
+2026-11-21 12:47:44 czekam na koniec kolejki 25
+2026-11-21 12:48:45 start OVS_CEL_005g_S1L_R10_90, jeden MPC (wypadkowa 0,05 g), fala S1, pid 33100
+2026-11-21 19:30:49 wznowienie: o 18:11 wszystkie procesy przebiegu zniknely (sesja 1 rc=143, sesja 2 nie wstala; kontroler i most tez) - start od CP t 8,5 s
+2026-11-21 19:30:49 czekam na koniec kolejki 25
+2026-11-21 19:30:50 start OVS_CEL_005g_S1L_R10_90, jeden MPC (wypadkowa 0,05 g), fala S1, pid 25984
+2026-11-21 21:17:03 zatrzymane recznie (koordynator): rdzen 12 zajety przez POL42, przejscie na kolejke 27 (rdzenie 2-11,13-17)
+2026-11-22 08:31:37 wznowienie (koordynator): 23:31 sesja padla - brak miejsca na dysku (Errno 28); rdzen 12 wolny, wracam na 2-17
+2026-11-22 08:31:37 czekam na koniec kolejki 25
+2026-11-22 08:31:38 start OVS_CEL_005g_S1L_R10_90, jeden MPC (wypadkowa 0,05 g), fala S1, pid 37080
+2026-11-23 23:46:53 STOP (koordynator): t 63,3 s, 25 s/krok od t 63,0 s; okno 15-60 s kompletne
+2026-11-23 23:47:29 end OVS_CEL_005g_S1L_R10_90 : {"result":"HOLD_STOP_FILE","time_s":63.30599999994316,"steps_this_session":25741,"wall_s":69102.3000042}
+2026-11-23 23:47:29 koniec kolejki 26

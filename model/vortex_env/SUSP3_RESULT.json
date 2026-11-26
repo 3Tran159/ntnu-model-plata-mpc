@@ -1,0 +1,544 @@
+{
+ "opis": "susp3.py - pomysl Julka 12.11: poduszka powietrzna (+ tlumik polaktywny) MIEDZY KADLUBEM A WSPORNIKIEM\noraz dodatkowa SPREZYNA PRZY PLACIE, ktora lapie szybkie oscylacje. W modelu wirowym, jeden plat, tylko pion.\n\nTrzy masy (na 1 m rozpietosci):\n  kadlub   M_h = 1525 - m_s kg/m\n  nosnik   m_s = 30 kg/m (wspornik + gniazdo sprezyny)\n  plat     m_f = 40 kg/m + masa dodana 76 kg/m\n  kadlub --[poduszka: stala sila + k1 + tlumik c1 (odzysk 70 %), odboje +-0,9 m]-- nosnik --[sprezyna plata k2 + c2, odboje +-0,15 m]-- plat\n  k1 z f1 = 0,7 Hz (kadlub na poduszce), k2 z f2 = czestotliwosc wlasna PLATA na sprezynie (3 / 6 Hz), zeta2 0,1.\n  polaktywne: tlumik poduszki twardo (zeta 0,7) normalnie, upust (0,05) gdy zmierzone albo przewidziane w 0,5 s zanurzenie < 2,2c.\nSterowanie: PID (PID2 Godo na wysokosc kadluba) i MPC (model dwoch mas: sprezyna plata traktowana jako sztywna - przyblizenie).\nPorownanie z wynikami z nocy (SUSP_MPC_RESULT.json): te same fale (5 realizacji), z_ref -0,4 m.\nWynik: SUSP3_RESULT.json, log susp3.out.\n",
+ "wyniki": {
+  "fala1_polaktywne+sprezyna_3Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.049,
+   "plat_pct": -10.384612246767933,
+   "tot_pct": 0.6069611923799512,
+   "acc_kadlub": 0.9709425039084701,
+   "sub_min_c": 2.515767233134373,
+   "skok_poduszki": [
+    -0.08130149750261587,
+    0.07668916988810648
+   ],
+   "skok_sprezyny_plata": [
+    -0.07871268339981291,
+    0.08043503507436645
+   ],
+   "odzysk_W": 1.6637835121276152
+  },
+  "fala1_polaktywne+sprezyna_6Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.05,
+   "plat_pct": -14.977477538582452,
+   "tot_pct": -2.932046024957613,
+   "acc_kadlub": 0.9209906367185707,
+   "sub_min_c": 2.499680468902268,
+   "skok_poduszki": [
+    -0.07596756293776641,
+    0.07301736899376998
+   ],
+   "skok_sprezyny_plata": [
+    -0.018755154755051795,
+    0.01901619415003486
+   ],
+   "odzysk_W": 1.6116109986149219
+  },
+  "fala1_pasywne0.7+sprezyna_3Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -10.639868916595674,
+   "tot_pct": 0.493923065997115,
+   "acc_kadlub": 0.8391471063310096,
+   "sub_min_c": 2.5156598621368,
+   "skok_poduszki": [
+    -0.0802026728388372,
+    0.08923299592898182
+   ],
+   "skok_sprezyny_plata": [
+    -0.06211585892174859,
+    0.06982426457523566
+   ],
+   "odzysk_W": 0.9764195554784776
+  },
+  "fala1_polaktywne+sprezyna_3Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.024,
+   "plat_pct": -7.341914893142054,
+   "tot_pct": 2.6674317761948396,
+   "acc_kadlub": 1.3900821156923286,
+   "sub_min_c": 2.7219413447520306,
+   "skok_poduszki": [
+    -0.12100831571154247,
+    0.11036648863633808
+   ],
+   "skok_sprezyny_plata": [
+    -0.1033341130478729,
+    0.11401787221782045
+   ],
+   "odzysk_W": 3.302686691160865
+  },
+  "fala1_polaktywne+sprezyna_6Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.025,
+   "plat_pct": -10.744078386931832,
+   "tot_pct": 0.04763871272592812,
+   "acc_kadlub": 1.1337528299841964,
+   "sub_min_c": 2.705330405772413,
+   "skok_poduszki": [
+    -0.08334658793308164,
+    0.08918385378511573
+   ],
+   "skok_sprezyny_plata": [
+    -0.02380298878996348,
+    0.024727003675523163
+   ],
+   "odzysk_W": 2.3315138245102314
+  },
+  "fala1_pasywne0.7+sprezyna_3Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -5.40521238485624,
+   "tot_pct": 4.120176734704839,
+   "acc_kadlub": 1.7714547894016202,
+   "sub_min_c": 2.764031589208181,
+   "skok_poduszki": [
+    -0.2054884874171055,
+    0.19799794269726578
+   ],
+   "skok_sprezyny_plata": [
+    -0.13631675822407932,
+    0.15010274532814444
+   ],
+   "odzysk_W": 3.7944963154962763
+  },
+  "fala3_polaktywne+sprezyna_3Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.027,
+   "plat_pct": -14.430487672885583,
+   "tot_pct": -2.381106824353829,
+   "acc_kadlub": 1.6748955788131117,
+   "sub_min_c": 1.7066002565602563,
+   "skok_poduszki": [
+    -0.3947335005199842,
+    0.17851276315077147
+   ],
+   "skok_sprezyny_plata": [
+    -0.15121988956693677,
+    0.15072672250636954
+   ],
+   "odzysk_W": 4.646930202474004
+  },
+  "fala3_polaktywne+sprezyna_6Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.03,
+   "plat_pct": -24.153541780514566,
+   "tot_pct": -9.894259004135918,
+   "acc_kadlub": 1.6352813108443096,
+   "sub_min_c": 1.5884153712319622,
+   "skok_poduszki": [
+    -0.3592395908349325,
+    0.19237927657311482
+   ],
+   "skok_sprezyny_plata": [
+    -0.06256643381942395,
+    0.06094770189940579
+   ],
+   "odzysk_W": 4.311895444066994
+  },
+  "fala3_pasywne0.7+sprezyna_3Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -12.051959060694106,
+   "tot_pct": -0.4545151885558596,
+   "acc_kadlub": 1.5791467799610779,
+   "sub_min_c": 1.9731398431202736,
+   "skok_poduszki": [
+    -0.3127678226608235,
+    0.25968521541092915
+   ],
+   "skok_sprezyny_plata": [
+    -0.15098555076206926,
+    0.1507927994067153
+   ],
+   "odzysk_W": 4.374262533424446
+  },
+  "fala3_polaktywne+sprezyna_3Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.027,
+   "plat_pct": -13.477167655472055,
+   "tot_pct": -1.9592790883565914,
+   "acc_kadlub": 1.9191152746246551,
+   "sub_min_c": 1.3530200345143313,
+   "skok_poduszki": [
+    -0.22194813181537215,
+    0.1986810797004096
+   ],
+   "skok_sprezyny_plata": [
+    -0.1501996312450112,
+    0.15172550610410074
+   ],
+   "odzysk_W": 5.785626768319085
+  },
+  "fala3_polaktywne+sprezyna_6Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.028,
+   "plat_pct": -18.037830952953737,
+   "tot_pct": -5.532894094392304,
+   "acc_kadlub": 1.653132552978819,
+   "sub_min_c": 1.3010430460097404,
+   "skok_poduszki": [
+    -0.1917873373302628,
+    0.21004496513859738
+   ],
+   "skok_sprezyny_plata": [
+    -0.03377602797313434,
+    0.05068768909162036
+   ],
+   "odzysk_W": 4.33601238912989
+  },
+  "fala3_pasywne0.7+sprezyna_3Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -10.267201725288711,
+   "tot_pct": 0.48778175000627755,
+   "acc_kadlub": 2.2449123837502842,
+   "sub_min_c": 1.3059081437965163,
+   "skok_poduszki": [
+    -0.2304870101419537,
+    0.25870944944440744
+   ],
+   "skok_sprezyny_plata": [
+    -0.1502436631475681,
+    0.15067236516073002
+   ],
+   "odzysk_W": 6.444517068202818
+  },
+  "fala4_polaktywne+sprezyna_3Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.055,
+   "plat_pct": -14.239411561713755,
+   "tot_pct": -2.2486084326441835,
+   "acc_kadlub": 1.6340049137878998,
+   "sub_min_c": 1.8455363556190878,
+   "skok_poduszki": [
+    -0.29481770815816694,
+    0.20238245385616072
+   ],
+   "skok_sprezyny_plata": [
+    -0.1509312188467964,
+    0.1520480599174393
+   ],
+   "odzysk_W": 3.9610866198394206
+  },
+  "fala4_polaktywne+sprezyna_6Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.056,
+   "plat_pct": -19.930350514046125,
+   "tot_pct": -6.486995876495294,
+   "acc_kadlub": 1.5893121552041412,
+   "sub_min_c": 1.7418831184492074,
+   "skok_poduszki": [
+    -0.2853975900324003,
+    0.22515292799534126
+   ],
+   "skok_sprezyny_plata": [
+    -0.049473145093492654,
+    0.06679268561138874
+   ],
+   "odzysk_W": 3.670774461047392
+  },
+  "fala4_pasywne0.7+sprezyna_3Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -13.58856250561875,
+   "tot_pct": -1.5715473451488493,
+   "acc_kadlub": 1.590990963960753,
+   "sub_min_c": 1.9367124142990408,
+   "skok_poduszki": [
+    -0.2355135300345359,
+    0.2628803152368361
+   ],
+   "skok_sprezyny_plata": [
+    -0.1506134280391468,
+    0.15081433517477627
+   ],
+   "odzysk_W": 4.090125426468196
+  },
+  "fala4_polaktywne+sprezyna_3Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.042,
+   "plat_pct": -3.760683408513321,
+   "tot_pct": 5.4042347989556205,
+   "acc_kadlub": 1.8339548633897467,
+   "sub_min_c": 1.390656348934987,
+   "skok_poduszki": [
+    -0.16511358314849026,
+    0.2013561451078365
+   ],
+   "skok_sprezyny_plata": [
+    -0.15057859375341803,
+    0.15142234500736562
+   ],
+   "odzysk_W": 4.710349858707521
+  },
+  "fala4_polaktywne+sprezyna_6Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.039,
+   "plat_pct": -8.904697204575985,
+   "tot_pct": 1.420851813522428,
+   "acc_kadlub": 1.5569397576304709,
+   "sub_min_c": 1.4049302819055054,
+   "skok_poduszki": [
+    -0.14793405106149832,
+    0.20460872687638565
+   ],
+   "skok_sprezyny_plata": [
+    -0.0375663775443173,
+    0.045883148836920684
+   ],
+   "odzysk_W": 3.5791300168406446
+  },
+  "fala4_pasywne0.7+sprezyna_3Hz_PID_z-0.4": {
+   "upadek": "|z kadluba - z_ref| > 0,75 m",
+   "t_upadek": 16.1,
+   "upust": 0.0
+  },
+  "fala5_polaktywne+sprezyna_3Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.069,
+   "plat_pct": -13.803365695467186,
+   "tot_pct": -2.3118457191510955,
+   "acc_kadlub": 1.106592431126141,
+   "sub_min_c": 2.629335589613787,
+   "skok_poduszki": [
+    -0.08642339539605809,
+    0.09991595857700075
+   ],
+   "skok_sprezyny_plata": [
+    -0.08683578168857747,
+    0.10137463354520987
+   ],
+   "odzysk_W": 2.254528541538726
+  },
+  "fala5_polaktywne+sprezyna_6Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.067,
+   "plat_pct": -18.630309615280648,
+   "tot_pct": -5.993821697515134,
+   "acc_kadlub": 1.0662137634783801,
+   "sub_min_c": 2.7046815157482147,
+   "skok_poduszki": [
+    -0.07146178903142231,
+    0.08937884735731794
+   ],
+   "skok_sprezyny_plata": [
+    -0.02254790148483471,
+    0.023187795541049327
+   ],
+   "odzysk_W": 2.2574385305114997
+  },
+  "fala5_pasywne0.7+sprezyna_3Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -12.777882838723876,
+   "tot_pct": -1.4350954470704447,
+   "acc_kadlub": 0.9713284509841482,
+   "sub_min_c": 2.555134028261727,
+   "skok_poduszki": [
+    -0.10796298284168987,
+    0.11485556501434624
+   ],
+   "skok_sprezyny_plata": [
+    -0.08186796705218213,
+    0.08891420209639161
+   ],
+   "odzysk_W": 1.3885489148824781
+  },
+  "fala5_polaktywne+sprezyna_3Hz_PID_z-0.4": {
+   "upadek": "|z kadluba - z_ref| > 0,75 m",
+   "t_upadek": 8.81,
+   "upust": 0.127
+  },
+  "fala5_polaktywne+sprezyna_6Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.038,
+   "plat_pct": -16.357139558506727,
+   "tot_pct": -4.471751699230597,
+   "acc_kadlub": 1.3906649253650447,
+   "sub_min_c": 3.0708972304895674,
+   "skok_poduszki": [
+    -0.14385330601459875,
+    0.11503456630785147
+   ],
+   "skok_sprezyny_plata": [
+    -0.03349804746102004,
+    0.02655273710015227
+   ],
+   "odzysk_W": 3.579081317884046
+  },
+  "fala5_pasywne0.7+sprezyna_3Hz_PID_z-0.4": {
+   "upadek": "|z kadluba - z_ref| > 0,75 m",
+   "t_upadek": 7.66,
+   "upust": 0.0
+  },
+  "fala6_polaktywne+sprezyna_3Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.039,
+   "plat_pct": -26.282240822368042,
+   "tot_pct": -11.569955018880652,
+   "acc_kadlub": 1.2548419146695953,
+   "sub_min_c": 2.3205733492844174,
+   "skok_poduszki": [
+    -0.16397313458565965,
+    0.10679127268016708
+   ],
+   "skok_sprezyny_plata": [
+    -0.14962320235458496,
+    0.11031268143527051
+   ],
+   "odzysk_W": 2.710433814888491
+  },
+  "fala6_polaktywne+sprezyna_6Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.054,
+   "plat_pct": -31.443832722475197,
+   "tot_pct": -15.548863090018084,
+   "acc_kadlub": 1.204148800322568,
+   "sub_min_c": 2.204130498935352,
+   "skok_poduszki": [
+    -0.19294827241165233,
+    0.10236265546880796
+   ],
+   "skok_sprezyny_plata": [
+    -0.03683271144855377,
+    0.024784272569183252
+   ],
+   "odzysk_W": 2.4133123856547924
+  },
+  "fala6_pasywne0.7+sprezyna_3Hz_MPC_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -25.702773609116512,
+   "tot_pct": -11.062087624137396,
+   "acc_kadlub": 1.0999366973648015,
+   "sub_min_c": 2.316500318408556,
+   "skok_poduszki": [
+    -0.13538408095818782,
+    0.12384151493156592
+   ],
+   "skok_sprezyny_plata": [
+    -0.11080279440007051,
+    0.0958203674880021
+   ],
+   "odzysk_W": 1.6714262265983186
+  },
+  "fala6_polaktywne+sprezyna_3Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.024,
+   "plat_pct": -7.92862546081502,
+   "tot_pct": 2.4411881989595097,
+   "acc_kadlub": 2.0207747639979714,
+   "sub_min_c": 2.914798749589628,
+   "skok_poduszki": [
+    -0.23060519810882768,
+    0.17391243541544765
+   ],
+   "skok_sprezyny_plata": [
+    -0.15069612020110312,
+    0.15027026007906108
+   ],
+   "odzysk_W": 6.818572026239617
+  },
+  "fala6_polaktywne+sprezyna_6Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.027,
+   "plat_pct": -12.84520265035518,
+   "tot_pct": -1.3647184189359063,
+   "acc_kadlub": 1.6313560657121744,
+   "sub_min_c": 2.906322112491813,
+   "skok_poduszki": [
+    -0.20435838684466645,
+    0.13811669862070453
+   ],
+   "skok_sprezyny_plata": [
+    -0.03638247903921757,
+    0.03320082227260457
+   ],
+   "odzysk_W": 4.67031587951142
+  },
+  "fala6_pasywne0.7+sprezyna_3Hz_PID_z-0.4": {
+   "upadek": null,
+   "t_upadek": null,
+   "upust": 0.0,
+   "plat_pct": -5.861573449580626,
+   "tot_pct": 3.952222363070357,
+   "acc_kadlub": 2.481575306888914,
+   "sub_min_c": 2.8363646306655492,
+   "skok_poduszki": [
+    -0.25546782422178577,
+    0.2531439341186824
+   ],
+   "skok_sprezyny_plata": [
+    -0.15107114456006204,
+    0.15048359336511385
+   ],
+   "odzysk_W": 7.159110213420408
+  }
+ },
+ "podsumowanie": {
+  "polaktywne+sprezyna_3Hz_MPC": {
+   "przezyl": "5/5",
+   "tot_pct": -3.6,
+   "plat_pct": -15.8,
+   "acc": 1.33
+  },
+  "polaktywne+sprezyna_6Hz_MPC": {
+   "przezyl": "5/5",
+   "tot_pct": -8.2,
+   "plat_pct": -21.8,
+   "acc": 1.28
+  },
+  "pasywne0.7+sprezyna_3Hz_MPC": {
+   "przezyl": "5/5",
+   "tot_pct": -2.8,
+   "plat_pct": -15.0,
+   "acc": 1.22
+  },
+  "polaktywne+sprezyna_3Hz_PID": {
+   "przezyl": "4/5",
+   "tot_pct": 2.1,
+   "plat_pct": -8.1,
+   "acc": 1.79
+  },
+  "polaktywne+sprezyna_6Hz_PID": {
+   "przezyl": "5/5",
+   "tot_pct": -2.0,
+   "plat_pct": -13.4,
+   "acc": 1.47
+  },
+  "pasywne0.7+sprezyna_3Hz_PID": {
+   "przezyl": "3/5",
+   "tot_pct": 2.9,
+   "plat_pct": -7.2,
+   "acc": 2.17
+  }
+ }
+}

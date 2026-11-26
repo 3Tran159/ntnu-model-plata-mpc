@@ -1,0 +1,39 @@
+{
+ "history": "/mnt/user-data/uploads/NTNU_GODO_CONTROL_20261109/70_godo_case/overset_runs/OVS_PID_SINE_A2/history.csv",
+ "window_s": [
+  1.9368,
+  6.860000000000626
+ ],
+ "eta_amp_m": 0.7329450441863505,
+ "theta_ref_fit_deg": 6.232934931754988,
+ "rho": 1000.0,
+ "CL": {
+  "urans_mean": 0.6423629601376031,
+  "model_mean": 0.6371281968905489,
+  "urans_std": 0.07337828652914002,
+  "model_std": 0.11549873522575747,
+  "amp_ratio_model_over_urans": 1.5740178830680456,
+  "corr": 0.9637121597539761,
+  "rms_err_over_std": 0.6661320807859633
+ },
+ "Fx_N_per_m": {
+  "urans_mean": 335.3951274674011,
+  "model_mean": 55.05786788851293,
+  "urans_std": 349.5618365431178,
+  "model_std": 369.0442879627697,
+  "amp_ratio_model_over_urans": 1.0557339199619657,
+  "corr": 0.9956399035316473,
+  "rms_err_over_std": 0.11096158482204162
+ },
+ "M_pivot_Nm_per_m": {
+  "urans_mean": -810.8139884987961,
+  "model_mean": 1.4016327642834183,
+  "urans_std": 147.52134219116573,
+  "model_std": 15.904232129034341,
+  "amp_ratio_model_over_urans": 0.10780970327957579,
+  "corr": 0.2801061814621159,
+  "rms_err_over_std": 0.9753084658203366
+ },
+ "implied_viscous_drag_N_per_m": 280.33725957888817,
+ "implied_CD": 0.011788451914335429
+}

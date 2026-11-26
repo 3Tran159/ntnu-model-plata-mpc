@@ -1,0 +1,146 @@
+Starting local server: starserver.bat -new -power -cpubind off -np 1 -printpids 
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 40616
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 40616
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 113 days
+Sun Nov 15 22:09:40 2026
+
+Server::start -host THINKPAD-LUCJAN:47835
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_09\BuildPetla3D.java
+T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_09\BuildPetla3D.java:132: warning: [deprecation] initializeAndWait() in star.vis.Scene has been deprecated
+  Scene g=s.getSceneManager().createScene("P3D geometria");g.setPresentationName("P3D geometria");g.initializeAndWait();
+                                                                                                   ^
+T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_09\BuildPetla3D.java:140: warning: [deprecation] initializeAndWait() in star.vis.Scene has been deprecated
+   Scene sc=s.getSceneManager().createScene(c[0]);sc.setPresentationName(c[0]);sc.initializeAndWait();
+                                                                                 ^
+T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\PETLA_3D\OPT_09\BuildPetla3D.java:148: warning: [deprecation] setInput(star.base.neo.DoubleVector,star.base.neo.DoubleVector,star.base.neo.DoubleVector,double,int,star.common.CoordinateSystem,boolean) in star.vis.VisView has been deprecated
+  sc.getCurrentView().setInput(new DoubleVector(f),new DoubleVector(p),new DoubleVector(new double[]{0,0,1}),scale,1,s.getCoordinateSystemManager().getLabCoordinateSystem(),false);
+                     ^
+
+Loading module: StarMeshing
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Reading surface from .stl file: domena.stl
+Scaling from model units: meter
+Done importing surface: CPU Time: 0.00, Wall Time: 0.00, Memory: 156.04 MB
+Imported surface statistics:
+  # Faces:         12
+  # Vertices:      8
+  # Special Edges: 0
+
+Reading surface from .stl file: bryla.stl
+Scaling from model units: meter
+Done importing surface: CPU Time: 1.11, Wall Time: 1.14, Memory: 160.44 MB
+Imported surface statistics:
+  # Faces:         96442
+  # Vertices:      48223
+  # Special Edges: 0
+
+Mesh Operation P3D Subtract - domena minus platy complete. CPU Time: 0.41, Wall Time: 0.40, Memory: 167.29 MB
+Loading module: StarResurfacer
+Loading module: StarTrimmer
+ Only 1 part was assigned to a region
+9 part surfaces were assigned to 9 boundaries
+No Interfaces were created
+Started Parasolid modeler version 38.1.151
+Loading module: MotionModel
+Loading module: MaterialModel
+Reading material property database "E:\Program Files\Siemens\21.04.009-R8\STAR-CCM+21.04.009-R8\star\data\props.mdb"...
+Loading module: SegregatedFlowModel
+Loading module: KwTurbModel
+----------------------------------------
+Executing Mesh Operation P3D Automated mesh (rozmiary wzgledem cieciwy, edytowalne)
+----------------------------------------
+----------------------------------------
+Preparing surface for surface meshing in Parts: 
+----------------------------------------
+
+----------------------------------------
+finished preparing surface for surface meshing CPU Time: 0.06, Wall Time: 0.07, Memory: 238.04 MB
+----------------------------------------
+----------------------------------------
+Executing Surface Remesher
+----------------------------------------
+ Running in serial
+ Growth rate for Triangle meshing with Default growth is 1.3
+ Project to discrete geometry
+
+ Tri Quality     Faces    Percent
+   < 0.001        3948       4.0
+   < 0.01         5810       5.9
+   < 0.05        39777      40.3
+   < 0.1         43896      44.4
+   < 0.2         85729      86.8
+   < 0.3         98772     100.0
+   < 0.4         98772     100.0
+   < 0.5         98774     100.0
+   < 0.6         98778     100.0
+   < 0.7         98778     100.0
+   < 0.8         98785     100.0
+   < 0.9         98785     100.0
+   < 1.0         98786     100.0
+ Worst Tri quality is 3.906e-07
+
+ initial number of faces: 98786
+
+ Phase 1: Apply Global Limits
+
+   Tri Quality     Faces    Percent
+     < 0.001           0       0.0
+     < 0.01           22       0.0
+     < 0.05          589       0.7
+     < 0.1          9303      10.3
+     < 0.2         57831      63.9
+     < 0.3         80744      89.2
+     < 0.4         83148      91.8
+     < 0.5         84826      93.7
+     < 0.6         86383      95.4
+     < 0.7         87648      96.8
+     < 0.8         88788      98.1
+     < 0.9         89708      99.1
+     < 1.0         90528     100.0
+   Worst Tri quality is 0.005442
+
+
+ Phase 2: Improve Grading
+      current number of faces: 150000
+
+   Tri Quality     Faces    Percent
+     < 0.001           0       0.0
+     < 0.01            0       0.0
+     < 0.05            0       0.0
+     < 0.1             0       0.0
+     < 0.2             0       0.0
+     < 0.3             5       0.0
+     < 0.4            45       0.0
+     < 0.5           397       0.3
+     < 0.6          2838       1.9
+     < 0.7          9152       6.0
+     < 0.8         25256      16.6
+     < 0.9         67425      44.3
+     < 1.0        152182     100.0
+   Worst Tri quality is 0.2649
+
+
+ Phase 3: Start Improve Quality
+Connection reset
+Connection reset by peer
+java.lang.RuntimeException: java.lang.NullPointerException: Cannot invoke "star.base.neo.NeoProperty.containsKey(String)" because "props" is null
+
+   Phase 4: Improve Quality
+
+   Phase 5: Specialized Meshing
+
+   Phase 6: Final Improve Quality
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 15

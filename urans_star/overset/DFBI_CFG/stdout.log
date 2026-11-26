@@ -1,0 +1,80 @@
+Starting local server: starserver.bat -power -cpubind off -np 1 -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcNzBfZ29kb19jYXNlXG92ZXJzZXRcREZCSV9DRkdcZGlhZ19pbnB1dC5zaW0=
+The efficiency of some CPUs could not be determined. CPU binding will not exclude the slowest CPU kind.
+The efficiency of some CPUs could not be determined. CPU binding will not exclude the slowest CPU kind.
+The efficiency of some CPUs could not be determined. CPU binding will not exclude the slowest CPU kind.
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 23852
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 23852
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 117 days
+Wed Nov 11 10:03:43 2026
+
+Server::start -host THINKPAD-LUCJAN:47828
+Loading: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset\DFBI_CFG\diag_input.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Loading module: OversetModel
+Loading module: OversetFlowModel
+Loading module: SixDofMotionModel
+Loading module: DfbiFlowForces
+Loading module: DfbiVisModel
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=1 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset\DFBI_CFG\ConfigureDfbi.java
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset\DFBI_CFG\ConfigureDfbi.java:20: warning: [deprecation] setEnabled(boolean) in star.common.AutoSaveBase has been deprecated
+   s.getSimulationIterator().getAutoSave().setEnabled(false);
+                                          ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset\DFBI_CFG\ConfigureDfbi.java:32: warning: [deprecation] setInitialCMS(star.base.neo.DoubleVector) in star.sixdof.Body has been deprecated
+   body.setInitialCMS(new DoubleVector(new double[]{px,0,zmid}));
+       ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset\DFBI_CFG\ConfigureDfbi.java:33: warning: [deprecation] setMomentsOfInertia(star.base.neo.DoubleVector) in star.sixdof.Body has been deprecated
+   body.setMomentsOfInertia(new DoubleVector(new double[]{1,1,1}));
+       ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset\DFBI_CFG\ConfigureDfbi.java:46: warning: [deprecation] getAxisDirection() in star.motion.SuperposingRotatingMotion has been deprecated
+   sr.getAxisDirection().setComponents(0,0,1);sr.getAxisOrigin().setComponents(0,0,0);
+     ^
+T:\NTNU_GODO_CONTROL_20261109\70_godo_case\overset\DFBI_CFG\ConfigureDfbi.java:46: warning: [deprecation] getAxisOrigin() in star.motion.SuperposingRotatingMotion has been deprecated
+   sr.getAxisDirection().setComponents(0,0,1);sr.getAxisOrigin().setComponents(0,0,0);
+                                                ^
+
+Error in SuperposingRigidMotionCS: parent motion does not provide coordinate system
+Command: CreateSuperposingMotion
+   Recoverability: Non-recoverable
+   ServerStack: [SymInit: Symbol-SearchPath: '.', symOptions: 530, UserName: 'ThinkPad'
+, OS-Version: 6.2.9200 () 0x100-0x1
+, 00007FFD0ADA75A9 (StarPlatform): (filename not available): StarCommandTokenizer::concatenate
+]
+   error: Server Error
+   expression: csysProvider != nullptr
+   file: SuperposingRigidMotionCS.cpp
+   line: 141
+java.lang.RuntimeException: Error in SuperposingRigidMotionCS: parent motion does not provide coordinate system
+Command: CreateSuperposingMotion
+   Recoverability: Non-recoverable
+   ServerStack: [SymInit: Symbol-SearchPath: '.', symOptions: 530, UserName: 'ThinkPad'
+, OS-Version: 6.2.9200 () 0x100-0x1
+, 00007FFD0ADA75A9 (StarPlatform): (filename not available): StarCommandTokenizer::concatenate
+]
+   error: Server Error
+   expression: csysProvider != nullptr
+   file: SuperposingRigidMotionCS.cpp
+   line: 141
+
+Design Simcenter STAR-CCM+ simulation completed
+Server process exited with code : 32

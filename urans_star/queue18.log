@@ -1,0 +1,7 @@
+2026-11-18 19:31:22 czekam na koniec kolejki 17
+2026-11-18 20:23:39 restart kolejki 18 z t_end 20 s
+2026-11-18 20:23:40 czekam na koniec kolejki 17
+2026-11-19 10:26:02 start OVS_CALM_90_Z-0.3
+2026-11-19 16:32:19 end OVS_CALM_90_Z-0.3 : {"result":"HOLD_STOP_FILE","time_s":9.010000000000446,"steps_this_session":9010,"wall_s":21828.4835257}
+2026-11-19 16:32:19 OVS_CALM_90_Z-0.6 juz gotowy
+2026-11-19 16:32:19 koniec kolejki 18

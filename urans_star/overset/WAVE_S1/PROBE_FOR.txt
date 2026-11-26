@@ -1,0 +1,50 @@
+REGION MINI_water_air
+VofWaveDampingBoundaryOption 'VOF Wave Damping Boundary Option'
+   getSelectedInput[] = EnumeratedOptionInput:No
+VofWaveForcingBoundaryOption 'VOF Wave Forcing Boundary Option'
+   getSelectedInput[] = EnumeratedOptionInput:Yes
+VofWaveForcingLength 'VOF Wave Forcing Length'
+VofWaveDampingBoundaryOption 'VOF Wave Damping Boundary Option'
+   getSelectedInput[] = EnumeratedOptionInput:Yes
+VofWaveForcingBoundaryOption 'VOF Wave Forcing Boundary Option'
+   getSelectedInput[] = EnumeratedOptionInput:No
+VofWaveDampingLength 'VOF Wave Damping Length'
+VofWaveDampingBoundaryOption 'VOF Wave Damping Boundary Option'
+   getSelectedInput[] = EnumeratedOptionInput:No
+VofWaveForcingBoundaryOption 'VOF Wave Forcing Boundary Option'
+   getSelectedInput[] = EnumeratedOptionInput:No
+VofWaveDampingBoundaryOption 'VOF Wave Damping Boundary Option'
+   getSelectedInput[] = EnumeratedOptionInput:No
+VofWaveForcingBoundaryOption 'VOF Wave Forcing Boundary Option'
+   getSelectedInput[] = EnumeratedOptionInput:No
+VofWaveDampingBoundaryOption 'VOF Wave Damping Boundary Option'
+   getSelectedInput[] = EnumeratedOptionInput:No
+VofWaveForcingBoundaryOption 'VOF Wave Forcing Boundary Option'
+   getSelectedInput[] = EnumeratedOptionInput:No
+VofWaveDampingBoundaryOption 'VOF Wave Damping Boundary Option'
+   getSelectedInput[] = EnumeratedOptionInput:No
+VofWaveForcingBoundaryOption 'VOF Wave Forcing Boundary Option'
+   getSelectedInput[] = EnumeratedOptionInput:No
+VofWaveZoneOption 'VOF Wave Zone Option'
+   getSelected[] = VofWaveZoneOptionEnum:FORCING_DAMPING
+   setSelected[int]
+   setSelected[star.vof.VofWaveZoneOptionEnum]
+ForcingLengthSpecificationOption 'Forcing Length Specification'
+   getSelected[] = LengthSpecificationOptionEnum:BOUNDARY
+   setSelected[int]
+   setSelected[star.vof.LengthSpecificationOptionEnum]
+DampingLengthSpecificationOption 'Damping Length Specification'
+   getSelected[] = LengthSpecificationOptionEnum:BOUNDARY
+   setSelected[int]
+   setSelected[star.vof.LengthSpecificationOptionEnum]
+ForcingVofWaveSpecification 'Forcing VOF Wave Specification'
+   setForcingVofWave[star.vof.ManagedVofWave]
+   getForcingVofWave[] = FifthOrderVofWave:CB_StokesV 1
+   getConditionManager[] = PhysicsValueManager:Physics Values
+   journalChild[star.base.neo.ClientServerObject]
+   getContinuum[] = PhysicsContinuum:MINI_URANS_VOF_2D
+REGION GODO overset foil
+VofWaveZoneOption 'VOF Wave Zone Option'
+   getSelected[] = VofWaveZoneOptionEnum:NONE
+   setSelected[int]
+   setSelected[star.vof.VofWaveZoneOptionEnum]

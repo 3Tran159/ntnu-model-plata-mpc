@@ -1,0 +1,185 @@
+{
+ "start": "2026-11-15 03:02:04",
+ "steps": 20000,
+ "cases": {
+  "single": {
+   "dir": "T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\V3A_PODZIAL\\V3A_single_cpu",
+   "state": "koniec",
+   "t0": "03:02:04",
+   "launch": {
+    "returncode": null,
+    "seconds": 50403.5,
+    "bound": [
+     [
+      "4276",
+      "star-ccm+"
+     ],
+     [
+      "5672",
+      "mpiexec"
+     ],
+     [
+      "14056",
+      "python"
+     ],
+     [
+      "14440",
+      "cmd"
+     ],
+     [
+      "17288",
+      "cmd"
+     ],
+     [
+      "29212",
+      "python"
+     ],
+     [
+      "30308",
+      "cmd"
+     ],
+     [
+      "30496",
+      "conhost"
+     ],
+     [
+      "30648",
+      "cmd"
+     ],
+     [
+      "30684",
+      "smpd"
+     ],
+     [
+      "31200",
+      "conhost"
+     ],
+     [
+      "36100",
+      "star-ccm+"
+     ],
+     [
+      "37896",
+      "cmd"
+     ],
+     [
+      "37948",
+      "cmd"
+     ],
+     [
+      "38052",
+      "python"
+     ],
+     [
+      "38400",
+      "cmd"
+     ],
+     [
+      "38468",
+      "python"
+     ],
+     [
+      "38640",
+      "conhost"
+     ],
+     [
+      "38760",
+      "star-ccm+"
+     ],
+     [
+      "38780",
+      "python"
+     ],
+     [
+      "38816",
+      "starccm+"
+     ],
+     [
+      "38844",
+      "conhost"
+     ],
+     [
+      "38964",
+      "cmd"
+     ],
+     [
+      "39828",
+      "conhost"
+     ]
+    ],
+    "cpus": [
+     21,
+     22,
+     23
+    ],
+    "np": 3,
+    "gpu": false
+   },
+   "t1": "17:02:09",
+   "GODO_MESH.json": {
+    "cleanup": {
+     "scenes": 8,
+     "plots": 7,
+     "tables": 55,
+     "monitors": 20,
+     "reports": 1645,
+     "derived_parts": 338,
+     "mesh_operations": 1,
+     "geometry_parts": 3,
+     "user_field_functions": 29,
+     "reports_left": 15,
+     "monitors_left": 18
+    },
+    "base_size_m": 1.0,
+    "cells": 109774,
+    "mesh_seconds": 13.0594515,
+    "min_cell_quality": 0.1872040794718906,
+    "min_volume_m3": 1.8642782853799052e-09,
+    "min_face_validity": 1.0,
+    "orientation_repaired": 0,
+    "wake_refinement": true,
+    "active_wave": "CB_StokesV 1",
+    "waves": [
+     "CB Initial Flat 1:FlatVofWave",
+     "NN_OutletFlat 1:FlatVofWave",
+     "NN_OutletFlat 2:FlatVofWave",
+     "NN_OutletFlat 3:FlatVofWave",
+     "NN_OutletFlat 4:FlatVofWave",
+     "NN_OutletFlat 5:FlatVofWave",
+     "NN_OutletFlat 6:FlatVofWave",
+     "NN_OutletFlat 7:FlatVofWave",
+     "NN_OutletFlat 8:FlatVofWave",
+     "NN_OutletFlat 9:FlatVofWave",
+     "NN_OutletFlat 10:FlatVofWave",
+     "NN_OutletFlat 11:FlatVofWave",
+     "NN_OutletFlat 12:FlatVofWave",
+     "NN_OutletFlat 13:FlatVofWave",
+     "NN_OutletFlat 14:FlatVofWave",
+     "NN_OutletFlat 15:FlatVofWave",
+     "NN_OutletFlat 16:FlatVofWave",
+     "NN_OutletFlat 17:FlatVofWave",
+     "NN_OutletFlat 18:FlatVofWave",
+     "CB_StokesV 1:FifthOrderVofWave",
+     "NN_OutletFlat 19:FlatVofWave",
+     "NN_OutletFlat 20:FlatVofWave",
+     "NN_OutletFlat 21:FlatVofWave",
+     "NN_OutletFlat 22:FlatVofWave",
+     "NN_OutletFlat 23:FlatVofWave",
+     "NN_OutletFlat 24:FlatVofWave",
+     "NN_OutletFlat 25:FlatVofWave"
+    ],
+    "coefficient_basis": {
+     "defs": {
+      "AF_CL_old": "(${AF_FzReport}-<9810 N/m^3>*(<11.2 m^3>-${AF_FluidVolumeReport}))/<3855.6 N>",
+      "AF_CL_new": "(${AF_FzReport}-1.5616517410475184)/475.61335466666657",
+      "AF_CD_old": "${AF_FxReport}/<3855.6 N>",
+      "AF_CD_new": "${AF_FxReport}/475.61335466666657"
+     },
+     "buoyancy_N": 1.5616517410475184,
+     "q_N": 475.61335466666657
+    }
+   }
+  }
+ },
+ "end": "2026-11-15 17:02:09"
+}

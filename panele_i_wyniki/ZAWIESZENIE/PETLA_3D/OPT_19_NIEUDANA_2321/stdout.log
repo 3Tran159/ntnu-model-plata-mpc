@@ -1,0 +1,20 @@
+Starting local server: starserver.bat -new -power -cpubind off -np 1 -printpids 
+2026-11-15 22:28:12,954 - star.application.server_options - WARNING - Error running GraphicsChecker: 'GraphicsCheckResult:' is not in list
+2026-11-15 22:28:12,954 - star.application.server_options - WARNING - Forcing -rgraphics mesa.
+MPI Distribution : MS MPI-10.1.12498.16-cda-001
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 40784
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 40784
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppower checked out from 1999@flex.cd-adapco.com
+Feature ccmppower expires in 113 days
+Sun Nov 15 22:29:56 2026
+
+Server::start -host THINKPAD-LUCJAN:47828

@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "T:\NTNU_GODO_CONTROL_20261109\50_learning\vortex_env\mpc_irr2.py", line 148, in <module>
+    r = run_episode(seed, ctrl, mdl, pred); out["wyniki"][f"fala{seed}_{ctrl}"] = r
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "T:\NTNU_GODO_CONTROL_20261109\50_learning\vortex_env\mpc_irr2.py", line 127, in run_episode
+    M._atomic(M.LIVE / "live_plan.json", dict(t0=round(k * DT, 2), seed=seed, ctrl=ctrl, dt=DT, eta_pred=np.round(efut, 3).tolist(),
+  File "T:\NTNU_GODO_CONTROL_20261109\50_learning\vortex_env\mpc_irr.py", line 173, in _atomic
+    tmp = path.with_suffix(".tmp"); tmp.write_text(json.dumps(obj), encoding="utf-8"); import os; os.replace(tmp, path)
+                                                                                                  ^^^^^^^^^^^^^^^^^^^^^
+PermissionError: [WinError 5] Access is denied: 'T:\\NTNU_GODO_CONTROL_20261109\\50_learning\\vortex_env\\runs\\MPC_IRR\\live_plan.tmp' -> 'T:\\NTNU_GODO_CONTROL_20261109\\50_learning\\vortex_env\\runs\\MPC_IRR\\live_plan.json'

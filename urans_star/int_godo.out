@@ -1,0 +1,124 @@
+{
+ "case": "T:\\NTNU_GODO_CONTROL_20261109\\70_godo_case\\ctrl_runs\\INT_GODO_20261109_220803",
+ "props": {
+  "mode": "scripted",
+  "steps": 200,
+  "tick_steps": 10,
+  "expected_time_s": 0.0,
+  "expected_dt_s": 0.001,
+  "initialize_if_t0": "true",
+  "hinge_x_m": 0.24960000000000002,
+  "hinge_y_m": 0.0055797484231464205,
+  "geom_scale": 0.26218487394957984,
+  "cfl_report": "GODO_interfaceCFL",
+  "cl_target": 0.24,
+  "delta_max_deg": 2.0,
+  "rate_max_deg_s": 30.0,
+  "test_amp_deg": 1.0,
+  "wall_budget_s": 20000,
+  "stop_file": "T:/NTNU_GODO_CONTROL_20261109/70_godo_case/ctrl_runs/INT_GODO_20261109_220803/STOP"
+ },
+ "launch": {
+  "returncode": 0,
+  "seconds": 1639.7,
+  "bound": [
+   [
+    "16876",
+    "cmd"
+   ],
+   [
+    "19932",
+    "mpiexec"
+   ],
+   [
+    "20124",
+    "conhost"
+   ],
+   [
+    "20524",
+    "star-ccm+"
+   ],
+   [
+    "27976",
+    "python"
+   ],
+   [
+    "30076",
+    "cmd"
+   ],
+   [
+    "31068",
+    "python"
+   ],
+   [
+    "33060",
+    "starccm+"
+   ],
+   [
+    "33664",
+    "conhost"
+   ],
+   [
+    "35468",
+    "smpd"
+   ],
+   [
+    "36884",
+    "star-ccm+"
+   ],
+   [
+    "37352",
+    "cmd"
+   ],
+   [
+    "37408",
+    "cmd"
+   ],
+   [
+    "37452",
+    "cmd"
+   ],
+   [
+    "38072",
+    "conhost"
+   ],
+   [
+    "39016",
+    "cmd"
+   ],
+   [
+    "39416",
+    "python"
+   ],
+   [
+    "43272",
+    "python"
+   ],
+   [
+    "44148",
+    "conhost"
+   ]
+  ],
+  "cpus": [
+   14,
+   15
+  ],
+  "np": 2,
+  "gpu": false
+ },
+ "FC_RESULT.json": {
+  "mode": "scripted",
+  "final_cmd_deg": -1.0,
+  "wall_s": 1503.2376921,
+  "result": "DONE",
+  "integrator": 0.0,
+  "end_time_s": 0.20000000000000015
+ },
+ "FC_POWER_REPORTS.json": {
+  "AF_Flap_Rate_deg_s": 0.0,
+  "AF_Hinge_Power_Fluid_W": 0.0,
+  "AF_Actuator_Demand_W": 0.0,
+  "AF_Drag_Power_W": 0.10000808409213136,
+  "AF_Total_Power_W": 0.10000808409213136
+ }
+}

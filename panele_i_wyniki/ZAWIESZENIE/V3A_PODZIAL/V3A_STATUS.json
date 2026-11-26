@@ -1,0 +1,363 @@
+{
+ "start": "2026-11-14 20:54:24",
+ "steps": 20000,
+ "cases": {
+  "split": {
+   "dir": "T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\V3A_PODZIAL\\V3A_split",
+   "state": "blad",
+   "t0": "20:54:24",
+   "launch": {
+    "returncode": 1,
+    "seconds": 645.7,
+    "bound": [
+     [
+      "3712",
+      "conhost"
+     ],
+     [
+      "12748",
+      "python"
+     ],
+     [
+      "17568",
+      "cmd"
+     ],
+     [
+      "27700",
+      "cmd"
+     ],
+     [
+      "28012",
+      "mpiexec"
+     ],
+     [
+      "32240",
+      "python"
+     ],
+     [
+      "33056",
+      "starccm+"
+     ],
+     [
+      "34996",
+      "conhost"
+     ]
+    ],
+    "cpus": [
+     18
+    ],
+    "np": 1,
+    "gpu": true
+   },
+   "t1": "21:05:12",
+   "GODO_MESH.json": {
+    "cleanup": {
+     "scenes": 8,
+     "plots": 7,
+     "tables": 55,
+     "monitors": 20,
+     "reports": 1645,
+     "derived_parts": 338,
+     "mesh_operations": 1,
+     "geometry_parts": 3,
+     "user_field_functions": 29,
+     "reports_left": 15,
+     "monitors_left": 18
+    },
+    "base_size_m": 1.0,
+    "cells": 113736,
+    "mesh_seconds": 14.1925557,
+    "min_cell_quality": 0.18625996053928742,
+    "min_volume_m3": 8.635131174683691e-10,
+    "min_face_validity": 1.0,
+    "orientation_repaired": 0,
+    "wake_refinement": true,
+    "active_wave": "CB_StokesV 1",
+    "waves": [
+     "CB Initial Flat 1:FlatVofWave",
+     "NN_OutletFlat 1:FlatVofWave",
+     "NN_OutletFlat 2:FlatVofWave",
+     "NN_OutletFlat 3:FlatVofWave",
+     "NN_OutletFlat 4:FlatVofWave",
+     "NN_OutletFlat 5:FlatVofWave",
+     "NN_OutletFlat 6:FlatVofWave",
+     "NN_OutletFlat 7:FlatVofWave",
+     "NN_OutletFlat 8:FlatVofWave",
+     "NN_OutletFlat 9:FlatVofWave",
+     "NN_OutletFlat 10:FlatVofWave",
+     "NN_OutletFlat 11:FlatVofWave",
+     "NN_OutletFlat 12:FlatVofWave",
+     "NN_OutletFlat 13:FlatVofWave",
+     "NN_OutletFlat 14:FlatVofWave",
+     "NN_OutletFlat 15:FlatVofWave",
+     "NN_OutletFlat 16:FlatVofWave",
+     "NN_OutletFlat 17:FlatVofWave",
+     "NN_OutletFlat 18:FlatVofWave",
+     "CB_StokesV 1:FifthOrderVofWave",
+     "NN_OutletFlat 19:FlatVofWave",
+     "NN_OutletFlat 20:FlatVofWave",
+     "NN_OutletFlat 21:FlatVofWave",
+     "NN_OutletFlat 22:FlatVofWave",
+     "NN_OutletFlat 23:FlatVofWave",
+     "NN_OutletFlat 24:FlatVofWave",
+     "NN_OutletFlat 25:FlatVofWave"
+    ],
+    "coefficient_basis": {
+     "q_N": 475.61335466666657,
+     "buoyancy_N": 0.7808258705237592,
+     "defs": {
+      "AF_CL_old": "(${AF_FzReport}-<9810 N/m^3>*(<11.2 m^3>-${AF_FluidVolumeReport}))/<3855.6 N>",
+      "AF_CL_new": "(${AF_FzReport}-0.7808258705237592)/475.61335466666657",
+      "AF_CD_old": "${AF_FxReport}/<3855.6 N>",
+      "AF_CD_new": "${AF_FxReport}/475.61335466666657"
+     }
+    }
+   },
+   "ERROR.json": {
+    "cleanup": {
+     "scenes": 8,
+     "plots": 7,
+     "tables": 55,
+     "monitors": 20,
+     "reports": 1645,
+     "derived_parts": 338,
+     "mesh_operations": 1,
+     "geometry_parts": 3,
+     "user_field_functions": 29,
+     "reports_left": 15,
+     "monitors_left": 18
+    },
+    "base_size_m": 1.0,
+    "cells": 113736,
+    "mesh_seconds": 14.1925557,
+    "min_cell_quality": 0.18625996053928742,
+    "min_volume_m3": 8.635131174683691e-10,
+    "min_face_validity": 1.0,
+    "orientation_repaired": 0,
+    "wake_refinement": true,
+    "active_wave": "CB_StokesV 1",
+    "waves": [
+     "CB Initial Flat 1:FlatVofWave",
+     "NN_OutletFlat 1:FlatVofWave",
+     "NN_OutletFlat 2:FlatVofWave",
+     "NN_OutletFlat 3:FlatVofWave",
+     "NN_OutletFlat 4:FlatVofWave",
+     "NN_OutletFlat 5:FlatVofWave",
+     "NN_OutletFlat 6:FlatVofWave",
+     "NN_OutletFlat 7:FlatVofWave",
+     "NN_OutletFlat 8:FlatVofWave",
+     "NN_OutletFlat 9:FlatVofWave",
+     "NN_OutletFlat 10:FlatVofWave",
+     "NN_OutletFlat 11:FlatVofWave",
+     "NN_OutletFlat 12:FlatVofWave",
+     "NN_OutletFlat 13:FlatVofWave",
+     "NN_OutletFlat 14:FlatVofWave",
+     "NN_OutletFlat 15:FlatVofWave",
+     "NN_OutletFlat 16:FlatVofWave",
+     "NN_OutletFlat 17:FlatVofWave",
+     "NN_OutletFlat 18:FlatVofWave",
+     "CB_StokesV 1:FifthOrderVofWave",
+     "NN_OutletFlat 19:FlatVofWave",
+     "NN_OutletFlat 20:FlatVofWave",
+     "NN_OutletFlat 21:FlatVofWave",
+     "NN_OutletFlat 22:FlatVofWave",
+     "NN_OutletFlat 23:FlatVofWave",
+     "NN_OutletFlat 24:FlatVofWave",
+     "NN_OutletFlat 25:FlatVofWave"
+    ],
+    "coefficient_basis": {
+     "q_N": 475.61335466666657,
+     "buoyancy_N": 0.7808258705237592,
+     "defs": {
+      "AF_CL_old": "(${AF_FzReport}-<9810 N/m^3>*(<11.2 m^3>-${AF_FluidVolumeReport}))/<3855.6 N>",
+      "AF_CL_new": "(${AF_FzReport}-0.7808258705237592)/475.61335466666657",
+      "AF_CD_old": "${AF_FxReport}/<3855.6 N>",
+      "AF_CD_new": "${AF_FxReport}/475.61335466666657"
+     }
+    },
+    "converged": false,
+    "stage": "probe",
+    "error": "java.lang.NullPointerException: Cannot invoke 'star.base.neo.NeoProperty.getString(String)' because the return value of 'star.base.neo.ClientServerObject.getProperties()' is null"
+   }
+  },
+  "single": {
+   "dir": "T:\\NTNU_GODO_CONTROL_20261109\\60_PANELE_I_WYNIKI\\ZAWIESZENIE\\V3A_PODZIAL\\V3A_single_r2",
+   "state": "blad",
+   "t0": "21:05:12",
+   "launch": {
+    "returncode": 1,
+    "seconds": 846.5,
+    "bound": [
+     [
+      "3592",
+      "conhost"
+     ],
+     [
+      "3956",
+      "mpiexec"
+     ],
+     [
+      "25572",
+      "cmd"
+     ],
+     [
+      "31972",
+      "cmd"
+     ],
+     [
+      "33300",
+      "python"
+     ],
+     [
+      "34844",
+      "conhost"
+     ],
+     [
+      "36996",
+      "python"
+     ],
+     [
+      "37184",
+      "starccm+"
+     ]
+    ],
+    "cpus": [
+     18
+    ],
+    "np": 1,
+    "gpu": true
+   },
+   "t1": "21:19:20",
+   "GODO_MESH.json": {
+    "cleanup": {
+     "scenes": 8,
+     "plots": 7,
+     "tables": 55,
+     "monitors": 20,
+     "reports": 1645,
+     "derived_parts": 338,
+     "mesh_operations": 1,
+     "geometry_parts": 3,
+     "user_field_functions": 29,
+     "reports_left": 15,
+     "monitors_left": 18
+    },
+    "base_size_m": 1.0,
+    "cells": 109774,
+    "mesh_seconds": 13.0896953,
+    "min_cell_quality": 0.1872040794718906,
+    "min_volume_m3": 1.8642782853799052e-09,
+    "min_face_validity": 1.0,
+    "orientation_repaired": 0,
+    "wake_refinement": true,
+    "active_wave": "CB_StokesV 1",
+    "waves": [
+     "CB Initial Flat 1:FlatVofWave",
+     "NN_OutletFlat 1:FlatVofWave",
+     "NN_OutletFlat 2:FlatVofWave",
+     "NN_OutletFlat 3:FlatVofWave",
+     "NN_OutletFlat 4:FlatVofWave",
+     "NN_OutletFlat 5:FlatVofWave",
+     "NN_OutletFlat 6:FlatVofWave",
+     "NN_OutletFlat 7:FlatVofWave",
+     "NN_OutletFlat 8:FlatVofWave",
+     "NN_OutletFlat 9:FlatVofWave",
+     "NN_OutletFlat 10:FlatVofWave",
+     "NN_OutletFlat 11:FlatVofWave",
+     "NN_OutletFlat 12:FlatVofWave",
+     "NN_OutletFlat 13:FlatVofWave",
+     "NN_OutletFlat 14:FlatVofWave",
+     "NN_OutletFlat 15:FlatVofWave",
+     "NN_OutletFlat 16:FlatVofWave",
+     "NN_OutletFlat 17:FlatVofWave",
+     "NN_OutletFlat 18:FlatVofWave",
+     "CB_StokesV 1:FifthOrderVofWave",
+     "NN_OutletFlat 19:FlatVofWave",
+     "NN_OutletFlat 20:FlatVofWave",
+     "NN_OutletFlat 21:FlatVofWave",
+     "NN_OutletFlat 22:FlatVofWave",
+     "NN_OutletFlat 23:FlatVofWave",
+     "NN_OutletFlat 24:FlatVofWave",
+     "NN_OutletFlat 25:FlatVofWave"
+    ],
+    "coefficient_basis": {
+     "buoyancy_N": 1.5616517410475184,
+     "defs": {
+      "AF_CL_old": "(${AF_FzReport}-<9810 N/m^3>*(<11.2 m^3>-${AF_FluidVolumeReport}))/<3855.6 N>",
+      "AF_CL_new": "(${AF_FzReport}-1.5616517410475184)/475.61335466666657",
+      "AF_CD_old": "${AF_FxReport}/<3855.6 N>",
+      "AF_CD_new": "${AF_FxReport}/475.61335466666657"
+     },
+     "q_N": 475.61335466666657
+    }
+   },
+   "ERROR.json": {
+    "cleanup": {
+     "scenes": 8,
+     "plots": 7,
+     "tables": 55,
+     "monitors": 20,
+     "reports": 1645,
+     "derived_parts": 338,
+     "mesh_operations": 1,
+     "geometry_parts": 3,
+     "user_field_functions": 29,
+     "reports_left": 15,
+     "monitors_left": 18
+    },
+    "base_size_m": 1.0,
+    "cells": 109774,
+    "mesh_seconds": 13.0896953,
+    "min_cell_quality": 0.1872040794718906,
+    "min_volume_m3": 1.8642782853799052e-09,
+    "min_face_validity": 1.0,
+    "orientation_repaired": 0,
+    "wake_refinement": true,
+    "active_wave": "CB_StokesV 1",
+    "waves": [
+     "CB Initial Flat 1:FlatVofWave",
+     "NN_OutletFlat 1:FlatVofWave",
+     "NN_OutletFlat 2:FlatVofWave",
+     "NN_OutletFlat 3:FlatVofWave",
+     "NN_OutletFlat 4:FlatVofWave",
+     "NN_OutletFlat 5:FlatVofWave",
+     "NN_OutletFlat 6:FlatVofWave",
+     "NN_OutletFlat 7:FlatVofWave",
+     "NN_OutletFlat 8:FlatVofWave",
+     "NN_OutletFlat 9:FlatVofWave",
+     "NN_OutletFlat 10:FlatVofWave",
+     "NN_OutletFlat 11:FlatVofWave",
+     "NN_OutletFlat 12:FlatVofWave",
+     "NN_OutletFlat 13:FlatVofWave",
+     "NN_OutletFlat 14:FlatVofWave",
+     "NN_OutletFlat 15:FlatVofWave",
+     "NN_OutletFlat 16:FlatVofWave",
+     "NN_OutletFlat 17:FlatVofWave",
+     "NN_OutletFlat 18:FlatVofWave",
+     "CB_StokesV 1:FifthOrderVofWave",
+     "NN_OutletFlat 19:FlatVofWave",
+     "NN_OutletFlat 20:FlatVofWave",
+     "NN_OutletFlat 21:FlatVofWave",
+     "NN_OutletFlat 22:FlatVofWave",
+     "NN_OutletFlat 23:FlatVofWave",
+     "NN_OutletFlat 24:FlatVofWave",
+     "NN_OutletFlat 25:FlatVofWave"
+    ],
+    "coefficient_basis": {
+     "buoyancy_N": 1.5616517410475184,
+     "defs": {
+      "AF_CL_old": "(${AF_FzReport}-<9810 N/m^3>*(<11.2 m^3>-${AF_FluidVolumeReport}))/<3855.6 N>",
+      "AF_CL_new": "(${AF_FzReport}-1.5616517410475184)/475.61335466666657",
+      "AF_CD_old": "${AF_FxReport}/<3855.6 N>",
+      "AF_CD_new": "${AF_FxReport}/475.61335466666657"
+     },
+     "q_N": 475.61335466666657
+    },
+    "converged": false,
+    "stage": "probe",
+    "error": "java.lang.NullPointerException: Cannot invoke 'star.base.neo.NeoProperty.getString(String)' because the return value of 'star.base.neo.ClientServerObject.getProperties()' is null"
+   }
+  }
+ },
+ "end": "2026-11-14 21:19:20"
+}

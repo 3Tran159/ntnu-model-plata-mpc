@@ -1,0 +1,310 @@
+{
+ "opis": "mpc_irr3.py - weryfikacja pomyslu Julka: KASKADA czujnikow fali (3 m prognozuje, 1,5 m sprawdza i koryguje) przy BLEDZIE MODELU FALI.\n\nPrawda w symulacji: fala krotkogrzbietowa JONSWAP Hs 1,5 m, Tp 5 s (jak mpc_irr2) + nieznany MPC prad: wzor fali biegnie wzgledem plata\nz predkoscia jak przy U + DELTA_TRUE (DELTA_TRUE = 0,7 m/s). Szum czujnikow 2 cm RMS, 5 % zanikow.\nCzujniki: sonda na kolumnie (0 m), 1,5 m, 3 m przed platem.\nWarianty MPC:\n  A  'd3_bez_korekty'  : prognoza z sondy + 3 m, estymator wyuczony bez pradu (DELTA = 0)\n  B  'wspolnie'        : sonda + 1,5 + 3 m razem w jednym estymatorze (DELTA = 0) - jak dotad\n  C  'kaskada'         : bank estymatorow dla DELTA w {-1,-0,5,0,0,5,1} m/s; kazdy z sondy + 3 m przewiduje, co zaraz zmierzy czujnik 1,5 m;\n                         wybierany ten, ktory w ostatnich 2 s mylil sie najmniej (korekta na biezaco)\n  D  'kaskada+zapas'   : C + zapas zanurzenia i |z| = 3 x RMS bledu na czujniku 1,5 m (mniej pewna prognoza -> ostrozniej)\n  + 'wyrocznia' i 'pid2'.\nWynik: MPC_IRR3_RESULT.json; podglad na zywo jak MPC_IRR.  Wszystko \"w modelu wirowym\".\n",
+ "DELTA_TRUE": 0.7,
+ "wyniki": {
+  "fala1_pid2": {
+   "term": false,
+   "t_upadek": null,
+   "D_rel": -0.16390871622921133,
+   "z_min": -0.2825930254626735,
+   "z_max": 0.2857111389652488,
+   "sub_min_c": 1.5497122963271666,
+   "acc_rms": 1.5611885536371957
+  },
+  "fala1_wyrocznia": {
+   "term": false,
+   "t_upadek": null,
+   "D_rel": -0.4618170214296117,
+   "z_min": -0.5964092911532709,
+   "z_max": 0.282107140296614,
+   "sub_min_c": 2.0064392129826563,
+   "acc_rms": 4.3489762442408715
+  },
+  "fala1_d3_bez_korekty": {
+   "term": true,
+   "t_upadek": 8.08
+  },
+  "fala1_wspolnie": {
+   "term": true,
+   "t_upadek": 8.07
+  },
+  "fala1_kaskada": {
+   "term": true,
+   "t_upadek": 8.04,
+   "wybrane_DELTA": [
+    -0.5,
+    0.0,
+    1.0
+   ],
+   "DELTA_koncowe": 0.0,
+   "blad_1.5m_rms_sr": 0.022
+  },
+  "fala1_kaskada+zapas": {
+   "term": true,
+   "t_upadek": 8.18,
+   "wybrane_DELTA": [
+    -0.5,
+    0.0,
+    1.0
+   ],
+   "DELTA_koncowe": 0.0,
+   "blad_1.5m_rms_sr": 0.022
+  },
+  "fala3_pid2": {
+   "term": true,
+   "t_upadek": 27.34
+  },
+  "fala3_wyrocznia": {
+   "term": false,
+   "t_upadek": null,
+   "D_rel": -0.6283328931095513,
+   "z_min": -0.6087699811734382,
+   "z_max": 0.32787028386726685,
+   "sub_min_c": 1.8443221826705818,
+   "acc_rms": 4.503133760912469
+  },
+  "fala3_d3_bez_korekty": {
+   "term": true,
+   "t_upadek": 27.57
+  },
+  "fala3_wspolnie": {
+   "term": true,
+   "t_upadek": 27.57
+  },
+  "fala3_kaskada": {
+   "term": true,
+   "t_upadek": 23.89,
+   "wybrane_DELTA": [
+    0.0,
+    0.5,
+    1.0
+   ],
+   "DELTA_koncowe": 0.5,
+   "blad_1.5m_rms_sr": 0.022
+  },
+  "fala3_kaskada+zapas": {
+   "term": true,
+   "t_upadek": 27.59,
+   "wybrane_DELTA": [
+    -0.5,
+    0.0,
+    0.5,
+    1.0
+   ],
+   "DELTA_koncowe": 0.0,
+   "blad_1.5m_rms_sr": 0.022
+  },
+  "fala4_pid2": {
+   "term": true,
+   "t_upadek": 12.77
+  },
+  "fala4_wyrocznia": {
+   "term": false,
+   "t_upadek": null,
+   "D_rel": -0.5427547111735124,
+   "z_min": -0.6152873222980051,
+   "z_max": 0.35469980738021706,
+   "sub_min_c": 1.309194606973645,
+   "acc_rms": 4.574512317359308
+  },
+  "fala4_d3_bez_korekty": {
+   "term": true,
+   "t_upadek": 12.96
+  },
+  "fala4_wspolnie": {
+   "term": true,
+   "t_upadek": 12.97
+  },
+  "fala4_kaskada": {
+   "term": true,
+   "t_upadek": 12.97,
+   "wybrane_DELTA": [
+    -0.5,
+    0.0,
+    0.5,
+    1.0
+   ],
+   "DELTA_koncowe": 1.0,
+   "blad_1.5m_rms_sr": 0.023
+  },
+  "fala4_kaskada+zapas": {
+   "term": false,
+   "t_upadek": null,
+   "wybrane_DELTA": [
+    -1.0,
+    -0.5,
+    0.0,
+    0.5,
+    1.0
+   ],
+   "DELTA_koncowe": 1.0,
+   "blad_1.5m_rms_sr": 0.023,
+   "D_rel": -0.46926604615233936,
+   "z_min": -0.7407959318894409,
+   "z_max": 0.4428765478020487,
+   "sub_min_c": 1.358164697948173,
+   "acc_rms": 4.419053399341177
+  },
+  "fala5_pid2": {
+   "term": false,
+   "t_upadek": null,
+   "D_rel": -0.30245074807653594,
+   "z_min": -0.2655337743676203,
+   "z_max": 0.3134955938111457,
+   "sub_min_c": 1.5025952532469018,
+   "acc_rms": 1.8896261271042225
+  },
+  "fala5_wyrocznia": {
+   "term": false,
+   "t_upadek": null,
+   "D_rel": -0.7327675551263726,
+   "z_min": -0.5901692171063464,
+   "z_max": 0.2588770121631443,
+   "sub_min_c": 1.9831847776434504,
+   "acc_rms": 4.6515263799064135
+  },
+  "fala5_d3_bez_korekty": {
+   "term": true,
+   "t_upadek": 8.31
+  },
+  "fala5_wspolnie": {
+   "term": false,
+   "t_upadek": null,
+   "D_rel": -0.7467474630829218,
+   "z_min": -0.5408070224310518,
+   "z_max": 0.26171037632723787,
+   "sub_min_c": 1.9670328097873917,
+   "acc_rms": 4.490675588727085
+  },
+  "fala5_kaskada": {
+   "term": false,
+   "t_upadek": null,
+   "wybrane_DELTA": [
+    -0.5,
+    0.0,
+    0.5,
+    1.0
+   ],
+   "DELTA_koncowe": -0.5,
+   "blad_1.5m_rms_sr": 0.023,
+   "D_rel": -0.7937842383643743,
+   "z_min": -0.5811351094583019,
+   "z_max": 0.27567559157963695,
+   "sub_min_c": 1.9635189421853856,
+   "acc_rms": 4.643733596707393
+  },
+  "fala5_kaskada+zapas": {
+   "term": false,
+   "t_upadek": null,
+   "wybrane_DELTA": [
+    -0.5,
+    0.0,
+    0.5,
+    1.0
+   ],
+   "DELTA_koncowe": -0.5,
+   "blad_1.5m_rms_sr": 0.023,
+   "D_rel": -0.738248154736276,
+   "z_min": -0.4861755340467931,
+   "z_max": 0.3122236906202599,
+   "sub_min_c": 2.0915394596883194,
+   "acc_rms": 4.6038326639973715
+  },
+  "fala6_pid2": {
+   "term": false,
+   "t_upadek": null,
+   "D_rel": -0.2272502002204556,
+   "z_min": -0.3659597497200768,
+   "z_max": 0.4149170593554502,
+   "sub_min_c": 1.5790617353461254,
+   "acc_rms": 1.9119355118624288
+  },
+  "fala6_wyrocznia": {
+   "term": false,
+   "t_upadek": null,
+   "D_rel": -0.6323895658444415,
+   "z_min": -0.6105683554876088,
+   "z_max": 0.41414886257473177,
+   "sub_min_c": 2.004989938026958,
+   "acc_rms": 4.691027427943237
+  },
+  "fala6_d3_bez_korekty": {
+   "term": false,
+   "t_upadek": null,
+   "D_rel": -0.520273457073237,
+   "z_min": -0.6989901878174187,
+   "z_max": 0.502947755922611,
+   "sub_min_c": 1.8946503434877815,
+   "acc_rms": 4.371363127249488
+  },
+  "fala6_wspolnie": {
+   "term": false,
+   "t_upadek": null,
+   "D_rel": -0.5218140279502816,
+   "z_min": -0.699952124889076,
+   "z_max": 0.5028168117736639,
+   "sub_min_c": 1.9037336141383157,
+   "acc_rms": 4.378061891902473
+  },
+  "fala6_kaskada": {
+   "term": false,
+   "t_upadek": null,
+   "wybrane_DELTA": [
+    -0.5,
+    0.0,
+    0.5,
+    1.0
+   ],
+   "DELTA_koncowe": 0.5,
+   "blad_1.5m_rms_sr": 0.023,
+   "D_rel": -0.5248829164007263,
+   "z_min": -0.6907639054137784,
+   "z_max": 0.5028646680081185,
+   "sub_min_c": 1.9385092526935077,
+   "acc_rms": 4.376839426459288
+  },
+  "fala6_kaskada+zapas": {
+   "term": false,
+   "t_upadek": null,
+   "wybrane_DELTA": [
+    -0.5,
+    0.0,
+    0.5,
+    1.0
+   ],
+   "DELTA_koncowe": 0.5,
+   "blad_1.5m_rms_sr": 0.023,
+   "D_rel": -0.4769312390851802,
+   "z_min": -0.6528193481486149,
+   "z_max": 0.4370484155070174,
+   "sub_min_c": 2.13535622426649,
+   "acc_rms": 4.28580038831361
+  }
+ },
+ "podsumowanie": {
+  "pid2": {
+   "przezyl": "3/5",
+   "opor_sr": -23.1
+  },
+  "wyrocznia": {
+   "przezyl": "5/5",
+   "opor_sr": -60.0
+  },
+  "d3_bez_korekty": {
+   "przezyl": "1/5",
+   "opor_sr": -52.0
+  },
+  "wspolnie": {
+   "przezyl": "2/5",
+   "opor_sr": -63.4
+  },
+  "kaskada": {
+   "przezyl": "2/5",
+   "opor_sr": -65.9
+  },
+  "kaskada+zapas": {
+   "przezyl": "3/5",
+   "opor_sr": -56.1
+  }
+ }
+}

@@ -1,0 +1,1 @@
+{"stage":"run","error":"java.lang.NullPointerException: Cannot invoke 'star.base.neo.NeoProperty.getInt(String)' because the return value of 'star.base.neo.ClientServerObject.getProperties()' is null"}

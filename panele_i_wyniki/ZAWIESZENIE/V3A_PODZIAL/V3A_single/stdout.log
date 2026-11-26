@@ -1,0 +1,60 @@
+Starting local server: starserver.bat -power -cpubind off -np 1 -gpgpu auto:1 -mpi intel -printpids -xencoded-session VDpcTlROVV9HT0RPX0NPTlRST0xfMjAyNjExMDlcNjBfUEFORUxFX0lfV1lOSUtJXFpBV0lFU1pFTklFXFYzQV9QT0RaSUFMXFYzQV9zaW5nbGVcaW5wdXQuc2lt
+Warning: -gpgpu has been activated, -power option is ignored.
+MPI Distribution : Intel MPI-2021.16.1
+Host 0 -- THINKPAD-LUCJAN -- Ranks 0
+Process rank 0 THINKPAD-LUCJAN 27524
+Total number of processes : 1
+
+Host ID 0 Rank 0 on THINKPAD-LUCJAN with process ID 27524
+
+Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8)
+
+License build date: 29 Jan 2026
+This version of the code requires license version 2026.06 or greater.
+Checking license file: 1999@flex.cd-adapco.com
+1 copy of ccmppowerplus checked out from 1999@flex.cd-adapco.com
+Feature ccmppowerplus expires in 114 days
+Sat Nov 14 20:52:34 2026
+
+Server::start -host THINKPAD-LUCJAN:47828
+Loading: T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\V3A_PODZIAL\V3A_single\input.sim
+Loading module: Mapping
+Loading module: StarTMTCommands
+Loading module: MeshingSurfaceRepair
+Loading module: CaeIOCgns
+Loading module: VofModel
+Loading module: WavesModel
+Loading module: StarSweptMesher
+Loading module: ConservativeMapping
+Saved by:
+  Simcenter STAR-CCM+ 2606.0002 Build 21.04.009 (win64/clang20.1vc14.2-r8) Np=2 
+Started Parasolid modeler version 38.1.151
+Playing macro: T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\V3A_PODZIAL\V3A_single\BuildGodoSplit.java
+T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\V3A_PODZIAL\V3A_single\BuildGodoSplit.java:49: warning: [deprecation] setEnabled(boolean) in star.common.AutoSaveBase has been deprecated
+   s.getSimulationIterator().getAutoSave().setEnabled(false);
+                                          ^
+T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\V3A_PODZIAL\V3A_single\BuildGodoSplit.java:103: warning: [deprecation] star.meshing.PartsWakeRefinementOption in star.meshing has been deprecated
+    else if(v instanceof PartsWakeRefinementOption w){w.setPartsWakeRefinementOption(true);wakeOn=w.getPartsWakeRefinementOption();}
+                         ^
+T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\V3A_PODZIAL\V3A_single\BuildGodoSplit.java:327: warning: [deprecation] initializeAndWait() in star.vis.Scene has been deprecated
+  Scene sc=s.getSceneManager().createScene(name);sc.setPresentationName(name);sc.initializeAndWait();
+                                                                                ^
+T:\NTNU_GODO_CONTROL_20261109\60_PANELE_I_WYNIKI\ZAWIESZENIE\V3A_PODZIAL\V3A_single\BuildGodoSplit.java:330: warning: [deprecation] setInput(star.base.neo.DoubleVector,star.base.neo.DoubleVector,star.base.neo.DoubleVector,double,int,star.common.CoordinateSystem,boolean) in star.vis.VisView has been deprecated
+  sc.getCurrentView().setInput(new DoubleVector(new double[]{x,y,0}),new DoubleVector(new double[]{x,y,5}),new DoubleVector(new double[]{0,1,0}),scale,1,s.getCoordinateSystemManager().getLabCoordinateSystem(),false);
+                     ^
+
+Loading/configuring connectivity (old|new partitions: 2|1)
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+  MINI_water_air (index 0): 25617 cells, 75473 faces, 100772 verts.
+Configuring finished
+Reading surface from .stl file: GodoFluidDomain.stl
+Scaling from model units: meter
+Done importing surface: CPU Time: 0.08, Wall Time: 0.09, Memory: 649.97 MB
+Imported surface statistics:
+  # Faces:         6732
+  # Vertices:      3366
+  # Special Edges: 0
+
